@@ -1,0 +1,144 @@
+standard-pose:
+  - standing          #立ち
+  - sitting           #座り
+  - leaning forward   #前かがみ
+  - squatting         #ウンコ座り
+  - bent over         #前傾姿勢
+  - leg up
+  - all fours
+  - on back
+  - on stomach
+  - wariza
+  - v arms
+  - breast suppress
+  - booty pose
+  - arched back
+  - kneeling pose
+  - arms up
+  - legs up
+  - arms behind back
+  - ojou-sama pose
+  - slav squatting, squatting, spread legs
+  - ((playing with own hair)), looking to the side
+  - cross body stretching, outstretched arm to side
+  - reclining, {|arched back}
+  - hand in hair
+
+finger-pose:
+  - finger to mouth
+  - shushing                #内緒ポーズ
+  - index fingers together  #指つん
+  - tucking hair            #髪をたくし上げる
+  - peace sign
+  - double peace sign, perfect hand
+  - peace fingers, piece sign
+  - finger pointing, pointing gesture
+  - finger guns
+
+gravure-pose:
+  - |
+      standing, knees together feet apart, bent over, hands on thighs,
+      v arms, breasts squeezed together, 
+      {head tilt, |looking back, ass focus},
+  - |
+      kneeling, knees together legs apart, 
+      {|ass focus, feet, looking back},
+  - <lora:Wariza__Concept_Lora:1> wariza, w sitting
+  - |
+      breasts squeezed together, breast press, hands between thighs,
+      kneeling, knees together feet apart, feet, thighs,
+  - spread legs
+  - straddling a chair
+  - outstretched arms
+  - swayback stance
+  - seductive pose
+  - crawling position
+  - seductively posing
+  - back pose
+  - balancing
+  - standing against the wall
+  - sitting with knees up on {bed|sofa at living}, spread legs
+  - crawling position on their hands and knees
+  - |
+      seductively posing on all fours on a bed,
+      looking up flirtatiously,
+  - (leaning forward:1.3), (hands on knees:1.3)
+  - dynamic pose
+  - ass focus, from behind, from above, on stomach,
+  - sexual pose
+  - head rest, on stomach
+  - heart hand, {1-$$spoken heart|wink}
+  - fingersmile, {1-$$spoken heart|wink}
+  - selfie
+  - breasts squeezed together
+  - __standard-pose__
+
+hand-pose:
+  - double piece
+  - jaw piece
+  - thumbs up
+  - paw pose
+  - claw pose
+  - fist bump
+  - put index finger on mouth, put up index finger
+  - hands together, own hands together
+  - arms raised in the air
+  - waving, Waving gesture
+  - "{hand on|put hands hip}"
+  - salute
+  - hands up, elbows on table, face palm
+  - reaching out
+  - hand between legs
+  - one hand on hip
+  - hold the steering wheel of a car
+  - waving
+  - put one's finger on
+  - join hands
+  - holding a phone
+  - holding an umbrella
+  - holding a bag
+  - outstretched arms
+  - hand in my pocket
+  - hands on chest
+  - hands on floor
+  - put her finger on one's lips
+  - press my chest together
+  - put my hand on my neck
+  - hands on hips
+  - pinch my cheeks
+  - korean finger heart
+  - heart pose
+  - "{cat ears pose|rabbit ear} pose"
+  - "{stroking own|hand in front of} chin"
+  - one index finger
+
+arm-pose:
+  - crossed arms, fold-arms
+  - clossed arms under chest
+  - arm up
+  - arms up
+  - "{arms up behind|arms behind head}"
+  - arms behind back
+  - arms raised in the air
+  - spread arms
+  - "{hugging a stuffed toy|stuffed toy hug}"
+  - "{hand|hands} up, elbows on table"
+  - stretching
+  - armpits
+
+sit-pose:
+  - sitting
+  - "sit in a {chair|sofa}"
+  - "own hugging {feet|legs}"
+  - hugging own legs
+  - lotus position
+  - sitting against the wall
+
+# ポージングベース
+pose-base:
+  - |
+    ${cloth:nude,}
+    ${pose:__gravure-pose__},
+    ${angle:__angle__,}
+    ${face:__facial/sexual__,}
+    ${bgd:white background, simple background,}

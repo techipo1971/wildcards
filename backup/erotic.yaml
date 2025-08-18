@@ -1,0 +1,390 @@
+# example.yaml
+#グラビアセット
+gravure-set:  __rnd-swimsuit__, __gravure-pose__, __sexual-or-embarrassed__, __angle__, __place/water-front__, {day|night|sunset} 
+#食い込みセット
+wedgie-set: __rnd-swimsuit__, __standard-pose__, __facial/embarrassed__, __angle__, self wedgie, __place/water-front__, {day|night|sunset} 
+#扇風機スカート
+fanning-set: fanning crotch, electric fan, skirt lift, panties, hot, open mouth, sweat, __facial/embarrassed__, {|kneeling, ass, lifting own clothes, from above}
+#フーターズセット
+hooters-set:
+  posing: __hooters__, bar counter, __standard-pose__, __happy-or-sexual__
+  looking-back: __hooters__, bar counter, naughty face, looking back, thighs, narrow waist, wide hips, wedgie, arched back
+  head-rest: __hooters__, breast press, breast on bar counter, close-up, head rest, from side, standing, looking at viewer, beer can
+  beer-press: __hooters__, bar \(place\), breast press, naughty face, head tilt, alcohol, beer mug
+  tanktop-off: __hooters__, undressing tank top, crossed arms, underboob, embarrassed, moaning, locker room, sweatdrop, wet clothes
+  shorts-off: __hooters__, undressing, shorts pull, {side-tie|thong} panties, ass focus, embarrassed, moaning, locker room, from below
+
+#ヨガセット
+yoga-set: 
+  split: __yoga__, side sitting split, sitting split, split, flexible, stretching, on floor, spread legs, yoga mat, looking at viewer
+  split-on-stomach: __yoga-set/split__,  from behind, ass, looking back, on stomach, prone bone, arm support
+  cross-stretch: __yoga__, cross body stretching, outstretched arm to side, indian style, folded arm, crossed arms
+  indian-style: __yoga__, indian style, closed eyes, ((palms together, praying)), barefoot, on grass, park, sunrise
+  spread-arm: __yoga__, indian style, spread arms, hands on knees, barefoot, on grass, park, sunrise, from behind, {closed eyes, head down, arched back|smile, looking back}
+  park-def: __yoga__, on grass, park, sunrise, barefoot, {all fours|bent over|kneeling, arm support|leg up, folding|yoga pose}, {|__happy-or-sexual__}
+
+#プール梯子セット
+pool-ladder-set: __rnd-swimsuit__, pool, poolside, water, wet, getting out of pool, climbing pool ladder, ladder, embarrassed, from below, ass focus
+#ハートポーズセット
+heart-hand-set: __rnd-swimsuit__, heart hands, smile, head tilt, wink, outdoors, water front
+#胸囲測定セット
+bust-measure-set: bust measuring, tape measure, arms up, embarrassed, 1other, looking to the side, {topless|underwear}, {blush|full-face blush}
+#ヒモ水着セット
+slingshot-set: index fingers together, embarrassed, looking to the side, slingshot swimsuit, wavy mouth, open mouth
+
+#剣士セット
+sword-set:
+  guard-stance: __armor/bikini-armor__, sword guard stance, __sword/*__, holding sword,
+  gatotsu-stance: __armor/bikini-armor__, gatotsu stance, __sword/*__, holding sword,
+  battoujutsu-stance: __armor/bikini-armor__, battoujutsu stance, sheath, sheathed, the sword is sheathed, a girl is ready to draw, drawing sword, in a dynamic sword-drawing stance, hand gripping the hilt,dynamic pose, the sword is sheathed, a girl is ready to draw, in a dynamic sword-drawing stance, hand gripping the hilt, dynamic pose, __place/dungeon__
+
+#乳測り
+weighing-breasts-set: __facial/embarrassed__, weighing breasts, breast on weighing scale, arms up, kitchen
+
+#マリンビキニ
+marin-bikini-set: __bikini/marin-style__, __gravure-pose__, {|__happy-or-sexual__}, __angle__, outdoors, {ocean|pool}, water front, {day|night|sunset} 
+#ラムビキニ
+lum-bikini-set: __bikini/lum-style__, __gravure-pose__, {|__happy-or-sexual__}, __angle__, outdoors, {ocean|pool}, water front, {day|night|sunset} 
+virgin-killer-set: __virgin-killer__, __gravure-pose__, __sexual-or-embarrassed__, indoors
+cocktail-dress-set: __cocktail-dress__, __facial/sexual__, __gravure-pose__, __place/moody__
+backless-clothes-set: backless clothes, __sexual-or-embarrassed__, __place/moody__, hand in own hair, show back,
+
+#ノーブルセット
+noble-set:
+  vulgarity: __sexual-or-embarrassed__, stunning noblewoman lying seductively on a velvet bed, {on back|reclining|arched back|on side}, (wearing a scandalously revealing fantasy courtesan outfit), sheer silk corset, gold embroidery, exposed breasts barely veiled by translucent lace, garter straps attached to jeweled panties, thigh-high stockings with ornate trim, long gloves, gemstone choker, loose curls framing her face, elegant but indecent,  luxurious rings and earrings, royal bedroom, lit by candlelight, red and purple velvet drapes, gold-framed mirrors, satin pillows, marble columns, silk sheets wrinkled under her body, vulgarity
+
+#ナイトクラブ
+nightclub-set:
+  bodycon: __facial/sexual__, __bitch-bodycon__, __theme/nightclub__, cocktail
+  relax: __nightclub-set/bodycon__, relaxing, lying, {{spread|cross} legs|head rest|arms up|holding cigarette, smoking}, {|wink}
+
+#ナイトプール
+night-pool:
+  - __facial/sexual__, __random/*__, __gravure-pose__, __angle__, poolside, {pool|deck chair}, wet, night, {pink|purple} theme, {|ass focus|underboob|sideboob}
+  - shiny skin, skindentation, oily skin, micro bikini, crawling position, __facial/sexual__, night pool, dim lighting, moon light, blurry background, pink purple neon
+  - lying on deck chair, relaxing, __theme/night-pool__, {holding tropical drink|tropical drink between breasts}, __facial/sexual__
+  - lying on banana boat on stomach, banana boat floating on pool water, relaxing, __theme/night-pool__, holding tropical drink, __facial/sexual__, topless
+  - straddling on banana boat, banana boat floating on pool water, relaxing, __theme/night-pool__, __facial/sexual__,  {|ass}
+#ランジェリーセット
+lingerie-set:
+  standard: __facial/sexual__, __lingerie/*__, __standard-pose__, __theme/love-hotel__
+  ice-cream: __facial/sexual__, __rnd-bra__, cleavage, lips, upper body, close-up, head out of frame, licking ice cream, holding ice cream, off shoulder
+  purple: __lingerie/*__, __sexual-or-embarrassed__, __gravure-pose__, __angle__, bedroom, purple neon light
+  dressing-room: __lingerie/garter__, looking at viewer, dressing room, blush, cute woman, in love, closed mouth, close-up, seductive smile, adoring, infatuation, hourglass-shaped body, narrow waist, wide hips, areola slip, shoulder strap slip, {on back|on stomach|arched back|all fours|ass}
+  pink-neon: __rnd-bra__, __facial/sexual__, on stomach, cleavage, {|wink}, {|head tilt}, {shushing|fingersmile|blowing kiss|hands on own chin|arm support}, pink neon lights
+  laced: lingerie, __sexual-or-embarrassed__, on stomach, lace trim, kneehighs, garter straps, skinny, {looking back, ass focus|on side, holding leg}
+  naked-shirt: moaning, embarrassed, looking to the side, on back, hand on stomach, naked shirt, __rnd-panty__, covered nipples, areola slip, wet clothes, thighs
+  sagging: __lingerie/*__, __sexual-or-embarrassed__, sagging breasts, hanging breasts, bent over, sweat, <lora:shiBreastSqueezeV1Main.safetensors:1> shibreastsqueeze, low angle, ustriousanime
+  lying: underwear only, bra, __panty-thru-pantyhose__, {on back|on stomach, ass focus|on side}, from behind, __sexual-or-embarrassed__ 
+  heart-shaped: breasts squeezed together, __facial/sexual__, breast press, {__lingerie/*__|__bikini/*__}, breast lift, heart shaped object between breasts
+  suppress: spread legs, breast suppress, thighhighs, __facial/embarrassed__, wet, sweat, on back facing away, looking at side, __lingerie__, garter straps
+  covering-face: spread legs, covering face, thighhighs, __facial/embarrassed__, wet, sweat, on back facing away, __lingerie__, garter straps
+  hanging: bare shoulders, strap slip, dress, all fours, hanging breasts, cleavage, __sexual-or-embarrassed__, indoors, head tilt, {|from below}
+  babydoll: frilly babydoll, __rnd-panty__, strap slip, wariza, hand between legs, __sexual-or-embarrassed__, {|ass}
+  open-closet: ((fishnets with two piece black bra and panties)), morning lighting warm colors, big walk in closet, __sexual-or-embarrassed__, charters body facing towards viewer, opening closet
+  pov-crotch: tight t-shirt lift, underboob, midriff, __rnd-panty__, pov crotch, thigh gap, zettai ryouiki, close-up, lower body
+  hand-on-hip: __panty-thru-pantyhose__, __sexual-or-embarrassed__, hand on own hip, ass focus, 
+  pointing-crotch: __panty-thru-pantyhose__, __sexual-or-embarrassed__,index finger at crotch, pointing, spread legs
+  lifted-by-self: t-shirt lift, lifted by self, underboob, biting shirt, closed mouth,  arms up, arched back, __rnd-panty__, {dolphin|denim|latex} shorts pull
+  frontal-wedgie: frontal wedgie, __rnd-panty__, ((pulling own panties)), close-up, head out of frame
+
+#オーバーサイズシャツセット
+oversized-shirt-set: oversized shirt, open shirt, opened buttons, belly button, side-tie panties, bare legs, bare foot, {on back|on side|relaxing|all fours}, {bed|couch|chair}, __sexual-or-embarrassed__
+
+#タンクトップ+ドルフィンショーツ
+tanktop-set:
+  sexy: __tanktop-dolphin__, heavy breathing, __sexual-or-embarrassed__, indoors,  {touching own nipples|grabbing own breast}, {|on back, spread legs|allfours|wariza}
+  sitting: __tanktop-dolphin__, collarbone, bare legs, sitting, looking at viewer, from below, looking down, blush, __facial/sexual__, indoors, bedroom, bed, on bed, ceiling light, midriff, covered nipples, {|underboob}
+  gravure: __tanktop-dolphin__, __gravure-pose__, {|__happy-or-sexual__}, __angle__, indoors, {day|night|sunset} 
+
+#温泉
+onsen-set:
+  def: __theme/onsen__, __naked-towel/def__, __sexual-or-embarrassed__, {|hands between legs|hands on chest|breasts squeezed together|on back|on stomach}
+  ass: __theme/onsen__, __naked-towel/def__, __sexual-or-embarrassed__,  ass, {|wariza}  
+  bathing: __theme/onsen__, __naked-towel/def__, dynamic pose, dramatic angle, seductive pose, nude, (wet hair:1.5), shiny skin, glossy skin, water drops, relaxing, upper body is submerged in water, shoulders submerged, __sexual-or-embarrassed__, cinematic lighting, dutch angle
+
+#ブラホック外し
+unfasten-bra:
+  def: __facial/embarrassed__, {__rnd-panty__|__rnd-panty__ under __rnd-pantyhose__, {|pantyhose pull}}, taking bra off, unfastened, strap slip
+  def+: __facial/sexual__, {__rnd-panty__|__rnd-panty__ under __rnd-pantyhose__, {|pantyhose pull}}, taking bra off, unfastened, strap slip
+  behind: __unfasten-bra/def__, arms behind back, prone bone, perfect hand, from behind, ass,
+  wariza: __unfasten-bra/def__, wariza,
+  wariza-behind: __unfasten-bra/behind__, wariza, ass, prone bone
+  standing: __unfasten-bra/def__, standing
+  standing-behind: __unfasten-bra/behind__, standing, {|looking at mirror}
+  unhooking: __facial/embarrassed__, {__rnd-panty__|__rnd-panty__ under __rnd-pantyhose__, {|pantyhose pull}}, strap slip, BREAK 1boy, faceless male, unhooking, a boy is standing behind a girl and taking her bra off, unfastened, 
+  unhooking+: __facial/sexual__, {__rnd-panty__|__rnd-panty__ under __rnd-pantyhose__, {|pantyhose pull}}, strap slip, BREAK 1boy, faceless male, unhooking, a boy is standing behind a girl and taking her bra off, unfastened, 
+  unhooking-wariza: __unfasten-bra/unhooking__, wariza
+
+casino-bunny:
+  - __bunny-girl__, __sexual-or-embarrassed__, __theme/casino__, {|on back, spread legs} 
+  - bar \(place\), bar counter, alcohol, whisky glass, holding out glass, cheers, playboy bunny, fishnet pantyhose, __facial/sexual__, outstretched hand
+  - bar \(place\), bar counter, whiskey bottle on the counter, whisky glass, empty glass on the counter, __bunny-girl__, fishnet pantyhose, __facial/sexual__, beckoning, outstretched hand
+  - fake animal ears, rabbit ears, detached collar, yellow bowtie, cleavage, black leotard, playboy bunny, black patterned pantyhose, feather boa, fur trim, black gloves, standing, stage lights, stripper pole, dancing, leg up, leaning forward, breast press, between breasts, looking at viewer, __facial/sexual__, black background, bokeh
+#チャイナドレス
+china-set:
+  moon: __china-dress/*__, __sexual-or-embarrassed__,  __gravure-pose__, __theme/moon-shine__
+  show-panty: __china-dress/*__, embarrassed, full-face blush, {|closed eyes} , closed mouth, one hand over crotch, another hand up with unworn panties, show panties,   
+  pantyflash: __china-dress/*__, surprised, blush, ass focus, pantyshot, __rnd-panty__, {against wall|bent over|leaning forward|arched back}
+fitness-set:
+  - __fitness__, __sexual-or-embarrassed__, __gravure-pose__, gold necklace, bracelet, fit body, BREAK trembling, sweat, sweat drop, wet body, hot, sweating, sweaty, sweat dripping, BREAK gym,(Work out room), depth of field
+  - __fitness__, __sexual-or-embarrassed__, weightlifting, squatting, holding barbell, gold necklace, bracelet, fit body, BREAK trembling, sweat, sweat drop, wet body, hot, sweating, sweaty, sweat dripping, BREAK gym,(Work out room), depth of field
+  - __fitness__, __sexual-or-embarrassed__, walking on treadmill, gold necklace, bracelet, fit body, BREAK trembling, sweat, sweat drop, wet body, hot, sweating, sweaty, sweat dripping, BREAK gym,(Work out room), depth of field
+  - white shirt, short sleeves, gym uniform, black buruma, ass focus, bent over, arm support, embarrassed, parted lips, midriff, from behind, gym, see-through shirt, bra under shirt, sweat, wet clothes, crotch, thigh gap, back view, knees together, wide hips
+  - <lora:Exball_Pony:1> ball, exercise ball, gym ball, sitting, ass focus, trembling, motion lines, motion blur, bouncing breasts, __facial/sexual__, from behind, looking back, bike shorts, crop top, spread legs, sweatdrop, wet, steam, heavy breathing
+adjusting-clothes-set:
+  - <lora:adjusting_clothes_ass_v0.1-pony:1> adjusting clothes, cinematic lighting, midriff, ass focus, sweat, locker room, athletic leotard, bent over, steam, heavy breathing
+  - <lora:adjusting_clothes_ass_v0.1-pony:1> adjusting swimsuit, tight fitting latex swimsuit, adjusting clothes, one-piece swimsuit, wet, school swimsuit, indoors, looking at viewer, tiles, competition school swimsuit, cowboy shot, looking back, from behind, standing, bare shoulders, wet clothes, bare arms, pool ladder, thighs, wet swimsuit, open mouth, shocked, shiny clothes, tile wall, pool, ceiling, sidelocks
+  - <lora:adjusting_clothes_ass_v0.1-pony:1> adjusting skirt, office lady, miniskirt, thighhighs, from behind
+  - <lora:adjusting_clothes_ass_v0.1-pony:1> adjusting panties, ass focus, {lingerie, garter straps, from side|office lady, miniskirt, crowd, train interior}
+  - <lora:adjusting_clothes_ass_v0.1-pony:1> adjusting clothes, ass focus, {overalls, ass, shorts|lace panties, pink panties, sweat}
+  - <lora:adjusting_clothes_ass_v0.1-pony:1> adjusting swimsuit, ass focus, swimsuit, wet, pool, leaning forward
+negligee-set: 
+  - __negligee__, __sexual-or-embarrassed__, __gravure-pose__, pink light, bedroom, night
+  - __negligee__, standing by a balcony, moonlight highlighting her curves, looking at viewer, shy yet seductive expression, curvy hips, elegant pose, candles softly illuminating the scene, romantic atmosphere, crescent
+mooning-set: <lora:mooning_pdxl_goofy:0.7> mooning, {pants|pantyhose} down, from side, ass focus, panties, {embarrassed|surprised}, moaning, {bent over|leaning forward}, {|trembling}, looking back,
+bondage-set:
+  - __bondage__, __facial/sexual__, areola, legs together, thigh gap, knees together, sweat, dynamic pose
+  - __bondage__, __facial/sexual__, areola, spread legs, {|grabbing own breast|armpits}
+  - __bondage__, __facial/sexual__, areola, standing, knee up, {|ass}, {|armpits}
+  - __bondage__, __facial/sexual__, areola, {all fours, {|ass}|arched back|leaning forward|bent over|squatting|top-down bottom-up|wariza, {|ass}}
+  - embarrassed, moaning, arched back, bound wrists, hands above head, armpits, bondage, torn black pantyhose, midriff, thighs, thong panties under pantyhose, cross-laced bra, ass focus
+  - __bondage__, lying, presenting, spread legs, on back, cleavage, (hand on own stomach), excited, (naughty face), blush
+  - __bondage__, __facial/sexual__, {sitting|lying on side} on couch
+  - __bondage__, __facial/sexual__, {squatting|kneeling}, spread legs
+  - __bondage__, __facial/sexual__, arm on knee, knee up
+  - black leather mini skirt, leather crop top with front zipper, strapless crop top, midriff, leather jacket, collarbone, bare shoulders, unzipped, unzipping, thong panties, chest harness, thigh belt, {|from behind, ass focus}, chest tattoo, __facial/sexual__
+  - bondage outfit, whip, holding whip, latex gloves, latex cross-laced corset, latex panties, dungeon, navel, smile, smug, blush,, cowboy shot, dutch angle,
+
+# 修道女セット
+nun-set:
+  pray: __sexy-nun__, own hands clasped, {|closed eyes}, praying, kneeling, __place/church__
+  covering: __sexy-nun__, surprised, covering breasts, cross arms, __place/church__
+  curtain-lift: __sexy-nun__, __sexual-or-embarrassed__, {pelvic curtain lift|ass, clothes lift}, __rnd-panty__,  __place/church__
+  on-bed: __sexy-nun__, embarrassed, own hands clasped, hands on own stomach, praying, {|closed eyes}, on back on bed, luxury bedroom, gold framed bed, satin pillows, marble columns, 
+
+#イブニングガウン
+evening-gown-set:
+  def: __evening-gown/*__, {on back|arched back|all fours|ass|reclining}, __sexual-or-embarrassed__, {|show panties, clothes lift}
+  casino: __evening-gown/*__, earrings, armlet, sideboob, casino, contrapposto, legs apart, standing, head tilt, long dress, side slit, elbow gloves, necklace, bracelet, thighhighs, table, chandelier, {hand on own hip, arm at side|arm in hair, armpits}, __facial/sexual__
+  sexy: __evening-gown/*__, lipstick, makeup, sexy, glamor, __standard-pose__, flirty, seductive, erect nipples under clothes, inside a BLACK walls room, blue nails, black choker, necklace, bracelet, armlet, jewelry, earrings, plunging neckline,
+
+kimono-set: 
+  - kimono, hair ornament, flower, obi, looking at viewer, nail polish, tatami, moon, depth of field, autumn leaves, night, off shoulder, {on back|on stomach|arched back|all fours|ass}, __sexual-or-embarrassed__, {|show panties, clothes lift}
+  - __yukata__, {sitting, knees together feet apart|wariza}, {|from behind}, {__theme/moon-shine__|__theme/fireworks__} 
+cow-bikini-set: __bikini/cow-print__,__sexual-or-embarrassed__, {|hands between legs|hands on chest|breasts squeezed together|on back|on stomach}
+office-lady-set: 
+  - __office-lady__, (button gap:1.2), cleavage, office, BREAK work office, indoors,__sexual-or-embarrassed__, spread legs, panties, 
+  - __office-lady__, ass, show panties under pantyhose, office, work office, indoors,__sexual-or-embarrassed__,  {|leg up}
+  - __office-lady__, office, work office, indoors, __sexual-or-embarrassed__, 
+  - __office-lady__, office, work office, indoors, __sexual-or-embarrassed__, (button gap:1.2) cleavage, {grabbing breast,|breast press}
+  - __office-lady__, office, work office, indoors, __sexual-or-embarrassed__, (button gap:1.2) cleavage, sitting on chair, {crossed legs|spread legs}
+  - office lady, pencil skirt, collared shirt, {ass focus|cleavage, leaning forward}, panties {|under pantyhose|,thighhighs}, __facial/embarrassed__
+
+#ブルマ
+buruma-set:
+  flash: __buruma/*__, __facial/embarrassed__, moaning, __wet-see-through__, shirt lift, underboob, buruma pull, show panties, white panties
+  arms-up: __buruma/*__, __facial/embarrassed__, moaning, __wet-see-through__, arms up, shirt lift, underboob, {spread legs|thigh gap}
+  pull: __buruma/def__, __facial/embarrassed__, moaning, __wet-see-through__, buruma pull, ass, white panties, bent over, hand on vaulting horse, 1boy, boy is pulling her clothes, from behind, from side
+
+# ワンピース水着
+one-piece-swimsuit-set:
+  covered: __one-piece-swimsuit/*__, __place/water-front__, wet, __sexual-or-embarrassed__, covered nipples, {arched back, arms behind back|on back|on stomach|spread legs}, {|strap slip}
+  ass: __one-piece-swimsuit/*__, __place/water-front__, wet, __sexual-or-embarrassed__, {all fours|leaning forward|wariza}, ass focus, {|strap slip}, {|adjusting swimsuit}}
+  shower: __one-piece-swimsuit/*__, latex, shiny clothes, indoors, showering, inside bathroom, wet clothes, sweating, posing, standing, pose, sexy pose, seducing, seduce, seducing viewer, lewd pose, lewd, seducing smile, from below, from back, ass, ass focus, ass grab, wink, bent over, water drop
+  looking-back: __one-piece-swimsuit/*__, __sexual-or-embarrassed__, thighs, __place/water-front__, wet, water drop, highleg, narrow waist, wide hips, ass focus, looking back
+  banana-boat: __one-piece-swimsuit/*__, __place/water-front__, straddling on banana boat, banana boat floating on water, relaxing, __facial/sexual__, {|arched back|reclining|beckoning|ass, {|adjusting swimsuit}}
+belly-dancer-set:
+  - __belly-dancer__, __facial/sexual__, kneeling, arched back,  knees apart, hands on cheek
+  - __belly-dancer__, __facial/sexual__, dancing, floating hair, arched back, arm up, outstretched arm, leg up, {|ass focus}
+
+#パジャマ
+pajama-set:
+  wariza: __naked-pajama/*__, {yawning|rubbing eyes}, wariza, __theme/morning__
+  areola-slip: __naked-pajama/panty__, __happy-or-sexual__, open mouth, lying, bedroom, thighs, head tilt, arched back, reclining, areola slip, __theme/morning__
+  sleepy: __naked-pajama/panty__, sleeping, closed eyes, open mouth, lying on bed, sexy pose
+  surprised: __naked-pajama/panty__, surprised, open mouth, lying on bed, sexy pose
+  straddle: __naked-pajama/*__, straddling, __facial/sexual__, __theme/morning__
+
+# アーミー
+army-set:
+  def: __army__, holding gun, {on one knee|squatting, one knee on floor|on stomach}, {aiming|gun up}, {ruins|abandoned} 
+  wall: __army__, holding gun, leaning on wall, gun up, {ruins|abandoned} 
+
+#レースクイーン
+racequeen-set:
+  race-car: __race-queen__, {hand on own hip|bent over|all fours|breasts squeezed together|shushing|beckoning, outstretched hand|reclining}, racing car, circuit, __facial/sexual__
+  umbrella: __race-queen__, {hand on own hip|shushing|tucking hair|v|waving|hands to cheek},{bent over|breasts press|arched back}, racing car, circuit, __happy-or-sexual__, holding umbrella
+  relaxing: __race-queen__, relaxing, {sitting|lying|reclining} on racing car, circuit, __facial/sexual__
+  def: __race-queen__, __happy-or-sexual__, {arms up|heart hands|hands to own cheek|hand in hair|hands on own hips}, racing scene,
+
+g-racequeen-set:
+  - 2girls, __race-queen__, __happy-or-sexual__, {side-by-side|ass-to-ass|hug|hand-to-hand|holding umbrella}, racing car
+
+dryer-set: <lora:hairdryer_Illust_v1:0.8> hair dryer, drying hair, wet hair, wind, hand in own hair, hair flowing over, floating hair, naked towel
+open-shirt-set:
+  - areola slip, open shirt, white shirt, collared shirt, __facial/embarrassed__, open mouth, collarbone, navel, arms up, spread legs, thong panties, wet, sweatdrop, lying on table
+  - flannel, (no bra:1.2), cleavage, damaged denim shorts, midriff, navel, happy, parted lips, head tilt, collarbone, sleeves rolled up, embarrassed, arched back, steam, heavy breathing, deck chair, unzipped, panties, from side, knee up, blurry background, bokeh, sparkle, sweat, starry sky, window, warm lighting,
+  - boyfriend shirt, oversized shirt, opened buttons, belly button, side-tie panties, bare legs, bare foot, on couch, relaxed pose, open shirt, __facial/sexual__, sitting, front view, oily skin
+  - black leggings, denim shorts, red flannel, sun set lighting, kitchen background, sitting down on a chair, window with a forest view, looking at viewer, __sexual-or-embarrassed__, midriff, collarbone, collared flannel, cleavage, bra, knee up, unzipped short denim, panties under denim
+beach-set: 
+  - thighs, lighting, beach, sunlight, sunbeam, smile, closed mouth , denim micro shorts, hotpants, cutoffs, open fly, denim shorts, damaged denim shorts, lowleg shorts, micro bikini, thong, string bikini. areola slip, covered nipples, latex, looking at viewer, standing , from below , wet, water drop, sweaty, dynamic angle, lowleg, dwarfoilpony, arms up  <lora:dwarfoil-PonyXL:0.3>
+  - thighs, lighting, beach, sunlight, sunbeam, __sexual-or-embarrassed__, denim micro shorts, hotpants, cutoffs, open fly, denim shorts, damaged denim shorts, lowleg shorts, micro bikini, thong, string bikini. areola slip, covered nipples, latex, looking at viewer, wet, water drop, sweaty, dynamic angle, lowleg, dwarfoilpony, <lora:dwarfoil-PonyXL:0.3>
+  - __angle__, {white bikini, eyewear on head, see-through sarong|string bikini}, __sexual-or-embarrassed__, shiny skin, oily skin, skindentation, __theme/summer-beach__
+  - beach, sky, day, ocean, looking at viewer, sweat, cloud, blue sky, navel, breasts apart, bikini panties, pulling down, pulling down panties, from below, wet
+  - slingshot swimsuit, strap pull, black choker, blue sky, breasts apart, choker, clothes pull, cloud, cloudy sky, cowboy shot, day, hip bones
+  - oily skin, chuckle, open mouth, thong bikini, breasts squeezed together, night beach, blurry background, bokeh
+  - skindentation, wink, side-tie bikini, heart hand, sunrise beach, blurry background, bokeh,
+  - thighs, hands on own thighs, __bikini/*__, __theme/summer-beach__
+  - __bikini/*__, shiny water, on back on sand, wet body, {arms up|covering breasts} __theme/summer-beach__
+  - __color__ {thong|bandeau|bow} bikini, sandy beach, indian style, {|straw hat, sunglasses}, arms up, sunlight, lens flare, day, light smile, ocean
+  - __color__ {thong|bandeau|bow} bikini, sandy beach, {indian style|wariza}, {|straw hat, sunglasses}, sunlight, lens flare, day, light smile, ocean, ass
+maid-set:
+  - __maid/*__, indoors, couch, breast lift, {kneeling|spread legs}, cleavage, living room, window, curtains, cushion, night, starry sky, __sexual-or-embarrassed__, parted lips
+  - maid bikini, black bikini, maid headdress, detached collar, thighhighs, frills, ribbon, arm garter, leg garter, wrist cuffs, looking at viewer, standing, put one hand on hips, nightclub, bar counter, silver tray, red wines, __facial/sexual__, narrowed eyes, pink purple theme
+skirt-lift-set:
+  - puffy short sleeves, frills, thigh strap, naturally sagging breasts, bouncing breasts, dutch angle, narrowed eyes,sweat, sweatdrop, looking at viewer, BREAK  skirt, underwear, from below, smile, clothes lift, looking at viewer, school uniform, grin, shirt, bow, looking down, thighs, wet,wet clothes, see-through, steaming body, pleated skirt, outdoors, sweat, day, steam, standing
+  - sitting, spread legs, black shirt, collared shirt, short sleeves, denim skirt, micro skirt, knees up, panties, from below, white panties, thong, thighs, bow panties, ((button gap:1.3)), cleavage
+  - __school-uniform/*__, skirt lift, panties {|under black pantyhose}, {|ass focus, from below, looking back}, __facial/embarrassed__, hands to skirt,
+waitress-set: tilted kilt waistress uniform, midriff, skirt, cleavage, front-tie top, plaid, bar, __facial/sexual__, beer, holding beer
+#制服セット
+school-uniform-set:
+  - __school-uniform/*__, tying hair
+  - __school-uniform/*__, cleavage, ((button gap:1.3)), {breast suppress|breasts squeezed together}, black pantyhose, __facial/embarrassed__
+  - __school-uniform/*__, cleavage, show bra, ((popped button, bursting breasts:1.4)), bouncing breasts, black pantyhose, surprised, moaning, hands up
+  - cleavage, downblouse, hanging breasts, looking at viewer, open clothes, open mouth, parted lips, pleated skirt, sailor collar, school uniform, skirt
+#お尻隠し
+covering-ass-set: "{__school-uniform/*__|__police__|__office-lady/*__|__maid/*__|__nurse-uniform__}, __facial/embarrassed__, looking back, from behind, from below, hand on own skirt, covering crotch, hand over skirt, {stairs|escalator}"
+
+#パンチラ
+pantyflash-set:
+  lycoris-stairs: __school-uniform/lycoris__, pantyshot, from behind, looking back, __facial/embarrassed__, ((hand over skirt)),  {stairs|escalator}
+  lycoris-allfours: __school-uniform/lycoris__, pantyshot, from behind, looking back, __facial/embarrassed__, all fours, 
+  close-up: pantyshot, from below, zettai ryouiki, from behind, close-up, head out of frame
+  bodycon: bodycon, {|finger to mouth|shushing|tucking hair}, black choker, arched back, curvy, __pantyflash__
+
+tiltedkilt-set:
+  sexy: __tiltedkilt__, restaurant, naughty face, arched back, thighs, one hand on hips, one hand behind head, head tilt
+  burger: __tiltedkilt__,restaurant, smile, one hand holding tray with {burger|cup}, another hand on own hip, head tilt, arched back, thighs
+  tucking-hair: __tiltedkilt__,restaurant, embarrassed, full-face blush, tucking hair, looking to the side, thighs
+
+#ギャル
+gal-set: 
+  jaguar-bikini: __jaguar-bikini-gal__, __theme/summer-beach__, smile, denim pull by self, leaning forward, ass
+  heart-mark: jewelry, __bikini/*__, earrings, choker, necklace, black choker, piercing, ear piercing, barbell piercing, industrial piercing, armband, __sexual-or-embarrassed__, heart-shaped tattoo on breast, __finger-pose__, heart-shaped mark on cheek
+  xilonen: __xilonen-style__, __gravure-pose__, __facial/sexual__, __theme/summer-beach__
+  nyamu: __nyamu-style__, __gravure-pose__, __sexual-or-embarrassed__, __place/public__
+  vulva: spread legs, sitting, black shirt, long sleeves, micro shorts, damaged denim shorts, thighs, feet out of frame, ((panties under shorts)), ((panty peek:2)), panties, open mouth, partially visible vulva, hands on own breasts, midriff, unzipping shorts, __sexual-or-embarrassed__
+  rnd:
+    - black jacket, print bikini, sitting, short shorts, off shoulder, leopard print, knee up, bare shoulders, grin, open clothes, cutoffs, collarbone, open jacket, nail polish, jewelry, blue shorts, bikini top only, tattoo, choker, thong bikini bottom under shorts, unzipped, lounge theme, bokeh, depth of field, blurry background, neon lights
+sweater-set:
+  - __sweater-dress__, cleavage cutout, bare legs, barefoot, cleavage, from above, wariza, hands on lap, looking at viewer, looking up, blush, __sexual-or-embarrassed__, indoors, bedroom, carpet, carpet, bed, on floor, areola slip, 
+  - __sweater-dress__, bare legs, barefoot, {wariza|all fours|spread legs}, blush, __sexual-or-embarrassed__, indoors, bedroom, carpet, carpet, bed, on floor, ass focus, panties
+  - embarrassed, looking to the side, knit sweater & miniskirt, (Flirtingly lifting her skirt to show her panties:1.3)
+
+# 脱衣
+undressing-set:
+  shirt-lift: t-shirt lift by self, biting own shirt, {arms up|breast lift}, head out of frame, {__lingerie/*__|__bikini/*__},  close-up
+  locker-room: undressing {pantyhose|pants|leggings|skirt}, show panties, {__facial/embarrassed__|surprised}, open mouth, locker room, __angle__
+  fitting-room: undressing {pantyhose|pants|leggings|skirt}, show panties, {__facial/embarrassed__|surprised}, open mouth, __angle__, opening shutter curtains in front of fitting room
+
+police-set:
+  - __police__, cleavage, button gap, smirk, holding baton \(weapon\), hand on own hip, covered nipples
+  - __police__, ass focus, panties, smirk, looking back, {|holding baton \(weapon\)}
+  - __police__, spread legs, panties, smirk, holding baton \(weapon\), shoulder holster, interrogation room, sitting on desk, knees up
+american-flag-set:
+  - __bikini/american__, __sexual-or-embarrassed__, __gravure-pose__, __theme/summer-beach__
+  - __bikini/american__, __facial/sexual__, {__gravure-pose__|lying on deck chair}, __theme/night-pool__
+  - __bikini/american__, straddling on banana boat, banana boat floating on pool water, relaxing, __theme/night-pool__, __facial/sexual__, {|beckoning|ass, {|adjusting swimsuit}}
+#ボディスーツ
+bodysuit-set: bodysuit, pink stripes, __facial/sexual__, {__gravure__|holding guns, aiming}, __theme/cyber__
+blue-beret-set: __beret-cos__, __angle__, __sexual-or-embarrassed__, __gravure-pose__, __place/public__
+#宝鐘マリンコス
+marine-set: __marine-cos__, __angle__, __sexual-or-embarrassed__, __gravure-pose__, __place/public__
+naked-overall-set:
+  - __naked-overall__, __angle__, __sexual-or-embarrassed__, __gravure-pose__, __place/public__
+  - __naked-overall__, __sexual-or-embarrassed__, {arched back|bent over|all fours}, __angle__
+hammock-set: __color__ bikini, ((lying on fishnet hammock)), {relax pose|holding tropical drink, drinking straw}, __theme/summer-beach__, {__facial/sexual__|straw hat, wearing sunglasses}, {day, sunlight, lens flare|sunset|night}
+#裸エプロンセット
+naked-apron-set:
+  kitchen: naked apron, kitchen, __facial/embarrassed__, {breast suppress|breasts squeezed together|hands on crotch}, looking {at viewer|to the side}, {|ass}, {|__apron-panty__}
+  cake: naked apron, __facial/sexual__, making cake, cream on breast, tongue out, licking lips, cream on cheek, holding cream squeezer, whipped cream
+  sit: naked apron, __sexual-or-embarrassed__, {indian style|wariza}, {|ass}, {|__apron-panty__}
+  knee-up: naked apron, __facial/sexual__, knee up, hand on knee, {|ass}, {|__apron-panty__}
+  holding-tray: __facial/embarrassed__, holding tray, cake on tray, whipped cream on breast, {|ass}, {|__apron-panty__}
+
+#スポーツユニフォーム
+sporty-set:
+  volleyball: __volleyball-uniform__, __sexual-or-embarrassed__, {|ass, adjusting clothes|breast lift|holding volleyball}, volleyball net, indoors
+  basketball: __basketball-uniform__, __sexual-or-embarrassed__, {|ass, adjusting clothes|breast lift|holding basketball }, indoors
+  baseball: __baseball-uniform__, __sexual-or-embarrassed__, {|baseball bat, holding baseball bat|pitching|adjusting headwear}, baseball field
+  athlete: __athlete-uniform__, racing track, __sexual-or-embarrassed__, {|crouching, one knee on racing track, arm support, leaning forward, on your mark|jumping|running}, {|bra lift, underboob}
+#病院
+hospital-set:
+  labcoat: labcoat, necklace, choker, studded collar, harness dress, sleeve rolled up, collarbone, hospital, chest harness, chain, smug, crossed arms under breast, sitting, crossed legs
+  nurse:
+    skirt-lift: __nurse-uniform__, infirmary, __facial/embarrassed__, skirt lift, ass, panties {under white pantyhose|, garter strap}
+    from-above: __hospital-set/nurse/skirt-lift__, {on stomach|all fours}, from above, from behind
+    from-below: __nurse-uniform__, infirmary, ass focus, panties {under __rnd-pantyhose__|,garter strap}, __sexual-or-embarrassed__, from below
+    unbuttoned: __nurse-uniform__, infirmary, leaning forward, unbuttoned, innerboob, collarbone, {bra|covered nipples}, __sexual-or-embarrassed__
+    fellatio-gesture: __nurse-uniform__, infirmary, fellatio gesture, tongue out, naughty face, __saliva__, on stomach, bulge
+    bulge: __nurse-uniform__, infirmary, naughty face, on stomach, breast press, bulge
+    spread-legs: __hospital-set/nurse/skirt-lift__, spread legs, {|unbuttoned collarbone, bra}, full-face blush, {looking to the side|moaning}, on back, hands on crotch
+
+#ステルススーツ
+stealth-set:
+  guns: __stealth-suit__, holding guns, {smug|smirk|smile|serious|sad}, {|aiming at viewer}, {|muzzle flash}, {|on one knee|on stomach} 
+  sideboob: __stealth-suit__, {hand on own hip|salute|fighting stance}, sideboob
+  cutout: __stealth-suit__, cutout back, sideboob, arched back, {smug|smirk|smile|serious|sad}, {|holding guns|holding combat knife}
+  sword: __stealth-suit__, japanese sword, katana, scabbard, masamune \(ff7\),  sideboob, one knee on floor, one knee up
+
+#濡れTシャツ
+wet-t-shirt-set:
+  def: __wet-see-through/t-shirt__, rain, outdoors, __facial/embarrassed__, looking at viewer, {breast suppress|breasts squeezed together|arched back}
+  scared:  __wet-see-through/t-shirt__, outdoors, raining heavily, heavy rain, water drop, wet face, wet clothes, wet hair, scared, moaning, white t-shirt, looking at viewer, urban, full-face blush, covering head, a young woman in the rain, raising her hand to shield herself from raindrops, soft lighting, cinematic atmosphere
+
+#パイレーツ
+pirate-set: __pirate__, __facial/sexual__, holding rapier, on pirate ship, jolly roger, {outstretched arm, pointing|shushing|beckoning}
+
+#くノ一
+kunoichi-set:
+  dark: __kunoichi/*__, serious, {looking to the side, on one knee and another knee up|ass focus}, night, dark background, thigh belt with kunai, {forest|on roof|night town}
+  urban: __kunoichi/*__, against wall, urban, dark night, hiding, thigh band with kunai, {shushing|beckoning, outstretched hand}
+  prison: __kunoichi/*__, angry, clenched teeth, arms up, bound wrists, kneeling, prison
+
+#魔法使い
+wizard-set:
+  - __wizard/*__, mage staff, magic circle, pointing up, nebula, night sky, arm up straightly
+  - __wizard/*__, __facial/sexual__, fantasy, magic circle, {|ass focus}
+  - __wizard/*__, {wariza|all fours}, __facial/embarrassed__, {|ass focus}
+
+#パーカー
+hoodie-set:
+  - hoodie, hood down, naked, hands in pocket, partially unzipped, indoors, sitting, __sexual-or-embarrassed__
+  - hoodie, hood down, naked, partially unzipped, indoors, unzipping, __sexual-or-embarrassed__, on back
+  - "{|open }hoodie, hood down, naked, partially unzipped, indoors, arms up, __sexual-or-embarrassed__, panties, "
+
+#スパイダーガールセット
+spider-set: 
+  - __spider-girl__, __theme/cyber__, __gravure-pose__, __facial/sexual__, spider web,
+  - __spider-girl__, slav squatting, squatting, hand to cheek and another on knee, seductive smile, spread legs, on rooftop
+  - __spider-girl__, slav squatting, squatting, elbow on knees, __facial/sexual__, spread legs, on rooftop, night, cityscape, __theme/cyber__, from {side|behind|above}
+
+favorite:
+  - large breasts, seductive smile, winged helmet, white choker, bikini armor, red armor, red gloves, thigh strap, red boots, bare shoulders, bare arms, thick thighs, midriff
+  - large breasts, seductive smile, latex, cropped jacket, long sleeves, unzipped, black gloves, black pants, night  cityscape, street, midriff, cleavage, collarbone, hand on own hip, 
+  - large breasts, seductive smile, latex, cropped jacket, long sleeves, unzipped, black gloves, black pants, cityscape, street, looking over shoulder, back, from behind, back, from behind, contrapposto, hand on own hip, close up
+  - embarrassed, <lora:shiwaterassV1ill-000008:1> shiswimbutt, looking at viewer, ass, outdoors, looking back, from behind, water, wet, night, back, bent over, partially submerged, ass focus, onsen, bathing
+  - (one bare shoulder:1.2), white t-shirt, cleavage, arched back, __facial/sexual__, side-tie panties, bedroom, wet, sweat, steam, no bra, covered nipples, narrow waist, wide hips, head tilt
+  - pole dancing, standing split, leg up, standing, split, standing on one leg, pole, stripper pole, holding pole, arms up, looking at viewer, pole, stripper pole, holding pole, disco, club, dancing, party, party lights, dance, in movement, crowd, concert, night club, rave party, cowboy shot, from below, platform footwear
+  - <lora:partially-submerged-from-above-illustriousxl-lora-nochekaiser:1> partially submerged from above, parted lips, looking at viewer, navel, collarbone, lying, on back, water, wet, partially submerged, dutch angle, covering, covering breasts, sarong, cleavage, sideboob, underboob, perfect hand
+
+hentai-comic: 
+  - | 
+    <lora:FComic_1to1000_Pony_V1:1> 
+    {fcomic_1to1000_pony, (comic:1.25), (Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 1girl, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation, 2boys, mmf threesome, erection, penis, multiple penises, testicles, cum,  hetero, sex, group sex,  oral, fellatio,  spread legs, spitroast, irrumatio, sweat, gangbang, double penetration, bangs, folded, thick thighs,
+    | fcomic_1to1000_pony, (comic:1.25), (Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 3+girls, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation, 1boy, erection, penis, cum, hetero, sex,
+    | fcomic_1to1000_pony, (comic:1.25), (Multi view:1.1, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 3+girls, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation,
+    }
+  -  <lora:FComic_HardCore_Pony_V1:1> (comic:1.25),(Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect), 1girl, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation,  2boys, mmf threesome, erection, penis, multiple penises, testicles, cum, hetero, sex, group sex,  oral, fellatio,  irrumatio, paizuri,  spread legs, spitroast, sweat, gangbang, double penetration,  triple penetration
+

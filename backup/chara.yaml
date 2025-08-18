@@ -1,0 +1,568 @@
+genshin:
+  raiden: 
+    - |
+      raiden shogun, 
+      ${hair-clr:purple} hair, 
+      ${hair-length:long} hair,
+      ${hair-style:straight hair, braided ponytail,}, 
+      ${bangs:blunt_bangs},
+      ${hair-acc:hair_ornament,},
+      ${breast:large breasts,}
+#     変数サンプル
+#     ${hair-style = twintails}, ${hair-acc= no hair accessories,}
+  noelle: noelle \(genshin impact\), genshin impact, ${hair-clr:silver} hair, short hair, 
+  miko: yae miko, genshin impact, 
+  ayaka: kamisato ayaka, genshin impact,  
+  kujo: kujou sara, genshin impact, 
+  kokomi: sangonomiya kokomi, genshin impact, 
+  beidou: beidou \(genshin impact\), {|red eyepatch}
+  hutao: hu tao \(genshin impact\), 
+  keqing: keqing \(genshin impact\), 
+  shenhe: shenhe \(genshin impact\), 
+  ganyu: ganyu \(genshin impact\), 
+  lumine: lumine \(genshin impact\), 
+  jean: jean \(genshin impact\), 
+  sucrose: sucrose \(genshin impact\), green hair, { 0.9::semi-rimless eyewear | 0.1::no eyewear }
+  yoimiya: yoimiya \(genshin impact\)
+  xiangling: xiangling \(genshin impact\), black hair,
+  xilonen: <lora:xilonen_genshin_impact_pdxl_goofy:0.7> xilonen, green eyes,blonde hair,animal ears,leopard girl, dark-skinned female
+  navia: <lora:Navia:0.7> naviard, blonde hair, blue eyes, long hair, drill hair,
+  citlali: <lora:Citlali:1> citlali_(genshin_impact), long hair, braid, blue eyes, pink hair, bare shoulders, twin braids, hair ornament, facial mark, hair intakes, multicolored hair, bare shoulders, headgear,
+  mavuika: <lora:mavuikaPDXL_scarxzys:0.8> mavuika_genshin, orange eyes, sun-shaped pupils, orange hair, long hair, streaked hair, ahoge
+  varesa: <lora:varesa_genshin_impact_pdxl_goofy:0.7> varesagi,cow girl,long hair,twin braids, multicolored hair, x hair ornament, cow horns, cow ears,purple eyes, pink hair, streaked hair, ahoge
+  arlecchino: <lora:arlecchino xl pd:0.7> arlecchino gi, x-shapped pupils,white hair,short hair,
+  furina: <lora:Char-Genshin-Furina-Pony-V1:0.7> furina \(genshin impact\), heterochromia, multicolored hair, {|top hat}
+  focalors: <lora:Char-Genshin-Furina-Pony-V1:0.7> focalors \(genshin impact\), heterochromia, long hair, straight hair, multicolored hair
+  charlotte: <lora:Charlotte_v1:0.7> charlottedef, aqua eyes, pink hair, medium hair, {|monocle}
+  dehya: dehya \(genshin impact\), genshin impact, multicolored hair, animal ears, black hair, yellow hair, blue eyes, long hair, hair between eyes
+  faruzan: <lora:Faruzan:0.8> faruzagi, twintails, long hair, hair ornament, bangs, aqua hair, x hair ornament, green eyes
+  yelan: yelan \(genshin impact\), genshin impact, short hair, bob cut, blue hair, green eyes, bangs 
+  shinobu: kuki shinobu, genshin impact, green hair, ponytail, purple eyes, hair between eyes, hair ornament, sidelocks
+  mizuki: <lora:yumemizuki_mizuki_pony:0.7> yumemizuki mizuki, grey hair
+  mualani: <lora:mualaniPDXL_scarxzys:0.7> mualani, red eyes, white hair, long hair, ponytail, twin braids, dark skin, multicolored, sidelocks, blue hairband
+  escoffier: <lora:Escoffier_Pony:0.7> Escoffier_gensh, hair ornament, ahoge, butterfly hair ornament, orange hair, blue eyes, long hair, bangs, large breasts
+
+#この素晴らしい世界に祝福を！
+konosuba:
+  darkness:
+    - |
+      darkness (konosuba),
+      ${eye-clr:blue} eyes, 
+      ${hair-clr:blonde} hair, 
+      ${hair-length:long} hair,
+      ${hair-style:braid, hair between eyes, ponytail,}
+      ${hair-acc:hair_ornament,} 
+      ${bangs:bangs,}
+      ${breast:large breasts, perkey breasts}
+#     変数サンプル
+#     ${hair-style = straight hair}, ${hair-acc= no hair accessories,}
+  aqua: aqua \(konosuba\), aqua hair
+  megumin: megumin, {|no headwear}
+  wiz: wiz \(konosuba\), brown hair, 
+
+#崩壊スターレイル
+honkai-star-rail:
+  kafka: <lora:kafka xl v1:1> kafka hsr, long hair, purple hair,purple eyes,{|eyewear on head}
+
+#ゼンレスゾーンゼロ
+zzz:
+  anby: "anbydemara, <lora:anby-demara-ponyxl-lora-nochekaiser:1>, anby demara, orange eyes, short hair, white hair, {|headphones}"
+  ellen: <lora:ellenjoePDXL_scarxzys:0.8> ellen, red eyes, black hair, short hair, colored inner hair, hairclip, ear piercing
+  caesar: <lora:caesar_king_zzz_pdxl_goofy:0.7> caesarKingZzz, yellow eyes, green hair, hair ornament,horns
+  burnice: <lora:burnice_whitePDXL_scarxzys:0.7> burnice, orange eyes, blonde hair, short hair, two side up, hair ornament
+  evelyn: <lora:Evelyn_ZZZ_IL:0.7> evelyn_zzz,blonde hair, short hair,  purple eyes, mole under eye,  sidelocks, bun with braided base, ring hair ornament, hair ornament, black ribbon, earrings,
+  miyabi: <lora:zzzmiyabi.pony:0.8> zzzmiyabi, animal ears, hime cut, red eyes,
+  zhu-yuan: <lora:zhuyuanPDXL_scarxzys:0.8> zhu yuan, orange eyes, black hair, long hair, streaked hair, {|ponytail}
+  belle: <lora:zzzbelle.pony:0.6> zzzbelle, short hair, dark blue hair,
+  yanagi: <lora:zzzyanagi.pony:0.7> zzzyanagi, pink hair, long hair, {semi-rimless eyewear|no eyewear}
+  astora: <lora:AstroYao:0.7> astroyao, black hair, jewelry, earrings, bangs, necklace, hairband,  red eyes, thigh strap, 
+  nicole: <lora:nicolePDXL_scarxzys:0.7> nicole, green eyes, pink hair, long hair, two side up, black ribbon, hair ribbon, hair clip
+  jane: <lora:Jane_Doe_ZZZ_V2:0.85> KJOjane, long hair, black hair, aqua eyes, blunt bangs, tail, mouse ears, animal ears, multicolored hair, red colored tips
+  nekomiya: <lora:nekomiyaPDXL_scarxzys:0.7> nekomiya, red eyes, black hair, dark skin, dark-skinned female, ponytail, cat ears, cat tail, two tails, hairband, red bow, hair bow, forehead mark
+  rina: <lora:alexandrinaPDXL_scarxzys:0.8> alexandrina, red eyes, grey hair, very long hair, {|low ponytail}
+  trigger: <lora:Hoseki_ZenlessZoneZero_Trigger_IllustriousXL_v1:0.7> tr1gg3r, covered eyes, blonde hair, parted bangs, hair intakes, long hair, ponytail, triangle hair ornament, black blindfold, large breasts
+  vivian: <lora:Vivian_ZZZ_PONYv4:0.7> Vivian_zzz, long hair, mole under eye, purple hair, multicolored hair,  streaked hair, ahoge, red eyes, slit pupils, pointy ears, drill hair
+  yixuan: <lora:Yi_Xuan_IL_v2:0.8> YiXuan, white hair, yellow eyes, hair ornament, long hair, bangs, ahoge, large breasts
+  sweety: <lora:sweety_zenless_zone_zero:1> sweetyzzz, ahoge, hair bun, eyewear on head
+#リコリス・リコイル
+lycoris:
+  chisato: nishikigi chisato, lycoris recoil, {|red lycoris uniform}
+  takina: inoue takina, black hair, lycoris recoil, black hair
+  mizuki:  <lora:Mizuki_Nakahara:0.7> nakahara mizuki, brown hair, long hair, hair between eyes, sidelocks, {|red-framed eyewear}, brown eyes, choker
+
+#Re:Zero
+rezero:
+  rem: rem \(re:zero\), blue eyes, blue hair, hair over one eye
+  ram: ram \(re:zero\), pink hair, pink eyes, hair over one eye
+  emilia: emilia \(re:zero\), 
+  echidna: <lora:Echidna_ReZero_V1:0.8> KJOechidna, white hair, white eyelashes, thick eyelashes, hair between eyes, dark eyes, pale skin, very long hair,
+  elsa: <lora:elsa-granhiert-s3-p1-ponyxl-lora-nochekaiser:0.7> elsa granhiert, long hair, black hair, hair ornament, purple eyes, braid, flower, hair flower, mole, 
+  anastasia: <lora:anastasia-hoshin-s3-p1-ponyxl-lora-nochekaiser:0.7> anastasia hoshin, long hair, blue eyes, purple hair, swept bangs, {|hat}
+  priscilla: <lora:priscilla-barielle-s3-p1-ponyxl-lora-nochekaiser:0.7> priscilla barielle, long hair, blonde hair, red eyes, braid, single braid, braided bangs, one side up, bright pupils, white pupils,
+
+#彼女お借りします
+rent-a-gf:
+  chizuru: <lora:rentagirlfriend_mizuhara_ponyXL:0.7> mizuhara chizuru, braid, one side up, brown hair,
+  ruka: <lora:ruka-sarashina-s1-ponyxl-lora-nochekaiser:0.7> ruka sarashina, short hair, bangs, black hair, ribbon, green eyes, hair ribbon, hairband, blue hairband,
+  mami: <lora:nanamimami-pdxl-nvwls-v1:0.7> nanamimami
+  sumi: <lora:rentagirlfriend_sakurasawa_ponyXL:0.7> sakurasawa sumi, side braid, hair bow, white bow, red eyes, red hair,
+  mini: <lora:mini-yaemori-s1-ponyxl-lora-nochekaiser:0.7> mini yaemori, long hair, bangs, black hair, blue hair, purple eyes, multicolored hair, blunt bangs, streaked hair, ahoge,
+
+#その着せ替え人形は恋をする
+kisekoi:
+  marin: <lora:Sono Bisque Doll wa Koi wo Suru - Marin Kitagawa XL R2B1:0.7> long hair, kitagawa marin, blonde hair, red eyes, multicolored hair, barbell piercing
+  shizuku: <lora:Sono Bisque Doll wa Koi wo Suru - Marin Kitagawa XL R2B1:0.7> Kitagawa Marin, purple hair, medium hair, purple eyes, black frilled bonnet, tareme
+  # liz: <lora:Sono Bisque Doll wa Koi wo Suru - Marin Kitagawa XL R2B1:0.7> Kitagawa Marin, red hair, two side up, long hair, green eyes, pointy ears, demon horns
+  # liz: <lora:MarinKitagawa-IL-v1:0.7> long hair, red hair, blunt bangs, sidelocks, two side up, hair ornament, wig, eyelashes, long pointy ears, green eyes, slit pupils, long fingernails, black nails, fangs, outfit_4, black horns, fake horns, frilled shirt collar, white collar, white ribbon, neck ribbon, black shirt, crop top, frilled shirt, juliet sleeves, layered sleeves, bat wings, midriff, black panties, frilled panties, black socks, frilled socks, demon tail
+  liz: <lora:MarinKitagawa-IL-v1:0.7> long hair, red hair, blunt bangs, sidelocks, two side up, hair ornament, wig, eyelashes, long pointy ears, green eyes, slit pupils, long fingernails, black nails, fangs, outfit_4, black horns, fake horns, bat wings, demon tail,
+
+#ニーアオートマタ
+nier-automata:
+  2b: 2b \(nier:automata\), short hair, {|black blindfold}
+
+#ワンピース
+one-piece:
+  nami: nami \(one piece\) , one piece, long hair, orange hair
+  hancock: boa hancock, one piece, long hair, black hair, parted bangs, hime cut
+  robin: nico robin, black hair, long hair, hair slicked back, green eyes,  {|eyewear on head}
+  yamato: yamato \(one piece\)
+
+#ライザのアトリエ
+ryza:
+  ryza: <lora:reisalin-stout-s1-ponyxl-lora-nochekaiser:0.7> reisalin stout, short hair, brown hair, hair ornament, brown eyes, hairclip
+  lila: <lora:liladecyrus-pdxl-nvwls-v1:0.7> defLila, white hair, low twintails, very long hair, crossed bangs, heterochromia, purple eyes, red eyes, pale skin, gold brooch, bare shoulders, hair ornament, golden hairclip, black
+
+#ドラゴンボール  
+dragon-ball:
+  and18: android 18, blonde hair
+#  bulma: <lora:dragonball-bulma-ponyxl-lora-nochekaiser:0.7> bulma, blue eyes, blue hair, {one side up, side ponytail, hair bobbles, hair ornament, hair over shoulder|long hair|braid, braided ponytail, parted bangs|short hair, {|very short hair}}
+  bulma: bulma, blue hair, {one side up, side ponytail, hair bobbles, hair ornament, hair over shoulder|long hair|braid, braided ponytail, parted bangs|short hair, {|very short hair}}
+#  videl: <lora:dbz-videl-anime-ponyxl-lora-nochekaiser:0.7>, videl, black hair, blue eyes, eyelashes, parted bangs, twintails, cute face, beautiful face, cute eyes
+  videl: videl, dragon ball
+  # chichi: <lora:dragonball-chichi-ponyxl-lora-nochekaiser:0.7> chi chi, black eyes, black hair, long hair, hime cut, blunt bangs, sidelocks, {|ponytail}, cute face, beautiful face, cute eyes
+  chichi: chi-chi \(dragon ball\), dragon ball, black hair
+  lunch: lunch \(dragon ball\), dragon ball, {dark purple|blonde} hair
+
+#進撃の巨人
+attack-on-titan:
+  mikasa: mikasa ackerman, shingeki no kyojin, black hair,
+
+#ゲームキャラ
+games:
+  mai: shiranui mai, fatal fury, parted bangs, black hair, ponytail
+  cammy: cammy white, street fighter, blonde hair, blue eyes 
+  morrigan: morrigan aensland, vampire \(game\), green hair, green eyes, long hair, demon girl, narrow waist, wide hips
+  samus: samus aran, blonde hair, long hair, sidelocks, swept bangs, ponytail, blue eyes, mole under mouth
+  king: <lora:King2000_t3:1.0> KOFKing, short blonde hair, blue eyes, parted bangs, large breasts
+  jill: <lora:IL_RE3Jill_t3-60-64:1.0> jill valentine, short hair, brown hair, blue eyes, large breasts
+  ada: <lora:adawong-re-richy-v1_ixl:1.0> adasweater, black hair, very short hair, swept bangs,  black eyes, large breast
+
+#ファイナルファンタジー
+final-fantasy:
+  tifa: tifa lockhart, black hair, final fantasy vii remake
+  aerith: aerith gainsborough, brown hair, final fantasy vii remake
+  yuffie: yuffie kisaragi, black hair, short hair, final fantasy vii remake
+
+#僕のヒーローアカデミア
+my-hero-academia:
+  ochako: uraraka ochako, boku no hero academia, brown hair
+  momo: yaoyorozu momo, boku no hero academia, high ponytail, wide ponytail, black eyes
+  mirko: mirko, boku no hero academia, long hair, animal ears, white hair, dark skin, rabbit ears, dark-skinned female, muscular, rabbit girl, muscular female, red eyes, parted bangs
+  mt-lady: mount lady, boku no hero academia, red eyes, blonde hair, long hair, drill hair, bright pupils, domino mask
+  himiko: toga himiko, boku no hero academia, bangs, blonde hair, yellow eyes, blunt bangs, hair bun, double bun, messy hair
+  tsuyu: asui tsuyu, boku no hero academia, long hair, black hair, black eyes, low-tied long hair, hair rings
+  nejire: hadou nejire, boku no hero academia, blue eyes, blue hair, long hair
+
+#チェンソーマン
+chainsaw-man:
+  makima: makima \(chainsaw man\), red hair, braided ponytail, yellow pupils, 
+  himeno: himeno \(chainsaw man\), eyepatch, 
+  power: power \(chainsaw man\), demon horns, symbol-shaped pupils, cross-shaped pupils, blonde hair, sharp teeth
+  kobeni: higashiyama kobeni, chainsaw man、black hair
+
+#鳴潮
+wuthering-waves:
+  changli: <lora:changli xl:0.7> changli-wuwa,pink hair, white hair, multicolored hair, hair ornament,yellow eyes,long hair
+  yinlin: <lora:yinlin_(wuthering_waves)_V2:0.7> yinlin_(wuthering_waves)
+  jinhsi: <lora:Jinhsi_Khan:0.7> Jinhsi, white hair, grey eyes, long hair, hair rings, hair ribbon, twintails
+  yangyang:  <lora:Yangyang_-_Wuthering_Waves-Kaleid-PONY:0.7> yangyang_ww, black hair, multicolored hair, grey eyes
+
+#炎炎の消防隊
+fire-force:
+  hibana: hibana \(enen no shoubotai\), en'en no shouboutai, pink hair, (dark-skinned:1.4) female, symbol-shaped pupils, blue eyes
+  maki: <lora:Maki Oze - Pony:0.7> purple eyes, ponytail, a girl with long black hair, {|abs},
+  kotatsu: tamaki kotatsu, twintails, en'en no shouboutai
+  iris: <lora:fireforce-iris-s1s2-ponyxl-lora-nochekaiser:1> iris, short hair, blonde hair, blue eyes
+  lisa: <lora:lisa-isaribe-s1-ponyxl-lora-nochekaiser:0.7> lisa isaribe, {long hair, ponytail|short hair}, red hair, orange eyes, {|glowing eyes}
+  arrow: <lora:ffarrow-pdxl-nvwls-v1:0.7> arr0w, hair tubes, symbol-shaped pupils, dark blue hair
+
+#勝利の女神　NIKKE
+nikke:
+  # rapi: <lora:rapi-nikke-richy-v1_pdxl:0.7> rapirnd, red eyes, brown hair, long hair, bangs
+  rapi: rapi \(nikke\), nikke, brown hair, long hair
+  anis: <lora:anis-nikke-richy-v1_pdxl:0.7>
+  rapunzel: rapunzel \(nikke\), goddess of victory nikke, blonde hair, very long hair, braid, huge breasts
+
+#推しの子
+oshi-no-ko:
+  ruby: <lora:ruby-hoshino-s1-ponyxl-lora-nochekaiser:0.7> ruby hoshino, long hair, bangs, blonde hair, pink eyes, sidelocks, symbol-shaped pupils, multicolored hair, two-tone hair, {|side ponytail}
+  ai: <lora:ai-hoshino-s1-ponyxl-lora-nochekaiser:0.7> ai hoshino, long hair, bangs, purple eyes, purple hair, symbol-shaped pupils
+  kana: <lora:Kana_Pony:0.7> arima_kana, red hair, short hair, red eyes, bob cut
+  memcho: <lora:memcho-s1-ponyxl-lora-nochekaiser:0.7> memcho, blonde hair, blue eyes, blunt bangs, demon horns, fake horns, horns, short hair,
+  akane: <lora:akane-kurokawa-s2-ponyxl-lora-nochekaiser:0.7> akane kurokawa, bangs, blue eyes, black hair, blue hair, multicolored hair, gradient hair, bob cut, 
+
+#うる星やつら
+urusei-yatsura:
+  lum: <lora:lum:1> lumxl, lum, long hair,green hair, aqua hair, multicolored hair, cone horns, pointy ears, orange eyes
+
+#葬送のフリーレン
+sousou-no-frieren:
+  frieren: <lora:frieren_nereirfpnxl_pony_v2:0.7> frieren, pointy ears, long hair, elf, white hair, twintails, green eyes
+  fern: <lora:brj-fern-pony-v0.5:0.8> fern \(sousou no frieren\), long hair, purple hair, half updo, blunt bangs, purple eyes
+  ubel: <lora:Ubel_PonyXL:0.7> ubel,1girl,dark green hair, bangs,hair between eyes,side ponytail, purple eyes, jitome
+  laufen: <lora:Laufen_PDXL:0.7> laufen, blunt bangs, double bun, orange hair, brown eyes
+
+#バンドリ
+bang-dream:
+  mygo:
+    soyo: "<lora: nagasaki_soyo_pony:0.7> nagasaki soyo, brown hair, long hair, blue eyes"
+    anon: <lora:AnonV2:0.7> anonc, blue eyes,pink hair,grey eyes, long hair
+    taki:  <lora:TakiShiina:0.7> takishiina, black hair, brown hair, purple eyes, swept bangs
+    raana: <lora:RaanaKaname:0.7> raana,(yellow eyes:1.1), (blue eyes:1.1), heterochromia, white hair, grey hair, short hair
+    tomori: <lora:takamatsu_tomori_PonyXL_V1.1:0.7> takamatsu tomori, short hair, grey hair, brown eyes, brown hair,
+  ave-mujiva:
+    uika: <lora:Uika:0.7> uika, blonde hair, purple eyes, medium hair
+    umiri: <lora:Umiri:0.7> umiri, blue eyes, black hair, long hair
+    nyamu: <lora:大喵-anime:0.7> Yuutenji Nyamu,short hair,purple eyes,red eyes,bangs,purple hair
+    sakiko: <lora:togawa_sakiko_ponyXL_V1.1:0.7> togawa sakiko, two side up, blue hair, yellow eyes
+    mutsumi: <lora:Mutsumi-v2:0.7> mutsumi, green hair, yellow eyes, long hair, blunt bangs
+  poppin'party:
+    kasumi: toyama kasumi, bang dream!, poppin'party
+    tae: hanazono tae, bang dream!, poppin'party
+    saya: yamabuki saya, bang dream!, poppin'party
+    rimi: ushigome rimi, bang dream!, poppin'party
+    arisa: ichigaya arisa, bang dream!, poppin'party
+  roselia:
+    rinko: shirokane rinko, roselia \(bang dream!\), bang dream!
+    lisa: imai lisa, roselia \(bang dream!\), bang dream!
+    yukina: minato yukina, roselia \(bang dream!\), bang dream!
+    sayo: hikawa sayo, roselia \(bang dream!\), bang dream!
+    ako: udagawa ako, roselia \(bang dream!\), bang dream!, purple hair, twintails
+  afterglow:
+    ran: mitake ran, bang dream!, afterglow \(bang dream!\), black hair, red hair, streaked hair
+    tsugumi: hazawa tsugumi, bang dream!, afterglow \(bang dream!\), brown hair
+    himari: uehara himari, bang dream!, afterglow \(bang dream!\), pink hair
+    moca: aoba moca, bang dream!, afterglow \(bang dream!\), white hair
+    tomoe: udagawa tomoe, bang dream!, afterglow \(bang dream!\)
+
+#負けヒロイン
+lose-heroine:
+  anna: <lora:yanami anna_makein_v1.0_PONY_epoch-000032:1> anna-default, yanami anna,blue eyes,blue hair,medium hair
+  lemon: <lora:yakishio lemon_mekein_PONY_epoch-000035:1> remon-default,yakishio lemon, purple eyes, brown hair, short hair, hair ornament
+  komari: <lora:komari chika_makein_PONY_epoch-000033:1> chika-default,komari chika,yellow eyes,red hair,hair over one eye,one side up, hair bobbles
+
+#ダンダダン
+dan-da-dan:
+  momo: <lora:Momo_Ayase_Dandadan_V2:0.85> KJOmomo, brown hair, brown eyes, medium hair, parted bangs, thick eyebrows, earrings, , hair between eyes
+  aira: <lora:aira_shiratori_anime_v2-soralz:0.7> aira shiratori, pink hair, short hair, hair between eyes, pink eyes
+
+#ロシデレ
+roshidere:
+  alya: <lora:alisa-mikhailovna-kujou-s1-ponyxl-lora-nochekaiser:0.7> alisa mikhailovna kujou, long hair, bangs, blue eyes, hair ribbon, ahoge, grey hair, red ribbon, 
+  masha: <lora:maria-mikhailovna-kujou-s1-ponyxl-lora-nochekaiser:0.7> maria mikhailovna kujou, long hair, bangs, brown hair, hair ornament, hair between eyes, brown eyes, ahoge
+  yuki: <lora:yuki_suou_anime_v5-soralz:0.7>  yuki suou (roshidere), black hair, long hair, half updo, hair between eyes, purple eyes
+  nonoa: <lora:Roshidere_MiyamaeNonoaXL:0.7> MiyamaeNonoa, blonde hair, side ponytail, side braid, brown eyes, hairclip, star hair ornament
+  ayano: <lora:Roshidere_KimishimaAyanoXL:0.7> long hair, black hair, ahoge, hair between eyes, purple eyes
+
+#ハイスクールDxD
+dxd:
+  akeno: <lora:akenohimejima-pdxl-nvwls-v1:0.8> dxdAH, black hair, ponytail, very long hair, purple eyes, 
+  rias: <lora:rias-pdxl-nvwls-v1:0.8> dxdRG, red hair, ahoge, long hair, 
+  xenovia: <lora:dxd-xenovia-quarta-ponyxl-lora-nochekaiser:0.7> xenovia quarta, short hair, blue hair, yellow eyes, multicolored hair, green hair, two-tone hair, streaked hair
+  koneko: <lora:Konekko_dxd_pony_ct:0.7> ctiank0nek0, silver hair, short, long sidelocks
+  kuroka: <lora:KurokaPdxlDwnsty:0.7> Kuroka Toujou, yellow eyes, slit pupils, black hair, long hair, hair rings, animal ears, animal ear fluff, cat tail, cat ears, multiple tails
+  grayfia: <lora:GrayfiaPdxlDwnsty:0.7> Grayfia Lucifuge, grey eyes, grey hair, twin braids, long hair, red lips, lipstick, makeup
+  rossweisse: <lora:HighschoolDxD_RossweisseXL:0.7> long hair, white hair, antenna hair, aqua eyes, hair ribbon, pink ribbon
+  asia: <lora:HighschoolDxD_AsiaArgentoXL:0.7> long hair, blonde hair, green eyes, parted bangs, blunt bangs, ahoge
+  phenex: <lora:HighschoolDxD_PhenexRavelXL:0.7> drill hair, twintails, blonde hair, blue eyes, ahoge, hair scrunchie, red scrunchie
+  serafall: <lora:serafall-leviathan-s2-ponyxl-lora-nochekaiser:0.7> serafall leviathan, long hair, black hair, twintails, pink eyes
+  irina: <lora:irina-shidou-s2-ponyxl-lora-nochekaiser:0.7> irina shidou, long hair, brown hair, twintails, purple eyes, very long hair, ahoge
+
+# ブルーアーカイブ
+blue-archive:
+  asuna: asuna \(blue archive\), long hair, platinum blonde hair, hair over one eye, asymmetrical bangs, blue archive
+  rio: rio \(blue archive\), black hair, red eyes, hair ornament, hairclip, {|halo}, long hair, blue archive
+  karin: karin \(blue archive\), yellow eyes, dark skin, very long hair, {|halo}, blue archive
+  toki: toki \(blue archive\), blonde hair, blue eyes, blue archive
+  hasumi: hasumi \(blue archive\), black hair, hair between eyes, long hair, mole, mole on breast, mole under eye, red eyes, {|wings, black wings, low wings, feathered wings}
+  ako: ako \(blue archive\), ako \(blue archive\), blue eyes, blue hair, hairband, halo, cowbell, blue archive
+  hanako: hanako \(blue archive\), green eyes, pink hair, long hair, braid, ahoge, halo, blue archive
+  rin: rin \(blue archive\), blue archive, colored inner hair, blue eyes, long hair, black hair, halo, pointy ears, {|glasses}
+  yuuka: yuuka \(blue archive\), purple eyes, purple hair, long hair, two side up, halo, blue archive 
+
+darlin-in-the-franxx:
+  zero-two: zero two \(darling in the franxx\),
+
+charlotte:
+  nao: <lora:tomori-nao-xl:0.7> tomori nao, two side up, platinum blonde hair
+
+other:
+  rena: <lora:Ero Appli Gakuen - Kawazoe Rena v1:0.7> kawazoe rena, long hair, wavy hair, brown hair, purple eyes
+  geranium: <lora:GeraniumFKG-ILXL:1.0> gerFKG, long hair, yellow eyes, red hair, hair flower
+  dark-elf: elf, dark elf, pointy ears, black hair, short hair, hair between eyes, green eyes,  (dark-skinned female:1.2), tan, narrow waist, wide hips
+
+#鬼滅の刃
+kimetsu:
+  shinobu: kochou shinobu, kimetsu no yaiba, ponytail, parted bangs, purple eyes, multicolored hair, black hair, purple hair, hair ribbon
+  mitsuri: kanroji mitsuri, kimetsu no yaiba, twin braids, multicolored hair, pink hair, green hair, green eyes, low twintails
+  kanao: tsuyuri kanao, kimetsu no yaiba
+
+#ココロネ＝ペンデュラム
+kokorone:
+  nazuna: <lora:kokorone_nazuna_v1:0.8> kokorone_nazuna_v1, pink eyes, pink hair
+  leeruxu: <lora:kokorone_leeruxu_v1:0.8> kokorone_leeruxu_v1, green eyes, light blue hair
+  chihaya: <lora:kokorone_chihaya_v1:0.8> kokorone_chihaya_v1, purple eyes, purple hair
+  tsumuri: <lora:kokorone_tsumuri_v1:0.8> kokorone_tsumuri_v1, blue eyes, dark blue hair
+
+#VTuber
+vtuber:
+  hoshimachi: <lora:HoshimachiSuiseiPDXL:0.7> HoshimachiSuisei, side ponytail, blue hair ribbon
+  awayuki: <lora:awayuki-kokorone-s1-ponyxl-lora-nochekaiser:0.7> awayuki kokorone, long hair, purple eyes, bangs, black hair, hair ornament, ribbon, blue hair, hair ribbon, braid, flower, hair flower
+  marine: <lora:senchouXL:0.7> marine, hair ribbon, red ribbon, red hair, red eyes, yellow eyes, {two side up|ponytail|twintails|side ponytails|one side up}
+  noel: <lora:noel-shirogane-ponyxl-lora-nochekaiser:0.7> shirogane noel, braid, french braid, green eyes, grey hair, hair ribbon, ribbon, mole, mole on breast,
+
+#五等分の花嫁
+gotobun:
+  ichika: nakano ichika, short hair, pink hair, eyebrows hidden by hair,hair between eyes, bangs, purple eyes, asymmetrical sidelocks,  
+  nino: nakano nino, {medium|long} hair, pink hair, shiny hair, hime cut, twintails, two side up, hair ribbon, black ribbon, butterfly hair ornament, blunt bangs, eyebrows hidden by hair, blue eyes
+  miku: nakano miku, long hair, brown hair, shiny hair, hair between eyes, parted bangs, purple eyes, {| headphones around neck}
+  yotsuba: nakano yotsuba, medium hair, orange hair, hair between eyes, parted bangs, eyebrows hidden by hair, blue eyes, {|green hairband, hair ribbon, green ribbon}
+  itsuki: nakano itsuki, long hair, red hair, hair ornament, star \(symbol\), star hair ornament, bangs, blue eyes, ahoge, hair between eyes
+
+#ダンまち  
+danmachi:
+  hestia: hestia \(danmachi\), black hair, twintails,
+  elina: <lora:TazEinaV1:0.7> eina, elf, green eyes, short hair, brown hair, pointy ears, glasses,
+  aiz: <lora:aiz-wallenstein-ponyxl-lora-nochekaiser:0.8> aiz wallenstein, blonde hair, hair between eyes, hairband, long hair, yellow eyes, sidelocks
+  freya: <lora:freya_danmachi_pdxl_goofy:1> freyadm, long hair, hair ornament, grey hair
+  aisha: <lora:AishaBelka (1):0.5> ABelka, hair over one eye, black hair, purple eyes
+  syr: <lora:DanMachi_SyrFlovaXL:1> {short hair, short ponytail|long hair}, grey hair, grey eyes
+
+#ナルト
+naruto:
+  hinata: hyuuga hinata, no pupils, purple eyes, dark blue hair, {short hair|long hair}
+  haruno: haruno sakura, pink hair, short hair, green eyes, naruto shippuuden, parted bangs, forehead mark, hairband
+  ino: yamanaka ino, naruto \(series\), blonde hair, ponytail, blue eyes, long hair, high ponytail, red hairpin
+
+#Marvel comic
+marvel:
+  blackcat: <lora:PONYXL_MARVEL_Felicia_BlackCat_ownwaifu:0.7> MARVEL_Felicia_BlackCat_ownwaifu,   blue eyes, {|black mask, domino mask}, long hair 
+
+#ペルソナシリーズ
+persona:
+  kasumi: yoshizawa kasumi, persona, ponytail, red hair, hair ribbon, red eyes 
+  sadayo: kawakami sadayo, persona, short hair, dark brown hair, brown eyes, wavy hair
+  ann: takamaki anne, persona, blonde hair, twintails, swept bangs, blue eyes 
+  makoto: niijima makoto, persona, short hair, bob cut, black hair, red eyes
+  futaba: sakura futaba, persona, orange hair, black framed eyewear, round glasses, purple eyes, ahoge, blunt bangs, {|behind-the-head headphones}
+  haru: okumura haru, persona, wavy hair, parted bangs, brown hair, short hair, bob cut, brown eyes
+
+#アズールレーン
+azur-lane:
+  belfast: belfast\(azur lane\), azur lane, long hair, silver hair, french braid
+  st-louis: st. louis \(azur lane\), azur lane, blue hair, pink eyes, side ponytail, curly sidelocks
+  owari:  <lora:owari_pony_v1.0:0.7> owari \(azur_lane\), {|demon} horns, asymmetrical bangs, yellow eyes, blonde hair, very long hair, hair over one eye, long bangs, pointy ears, earrings, mole under mouth, twin braids, (dark-skinned female:1.2)
+  kashino: kashino \(azur lane\), azur lane, brown hair, cow ears, cow horns, purple eyes, long hair
+  prinz-eugen: prinz eugen \(azur lane\), azur lane, silver hair, red eyes, long hair, antenna hair, {|headgear}
+  atago: atago \(azur lane\), azur lane, long hair, black hair, hair ribbon, animal ears, brown eyes, mole under eye
+  taihou: taihou \(azur lane\), azur lane, black hair, red eyes, long hair, hair ornament, {one side up|twintails|low-tied twintails}, hair between eyes, crossed bangs
+  formidable: formidable \(azur lane\), azur lane, grey hair, long hair, {twintails|double bun, ahoge, braid}, red eyes    
+  bremerton: bremerton \(azur lane\), azur lane, pink eyes, pink hair, streaked hair, grey hair, {|twintails|one side up}, hair intakes, hair between eyes, long hair, mole under eye, mole on breast, {|headgear, red-tinted eyewear, eyewear on head}
+  takao: takao \(azur lane\), azur lane, black hair, long hair, hair flaps, ponytail, hair bow, brown eyes, large breasts
+  shinano: shinano \(azur lane\), azur lane, white hair, long hair, animal ears, hair ornament, blue eyes, multiple tails, large breasts
+  tingan: <lora:TingAnPDCAMEq3v2.1 AL:0.7> pink eyes, medium hair, black hair, hair over shoulder
+
+#デッドオアアライブ
+doa:
+  kasumi: kasumi \(doa\), dead or alive, brown hair, long hair, {|ponytail}, brown eyes
+  tina: tina armstrong, dead or alive, blonde hair, medium hair, parted bangs
+  honoka: honoka \(doa\), dead or alive, light brown hair, hair, one side up, red eyes
+  hitomi: hitomi \(doa\), dead or alive, brown hair, long hair, blue eyes, pink hairband
+  mila: mila \(doa\), dead or alive, short hair, two-tone hair, red hair, black hair
+  lisa: lisa hamilton, dead or alive, short hair, brown hair, dark-skinned female
+  christie: christie \(doa\), dead or alive, white hair
+  lei: lei fang, dead or alive, brown hair
+  ayane: ayane \(doa\), dead or alive, purple hair
+
+#宇崎ちゃんは遊びたい！
+uzaki:
+  hana: uzaki hana, uzaki-chan wa asobitai!, short hair, grey hair, blue eyes
+  tsuki: uzaki tsuki, uzaki-chan wa asobitai!, grey hair, hair over shoulder, hair between eyes, {|closed eyes}, mature female, long hair
+
+#お隣の天使様にいつの間にか駄目人間にされていた件
+angel-next-door:
+  mahiru:  <lora:mahiru-shiina-s1-ponyxl-lora-nochekaiser:0.7> mahiru shiina, bangs, blonde hair, brown hair, yellow eyes, {|sidelocks, hair bun, single hair bun|side ponytail, sidelocks|twintails|low ponytail|ponytail|low twintails}
+
+#ガンダム
+gundam:
+  lunamaria:  <lora:Lunamaria_Hawke_SEED_Destiny_Pony:0.7> lunamaria, blue eyes, red hair, short hair, ahoge
+  lacus:  <lora:lacus-clyne-ponyxl-lora-nochekaiser:0.7> lacus clyne, purple eyes, hair ornament, long hair, wave hair ornament, pink hair, {|ponytail|side ponytail} 
+  marru:  <lora:Murrue Ramius Pony:0.7> murrue ramius, brown hair, brown eyes, long hair, lipstick, bangs
+  talia:  <lora:Talia Gladys Pony:0.7> talia gladys, blonde hair, short hair, blue eyes, lipstick, makeup
+  sulleta: <lora:sulleta-mercury-ponyxl-lora-nochekaiser:0.7> sulleta mercury, ahoge, aqua eyes, black hairband, dark skin, dark-skinned femaile, hair between eyes, hairband, long hair, {|low ponytail}, red hair, swept bangs, thick eyebrows
+  sayla: <lora:XL_DK_sayla20240925b_pony_Prodigy:0.7> dk_sayla, 1980s \(style\), blue eyes, blonde hair, short hair, parted bangs
+  machu: <lora:GQuX-amate_yuzuriha_XL(pony)v10:1.0> GQuX-amate_yuzuriha, red hair, multicolored hair, short hair, aqua eyes, multicolored eyes
+  nyaan: <lora:nyaan_gundam_gquuuuuux:0.8> nyaan_gundam_gquuuuuux, long hair, black hair, hair between eyes, yellow eyes
+  secelia: secelia_dote, ((dark skin, dark-skinned female)), ahoge, grey hair, short hair, gundam suisei no majo
+
+#ギルマス
+girumasu: 
+  alina: <lora:alina_clover-girumasu_s1-v4-ixl-anime-soralz:1.0>, alina clover (girumasu), long hair, (multicolored hair, black hair:1.2), purple hair, {swept bangs, black hair ribbon|parted bangs, hairclip, ponytail}, blue eyes, (green eyes:0.8), cute girl, cute face  
+
+#オーバーロード
+overload:
+  albedo: albedo \(overlord\), overlord \(maruyama\), long hair, black hair, hair between eyes, ahoge, yellow eyes, black wings
+
+#デートアライブ
+date-a-live:
+  kurumi: tokisaki kurumi, date a live, heterochromia, red eye, yellow eye, black hair, clock eyes, symbol-shaped pupils, long hair, mature female, {|twintails|low twintails, hair over one eye}
+  yuzuru: <lora:date_yuzuru:0.7> date_yuzuru, orange hair, bangs, single braid, long hair, sidelocks, blue eyes
+
+#全修
+zenshu:
+  natsuko: <lora:NatsukoHirose_Zenshu_Illustrious:0.7> natsukohirose, black hair, long hair, blue eyes
+
+#薬屋のひとりごと
+kusuriya:
+  maomao: <lora:kusuriya-maomao-s1-ponyxl-lora-nochekaiser:0.7> maomao, long hair, bangs, blue eyes, hair ornament, green hair, blunt bangs, freckles, hair bun, single hair bun
+
+#メイドラゴン
+maid-dragon:
+  ilulu: <lora:ilulu:0.7> ilulu, red hair, pink hair, red eyes, slit pupils, horns, dragon horns, pointy ears, dragon girl, bangs, twintails
+  tohru: <lora:tohru-pdxl-nvwls-v1:0.7> mdrgtru, blonde hair, {long hair|twintails}, orange hair, gradient hair, orange eyes, slit pupils, horns, dragon horns, dragon girl
+  lucoa: lucoa \(maidragon\), blonde hair, blue hair, dragon girl, gradient hair, green hair, hair between eyes, horns, huge breasts, multicolored hair, green eyes, purple eyes, yellow pupils, heterochromia,
+  elma: elma \(maidragon\), black hair, blue eyes, gradient hair, multicolored hair, purple hair, short hair, slit pupils, {|glasses}
+
+#D4Dj
+d4dj:
+  kyoko: <lora:Yamate_Kyoko:0.7> Kyoko, brown hair, long hair, brown eyes, hair between eyes, shining eyes
+  esora: <lora:Shimizu_Esora:0.7> esora, green eyes, green hair, twintails, shining eyes
+  dalia: <lora:Matsuyama_Dalia:0.7> dalia, long hair, white hair, (dark-skinned female, dark skin:1.2), shining eyes
+
+#ぼっちざろっく
+bocchi:
+  ryou: <lora:ryou-yamada-s1-ponyxl-lora-nochekaiser:1.0> ryou yamada, blue hair, eyes visible through hair, mole, mole under eye, short hair, yellow eyes, hairclips
+
+#対魔忍
+taimanin:
+  rinko: <lora:Rinko_Pony:0.7> rinko, akiyama rinko, taimanin \(series\), long hair, bangs, hair between eyes, very long hair, blue hair, purple eyes, purple hair, absurdly long hair
+  sakura: igawa sakura, taimanin \(series\), orange hair, short hair, flipped hair, blue eyes
+  yuuko: <lora:morinoyuuko-pdxl-nvwls-v1:0.8> myuko, black hair, very long hair, green eyes, lipstick, huge breasts
+  mirabell: <lora:mirabell:0.8> mirabell, (dark skin:1.2), black hair, orange eyes, ponytail, huge breasts, parted bangs, sidelocks
+
+#クラスの大嫌いな女子と結婚することになった
+kurakon:
+  akane: <lora:akane_sakuramori-kurakon_s1-anime-soralz:0.7> akane sakuramori (kurakon), short hair, brown hair, side braid, hair ribbon, parted bangs, brown eyes
+
+#履いてください、鷹峰さん
+takamine:
+  takane: <lora:takamine_takane_pony_ver2:0.7> takamine_takane, red eyes, black hair, long hair
+
+#女神寮の寮母くん。
+megami-ryou:
+  atena: <lora:Atena1024_Pony:0.7> saotome atena, megami-ryou no ryoubo-kun, long hair, very long hair, blue eyes, pink hair, empty eyes, french braid, ahoge, large breasts
+  frey:  <lora:Frey1024_Pony:0.7> frey \(megami-ryou no ryoubo-kun\), megami-ryou no ryoubo-kun, eyelashes, purple eyes, gradient hair, long hair, blonde hair, hair over one eye, black hairband, hairband, ribbon, large breasts
+
+#Love Plus
+love-plus:
+  nene: <lora:Nene_Anegasaki_-_Love_Plus:0.8> loplnean,  brown hair, {short|long} hair, mole under right eye, brown eyes
+
+#呪術廻戦
+jujutsu-kaisen:
+  nobara: <lora:nobara-kugisaki-s1s2-ponyxl-lora-nochekaiser:0.7>, nobara kugisaki, kugisaki nobara, bob cut, brown eyes, brown hair, lips, short hair
+  maki: <lora:MakizeninSDXL:0.7> MakizeninSDXL, dark green hair, short ponytail, {|glasses}, blunt bangs, semi-rimless eyewear, brown eyes, hime cut
+
+#ロザリオとバンパイア
+rosvam:
+  kurumu: <lora:JN_Kurumu_Kurono:0.8> Kurumu Kurono
+  moka: <lora:moka-akashiya-s2-ponyxl-lora-nochekaiser:1> normal moka akashiya, long hair, green eyes, pink hair, ahoge
+
+#Witch Watch
+witch-watch:
+  nico: <lora:Wakatsuki_Nico:0.7> wakatsuki nico, light pink hair, long hair, ahoge, purple eyes, black choker
+
+#陰の実力者になりたくて
+kagejitsu:
+  alpha: <lora:alpha-pdxl-nvwls-v1:0.8> alpha, blue eyes, blonde hair, pointy ears
+  beta: <lora:beta-pdxl-nvwls-v1:0.8> beta, white hair, braid, pointy ears
+  gamma: <lora:shadow-gamma-ponyxl-lora-nochekaiser:0.7> gamma, long hair, purple eyes, black hair, very long hair, pointy ears, mole, mole under mouth
+  delta: <lora:shadow-delta-ponyxl-lora-nochekaiser:0.7> delta, long hair, black hair, animal ears, purple eyes, cat ears, animal ear fluff, facial mark
+  epsilon: <lora:shadow-epsilon-ponyxl-lora-nochekaiser:0.7> epsilon, long hair, twintails, blue hair, purple eyes, sidelocks
+  zeta: <lora:shadow-zeta-ponyxl-lora-nochekaiser:0.7> zeta, animal ears, purple eyes, blonde hair
+
+#Aランクパーティを離脱した俺は元教え子たちと迷宮深部を目指す
+a-rank-party:
+  marina: lora:aparida-casual-marina-s1-ponyxl-lora-nochekaiser:0.7> aparida marina, red hair, red eyes, ponytail, long hair, hair ribbon, ribbon, drill hair, sidelocks
+  silk: <lora:silk-amberwood-s1-illustriousxl-lora-nochekaiser:0.7> silk amberwood, long hair, {|ponytail}, white hair, grey hair, pointy ears, ((dark skin, dark-skinned female, elf, dark elf))
+
+#Lv2からチートだった元勇者候補のまったり異世界ライフ
+lv2-cheat:
+  fenrys: <lora:Lv2karaCheat_FenrysXL:0.7> FenrysLv2, grey hair, very long hair, blue eyes, wolf ears, pointy ears
+  damalynas: <lora:Damalynas:0.7> damalynas/cnn, very long hair, black hair, ((dark-skinned female)), purple eyes, hair between eyes
+
+#異世界魔王と召喚少女の奴隷魔術
+how_not_to_summon:
+  shera: <lora:shera-greenwood-s2-ponyxl-lora-nochekaiser:0.7> shera greenwood, long hair, blonde hair, very long hair, hairband, pointy ears, elf, aqua eyes
+  rem_galleu: <lora:rem-galleu-s2-ponyxl-lora-nochekaiser:0.7> rem galleu, long hair, bangs, black hair, animal ears, hair between eyes, very long hair, green eyes, tail, sidelocks, cat ears, cat tail, animal ear fluff, metal collar
+
+#艦隊これくしょん
+KanColle:
+  hamakaze: hamakaze \(kancolle\), short hair, silver hair 
+  kongou: kongou \(kancolle\), dark brown hair, long hair, brown eyes, ahoge, hairband, gold hair ornament
+
+#ソードアートオンライン
+sao:
+  asuna: asuna \(sao\), brown hair, brown eyes, long hair, braid
+  suguha: kirigaya suguha, short hair, black hair, hairpin, dark green eyes
+  leafa: leafa \(sao:im\), ponytail, pointy ears, green eyes
+
+#激情のリビドー
+Libido:
+  motoko: <lora:Motoko_Maya_v3:0.7> motoko maya, purple hair, long hair, ponytail, purple eyes, lips, mole under mouths
+
+#ゼルダの伝説
+LegendOfZelda:
+  zelda: <lora:Zelda:0.65> princess zelda, the legend of zelda breath of the wild, blue eyes, short hair, pointy ears
+
+#BrownDust2
+BrownDust2:
+  eclipse: <lora:Eclipse_pony:0.8> eclipdef, blue_eyes, long hair, hair over one eye, black hair, colored inner hair, multicolored hair, blue_hair
+  nebris: <lora:Nebris_pony_v2:0.8> nebris, huge_breasts, ((dark skin)), blue_eyes, bangs, ivory hair, multicolored_hair, green_streaked_hair, {|side ponytail}
+  luvencia: <lora:Luvencia_pony_v2:0.8> Luvencia, blue eyes, short hair, black hair, multicolored hair, colored inner hair, blue hair
+
+#無彩限のファントム・ワールド
+musaigen:
+  mai: kawakami mai, musaigen no phantom world, blonde hair
+  reina: izumi reina, musaigen no phantom world, 
+
+#To Loveる
+to-love-ru:
+  lala: lala satalin deviluke, to love-ru, ahoge,very long hair,pink hair,hair ornament,sidelocks,bangs
+
+#アイドルマスター
+idol-master:
+  asuka: ninomiya asuka, idolmaster, two-tone hair, multicolored hair, ahoge
+  rin: shibuya rin, idolmaster, long hair, black hair 
+  makoto: kikuchi makoto, idolmaster, short hair, black hair
+
+#青ブタ
+aobuta:
+  mai: sakurajima mai, seishun buta yarou, long hair, black hair
+
+#プロジェクトセカイ
+project-sekai:
+  ena: shinonome ena, project sekai, braid, short hair, brown hair
+
+#ブリーチ
+bleach:
+  rangiku: matsumoto rangiku, bleach, huge breasts, perky breasts

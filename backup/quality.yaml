@@ -1,0 +1,10 @@
+pony:
+  quality:
+    positive: score_9, score_8_up, score_7_up, highres, 8K, highly detailed background, aesthetic, absurdres, (masterpiece), (best quality), excellent Quality, excellent Details, excellent Anatomy, source_anime
+    negative: score_6, score_5, s core_4, pubic hair, pony, gaping, muscular, makeup, censored, furry, young, childish, blue penis, green penis, monochrome,bad anatomy, bad hand, bad finger, missing finger, watermark
+
+il:
+  quality:
+    positive: lazypos, refined detailed, high quality, highres, cinematic lighting, absurdres, 8k, detailed, highest definition, high resolution, absurd_res, masterpiece, best quality,high quality, newest, highres,8K, HDR, absurdres, detailed background, ((4k,8k,Ultra HD)), ((Masterpiece :1.2)),((Best quality :1.2)),((Detailed :1.4)), ((Detailed background :1.4)), digital art, beautiful atmosphere,
+    pos-simple: lazypos, refined detailed, high quality, highres, cinematic lighting, absurdres, 8k, detailed, highest definition, high resolution, absurd_res, masterpiece, best quality,high quality, newest, highres,8K, HDR, absurdres, detailed background, ((4k,8k,Ultra HD)), ((Masterpiece :1.2)),((Best quality :1.2)),((Detailed :1.4)), digital art, beautiful atmosphere,
+    negative: bad quality, worst quality, worst detail, low quality, lowres, bad hands, mutated hands, ugly, deformed, bad anatomy, missing fingers, logo, artist name,watermark, 2koma, 4koma, SmoothNegative_Hands-neg Smooth_Negative-neg, censored, cropped_head, 3d, worst quality, noisy, bad_hands, murkily, blurry clones, mutation, censored, jpeg artifacts, lazyhand, lazyneg,

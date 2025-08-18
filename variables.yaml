@@ -1,0 +1,37 @@
+################################################
+# Initial value
+################################################
+# ${face:smile,} 
+# ${face:sleeping},
+# ${face:embarrassed,}        
+# ${face:__facial/sexual__,}
+# ${face:__sexual-or-embarrassed__,}
+# ${face:surprised, open mouth,}
+
+# ${panty:panties,}
+# ${bikini:bikini,}
+# ${bra:bra,}
+
+# ${bgd:indoors,}
+# ${bgd:beach,}
+# ${bgd:shower room,}
+# ${bgd:hotel room,}
+
+# ${mouth-action:closed mouth,}
+
+
+
+################################################
+# value set example
+################################################
+
+# ${bikini=__bikini/*__,}
+
+# ${face=__facial/sexual__,}
+# ${face=__sexual-or-embarrassed__,}
+# ${face=__embarrassed,}
+# ${face=surprised},
+# ${face=surprised, open mouth,}
+# ${face=__sleeping,}
+
+

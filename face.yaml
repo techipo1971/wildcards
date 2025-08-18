@@ -1,0 +1,57 @@
+facial:
+  happy:
+    - |
+      "{smile|wink|grin|laugh|chuckle},
+      {|open mouth|parted lips|moaning}",
+  angry:
+    - angry
+    - scowl
+    - furious
+    - annoyed
+    - displeased
+    - sulky
+  sad:
+    - sad
+    - mournful
+    - despairing
+  sex-fear:
+    - scared
+    - confused
+    - shock
+    - annoyed
+    - surprised
+  cry:
+    - cry, __mouth-action__
+    - tearful, __mouth-action__
+    - whimpering, __mouth-action__
+  surprised: surprised, moaning, open mouth
+  embarrassed:
+    - |
+      {embarrassed|confused|scared|shy|flustered|surprised},
+      {blush|nose blush|full-face blush}
+      __mouth-action__,
+  sexual: "{seductive smile|smug|smirk|naughty smile}, {|open mouth|parted lips}"
+  orgasm: female orgasm, moaning
+  clenched: embarrassed, clenched teeth, wink, female orgasm
+  torogao: female orgasm, torogao, wavy mouth, __facial/eye-motion__
+  #--- 口のアクション ---
+  mouth-action:
+    - open mouth, {|wavy mouth}
+    - closed mouth, {|wavy mouth}
+  #--- 目の表情 ---
+  eye-motion:
+    - half-closed eyes
+    - closed eyes
+    - wink
+    - jitome
+    - empty eyes
+  #--- オナニーの表情 ---
+  masturbation-face:
+    - female orgasm, moaning
+    - torogao, moaning
+    - embarrassed, moaning
+
+#肌の色・質感
+skin:
+  shiny: "{1-$$ shiny skin|oily skin|skindentation}"
+  tan: "{1-$$ tan|tanlines}"

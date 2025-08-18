@@ -1,0 +1,29 @@
+#テーマ
+theme:
+  moon-shine: bokeh, depth of field, night theme, moon shine
+  fireworks: fireworks, night sky
+  summer-beach:
+    - |
+        bokeh, depth of field, summer theme, beach, shore, wet, sky,
+        cloud, palm tree, coconut tree,
+    - |
+        "{gradient sky,
+        gradient sky sunrise|sunlight|sunset|night} beach, lenz flare,
+        horizon, {|blurry background}, (sweatdrop, wet,
+        water drop:1.4)",
+  pool:
+    - |
+      "{gradient sky,
+      gradient sky sunrise|sunlight|sunset|night} {pool|poolside},
+      {|blurry background}, (sweatdrop, wet, water drop:1.4)",
+  night-pool:
+    - |
+      pink & purple neon lights, poolside, {pool|deck chair}, wet,
+      night, (sweatdrop, wet, water drop:1.4),
+  cyber: cyberpunk, neon lights, cyber fashion, cyber city
+  onsen: onsen, wet, sweat, steam
+  casino: casino, poker table, card, slot machine,  blurry background
+  love-hotel: pink light, love hotel
+  nightclub: nightclub, table, couch, neon lights, window, cityscape
+  morning: morning scene, lace curtain, bed, sunlight, soft focus
+
