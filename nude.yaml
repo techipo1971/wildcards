@@ -330,7 +330,7 @@ nude:
 
 
   #パンツ見せ
-  pussy-juice-stain:
+  stainshow-panties:
     - |
       <lora:Panties_Pony:1> pantiesshow, holding,
       underwear, 
@@ -350,7 +350,7 @@ nude:
       - |
         wet hair, naked, thighs, half-closed eyes, showering,
         ${bgd:shower room,}
-        indoors, steam censor, steam, fog,
+        steam censor, steam, fog,
     panty-pull:
       - |
         open mouth, wet, wet hair, steaming body, thighs, naked,
@@ -362,22 +362,24 @@ nude:
         ${bgd:shower room,}
   tanktop-lift:
     - |
-      tank top lift, midriff, {panty pull|dolphin shorts},
+      ${cloth:tank top} lift, underboob, nipples, 
+      midriff, 
+      {${panty} pull|dolphin shorts},
       heavy breathing, 
       ${face:__sexual-or-embarrassed__,}
       wet, 
       ${bgd:indoors,}
-      underboob, nipples, 
-      {touching own nipples|grabbing own breast},
+      ${breast-action:{touching own nipples|grabbing own breast},}
       {|on back, spread legs|allfours|wariza|on side|on stomach},
   bandeau:
     - |
       ${face:surprised, open mouth,}
-      black bandeau pull, midriff, 
-      breast out, nipples
-  allfours-nude:
+      ${bra:black bandeau} pull, breast out, nipples
+       midriff, 
+  all-fours:
     - |
-      ${face:__facial/sexual__, wink,}
+      ${face:__facial/sexual__,}
+      ${eye-motion:wink}
       all fours, 
       __angle__, 
       hanging breasts, 
@@ -389,19 +391,25 @@ nude:
         ${face:__facial/sexual__,}  
         ${bgd:hotel room,}
         on back, thighs,
-        __rnd-pantyhose__, 
-        laced panties under pantyhose,
+        ${panty:panties,}
+        panties under ${pantyhose:pantyhose,}
         {|spread legs}, beckoning,
     index-finger:
       - |
-        topless, index fingers together, __facial/embarrassed__,
-        full-face blush, looking to the side, open mouth,
+        topless, 
+        index fingers together,
+        ${face:__facial/embarrassed__,}
+        looking to the side, 
         {on back|wariza|kneeling},
     pantyhose-pull:
       - |
-        topless, naked, __sexual-or-embarrassed__, hotel room,
-        kneeling, thighs, {|torn} __rnd-pantyhose__ pull,
-        laced panties under pantyhose, {arms up, armpits|ass},
+        topless, naked, 
+        ${face:__sexual-or-embarrassed__,}
+        ${bgd:hotel room,}
+        kneeling, thighs, 
+        ${panty:panties,} pull,
+        panties under ${pantyhose:pantyhose,} 
+        {arms up, armpits|ass},
         arched back,
     ocean:
       - |
