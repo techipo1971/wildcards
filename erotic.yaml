@@ -1224,13 +1224,16 @@ ero:
       jolly roger, {outstretched arm, pointing|shushing|beckoning},
 
   #くノ一
-  kunoichi-set:
+  kunoichi:
     dark:
       - |
-        __kunoichi/*__, serious, {looking to the side,
-        on one knee and another knee up|ass focus}, night,
-        dark background, thigh belt with kunai,
+        ${cloth:__kunoichi/*__,}
+        serious, 
+        night, dark background, thigh belt with kunai,
         {forest|on roof|night town},
+        ${eye-motion:looking to the side,}
+        ${pose:((one knee up)), kneeling,}
+        ${anglel:__angle__,}
     urban:
       - |
         __kunoichi/*__, against wall, urban, dark night, hiding,
@@ -1239,6 +1242,10 @@ ero:
       - |
         __kunoichi/*__, angry, clenched teeth, arms up, bound wrists,
         kneeling, prison,
+    climbing:
+      - |
+        __kunoichi/*__, climbing, building, night sky, wall, neon lights,
+        colorful, looking back, look down, ass focus, 
 
   #魔法使い
   wizard-set:
