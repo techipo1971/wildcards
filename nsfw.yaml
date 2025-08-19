@@ -742,7 +742,8 @@ nsfw:
         thigh grab, clitoris,
     clothes:
       - |
-        __rev-upright-straddle/naked__, __panty-action__,
+        __rev-upright-straddle/naked__, 
+        __panty-action__,
         __bra-action__,
 
   #--- 挿入前 ---
@@ -1177,17 +1178,23 @@ nsfw:
   bath-fuck:
     guided:
       - |
-        __bath-base__, __sexual-or-embarrassed__,
+        __bath-base__, 
+        __sexual-or-embarrassed__,
         __imminent-penetration/guided__,
-    guided-behind: __bath-fuck/guided__, ass,
-    guided-doggy: __bath-fuck/guided-behind__, doggystyle, {|ass grab}
-    gudied-legup: __bath-fuck/guided__, leg up, {|on side}
-    gudied-legsup: __bath-fuck/guided__, legs up
+    guided-behind: 
+      - |    
+        __bath-fuck/guided__, ass,
+        guided-doggy: __bath-fuck/guided-behind__, doggystyle, {|ass grab}
+        gudied-legup: __bath-fuck/guided__, leg up, {|on side}
+        gudied-legsup: __bath-fuck/guided__, legs up
     def-back:
       - |
         __bath-sex__, __sex-base__, sex from behind, __sex-face__,
         {|__hardcore-motion__},
-    back-doggy: __bath-fuck/def-back__, arched back, arm support, doggystyle
+    back-doggy: 
+      - |    
+        __bath-fuck/def-back__, 
+        arched back, arm support, doggystyle
     back-legup: __bath-fuck/def-back__, spread legs, standing on one leg
     spread-ass:
       - |
@@ -1270,8 +1277,6 @@ nsfw:
       tentacle sex, pussy juice, consensual tentacles, pelvic thrust,
       spread legs, {on back|doggystyle}, {|tentacle grabbing breasts},
       scared, screaming,
-
-
 
   #---　吸いながら手マン ---
   suck-fingering:
@@ -1373,7 +1378,7 @@ nsfw:
       looking down,wide-eyed,surprising,
       spoken exclamation mark,
       BREAK ${act:1boy, penis, boy is jerking own penis with hand, boy is grabbing own penis, handjob by self, __bukkake__}
-    
+  #食い込み    
   wedgie:
     - |
       sensual,alluring,sweatdrop,heavy breathing,(spoken heart),
@@ -1383,7 +1388,7 @@ nsfw:
       from below,
       (crotch aside,pussy,clitoris, pussy juice),
       panties aside, joy,happy, blush,smile, seductive smile, half-closed eyes    
-
+  #乳首いじり
   nipple-stimulation:
     - |
       (((nipple stimulation))), 
@@ -1393,3 +1398,13 @@ nsfw:
       female orgasm, trembling, tongue out, pussy juice trail, 
       underwear, panties, pussy to panty, sweat,
       ${act:fingering}
+
+  #HENTAIコミック
+  hentai-comic:
+    - |
+      <lora:FComic_1to1000_Pony_V1:1>
+      {fcomic_1to1000_pony, (comic:1.25), (Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 1girl, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation, 2boys, mmf threesome, erection, penis, multiple penises, testicles, cum,  hetero, sex, group sex,  oral, fellatio,  spread legs, spitroast, irrumatio, sweat, gangbang, double penetration, bangs, folded, thick thighs,
+      | fcomic_1to1000_pony, (comic:1.25), (Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 3+girls, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation, 1boy, erection, penis, cum, hetero, sex,
+      | fcomic_1to1000_pony, (comic:1.25), (Multi view:1.1, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 3+girls, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation,
+      }
+    -  <lora:FComic_HardCore_Pony_V1:1> (comic:1.25),(Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect), 1girl, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation,  2boys, mmf threesome, erection, penis, multiple penises, testicles, cum, hetero, sex, group sex,  oral, fellatio,  irrumatio, paizuri,  spread legs, spitroast, sweat, gangbang, double penetration,  triple penetration

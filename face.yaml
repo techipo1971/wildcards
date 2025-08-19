@@ -1,8 +1,8 @@
 facial:
   happy:
     - |
-      "{smile|wink|grin|laugh|chuckle},
-      {|open mouth|parted lips|moaning}",
+      {smile|wink|grin|laugh|chuckle},
+      {|open mouth|parted lips|moaning},
   angry:
     - angry
     - scowl

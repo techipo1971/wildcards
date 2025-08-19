@@ -20,6 +20,7 @@
 
 # ${mouth-action:closed mouth,}
 
+# ${panty-action:-}
 
 
 ################################################
@@ -28,6 +29,9 @@
 
 # ${bikini=__bikini/*__,}
 
+# ${cloth=__casual/midriff__,}
+
+# ${face=__facial/happy__,}
 # ${face=__facial/sexual__,}
 # ${face=__sexual-or-embarrassed__,}
 # ${face=__embarrassed,}
@@ -35,4 +39,14 @@
 # ${face=surprised, open mouth,}
 # ${face=__sleeping,}
 
+# ${act=self wedgie, }
 
+sample:
+  - __ero/slingshot__, ${cloth=micro bikini,}
+  - __ero/slingshot__, ${hand-action=breast lift,}
+  - __ero/slingshot__, ${hand-action=breast lift,} ${eye-motion=look down}
+  - __ero/slingshot__, ${hand-action=breast lift,} ${eye-motion=look down,} ${pose=spread legs,}
+  - __ero/slingshot__, ${hand-action=breast lift,} ${eye-motion=look down,} ${pose=spread legs,} ${breast-action=nipple slip,}
+  - __ero/slingshot__, ${hand-action=breast lift,} ${eye-motion=look down,} ${pose=spread legs,} ${breast-action=nipples,}
+  - __ero/weighing-breasts__, ${face=naughty face,} ${eye-motion=looking at viewer, }
+  - __ero/weighing-breasts__, ${face=naughty face,} ${eye-motion=looking at viewer,} ${cloth=naked, nipples, sagging breast}

@@ -592,7 +592,13 @@ bang-dream:
         uehara himari, bang dream!, afterglow \(bang dream!\),
         pink hair,
     moca: aoba moca, bang dream!, afterglow \(bang dream!\), white hair
-    tomoe: udagawa tomoe, bang dream!, afterglow \(bang dream!\)
+    tomoe: 
+      - |
+        udagawa tomoe, bang dream!, afterglow \(bang dream!\)
+        ${hair-clr:red hair,}
+        ${hair-style:long hair, straight hair,}
+        ${breast:large breast,}
+
 
 #負けヒロイン
 lose-heroine:
@@ -987,10 +993,22 @@ azur-lane:
       black hair, hair over shoulder,
   da-vinci:
     - |
-      leonardo da vinci \(azur lane\),  
+      leonardo da vinci \(azur lane\),  azur lane, 
       ${hair-style:twintails,}
       ${hair-clr:blonde,}
       ${breast:large breast}
+  richelieu:
+    - |
+      richelieu \(azur lane\), azur lane, 
+      ${hair-style:long hair, straight hair,}
+      ${hair-clr:blonde,}
+      ${breast:large breast}
+  musashi:
+    - |
+      musashi \(azur lane\), azur lane, 
+      ${hair-style:long hair, straight hair,}
+      ${hair-clr:black,}
+      ${breast:huge breast}
 
 #デッドオアアライブ
 doa:

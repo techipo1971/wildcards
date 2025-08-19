@@ -46,7 +46,8 @@ bikini:
   lum-style:
     - |
       tiger print bandeau bikini, strapless bikini, yellow bikini,
-      print bikini, very small horns, yellow horns,
+      print bikini, 
+      # very small horns, yellow horns,
   marin-style:
     - |
       __bikini/floral__, __bikini/thong__, black bikini, earrings,
@@ -75,6 +76,11 @@ jaguar-bikini-gal:
     front-tie shirt, open white shirt, short sleeves,
 
 casual:
+  midriff:
+    - |
+      oversized t-shirt, white t-shirt, side-tie shirt, see-through silhouette,
+      midriff, 
+      short denim, damaged denim,
   random:
     - |
         "{hoodie|tank top|t-shirt|crop top}, {|midriff},
@@ -552,7 +558,7 @@ yoga:
     yoga mat,
 
 #剣バリエーション
-sword:
+sword-type:
   lightning: lightning sword
   thunder: thunder sword
   flame: flame sword
