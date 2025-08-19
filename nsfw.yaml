@@ -17,6 +17,10 @@ nsfw:
           __nude/topless/beach__,
           ${act=1boy, penis, boy is jerking own penis with hand, handjob by self, __bukkake__}
           ${face=surprised, moaning}
+    pantyhose:
+      - |
+        __nude/topless/pantyhose__, 
+        ${act=pillow hug, (((panty pull))), 1boy, penis, boy is jerking own penis with hand, handjob by self, __bukkake__}
 
 
   #ブラホック外し
@@ -622,10 +626,29 @@ nsfw:
         boy is lying down in front of her, breast sucking, front view,
         __sex-face__, __cum-action__, __lactation__,
     cuddling:
-      - |
-        cuddling handjob, cuddling, handjob, look down, penis,
-        breast press, 1boy, girl is lying down beside boy, side view,
-        kiss,
+      kissing:
+        - |
+          ${panty:panties, }
+          ${tops:white t-shirt oversize, lift shirt, }
+          handjob, cuddling handjob,
+          ${act:kissing,} 
+          from below, from side, lying, 
+          on side, breast press, 
+          1boy, black hair, penis, precum, erection, nipples
+          saliva,
+      looking-at-another:
+        - |
+          __nsfw/handjob/cuddling__,
+          ${act=looking at another,}
+      cum:
+        - |
+          __nsfw/handjob/cuddling__,
+          ${act=looking at another, ejaculation, cum, {|__bukkake__}}
+
+  #     cuddling handjob, cuddling, handjob, look down, penis,
+  #     breast press, 1boy, girl is lying down beside boy, side view,
+  #     kiss,
+
 
   #--- 足コキ ---
   footjob:
@@ -1334,3 +1357,39 @@ nsfw:
         ((1boy, boy is spreading her pussy)),
         ${act = surprised, moaning, on back on bed,}
         ${view = front}
+
+  wrestling:
+    - |
+      red bowtie, blue one-piece swimsuit, frilled one-piece swimsuit, 
+      armlet, blue sleeves, black gloves, two-tone gloves, blue thighhighs, 
+      frilled thighhighs, black boots,(torn clothes:1.3),(nipples, pussy), clothing aside, 
+      steaming body,sensual,alluring,sweatdrop,heavy breathing, 
+      ${bgd:stage lights, wrestling ring, }
+      (lying,on back,on floor), 
+      (pov hands, pov),legs up,pussy juice, imminent penetration,penis, 
+      1boy,dark-skinned male, (large penis,precum,penis on stomach),
+      spread legs, faceless male, dark-skinned male, 
+      full-face blush,embarrassed,tears,(joy),open mouth,
+      looking down,wide-eyed,surprising,
+      spoken exclamation mark,
+      BREAK ${act:1boy, penis, boy is jerking own penis with hand, boy is grabbing own penis, handjob by self, __bukkake__}
+    
+  wedgie:
+    - |
+      sensual,alluring,sweatdrop,heavy breathing,(spoken heart),
+      joy, outdoors, beach,day, 
+      ${cloth:(micro bikini,leopard print, black lace trim),}
+      (pussy, wedgie), 
+      from below,
+      (crotch aside,pussy,clitoris, pussy juice),
+      panties aside, joy,happy, blush,smile, seductive smile, half-closed eyes    
+
+  nipple-stimulation:
+    - |
+      (((nipple stimulation))), 
+      sweat, nipples, female masturbation, open mouth, heavy breathing, 
+      thighs, moaning, 
+      depth of field, sharp focus, motion blur, depth of field, 
+      female orgasm, trembling, tongue out, pussy juice trail, 
+      underwear, panties, pussy to panty, sweat,
+      ${act:fingering}

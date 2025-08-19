@@ -203,6 +203,11 @@ zzz:
     - |
       <lora:sweety_zenless_zone_zero:1> sweetyzzz, ahoge, hair bun,
       eyewear on head,
+  alice:
+    - |
+      <lora:alice_thymefield_zzz_ilxl_goofy:0.8> alice thymefield, 
+      hair ornament, braid, low twintails, 
+      ((small animal ears)), heterochromia, red eyes, hair bobbles, 
 #リコリス・リコイル
 lycoris:
   chisato: nishikigi chisato, lycoris recoil, {|red lycoris uniform}
@@ -771,7 +776,12 @@ kimetsu:
       multicolored hair, pink hair, green hair, green eyes,
       low twintails,
   kanao: tsuyuri kanao, kimetsu no yaiba
-
+  kanae:
+    - |
+      kochou kanae, 
+      kimetsu no yaiba, 
+      ${hair-style:long hair, straight hair,}
+      ${breast:large breast,}
 #ココロネ＝ペンデュラム
 kokorone:
   nazuna:
@@ -975,6 +985,12 @@ azur-lane:
     - |
       <lora:TingAnPDCAMEq3v2.1 AL:0.7> pink eyes, medium hair,
       black hair, hair over shoulder,
+  da-vinci:
+    - |
+      leonardo da vinci \(azur lane\),  
+      ${hair-style:twintails,}
+      ${hair-clr:blonde,}
+      ${breast:large breast}
 
 #デッドオアアライブ
 doa:

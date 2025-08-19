@@ -694,7 +694,12 @@ cosplay:
       <lora:GeraniumFKG-ILXL:1> yuk1, strapless, bare shoulders,
       print kimono, black ribbon sash, animal print, flower print,
       wide sleeves,
-
+  maryrose:
+    - |
+      red bowtie, 
+      blue one-piece swimsuit, frilled one-piece swimsuit, 
+      armlet, blue sleeves, black gloves, two-tone gloves, 
+      blue thighhighs, frilled thighhighs, black boots
 
 sexy:
   - |
