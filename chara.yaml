@@ -1,44 +1,203 @@
 genshin:
   raiden:
-    - |
-      raiden shogun,
-      ${hair-clr:purple} hair,
-      ${hair-length:long} hair,
-      ${hair-style:straight hair, braided ponytail,},
-      ${bangs:blunt_bangs},
-      ${hair-acc:hair_ornament,},
-      ${breast:large breasts,}
-#     変数サンプル
-#     ${hair-style = twintails}, ${hair-acc= no hair accessories,}
+    name: raiden
+    prompt:
+      - |
+        raiden shogun,
+        genshin impact,
+        ${hair-clr:purple} hair,
+        ${hair-length:long} hair,
+        ${hair-style:straight hair, braided ponytail,},
+        ${bangs:blunt_bangs},
+        ${hair-acc:hair_ornament,},
+        ${breast:large breasts,}
+  #     変数サンプル
+  #     ${hair-style = twintails}, ${hair-acc= no hair accessories,}
+
   noelle:
-    - |
-      noelle \(genshin impact\), genshin impact,
-      ${hair-clr:silver} hair, short hair,
-  miko: yae miko, genshin impact,
-  ayaka: kamisato ayaka, genshin impact,
-  kujo: kujou sara, genshin impact,
-  kokomi: sangonomiya kokomi, genshin impact,
-  beidou: beidou \(genshin impact\), {|red eyepatch}
-  hutao: hu tao \(genshin impact\),
-  keqing: keqing \(genshin impact\),
-  shenhe: shenhe \(genshin impact\),
-  ganyu: ganyu \(genshin impact\),
-  lumine: lumine \(genshin impact\),
-  jean: jean \(genshin impact\),
+    name: noelle
+    prompt:
+      - |
+        noelle \(genshin impact\), 
+        genshin impact,
+        ${hair-clr:silver} hair, 
+        ${hair-length:short} hair,
+        ${breast:large breasts,}
+
+  miko: 
+    name: miko
+    prompt:
+      - |
+        yae miko, 
+        genshin impact,
+        ${hair-clr:pink} hair,
+        ${hair-length:long} hair,
+        ${breast:large breasts,}
+
+  ayaka: 
+    name: ayaka
+    prompt:
+      - |
+        kamisato ayaka, 
+        genshin impact,
+        ${hair-clr:blue} hair,
+        ${hair-length:long} hair,
+        ${hair-style:ponytail,},
+        ${bangs:blunt_bangs},
+        ${hair-acc:hair_ornament,},
+        ${breast:large breasts,}
+
+  sara:
+    name: sara
+    prompt:
+      - |
+        kujou sara, 
+        genshin impact,
+        ${hair-clr:black} hair,
+        ${hair-length:short} hair,
+        ${hair-acc:hair_ornament,},
+        ${breast:large breasts,}
+
+  kokomi: 
+    name: kokomi
+    prompt:
+      - |
+        sangonomiya kokomi, 
+        genshin impact,
+        ${breast:large breasts,} 
+
+  beidou: 
+    name: beidou
+    prompt:
+      - |
+        beidou \(genshin impact\), 
+        genshin impact,
+        ${hair-clr:black} hair,
+        ${hair-length:long} hair,
+        ${hair-style:straight hair,},
+        ${breast:large breasts,}
+        ${eye-wear:red eyepatch,}
+
+  hutao:
+    name: hutao
+    prompt:
+      - |
+        hutao \(genshin impact\), 
+        genshin impact,
+        ${hair-clr:dark red} hair,
+        ${hair-length:long} hair,
+        ${hair-style:twintails,},
+        ${bangs:blunt_bangs},
+        ${hair-acc:hair_ornament,},
+        ${breast:large breasts,} 
+
+  keqing: 
+    name: keqing 
+    prompt:
+      - |        
+        keqing \(genshin impact\),
+        genshin impact,
+        ${hair-clr:purple} hair,
+        ${hair-length:long} hair,
+        ${breast:large breasts,} 
+
+  shenhe: 
+    name: shenhe
+    prompt: 
+      - |
+        shenhe \(genshin impact\), 
+        genshin impact,
+        ${hair-clr:blue} hair,
+        ${hair-length:long} hair,
+        ${breast:large breasts,}  
+
+  ganyu: 
+    name: ganyu
+    prompt:
+      - |
+        ganyu \(genshin impact\), 
+        genshin impact,
+        ${hair-clr:blue} hair,
+        ${hair-length:long} hair,
+        ${breast:large breasts,}  
+
+  lumine: 
+    name: lumine
+    prompt:
+      - |
+        lumine \(genshin impact\), 
+        genshin impact,
+        ${hair-clr:blonde} hair,
+        ${hair-length:long} hair,
+        ${breast:large breasts,}
+
+  jean: 
+    name: jean
+    prompt:
+      - |
+        jean \(genshin impact\), 
+        genshin impact,
+        ${hair-clr:blonde} hair,
+        ${hair-length:long} hair,
+        ${hair-style:ponytail,},
+        ${breast:large breasts,}
+
   sucrose:
-    - |
-      sucrose \(genshin impact\), green hair,
-      { 0.9::semi-rimless eyewear | 0.1::no eyewear },
-  yoimiya: yoimiya \(genshin impact\)
-  xiangling: xiangling \(genshin impact\), black hair,
+    name: sucrose
+    prompt:
+      - |
+        sucrose \(genshin impact\), green hair,
+        genshin impact,
+        ${hair-clr:green} hair,
+        ${hair-length:short} hair,
+        ${eye-wear:semi-rimless eyewear,}
+
+  yoimiya: 
+    name: yoimiya
+    prompt:
+      - |
+        yoimiya \(genshin impact\), 
+        genshin impact,
+        ${hair-clr:orange} hair,
+        ${hair-length:long} hair,
+        ${hair-style:ponytail,},
+        ${hair-acc:hair_ornament,},
+        ${breast:large breasts,}
+
+  xiangling: 
+    name: xiangling
+    prompt:
+      - |
+        xiangling \(genshin impact\), 
+        genshin impact,
+        ${hair-clr:black} hair,
+        ${hair-length:short} hair,
+        ${bangs:blunt_bangs},
+        ${hair-acc:hair_ornament,},
+        ${breast:large breasts,}
+
   xilonen:
-    - |
-      <lora:xilonen_genshin_impact_pdxl_goofy:0.7> xilonen, green eyes,
-      blonde hair, animal ears, leopard girl, dark-skinned female,
+    name: xilonen
+    prompt:
+      - |
+        xilonen \(genshin impact\), 
+        genshin impact,
+        ${hair-clr:blonde} hair,
+        ${hair-length:long} hair,
+        ${hair-style:animal ears, leopard girl, dark-skinned female,
+        <lora:xilonen_genshin_impact_pdxl_goofy:0.7> xilonen,
+        
   navia:
-    - |
-      <lora:Navia:0.7> naviard, blonde hair, blue eyes, long hair,
-      drill hair,
+    name: navia
+    prompt:
+      - |
+        <lora:Navia:0.7> naviard, blonde hair, 
+        genshin impact,
+        ${hair-clr:blonde} hair,
+        ${hair-length:long} hair,
+        ${hair-style:drill hair, drill curls,},
+        ${eye-color:blue eyes,},
+
   citlali:
     - |
       <lora:Citlali:1> citlali_(genshin_impact), long hair, braid,

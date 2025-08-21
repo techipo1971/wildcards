@@ -53,16 +53,30 @@ ero:
         ${pose=breast press, breast on bar counter, close-up, head rest, standing, looking at viewer, beer can,}    
     beer-press:
       - |
-        __hooters__, bar \(place\), breast press, naughty face,
-        head tilt, alcohol, beer mug,
+        __hooters__, 
+        bar \(place\), 
+        breast press, 
+        naughty face,
+        head tilt, 
+        alcohol, beer mug,
     tanktop-off:
       - |
-        __hooters__, undressing tank top, crossed arms, underboob,
-        embarrassed, moaning, locker room, sweatdrop, wet clothes,
+        __hooters__, 
+        undressing tank top, 
+        crossed arms, underboob,
+        embarrassed, 
+        moaning, 
+        locker room, 
+        sweatdrop, wet clothes,
     shorts-off:
       - |
-        __hooters__, undressing, shorts pull, {side-tie|thong} panties,
-        ass focus, embarrassed, moaning, locker room, from below,
+        __hooters__, 
+        undressing, 
+        shorts pull, 
+        __rnd-panty__,
+        ass focus, 
+        embarrassed, moaning, 
+        locker room, from below,
 
   #ヨガセット
   yoga:
@@ -250,121 +264,168 @@ ero:
   nightclub-set:
     bodycon:
       - |
-        __facial/sexual__, __bitch-bodycon__, __theme/nightclub__,
+        __facial/sexual__, 
+        __bitch-bodycon__, 
+        __theme/nightclub__,
         cocktail,
     relax:
       - |
-        __nightclub-set/bodycon__, relaxing, lying,
-        {{spread|cross} legs|head rest|arms up|holding cigarette,
-        smoking}, {|wink},
+        __nightclub-set/bodycon__, 
+        relaxing, lying,
+        {spread legs|cross legs|head rest|arms up|holding cigarette, smoking}, 
+        {|wink},
 
   #ナイトプール
   night-pool:
     - |
-        __facial/sexual__, __random/*__, __gravure-pose__, __angle__,
-        poolside, {pool|deck chair}, wet, night, {pink|purple} theme,
+        __facial/sexual__, 
+        __bikini/*__, 
+        __gravure-pose__, 
+        __angle__,
+        poolside, 
+        {pool|deck chair}, wet, night, 
+        {pink|purple} theme,
         {|ass focus|underboob|sideboob},
     - |
-        shiny skin, skindentation, oily skin, micro bikini,
-        crawling position, __facial/sexual__, night pool, dim lighting,
+        shiny skin, skindentation, oily skin, 
+        micro bikini,
+        crawling position, 
+        __facial/sexual__, night pool, dim lighting,
         moon light, blurry background, pink purple neon,
     - |
-        lying on deck chair, relaxing, __theme/night-pool__,
+        lying on deck chair, relaxing, 
+        __theme/night-pool__,
         {holding tropical drink|tropical drink between breasts},
         __facial/sexual__,
     - |
         lying on banana boat on stomach,
         banana boat floating on pool water, relaxing,
-        __theme/night-pool__, holding tropical drink, __facial/sexual__,
+        __theme/night-pool__, 
+        holding tropical drink, 
+        __facial/sexual__,
         topless,
     - |
         straddling on banana boat, banana boat floating on pool water,
-        relaxing, __theme/night-pool__, __facial/sexual__, {|ass},
+        relaxing, 
+        __theme/night-pool__, 
+        __facial/sexual__, {|ass},
   #ランジェリーセット
   lingerie-set:
     standard:
       - |
-        __facial/sexual__, __lingerie/*__, __standard-pose__,
+        __facial/sexual__, 
+        __lingerie/*__, 
+        __standard-pose__,
         __theme/love-hotel__,
     ice-cream:
       - |
-        __facial/sexual__, __rnd-bra__, cleavage, lips, upper body,
+        __facial/sexual__, 
+        __rnd-bra__, 
+        cleavage, lips, upper body,
         close-up, head out of frame, licking ice cream,
         holding ice cream, off shoulder,
     purple:
       - |
-        __lingerie/*__, __sexual-or-embarrassed__, __gravure-pose__,
-        __angle__, bedroom, purple neon light,
+        __lingerie/*__, 
+        __sexual-or-embarrassed__, 
+        __gravure-pose__,
+        __angle__, 
+        bedroom, purple neon light,
     dressing-room:
       - |
-        __lingerie/garter__, looking at viewer, dressing room, blush,
+        __lingerie/garter__, 
+        looking at viewer, dressing room, blush,
         cute woman, in love, closed mouth, close-up, seductive smile,
         adoring, infatuation, hourglass-shaped body, narrow waist,
         wide hips, areola slip, shoulder strap slip,
         {on back|on stomach|arched back|all fours|ass},
     pink-neon:
       - |
-        __rnd-bra__, __facial/sexual__, on stomach, cleavage, {|wink},
+        __rnd-bra__, 
+        __facial/sexual__, 
+        on stomach, cleavage, {|wink},
         {|head tilt},
         {shushing|fingersmile|blowing kiss|hands on own chin|arm support},
         pink neon lights,
     laced:
       - |
-        lingerie, __sexual-or-embarrassed__, on stomach, lace trim,
-        kneehighs, garter straps, skinny, {looking back,
-        ass focus|on side, holding leg},
+        lingerie, 
+        __sexual-or-embarrassed__, 
+        on stomach, lace trim,
+        kneehighs, garter straps, skinny, 
+        {looking back, ass focus|on side, holding leg},
     naked-shirt:
       - |
         moaning, embarrassed, looking to the side, on back,
-        hand on stomach, naked shirt, __rnd-panty__, covered nipples,
+        hand on stomach, naked shirt, 
+        __rnd-panty__, 
+        covered nipples,
         areola slip, wet clothes, thighs,
     sagging:
       - |
-        __lingerie/*__, __sexual-or-embarrassed__, sagging breasts,
+        __lingerie/*__, 
+        __sexual-or-embarrassed__, 
+        sagging breasts,
         hanging breasts, bent over, sweat,
         <lora:shiBreastSqueezeV1Main.safetensors:1> shibreastsqueeze,
         low angle, ustriousanime,
     lying:
       - |
         underwear only, bra, __panty-thru-pantyhose__,
-        {on back|on stomach, ass focus|on side}, from behind,
+        {on back|on stomach, ass focus|on side}, 
+        from behind,
         __sexual-or-embarrassed__,
     heart-shaped:
       - |
-        breasts squeezed together, __facial/sexual__, breast press,
-        {__lingerie/*__|__bikini/*__}, breast lift,
+        breasts squeezed together, 
+        __facial/sexual__, breast press,
+        {__lingerie/*__|__bikini/*__}, 
+        breast lift,
         heart shaped object between breasts,
     suppress:
       - |
-        spread legs, breast suppress, thighhighs, __facial/embarrassed__,
-        wet, sweat, on back facing away, looking at side, __lingerie__,
+        spread legs, breast suppress, thighhighs, 
+        __facial/embarrassed__,
+        wet, sweat, on back facing away, looking at side, 
+        __lingerie__,
         garter straps,
     covering-face:
       - |
-        spread legs, covering face, thighhighs, __facial/embarrassed__,
-        wet, sweat, on back facing away, __lingerie__, garter straps,
+        spread legs, covering face, thighhighs, 
+        __facial/embarrassed__,
+        wet, sweat, on back facing away, 
+        __lingerie__, garter straps,
     hanging:
       - |
         bare shoulders, strap slip, dress, all fours, hanging breasts,
-        cleavage, __sexual-or-embarrassed__, indoors, head tilt,
+        cleavage, 
+        __sexual-or-embarrassed__, 
+        indoors, head tilt,
         {|from below},
     babydoll:
       - |
-        frilly babydoll, __rnd-panty__, strap slip, wariza,
-        hand between legs, __sexual-or-embarrassed__, {|ass},
+        frilly babydoll, 
+        __rnd-panty__, 
+        strap slip, wariza,
+        hand between legs, 
+        __sexual-or-embarrassed__, 
+        {|ass},
     open-closet:
       - |
         ((fishnets with two piece black bra and panties)),
         morning lighting warm colors, big walk in closet,
-        __sexual-or-embarrassed__, charters body facing towards viewer,
+        __sexual-or-embarrassed__, 
+        charters body facing towards viewer,
         opening closet,
     pov-crotch:
       - |
-        tight t-shirt lift, underboob, midriff, __rnd-panty__,
+        tight t-shirt lift, underboob, midriff, 
+        __rnd-panty__,
         pov crotch, thigh gap, zettai ryouiki, close-up, lower body,
     hand-on-hip:
       - |
-        __panty-thru-pantyhose__, __sexual-or-embarrassed__,
+        __panty-thru-pantyhose__, 
+        __sexual-or-embarrassed__,
         hand on own hip, ass focus,
     pointing-crotch:
       - |
@@ -373,11 +434,14 @@ ero:
     lifted-by-self:
       - |
         t-shirt lift, lifted by self, underboob, biting shirt,
-        closed mouth, arms up, arched back, __rnd-panty__,
+        closed mouth, arms up, arched back, 
+        __rnd-panty__,
         {dolphin|denim|latex} shorts pull,
     frontal-wedgie:
       - |
-        frontal wedgie, __rnd-panty__, ((pulling own panties)), close-up,
+        frontal wedgie, 
+        __rnd-panty__, 
+        ((pulling own panties)), close-up,
         head out of frame,
 
   #オーバーサイズシャツセット
@@ -385,14 +449,16 @@ ero:
     - |
       oversized shirt, open shirt, opened buttons, belly button,
       side-tie panties, bare legs, bare foot,
-      {on back|on side|relaxing|all fours}, {bed|couch|chair},
+      {on back|on side|relaxing|all fours}, 
+      {bed|couch|chair},
       __sexual-or-embarrassed__,
 
   #タンクトップ+ドルフィンショーツ
   tanktop-set:
     sexy:
       - |
-        __tanktop-dolphin__, heavy breathing, __sexual-or-embarrassed__,
+        __tanktop-dolphin__, 
+        heavy breathing, __sexual-or-embarrassed__,
         indoors, {touching own nipples|grabbing own breast}, {|on back,
         spread legs|allfours|wariza},
     sitting:
@@ -919,27 +985,33 @@ ero:
       front-tie top, plaid, bar, __facial/sexual__, beer, holding beer,
   #制服セット
   school-uniform-set:
-    - __school-uniform/*__, tying hair
+    - __school-uniform/*__, 
+      tying hair
     - |
-        __school-uniform/*__, cleavage, ((button gap:1.3)),
-        {breast suppress|breasts squeezed together}, black pantyhose,
+        __school-uniform/*__, 
+        cleavage, ((button gap:1.3)),
+        {breast suppress|breasts squeezed together}, 
+        black pantyhose,
         __facial/embarrassed__,
     - |
-        __school-uniform/*__, cleavage, show bra, ((popped button,
-        bursting breasts:1.4)), bouncing breasts, black pantyhose,
+        __school-uniform/*__, 
+        cleavage, show bra, 
+        ((popped button,bursting breasts:1.4)), 
+        bouncing breasts, black pantyhose,
         surprised, moaning, hands up,
     - |
+        __school-uniform/*__,
         cleavage, downblouse, hanging breasts, looking at viewer,
         open clothes, open mouth, parted lips, pleated skirt,
-        sailor collar, school uniform, skirt,
+        sailor collar, 
   #お尻隠し
   covering-ass-set:
     - |
-      ,
-      "{__school-uniform/*__|__police__|__office-lady/*__|__maid/*__|__nurse-uniform__},
-      __facial/embarrassed__, looking back, from behind, from below,
+      {__school-uniform/*__|__police__|__office-lady/*__|__maid/*__|__nurse-uniform__},
+      __facial/embarrassed__, 
+      looking back, from behind, from below,
       hand on own skirt, covering crotch, hand over skirt,
-      {stairs|escalator}",
+      {stairs|escalator},
 
   #パンチラ
   pantyflash-set:
@@ -1078,8 +1150,11 @@ ero:
   #宝鐘マリンコス
   marine-set:
     - |
-      __marine-cos__, __angle__, __sexual-or-embarrassed__,
-      __gravure-pose__, __place/public__,
+      __marine-cos__, 
+      __angle__, 
+      __sexual-or-embarrassed__,
+      __gravure-pose__, 
+      __place/public__,
   naked-overall-set:
     - |
         __naked-overall__, __angle__, __sexual-or-embarrassed__,
@@ -1220,7 +1295,9 @@ ero:
   #パイレーツ
   pirate-set:
     - |
-      __pirate__, __facial/sexual__, holding rapier, on pirate ship,
+      __pirate__, 
+      __facial/sexual__, 
+      holding rapier, on pirate ship,
       jolly roger, {outstretched arm, pointing|shushing|beckoning},
 
   #くノ一
@@ -1236,15 +1313,19 @@ ero:
         ${anglel:__angle__,}
     urban:
       - |
-        __kunoichi/*__, against wall, urban, dark night, hiding,
-        thigh band with kunai, {shushing|beckoning, outstretched hand},
+        __kunoichi/*__, 
+        against wall, urban, dark night, hiding,
+        thigh band with kunai, 
+        {shushing|beckoning, outstretched hand},
     prison:
       - |
-        __kunoichi/*__, angry, clenched teeth, arms up, bound wrists,
+        __kunoichi/*__, 
+        angry, clenched teeth, arms up, bound wrists,
         kneeling, prison,
     climbing:
       - |
-        __kunoichi/*__, climbing, building, night sky, wall, neon lights,
+        __kunoichi/*__, 
+        climbing, building, night sky, wall, neon lights,
         colorful, looking back, look down, ass focus, 
 
   #魔法使い
@@ -1263,27 +1344,39 @@ ero:
   hoodie-set:
     - |
         hoodie, hood down, naked, hands in pocket, partially unzipped,
-        indoors, sitting, __sexual-or-embarrassed__,
+        indoors, sitting, 
+        __sexual-or-embarrassed__,
     - |
         hoodie, hood down, naked, partially unzipped, indoors, unzipping,
-        __sexual-or-embarrassed__, on back,
+        __sexual-or-embarrassed__, 
+        on back,
     - |
-        "{|open }hoodie, hood down, naked, partially unzipped, indoors,
-        arms up, __sexual-or-embarrassed__, panties, ",
+        {|open }hoodie, hood down, naked, partially unzipped, indoors,
+        arms up, 
+        __sexual-or-embarrassed__, 
+        panties, 
 
   #スパイダーガールセット
   spider-set:
     - |
-        __spider-girl__, __theme/cyber__, __gravure-pose__,
-        __facial/sexual__, spider web,
+        __spider-girl__, 
+        __theme/cyber__, 
+        __gravure-pose__,
+        __facial/sexual__, 
+        spider web,
     - |
-        __spider-girl__, slav squatting, squatting,
-        hand to cheek and another on knee, seductive smile, spread legs,
-        on rooftop,
+        __spider-girl__, 
+        slav squatting, squatting,
+        hand to cheek and another on knee, 
+        seductive smile, 
+        spread legs, on rooftop,
     - |
-        __spider-girl__, slav squatting, squatting, elbow on knees,
-        __facial/sexual__, spread legs, on rooftop, night, cityscape,
-        __theme/cyber__, from {side|behind|above},
+        __spider-girl__, 
+        slav squatting, squatting, elbow on knees,
+        __facial/sexual__, 
+        spread legs, on rooftop, night, cityscape,
+        __theme/cyber__, 
+        from {side|behind|above},
 
   favorite:
     - |
