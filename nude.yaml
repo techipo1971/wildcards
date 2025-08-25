@@ -17,6 +17,7 @@ nude:
         {arched back|bent over|head rest|wariza,}
         {|1boy, {ass grab|boy is fingering her crotch, perfect hand,|spread pussy, boy is grabbing another's ass,}}
         ((many soap bubbles on ass,))
+    
     breast-press:
       - |
         __soap-bath__,
@@ -24,6 +25,12 @@ nude:
         breast press,
         nipples,
         {breasts apart, head rest|cross arms|breasts apart, arched back|breasts apart, against glass}
+
+    submerged:
+      - |
+        bathing, aqua water in bathtub, breasts apart, cup, drinking glass, head tilt, nude, 
+        partially submerged, water, one leg on bath edge, pink cat walking on the edge of a bathtub,
+        hands out of frame, outstretched arms, torogao, wet, 
 
   #トップレス
   topless:
@@ -159,7 +166,14 @@ nude:
       - |
         reflection, mirror, topless, covering breast, crossed arms,
         head out of frame,
-
+    
+    wall:
+      - |
+        cyber pop girl, pink and white, leaning against a wall, 
+        medium shot, focus on upper body,
+        hands on wall, side view, topless, block wall, looking back, 
+        __facial/embarrassed__, 
+        moaning, arched back, sideboob,
 
   ai-ojisan:
     - |
@@ -221,6 +235,13 @@ nude:
         urban, street, night, neon lights, 
         {|squatting|kneeling},
 #        ${panty=__rnd-panty__, }
+    cyber:
+      - |
+        perky breasts, massive breasts, small waist, soft thighs, wet, grooling,
+        skin pressed, naughty face, black leotard, lace sleeves, thighhighs, 
+        very awa, tilted angle, face focus, high angle, side view,
+        peeking, heart-shaped pasties, knees_up, hand_on_thigh,
+        <lora:cyber-sijren:0.7> cybersijren, dimly lit, black ink, low-key, inked cyber details, dark atmosphere, 
 
   #修道女
   nun:
@@ -291,6 +312,18 @@ nude:
         reverse upright straddle,
         1boy, a boy is girl's back,
         a girl is lying on back on a boy,
+    tan:
+      - |
+        HDR, 8K, high contrast, masterpiece, best quality, amazing quality, very aesthetic, 
+        superabsurd res, high resolution, ultra-detailed, absurdres, newest, scenery, (horikoshi kouhei:0.3), 
+        (quasarcake:0.3), (wlop:0.3), light rays, dynamic angle, straight on, Marisol_GV, 
+        (beautiful eyes, beautiful face, detailed eyes,detailed face, colorful highlights, 
+        glossy lips, Latina face, light tanned skin, large hoop earrings, naked, nipples,) 
+        (wet hair:1.55), completely nude, seductive eyes, in heat, half closed eyes,large breasts, 
+        (partially submerged), leaning back, legs spread, relaxing, upper body, inside, godrays, dark, night, 
+        stardust, steam, hot tub, glow, fog, backlighting, partially illuminated, Intricately designed, Mysterious Shadows,  
+        BREAK, beautiful detailed eyes, detailed skin, detailed hair, volumetric lighting, 
+        dappled light, light particles, dramatic shadows, harvest moon, cinematic lighting, photo background, depth of field,
 
   #ブラホック外し
   unfasten-bra:
@@ -309,6 +342,13 @@ nude:
         steam, trembling,
         half-closed eyes, spoken heart, knees together feet apart,
         areola slip, shoulder strap slip,
+
+    loose-tank-top:
+      1out:
+        - |
+          __ero/loose-tank-top/def__,
+          ${pose=strap slip, one breast out, nipple,}
+
     pull:
       - |
         ${face:surprised, open mouth, wavy mouth,}
@@ -345,8 +385,31 @@ nude:
 #      pussy juice stain,
 #      stained panties,
 
+  kimono:
+    - |
+      one breast out, nipple, sexy, jewelry, lace pink stockings, pink garter belt, 
+      blush, pink lace panties, bare shoulders, collarbone, parted lips, japanese clothes, 
+      __facial/embarrassed__,
+      indoors, long kimono, off shoulder, blurry, pillow, sash, blurry background, obi, futon, pink kimono
+
+  sleeping-in-car:
+    breast-out:
+      - |
+        __ero/sleeping-in-car__,
+        breast out, nipple, breast apart,
+    grab:
+      - |
+        __nude/sleeping-in-car/breast-out__,
+        1boy, grabbing another's breast, 
+    sucking:
+        __nude/sleeping-in-car/breast-out__,
+        1boy, breast sucking, 
+    tweak:
+        __nude/sleeping-in-car/breast-out__,
+        1boy, nipple tweak, 
+
   #シャワーヌード
-  shower-nude:
+  shower:
     steam-censor:
       - |
         wet hair, naked, thighs, half-closed eyes, showering,
@@ -361,6 +424,11 @@ nude:
         from behind,
         looking back, ass, back, 
         ${bgd:shower room,}
+    washing:
+      - |
+        from below, looking down, smile, nude, nipples, underboob, 
+        breasts apart, wet, showering, ((washing hair, foam,)) tile wall, steam, water, 
+  
   tanktop-lift:
     - |
       ${cloth:tank top} lift, underboob, nipples, 
@@ -531,3 +599,58 @@ nude:
         ${face=naughty face,} 
         ${eye-motion=looking at viewer,} 
         ${cloth=naked, nipples, sagging breast,}
+
+  bunny:
+    def:
+      - |
+        ${cloth:__bunny-girl__,}
+        ${face:__facial/sexual__}
+        ${pose:{on back|on stomach|wariza|kneeling|arms up|hands on own cheek,}}
+        ${bgd:indoors}
+        nipples,
+        # bunny costume, bunny ears, bunny tail, 
+    embarrassed:
+      - |
+        __nude/bunny/def__,
+        ${face={embarrassed|confused|scared|shy|flustered|surprised}, {blush|nose blush|full-face blush}}
+        ${pose={__mouth-action__|covering mouth|covering face|arms up, armpits},}
+    nightclub:
+      - |
+        ${cloth:__bunny-girl__,}
+        ${face:__facial/sexual__,}
+        voluptuous, 
+        vip, indoors, couch, nightclub,red couch, relaxing, 
+        side view, blush, sitting on couch, ((turn around)), 
+        nipples, exposed nipples, incoming kiss, turning head,
+        {on back|on stomach|wariza|kneeling|arched back,}
+        {arms up, armpits|hands on own cheek|breast lift|grabbing own breast|head rest,},
+# __nude/bunny/def__,
+# ${bgd:nightclub,}
+
+  #--- 乳首カーテン ---
+  nipple-curtain:
+    def:
+      - |
+        <lora:BC_Lift2025-07-11_epoc_10:0.8>,(bc_lift:1.5), flashing,
+        nipple curtains, nipples, 
+        {kneeling|on back|wariza|arched back|squatting|on side},
+        ${costume: nipple curtains},
+        {|__lactation__}
+    embarrassed:
+      - |
+        __nude/nipple-curtain/def__,
+        {embarrassed|confused|scared|shy|flustered|surprised},
+        {blush|nose blush|full-face blush},
+        {__mouth-action__|covering mouth|covering face},
+    naughty:
+      - |
+        __nude/nipple-curtain/def__,
+        {naughty face|seductive smile},
+        {blush|nose blush|full-face blush},
+        __mouth-action__
+
+  #パンティオンブレスト
+  panty-on-breast:
+      - |
+        panties on breasts, underwear, striped panties, striped clothes, 
+        nipples, mouth hold, blush, looking at viewer, upper body, red hairband, smile, collarbone

@@ -17,6 +17,30 @@ ero:
         ${cloth=__casual/midriff__,}
         ${face=__facial/happy__,}
 
+  lake:
+    - |
+      lazypos, detailed background, vibrant colors, delicate, dreamy, cinematic lighting,
+       volumetric lighting, ray tracing, dramatic shadows, dappled sunlight, clouds, blue sky, smile, 
+       __bikini/*__,
+       outdoors, lake, boat, sitting, holding umbrella, umbrella, watercraft, holding, sunlight, 
+       sky, frilled umbrella, lace-trimmed umbrella,
+      A young girl sitting on a wooden boat in the middle of a lake. 
+      the girl is holding a large pink umbrella over her head, which is tilted slightly to the side. 
+
+  sunscreen:
+    - |
+      dutch angle, looking at viewer, :d, eyewear on head, eyewear lift, adjusting eyewear, 
+      __bikini/*__, 
+      wariza, sweat, ((holding bottle, sunscreen,)), duffel bag, beach, ocean, 
+      sunlight, blue sky, palm tree, skyline,  
+
+  sleeping-in-car:
+    - |
+      Detailed background, epic, highly detailed, detailed, chiaroscuro, impasto, intrinsic light, luster, 
+      shiny color, strong coloring, masterful shading, earrings, (collared shirt,),  ( fit body:1.5),  
+      night list, sleeping, sleeping on the backseat of a car, leaning on car windows, cleavage, open shirt, 
+      unbuttoned, buildings on the background, closed eyes, close up,
+
   #食い込み
   wedgie:
     - |
@@ -34,6 +58,7 @@ ero:
       __facial/embarrassed__,
       indoors,
       ${pose:{kneeling, ass, lifting own clothes|standing}, }
+
   #フーターズセット
   hooters:
     posing:
@@ -155,12 +180,52 @@ ero:
       ${cloth=__bikini/marin-style__,}
       ${face=__facial/happy__,}
 
+  #マガジンカバー
+  magazine-cover:
+    - |
+      ((fake magazine cover,)) 
+      __bikini/*__, 
+      __facial/happy__, 
+      __theme/summer-beach__, 
+      cute pose,
+
   #ラムビキニ
   lum-bikini:
     - |
       __ero/gravure/def__,
       ${cloth=__bikini/lum-style__,}
       ${face=__facial/happy__,}
+
+  #ルーズタンクトップ
+  loose-tank-top:
+    def:
+      - |
+        loose tank top, midriff, panties, 
+        hanging breasts, 
+        __sexual-or-embarrassed__,
+        hands on own knees, 
+        ${pose:strap slip,}
+
+    1out:
+      - |
+        __ero/loose-tank-top/def__,
+        ${pose=strap slip, one breast out, nipple,}
+    
+    couch:
+      - |
+        loose tank top, hanging breasts,  spoken heart, no bra, 
+        smile, low-cut armhole, sideboob, looking at viewer, armchair, 
+        loose shirt, loose clothes, on couch, naked shirt, chair, profile, 
+        from side, head rest on arm rest, aqua background, panties, 
+        bare shoulders, blue background, covered nipples, ass,
+    
+    book:
+      - |
+        loose tank top, dolphin shorts, sparkle, downblouse, indoors, black shorts, 
+        smile, white tank top, cleavage, short shorts, manga (object), book, no bra, 
+        bookshelf, pornography, closed mouth, blurry background, condom box, loose clothes, 
+        loose shirt, collarbone, leaning forward, shelf, library, looking at viewer, solo focus, 
+        bare shoulders, magazine (object), hand in own hair, hand up, hanging breasts
 
   #童貞殺し
   virgin-killer:
@@ -220,6 +285,23 @@ ero:
         dynamic pose, the sword is sheathed, a girl is ready to draw,
         in a dynamic sword-drawing stance, hand gripping the hilt,
         dynamic pose, 
+
+    blood:
+      - |
+        embedding:Stable_Yogis_PDXL_Positives, 
+        embedding:Stable_Yogis_PDXL_Positives2, 
+        embedding:lazypos, 
+        embedding:cr1sp, 
+        Zynthr4, 
+        <lora:cyber-sijren:1> cybersijren, dimly lit, black ink, low-key, inked cyber details, dark atmosphere, 
+        blood, blood on weapon, blood splatter, cleavage, cleavage cutout, clothing cutout, 
+        flag background, holding sword, holding weapon, katana, red background, red sky, red theme, 
+        sheath, sword, sword over shoulder, torii, weapon, (scenery, volumetric lighting), 
+        8k, detail, sharp focus, HDR, bold outlines, strong shadows, high contrast, smooth gradients, 
+        ultra detailed, vibrant, stunningly beautiful, crisp lines, detailed, sleek, ultramodern, 
+        subtle shadows, intricate, professional, high-resolution, perfect lighting, very awa, ultradetailed, 
+        solo, depth, complex lighting, movie quality
+
   #チェス
   chess:
     - |
@@ -310,7 +392,7 @@ ero:
         __theme/night-pool__, 
         __facial/sexual__, {|ass},
   #ランジェリーセット
-  lingerie-set:
+  lingerie:
     standard:
       - |
         __facial/sexual__, 
@@ -443,6 +525,12 @@ ero:
         __rnd-panty__, 
         ((pulling own panties)), close-up,
         head out of frame,
+    open-shrit:
+      - |
+        bed, bedroom, indoors, knees together feet apart, on bed, {wariza, ass|sitting, knees up},
+        __sexual-or-embarrassed__,
+        parted lips, white shirt, black bra, black choker, black panties, 
+        black pantyhose, no pants, no shoes, open shirt, sweat, toes, wet clothes, wet shirt, collarbone, 
 
   #オーバーサイズシャツセット
   oversized-shirt-set:
@@ -549,7 +637,7 @@ ero:
         leaning forward, breast press, between breasts,
         looking at viewer, __facial/sexual__, black background, bokeh,
   #チャイナドレス
-  china-set:
+  china-dress:
     moon:
       - |
         __china-dress/*__, __sexual-or-embarrassed__, __gravure-pose__,
@@ -564,7 +652,7 @@ ero:
         __china-dress/*__, surprised, blush, ass focus, pantyshot,
         __rnd-panty__,
         {against wall|bent over|leaning forward|arched back},
-  fitness-set:
+  fitness:
     - |
         __fitness__, __sexual-or-embarrassed__, __gravure-pose__,
         gold necklace, bracelet, fit body, BREAK trembling, sweat,
@@ -621,56 +709,103 @@ ero:
     - |
         <lora:adjusting_clothes_ass_v0.1-pony:1> adjusting swimsuit,
         ass focus, swimsuit, wet, pool, leaning forward,
-  negligee-set:
+
+  #ネグリジェ
+  negligee:
     - |
-        __negligee__, __sexual-or-embarrassed__, __gravure-pose__,
-        pink light, bedroom, night,
+      ${cloth:__negligee__, }
+      ${face:__sexual-or-embarrassed__,}
+      ${pose:__gravure-pose__,}
+      pink light, bedroom, night,
     - |
         __negligee__, standing by a balcony,
         moonlight highlighting her curves, looking at viewer,
         shy yet seductive expression, curvy hips, elegant pose,
         candles softly illuminating the scene, romantic atmosphere,
         crescent,
-  mooning-set:
+  mooning:
+    def:
+      - |
+        <lora:mooning_pdxl_goofy:0.7> mooning, 
+        {pants|pantyhose} down,
+        from side, ass focus, panties, 
+        {embarrassed|surprised}, 
+        moaning, 
+        {bent over|leaning forward},
+         {|trembling}, looking back,
+
+  #ボンデージ
+  bondage:
+    def:
+      - |
+        ${cloth:__bondage/*__, }
+        ${face:__facial/sexual__, }
+        ${pose:{sitting|lying on side,}} 
+        ${bgd:on couch,}
+    kneeling:
+      - |
+        __bondage/def__,
+        ${pose={squatting|kneeling}, spread legs,}
+        ${bgd=indoors,}
+    knee-up:
+      - |
+        __bondage/def__,        
+        ${pose=arm on knee, knee up,}
+        ${bgd=indoors,}
+    breast-grab:
+      - |
+        __bondage/def__,
+        areola, spread legs,        
+        ${pose=grabbing own breast, perfect hands}
+        ${bgd=indoors,}
+    standing:
+      - |
+        __bondage/def__,
+        areola, 
+        ${pose=standing, knee up, {|ass}, {|armpits},}
+        ${bgd=indoors,}
+    posing:
+      - |
+        __bondage/def__,
+        areola,         
+        ${pose={all fours, {|ass}|arched back|leaning forward|bent over|squatting|top-down bottom-up|wariza, {|ass},}}
+        ${bgd=indoors,}
+    knees-together:
+      - |
+        __bondage/def__,
+        areola,         
+        ${pose=legs together, thigh gap, knees together, sweat, dynamic pose,}
+        ${bgd=indoors,}
+    lying:
+      - |
+        __bondage/def__,
+        areola,         
+        ${pose=lying, presenting, spread legs, on back, cleavage, (hand on own stomach), excited,}
+        ${bgd=indoors,}
+    rnd:        
+      - |
+          embarrassed, moaning, arched back, bound wrists,
+          hands above head, armpits, bondage, torn black pantyhose,
+          midriff, thighs, thong panties under pantyhose, cross-laced bra,
+          ass focus,
+      - |
+          black leather mini skirt, leather crop top with front zipper,
+          strapless crop top, midriff, leather jacket, collarbone,
+          bare shoulders, unzipped, unzipping, thong panties,
+          chest harness, thigh belt, {|from behind, ass focus},
+          chest tattoo, __facial/sexual__,
+      - |
+          bondage outfit, whip, holding whip, latex gloves,
+          latex cross-laced corset, latex panties, dungeon, navel, smile,
+          smug, blush, cowboy shot, dutch angle,
+
+  #チアリーダー
+  cheering:
     - |
-      <lora:mooning_pdxl_goofy:0.7> mooning, {pants|pantyhose} down,
-      from side, ass focus, panties, {embarrassed|surprised}, moaning,
-      {bent over|leaning forward}, {|trembling}, looking back,
-  bondage-set:
-    - |
-        __bondage__, __facial/sexual__, areola, legs together, thigh gap,
-        knees together, sweat, dynamic pose,
-    - |
-        __bondage__, __facial/sexual__, areola, spread legs,
-        {|grabbing own breast|armpits},
-    - |
-        __bondage__, __facial/sexual__, areola, standing, knee up,
-        {|ass}, {|armpits},
-    - |
-        __bondage__, __facial/sexual__, areola, {all fours,
-        {|ass}|arched back|leaning forward|bent over|squatting|top-down bottom-up|wariza,
-        {|ass}},
-    - |
-        embarrassed, moaning, arched back, bound wrists,
-        hands above head, armpits, bondage, torn black pantyhose,
-        midriff, thighs, thong panties under pantyhose, cross-laced bra,
-        ass focus,
-    - |
-        __bondage__, lying, presenting, spread legs, on back, cleavage,
-        (hand on own stomach), excited, (naughty face), blush,
-    - __bondage__, __facial/sexual__, {sitting|lying on side} on couch
-    - __bondage__, __facial/sexual__, {squatting|kneeling}, spread legs
-    - __bondage__, __facial/sexual__, arm on knee, knee up
-    - |
-        black leather mini skirt, leather crop top with front zipper,
-        strapless crop top, midriff, leather jacket, collarbone,
-        bare shoulders, unzipped, unzipping, thong panties,
-        chest harness, thigh belt, {|from behind, ass focus},
-        chest tattoo, __facial/sexual__,
-    - |
-        bondage outfit, whip, holding whip, latex gloves,
-        latex cross-laced corset, latex panties, dungeon, navel, smile,
-        smug, blush, cowboy shot, dutch angle,
+      __cheer-leader__, 
+      cheering, 
+      {|wink,}
+      leg up, underboob, pantyshot, 
 
   # 修道女セット
   nun-set:
@@ -715,7 +850,7 @@ ero:
         blue nails, black choker, necklace, bracelet, armlet, jewelry,
         earrings, plunging neckline,
 
-  kimono-set:
+  kimono:
     - |
         kimono, hair ornament, flower, obi, looking at viewer,
         nail polish, tatami, moon, depth of field, autumn leaves, night,
@@ -724,11 +859,17 @@ ero:
     - |
         __yukata__, {sitting, knees together feet apart|wariza},
         {|from behind}, {__theme/moon-shine__|__theme/fireworks__},
-  cow-bikini-set:
+
+  cow-girl-print:
     - |
       __bikini/cow-print__, __sexual-or-embarrassed__,
       {|hands between legs|hands on chest|breasts squeezed together|on back|on stomach},
-  office-lady-set:
+    - |
+      dutch angle, from below, looking at viewer, half-closed eyes, blush, black mouth mask, 
+      slingshot swimsuit, cow print, elbow gloves, contrapposto, ((one-piece swimsuit pull,)) indoors, cyberpunk, 
+
+
+  office-lady:
     - |
         __office-lady__, (button gap:1.2), cleavage, office,
         BREAK work office, indoors, __sexual-or-embarrassed__,
@@ -751,6 +892,13 @@ ero:
         office lady, pencil skirt, collared shirt, {ass focus|cleavage,
         leaning forward}, panties {|under pantyhose|, thighhighs},
         __facial/embarrassed__,
+    - |
+      __office-lady__, office, work office, indoors,
+      __sexual-or-embarrassed__, (button gap:1.2) cleavage,
+      looking at viewer, head down,
+      sitting on chair, {crossed legs|spread legs},
+      sunglasses, crooked eyewear, adjusting eyewear, office lady, office, 
+
 
   #ブルマ
   buruma-set:
@@ -810,7 +958,7 @@ ero:
         arched back, arm up, outstretched arm, leg up, {|ass focus},
 
   #パジャマ
-  pajama-set:
+  pajama:
     wariza:
       - |
         __naked-pajama/*__, {yawning|rubbing eyes}, wariza,
@@ -1143,6 +1291,40 @@ ero:
     - |
       bodysuit, pink stripes, __facial/sexual__,
       {__gravure__|holding guns, aiming}, __theme/cyber__,
+  
+  cyber:
+    ass-grab:
+      - |
+        naughty face, blush, closed mouth, full lips, sweat, 
+        thong, pasties, fishnet pantyhose,
+        ass, ass focus, 
+        standing, grabbing own ass, indoors, stripper pole, purple lighting, stage,
+        cowboy shot, from behind, detailed background,
+        <lora:cyber-sijren:1> cybersijren, dimly lit, black ink, low-key, inked cyber details, dark atmosphere
+    
+    cockpit:
+      - | 
+        Cyberpunk anime girl, sitting in a futuristic spaceship cockpit. 
+        She wears a stylish pilot outfit with gloves, thigh-high boots, 
+        and a cropped sci-fi top, combined with a utility jacket. 
+        A glowing tattoo decorates her arm, and she has piercings and goggles resting on her head. 
+        Around her are holographic blue screens and control panels, casting a neon glow. 
+        She is sitting in a relaxed pose, one leg bent, 
+        gazing slightly downwards with a calm but confident expression. 
+        Highly detailed, cinematic lighting, vibrant cyberpunk colors, 
+        futuristic atmosphere. 
+        <lora:cyber-sijren:1> cybersijren, dimly lit, black ink, low-key, inked cyber details, dark atmosphere
+
+    pool:
+      - |
+        masterpiece, best quality, ultra-detailed, 8k resolution, high dynamic range, absurdres, 
+        stunningly beautiful, intricate details, sharp focus, (detailed eyes:1.2), 
+        cinematic color grading, high-resolution texture, naked, cyberpunk bikini,
+        flirty look, slight smile, head tilt, outdoors, 
+        night, pool, cheap motel, reflection, feet submerged, partially submerged, cyberpunk city, cyberpunk atmosphere, 
+        {|ass focus|ass,}
+        <lora:cyber-sijren:1> cybersijren, dimly lit, black ink, low-key, inked cyber details, dark atmosphere
+
   blue-beret-set:
     - |
       __beret-cos__, __angle__, __sexual-or-embarrassed__,
@@ -1216,7 +1398,7 @@ ero:
         leaning forward, on your mark|jumping|running}, {|bra lift,
         underboob},
   #病院
-  hospital-set:
+  hospital:
     labcoat:
       - |
         labcoat, necklace, choker, studded collar, harness dress,
@@ -1225,13 +1407,17 @@ ero:
     nurse:
       skirt-lift:
         - |
-          __nurse-uniform__, infirmary, __facial/embarrassed__,
-          skirt lift, ass, panties {under white pantyhose|,
-          garter strap},
+          __nurse-uniform__, 
+          ${bgd:infirmary, }
+          ${face:__facial/embarrassed__,}
+          ${pose:skirt lift, ass, bent over,}
+          ${angle:__angle__,} 
+          # {panties under white pantyhose|panties, garter strap},
       from-above:
         - |
-          __hospital-set/nurse/skirt-lift__, {on stomach|all fours},
-          from above, from behind,
+          __hospital-set/nurse/skirt-lift__, 
+          ${pose={on stomach|all fours},}
+          ${angle=from above, from behind,}
       from-below:
         - |
           __nurse-uniform__, infirmary, ass focus,
@@ -1357,7 +1543,7 @@ ero:
         panties, 
 
   #スパイダーガールセット
-  spider-set:
+  spider:
     - |
         __spider-girl__, 
         __theme/cyber__, 
@@ -1377,7 +1563,10 @@ ero:
         spread legs, on rooftop, night, cityscape,
         __theme/cyber__, 
         from {side|behind|above},
-
+    - |
+      __spider-girl__, 
+      lying on the wall, city, cute pose, platinum hair, HD, 8k, warm lighting, dreamy lighting
+  
   favorite:
     - |
         large breasts, seductive smile, winged helmet, white choker,
@@ -1417,4 +1606,11 @@ ero:
         covering breasts, sarong, cleavage, sideboob, underboob,
         perfect hand,
 
+    - |
+      bell-earrings, choker, sheer_thighhighs, skin pressed, side boobs, dress,
+      graffiti, multicolored background, black inked, zigzag_background, white,
+      tilted angle, close up, upper body with face focus, 
+      looking at viewer, tilted head, sitting, legs_apart,
+      blush, nuzzling lips, 
+      __angle__
 

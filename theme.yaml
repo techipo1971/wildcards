@@ -20,7 +20,11 @@ theme:
     - |
       pink & purple neon lights, poolside, {pool|deck chair}, wet,
       night, (sweatdrop, wet, water drop:1.4),
-  cyber: cyberpunk, neon lights, cyber fashion, cyber city
+  cyber: 
+    - |
+      cyberpunk, neon lights, cyber fashion, cyber city, 
+      <lora:cyber-sijren:1> cybersijren, dimly lit, black ink, 
+      low-key, inked cyber details, dark atmosphere
   onsen: onsen, wet, sweat, steam
   casino: casino, poker table, card, slot machine,  blurry background
   love-hotel: pink light, love hotel

@@ -131,10 +131,18 @@ naked-towel:
   covered: __naked-towel__, covered nipples
   pull: __naked-towel__, towel pull, nipples
 
+#バニーガール
 bunny-girl:
   - |
     playboy bunny, rabbit ears, seamed pantyhose, bodysuit, sleeveless,
     wrist cuffs, rabbit tail,
+  - |
+    playboy bunny, rabbit ears, seamed pantyhose, bodysuit, sleeveless,
+    wrist cuffs, rabbit tail, black choker, collarbone,
+  - |
+    wrist cuffs, black rabbit ears, bowtie, fake animal ears, 
+    red bowtie, skirt, sleeveless, bare shoulders, red skirt, black vest, miniskirt, white thighhighs, 
+
 #フィットネス
 fitness:
   - |
@@ -152,29 +160,38 @@ bitch-bodycon:
     rose tattoo,
 #ボンデージ衣装
 bondage:
-  harness: harness, bdsm, o-ring, nipples, crotchless
+  harness: 
+    - |
+      harness, bdsm, o-ring, nipples, crotchless, 
+      black choker, collarbone, sideboob, black gloves,
+    - |
+      lewd pubic tattoo, revealing clothes, o-ring, chest harness, 
   crotch-zipper:
     - |
       chest harness, crotch zipper, black bikini, black bra,
       bondage harness, black panties, zipper, skindentation,
       strap between breasts, underboob, black gloves, latex gloves,
       elbow gloves, black thighhighs, latex thighhighs,
+      lewd pubic tattoo
   dominatrix:
     - |
       dominatrix, bondage outfit, bondage, bdsm, latex,
       cross-laced clothes, spikes, fishnets, fishnet thighhighs,
       jewelry, earrings, elbow gloves, garter straps,
+      lewd pubic tattoo
   garter:
     - |
       garter straps, black corset, center cross lace, panties,
       o-ring harness, detached leather gloves, latex bra,
       leather kneehighs,
+      lewd pubic tattoo
   heart-pasties:
     - |
       chain, o-ring, chain leash, linked piercing,
       black collar, black heart pasties, tassel,
       black panties,
       garter strap
+      lewd pubic tattoo
 
 
 sexy-nun:
@@ -201,13 +218,22 @@ buruma:
 
 #ベリーダンサー
 belly-dancer:
-  - |
-      belly dancing, pelvic curtain, thong bikini, jewelry, gold trim,
-      see-through, curvy, covered nipples, arabic, gold thigh strap,
-      hair ornament, {|mouth veil},
-  - |
-      harem, harem pants, harem outfit, see-through, detached sleeves,
-      off shoulder, jewelry, thong, cleavage, {|mouth veil},
+  aisha-purple:
+    - |
+      <lora:DanMachi_AishaBelka_IlluXL:0.8> detached collar, necklace, o-ring,
+      purple bandeau, bracelet, harem pants, see-through legwear, white panties, purple pants
+  aisha-white:
+    - |
+      <lora:DanMachi_AishaBelka_IlluXL:0.8> detached collar, necklace, o-ring, 
+      white bandeau, bracelet, clothes around waist, white panties
+  rnd:
+    - |
+        belly dancing, pelvic curtain, thong bikini, jewelry, gold trim,
+        see-through, curvy, covered nipples, arabic, gold thigh strap,
+        hair ornament, {|mouth veil},
+    - |
+        harem, harem pants, harem outfit, see-through, detached sleeves,
+        off shoulder, jewelry, thong, cleavage, {|mouth veil},
 #アーミー
 army:
   - |
@@ -507,7 +533,10 @@ naked-pajama:
   panty: __naked-pajama/def__, short sleeves, __rnd-panty__
 
 #ナース
-nurse-uniform: nurse, nurse uniform, nurse cap, tight skirt
+nurse-uniform: 
+  - nurse, nurse uniform, nurse cap, tight skirt, white dress,
+  - nurse, pink dress, pink cap
+
 #シロネンコス
 xilonen-style:
   - |
@@ -546,8 +575,15 @@ wizard:
     - |
       __wizard/base__, highleg leotard, black pattern pantyhose,
       capelet, elbow gloves,
+
 #スパイダーガール
-spider-girl: latex bodysuit, spider suit, spider web print bodysuit, hood down
+spider-girl: 
+  - |
+    spider-gwen \(cosplay\), 
+    spider suit, spider web print bodysuit, 
+    hood down,
+    latex bodysuit, spider emblem
+
 #DOAミラ
 doa-mila: mma gloves, red sports bra, boxing shorts, clothes writing
 
@@ -578,6 +614,32 @@ armor:
     - |
       __bikini-armor__, white winged helmet, angel wings,
       silver armlet, angel,
+
+#法被
+happi:
+  summer-festival:
+    - |
+      sarashi, cleavage, blue happi, print happi, hachimaki, 
+  rnd:
+    - |
+      happi coat, japanese clothes, short sleeves, collarbone,
+      black thighhighs, black shorts, black choker, black belt,
+      black sash, black obi, red sash, red obi,
+    - |
+      happi coat, japanese clothes, short sleeves, collarbone,
+      black thighhighs, black shorts, black choker, black belt,
+      black sash, black obi, red sash, red obi,
+      {|holding a fan|holding a sword|holding a katana},
+#チアリーダー
+cheer-leader:
+  - |
+    cheerleader, cheerleader uniform, pleated skirt, 
+    midriff, sleeveless, collarbone, white gloves, white thighhighs,
+  - |
+    cheerleader, cheerleader uniform, pleated skirt, pom-poms,
+    midriff, sleeveless, collarbone, white gloves, white thighhighs,
+    white pom-poms, blue pom-poms, red pom-poms,
+    {|holding a megaphone|holding a baton|holding a flag},
 
 #コスプレ
 cosplay:

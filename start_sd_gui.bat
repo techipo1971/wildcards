@@ -4,7 +4,7 @@ REM Stability Matrix A1111 + SD GUI タスクトレイ起動
 REM ===============================
 
 REM 1. WebUI(A1111)ディレクトリに移動
-cd /d "C:\Path\To\StabilityMatrix\Automatic1111"
+cd /d "C:\StabilityMatrix\Packages\Stable Diffusion WebUI"
 
 REM 2. WebUI を API モードで起動（別ウィンドウ）
 start cmd /k python launch.py --listen --api
