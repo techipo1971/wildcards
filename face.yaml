@@ -21,19 +21,21 @@ facial:
     - annoyed
     - surprised
   cry:
-    - cry, __mouth-action__
-    - tearful, __mouth-action__
-    - whimpering, __mouth-action__
+    - cry, __facial/mouth-action__
+    - tearful, __facial/mouth-action__
+    - whimpering, __facial/mouth-action__
   surprised: surprised, moaning, open mouth
   embarrassed:
-    - |
-      {embarrassed|confused|scared|shy|flustered|surprised},
-      {blush|nose blush|full-face blush}
-      __mouth-action__,
+  - |
+    {embarrassed|confused|scared|shy|flustered|surprised},
+    {blush|nose blush|full-face blush}
+    __facial/mouth-action__,
+
   sexual: 
-    - |
-      {seductive smile|smug|smirk|naughty face}, 
-      {|open mouth|parted lips|moaning}
+  - |
+    {seductive smile|smug|smirk|naughty face}, 
+    {|open mouth|parted lips|moaning}
+
   orgasm: female orgasm, moaning
   clenched: embarrassed, clenched teeth, wink, female orgasm
   torogao: female orgasm, torogao, wavy mouth, __facial/eye-motion__

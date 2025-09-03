@@ -81,6 +81,29 @@ sfw:
     - |
       dutch angle, dynamic pose, starry sky, crescent moon, slashing, sparkle background, aura 
 
+    - |
+      cjl,\(glow\),emit light,Yoneyama Mai,\(glow\),emit light,figure,donghua,figure,realistic,
+      emit light,\(glow\),solo,Yoneyama Mai,hycg,yuedong,Nai3 style,official alternate costume,
+      close up,look at viewer,looking back,smile,glowing eye,glint,(Tyndall Effect:1.4),(wlop:0.6),
+      (reoen:0.8),(fuzichoco:0.8),(atdan:0.8),(torino_aqua:0.8),(ningen_mame:0.8),ciloranko,(rhasta:0.6),
+      tidsean,colorful,best quality,very aesthetic,absurdres,32K UHD,sharp focus,best-quality,
+      [Emotionalization],temperate atmosphere,with a high-end texture,
+      in the style of fashion photography,Dynamic,dynamic force picture,(Visual impact:1.2),
+      impactful picture,offcial art,Dark background,flower wall,3D 3D render CGI,(Dynamic angle, dynamic pose:1.5),
+      weapon,holding,sword,holding weapon,long hair,holding sword,water,blue theme,gloves,black gloves,   
+    
+    - |
+      masterpiece, best quality, absurdres, newest, 1woman, solo, sitting on glowing crescent moon, dynamic angle, 
+      tranquil dark lake with reflections, toes lightly touching water, cherry blossom petals falling gently, 
+      flowing long black hair with hair ornament and flower, elegant open kimono with floral print, glowing dark magical tattoos, 
+      holding katana sword, beautiful face with blue eyes, subtle blush, closed mouth, jewelry including rings, (dynamic pose:1.4), 
+      (detailed background:1.4), surreal and mystical atmosphere, sparkles and magical glitter, dark fantasy style, 
+      dramatic moody lighting, immersive composition, D4rkL1nes 
+      <lora:illustriousXLv01_stabilizer_v1.198:0.5> 
+      <lora:Fantasy_Forge:0.25> 
+      <lora:iLLMythD4rkL1nes:1>
+
+
   bunny-girl:
     - |
       sexy beautiful tall girl, (cute,kawaii,idol,model,beauty), rabbit_ears, looking_at_viewer, 
@@ -95,20 +118,31 @@ sfw:
       cinematic lighting, medium shot:1.5
 
   winter:
-    - |
-      1girl, winter, snow, snowy landscape, snowflakes, cold, cozy, warm clothing, 
-      scarf, mittens, boots, hat, long hair, braided hair, peaceful expression, 
-      standing in a snowy field with snow-covered trees in the background,
-      soft focus, dreamy atmosphere, cool colors, winter vibes, serene scene,
-      natural beauty, adjusting scarf, look down, upper body
+  - |
+    1girl, winter, snow, snowy landscape, snowflakes, cold, cozy, warm clothing, 
+    scarf, mittens, boots, hat, long hair, braided hair, peaceful expression, 
+    standing in a snowy field with snow-covered trees in the background,
+    soft focus, dreamy atmosphere, cool colors, winter vibes, serene scene,
+    natural beauty, adjusting scarf, look down, upper body
 
-    - |
-      1girl, winter coat, fur-lined hood, earmuffs, scarf, gloves, boots,
-      standing in a snowy landscape with snow-covered trees and mountains in the background,
-      soft focus, dreamy atmosphere, cool colors, winter vibes,
-      serene scene, natural beauty, adjusting scarf,
-      looking at viewer, upper body
+  - |
+    1girl, winter coat, fur-lined hood, earmuffs, scarf, gloves, boots,
+    standing in a snowy landscape with snow-covered trees and mountains in the background,
+    soft focus, dreamy atmosphere, cool colors, winter vibes,
+    serene scene, natural beauty, adjusting scarf,
+    looking at viewer, upper body
 
-    - |
-      from side, looking up, smile, winter clothes, fur-trimmed kimono, gloves, holding umbrella,
-       east asian architecture, snowing, overcast, 
+  - |
+    from side, looking up, smile, winter clothes, fur-trimmed kimono, gloves, holding umbrella,
+      east asian architecture, snowing, overcast, 
+
+  dragon:
+  - |
+    Digital art scene illustration,Digital art,oil painting,art_PAK,art_POX,art_YUH,artist_57mod, 
+    thighhighs, dress, high heels, sky, cloud, dragon, solo, standing, arms behind back, day, 
+    eastern dragon, outdoors, white thighhighs, blue sky, profile, sleeveless, ribbon, sleeveless dress, 
+    reflection, blue ribbon, looking up, bird, hair ribbon, white dress, floating hair, wind, closed mouth, 
+    black dress, white footwear, building, bow, bare shoulders, hair bow, black footwear, tree, earrings,
+    Digital art,illustration, Delicate eyes,delicate face, extremely detailed CG unity 8k wallpaper,
+    extremely detailed,High Detail, colorful theme, Psychedelic art, fractal art, dark background,
+    deep dark background, (fractal art:0.6), (Psychedelic art:0.6),

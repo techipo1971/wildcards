@@ -2,7 +2,10 @@
 #   ベース
 #################################################################################################
 #ランダム水着
-rnd-swimsuit: "{__bikini/*__|__one-piece-swimsuit/*__}"
+rnd-swimsuit:
+  - __bikini/*__
+  - __one-piece-swimsuit/*__
+
 #ランダムパンスト
 rnd-pantyhose: "{black|white|patterned} pantyhose"
 #ランダムパンティ
@@ -28,6 +31,7 @@ nipple-chain: nipple chain, nipple piercing, jewelry, necklace
 #ビキニ
 #################################################################################################
 bikini:
+  eyepatch: eyepatch bikini, no eyepatch, 
   thong: thong bikini
   bandeau: bandeau bikini
   frilled: frilled bikini
@@ -259,49 +263,72 @@ race-queen:
 maid:
   base: maid, maid headdress
   random:
-    - |
-        __maid/base__, collar, collarbone, frills, sleeveless,
-        elbow gloves, white gloves, white apron, thighhighs,
-    - |
-        __maid/base__, hairclip, maid headdress, black dress,
-        pink bowtie, puffy short sleeves, wrist cuffs, corset,
-        layered skirt, white skirt, thigh strap, white thighhighs,
+    - |-
+      __maid/base__, collar, collarbone, frills, sleeveless,
+      elbow gloves, white gloves, white apron, thighhighs,
+
+    - |-
+      __maid/base__,
+      hairclip, maid headdress, black dress,
+      pink bowtie, puffy short sleeves, wrist cuffs, corset,
+      layered skirt, white skirt, thigh strap, white thighhighs,
+
   belfast-style:
     - |
-      __maid/base__, collar, chain, collarbone, frills, sleeveless,
+      __maid/base__, 
+      collar, chain, collarbone, frills, sleeveless,
       gauntlets, elbow gloves, white gloves, waist apron, white apron,
+
 #学生服
 school-uniform:
   base: school uniform, skirt
   lycoris: lycoris uniform, backpack
+  
+  momo-ayase-style:
+  - |
+    pink sweater, v-neck sweater, collared shirt, white shirt,
+    miniskirt, plaid skirt, black skirt,
+    black choker, 
+  
   random:
-    - |
-        __school-uniform/base__, shirt, long sleeves, bow, jacket,
-        white shirt, pleated skirt, collared shirt, bowtie,
-        black skirt, red bow, red bowtie, blazer, grey blazer,
-        long sleeves,
-    - |
-        pinafore dress, black dress, buttons, red bowtie, collarbone,
-        necklace, white shirt, long sleeves, pleated skirt,
-        black skirt,
-    - |
-        white shirt, blue skirt, neck ribbon, __color__ ribbon,
-        {|see-through clothes}, {|jacket|blazer},
-    - |
-        __school-uniform/base__, shirt, jewelry, white shirt,
-        pleated skirt, earrings, necktie, choker, bracelet, blue skirt,
-        plaid, black choker, plaid skirt,
-    - |
-        serafuku, white shirt, blue sailor collar, yellow neckerchief,
-        short sleeves, buttons, grey skirt, pleated skirt, miniskirt,
-        brown pantyhose,
-    - |
-        __school-uniform/base__, black capelet, neck ribbon,
-        white shirt, long sleeves, purple skirt,
-    - |
-        sweater vest, {grey|black} vest, striped shirt, white shirt,
-        neck ribbon, black ribbon, long sleeves, pleated skirt,
-        purple skirt,
+  - |-
+    __school-uniform/base__,
+    shirt, long sleeves, bow, jacket,
+    white shirt, pleated skirt, collared shirt, bowtie,
+    black skirt, red bow, red bowtie, blazer, grey blazer, long sleeves,
+
+  - |-
+    pinafore dress, black dress, buttons, red bowtie, collarbone,
+    necklace, white shirt, long sleeves, pleated skirt,
+    black skirt,
+
+  - |-
+    white shirt, blue skirt, neck ribbon, 
+    __color__ ribbon,
+    {|see-through clothes}, 
+    {|jacket|blazer},
+
+  - |-
+    __school-uniform/base__, 
+    shirt, jewelry, white shirt,
+    pleated skirt, earrings, necktie, choker, bracelet, blue skirt,
+    plaid, black choker, plaid skirt,
+
+  - |-
+    serafuku, white shirt, blue sailor collar, yellow neckerchief,
+    short sleeves, buttons, grey skirt, pleated skirt, miniskirt,
+    brown pantyhose,
+
+  - |-
+    __school-uniform/base__, 
+    black capelet, neck ribbon, white shirt, long sleeves, purple skirt,
+
+  - |-
+    sweater vest, 
+    {grey|black} vest, 
+    striped shirt, white shirt, neck ribbon, black ribbon, long sleeves, pleated skirt,
+    purple skirt,
+
   mahiru-style:
     - |
       ,
@@ -425,12 +452,16 @@ volleyball-uniform:
   - |
     volleyball uniform, white uniform, blue trim, sleeveless, v-neck,
     elbow pads,
+
 #バスケットボール
 basketball-uniform: basketball uniform, midriff, sleeveless, v-neck
+
 #野球
 baseball-uniform: baseball uniform, baseball cap, belt, midriff, short shorts
+
 #アスリート
 athlete-uniform: track uniform, sport bra, panty, low rise, sideboob, athlete
+
 #ドクター
 doctor:
   - |
@@ -531,6 +562,9 @@ naked-pajama:
       __naked-pajama/def__, long sleeves, long pants {|pull,
       __rnd-panty__},
   panty: __naked-pajama/def__, short sleeves, __rnd-panty__
+
+# 巫女さん
+miko-san: miko, red hakama, white kimono,
 
 #ナース
 nurse-uniform: 
@@ -643,33 +677,39 @@ cheer-leader:
 
 #コスプレ
 cosplay:
+  # 三日月閑
+  shizuka-cos:
+  - |
+    {|multicolored jacket, hooded jacket,}
+    pink sports bra, cleavage,
+    dolphin shorts, pink shorts, black leggings
+
   #リズきゅん
   liz:
-    - |
-      long hair, two side up, hair ornament, wig, eyelashes,
-      long pointy ears, green eyes, slit pupils, long fingernails,
-      black nails, fangs, black horns, fake horns,
-      frilled shirt collar, white collar, white ribbon, neck ribbon,
-      black shirt, crop top, frilled shirt, juliet sleeves,
-      layered sleeves, bat wings, midriff, black panties,
-      frilled panties, black socks, frilled socks, demon tail,
+  - |
+    long hair, two side up, hair ornament, wig, eyelashes,
+    long pointy ears, green eyes, slit pupils, long fingernails,
+    black nails, fangs, black horns, fake horns,
+    frilled shirt collar, white collar, white ribbon, neck ribbon,
+    black shirt, crop top, frilled shirt, juliet sleeves,
+    layered sleeves, bat wings, midriff, black panties,
+    frilled panties, black socks, frilled socks, demon tail,
   demon-cos:
-    - |
-      floating, demon wings, (horns), fishnets, bat wings, (red eyes,
-      slant eyes),
+  - |
+    floating, demon wings, (horns), fishnets, bat wings, 
+    (red eyes, slant eyes),
   laufen-cos:
-    - |
-      halterneck, bare shoulders, bridal gauntlets, hair ornament,
-      boots,
+  - |
+    halterneck, bare shoulders, bridal gauntlets, hair ornament, boots,
   focalors-cos:
-    - |
-      anklet, evening gown, long dress, juliet sleeves,
-      bridal gauntlets, barefoot,
+  - |
+    anklet, evening gown, long dress, juliet sleeves,
+    bridal gauntlets, barefoot,
   nyamu-cos2:
-    - |
-      skirt, shirt, bare shoulders, collarbone, short sleeves, frills,
-      choker, black skirt, off shoulder, black footwear, high heels,
-      black choker, grey shirt, off-shoulder shirt, frilled shirt,
+  - |
+    skirt, shirt, bare shoulders, collarbone, short sleeves, frills,
+    choker, black skirt, off shoulder, black footwear, high heels,
+    black choker, grey shirt, off-shoulder shirt, frilled shirt,
   charlotte-cos:
     - |
       cabbie hat, red headwear, hat feather, bare shoulders,
