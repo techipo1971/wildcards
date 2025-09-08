@@ -7,18 +7,34 @@ rnd-swimsuit:
   - __one-piece-swimsuit/*__
 
 #ランダムパンスト
-rnd-pantyhose: "{black|white|patterned} pantyhose"
+rnd-pantyhose: 
+- "{black|white|patterned} pantyhose"
+- back-seamed legwear
+
 #ランダムパンティ
 rnd-panty: "{thong|side-tie|laced|crotchless} panties"
+
 #パンティ+パンスト
 panty-thru-pantyhose: "{|torn} __rnd-pantyhose__, __rnd-panty__ under pantyhose"
+
 #ランダムブラ
 rnd-bra: "{|bandeau|thong|micro|latex} bra"
+
 #パンチラ
 pantyflash:
   - pantyshot
   - pantyshot through reflection
   - implied pantyshot
+
+#ランダムスカート衣装
+rnd-skirt:
+  - __school-uniform/*__
+  - __police__
+  - __office-lady/*__
+  - __maid/*__
+  - __nurse-uniform__
+  - __sailor-senshi-cos__
+
 #################################################################################################
 #   ビッチ用
 #################################################################################################
@@ -104,24 +120,31 @@ casual:
     - |
       skirt, shirt, pantyhose, black pantyhose, denim, clothes writing,
       raglan sleeves, denim skirt, romaji text,
+
 #チャイナドレス
 china-dress:
   base: china dress, pelvic curtain, chinese clothes, qipao
-  dragon-china: __china-dress/base__, gold trim, dragon print
+  dragon-china: 
+  - |
+    __china-dress/base__, 
+    gold trim, dragon print
+  
   taihou-style:
-    - |
-      __china-dress/base__, bare shoulders, black thigh highs,
-      cleavage cutout, gold bustier, gold hair ornament,
-      pelvic curtain, red qipao, sleeveless dress, fishnet stockings,
-      garter belt,
+  - |
+    __china-dress/base__,
+    bare shoulders, black thigh highs, cleavage cutout, gold bustier, gold hair ornament,
+    pelvic curtain, red qipao, sleeveless dress, fishnet stockings,
+    garter belt,
+  
   jinhsi-style:
-    - |
-      __china-dress/base__, white thigh boots, dress, sleeveless dress,
-      halterneck, multicolored dress, cleavage cutout, hair ornament,
-      jewelry, sideboob, gold trim, white dress, black dress,
-      black collar, shoulder armor, side capelet, white skirt,
-      open skirt, two-tone skirt, black skirt, detached sleeves,
-      single sleeve, short sleeves,
+  - |
+    __china-dress/base__, 
+    white thigh boots, dress, sleeveless dress,
+    halterneck, multicolored dress, cleavage cutout, hair ornament,
+    jewelry, sideboob, gold trim, white dress, black dress,
+    black collar, shoulder armor, side capelet, white skirt,
+    open skirt, two-tone skirt, black skirt, detached sleeves,
+    single sleeve, short sleeves,
 
 #タンクトップ＋ドルフィンショーツ
 tanktop-dolphin:
@@ -132,8 +155,8 @@ tanktop-dolphin:
 #裸タオル
 naked-towel:
   def: naked towel
-  covered: __naked-towel__, covered nipples
-  pull: __naked-towel__, towel pull, nipples
+  covered: __naked-towel/def__, covered nipples
+  pull: __naked-towel/def__, towel pull, nipples
 
 #バニーガール
 bunny-girl:
@@ -251,14 +274,23 @@ army:
 #レースクイーン
 race-queen:
   - |
-      race queen, jacket, navel, skirt, cleavage, bandeau,
-      cropped jacket, open jacket, highleg panties, midriff,
-      thighhighs, long sleeves, miniskirt, crop top, microskirt,
-      jacket, strapless, collarbone,
-  - race queen uniform
+    race queen, criss-cross halter, pink and white uniform, miniskirt, midriff,
+
   - |
-      race queen, checkered clothes, midriff, partially unzipped,
-      crop top, black clothes, yellow clothes, asymmetrical clothes,
+    race queen, jacket, navel, skirt, cleavage, bandeau,
+    cropped jacket, open jacket, highleg panties, midriff,
+    thighhighs, long sleeves, miniskirt, crop top, microskirt,
+    jacket, strapless, collarbone,
+
+  - |
+    race queen, checkered clothes, midriff, partially unzipped,
+    crop top, black clothes, yellow clothes, asymmetrical clothes,
+
+  - |
+    race queen, policewoman, latex, miniskirt, blue jacket, halterneck, 
+    choker, thong, belt, slanted belt, loose belt,
+    {|police cap}
+
 #メイド
 maid:
   base: maid, maid headdress
@@ -283,7 +315,7 @@ maid:
 school-uniform:
   base: school uniform, skirt
   lycoris: lycoris uniform, backpack
-  
+  cardigan: beige cardigan, white collared shirt, red bowtie, miniskirt, pleated skirt, 
   momo-ayase-style:
   - |
     pink sweater, v-neck sweater, collared shirt, white shirt,
@@ -861,3 +893,6 @@ evening-gown:
       jewelry, chain between breasts, navel piercing, belly chain,
       linked piercing, plunging neckline, collarbone,
   black-satin: __evening-gown/black__, satin dress
+
+# セーラー戦士コス
+sailor-senshi-cos: sailor senshi uniform, sailor senshi, unofficial sailor senshi uniform,

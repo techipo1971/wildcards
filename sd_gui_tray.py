@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 import yaml  # YAMLファイルを扱うために追加
 import random  # ランダム選択のために追加
-
+import itertools
 
 # Web UIのAPIエンドポイント
 url = "http://127.0.0.1:7860/sdapi/v1/txt2img"
@@ -14,16 +14,30 @@ url = "http://127.0.0.1:7860/sdapi/v1/txt2img"
 YAML_FILE = 'chara.yaml'
 
 POSITIVE = "__il/quality/positive__,"
+# POSITIVE = "__il/quality/pos-simple__,"
 STYLE = "<lora:Realistic_Anime_-_Illustrious:0.35> illustriousanime, <lora:PHM_style_IL_v3.3:0.8>, <lora:illustriousXLv01_stabilizer_v1.185c:0.2>,"
 
+SFW = ",1girl,__sfw/*__," + POSITIVE + STYLE
 ERO = ",1girl,__ero/*__," + POSITIVE + STYLE
 R18 = ",1girl,__nude/*__, r18, nsfw," + POSITIVE + STYLE
 R18_PLUS = ",1girl,__nsfw/*__, r18+, nsfw," + POSITIVE + STYLE
 
+# 生成リスト（あとでキャラプロンプトと結合する）
+# GEN_LIST = [SFW]
+GEN_LIST = [ERO, R18, R18_PLUS]
+
+#############################################################################################################
+
+### 作品フィルター
+# TITLE = 'fire-force'
+
+### ピックアップ
+# PICKUP = ['asuna', 'lisa', 'alya']
+
 #############################################################################################################
 
 BATCH_COUNT = 64        # バッチカウント
-CHARACTER_NUMBER = 3   # キャラ数・繰り返し回数
+CHARACTER_NUMBER = 2   # キャラ数・繰り返し回数
 
 #############################################################################################################
 def extract_characters_from_yaml(data):
@@ -48,13 +62,8 @@ def extract_characters_from_yaml(data):
             characters.extend(extract_characters_from_yaml(item))
     return characters
 
-
 #############################################################################################################
-def main():
-    """
-    メインの処理を実行する関数
-    """
-
+def load_all_characters(key='all'):
     # YAMLファイルからプロンプトを読み込む
     try:
         with open(YAML_FILE, 'r', encoding='utf-8') as f:
@@ -66,78 +75,141 @@ def main():
         print(f"[Error] Could not parse YAML file: {e}")
         return
 
-    # 全てのキャラクター情報を抽出
-    all_characters = extract_characters_from_yaml(yaml_data)
+    # 作品指定の場合, 作品の辞書を返す    
+    if isinstance(yaml_data, dict):
+        if key == 'all':
+            return extract_characters_from_yaml(yaml_data)
+        elif key in yaml_data.keys():
+            print(f"--- Title filter -> {key} ---")
+            return extract_characters_from_yaml(yaml_data[key])
 
+    # 全てのキャラクター情報を抽出
+    return extract_characters_from_yaml(yaml_data)
+
+#############################################################################################################
+def select_random_character(all_characters):
     if not all_characters:
         print(f"[Error] No character entries with 'name' and 'prompt' found in {YAML_FILE}.")
         return
+    
+    # 履歴データの読み出し
+    try:
+        with open('history.txt', 'r') as f:
+            while True:
+                history_data = [line.strip() for line in f.readlines()]
+                break
+    except: 
+        history_data = None
+        pass
 
-    # 抽出したキャラクターリストからランダムで1つ選択
-    selected_character = random.choice(all_characters)
-    char_name = selected_character['name']
-    char_prompt = selected_character['prompt']
+    while True:  
+        # 抽出したキャラクターリストからランダムで1つ選択
+        re_choice = False
+        selected_character = random.choice(all_characters)
+        char_name = selected_character['name']
+        char_prompt = ','.join(selected_character['prompt'].splitlines()) 
 
-    # # 生成したい画像のプロンプトをリストで用意
-    prompts_to_generate = [
-        char_prompt + ERO,
-        char_prompt + R18,
-        char_prompt + R18_PLUS
-    ]
+        # 履歴データチェック
+        if not history_data:
+            print("no history data")
+            break
+        else:
+            for prompt in history_data:
+                if char_prompt in prompt:  
+                    print('Used Character selected!! -> ' + char_name)
+                    print("Re-choice !!")
+                    re_choice = True
+                    continue
+
+            if not re_choice:
+            # キャラ確定
+                print("unused character selected -> " + char_name)
+                break            
+
+    # 履歴データにキャラ名とプロンプトを追記
+    with open('history.txt', 'a') as f:
+        f.write(char_name +','+char_prompt+'\n') 
+    
+    return char_prompt
+
+#############################################################################################################
+def generate_img(payload, output_folder):
+    try:
+        # APIにPOSTリクエストを送信
+        response = requests.post(url=url, json=payload)
+        response.raise_for_status() # エラーがあれば例外を発生させる
+
+        r = response.json()
+
+        # レスポンスの中から画像データ（base64エンコード）を取得
+        for idx, img_data in enumerate(r['images']):
+            # 画像をデコードしてファイルに保存
+            # ファイル名にタイムスタンプとプロンプトの一部を使い、分かりやすくする
+            timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+            
+            # --- ここでファイル名を変更 ---
+            # キャラクター名とタイムスタンプを使ってファイル名を生成
+            # filename = f"{char_name}_{timestamp}_{idx+1}.png"
+            filename = f"{timestamp}_{idx+1}.png"
+            output_path = os.path.join(output_folder, filename)
+
+            with open(output_path, 'wb') as f:
+                f.write(base64.b64decode(img_data))
+            
+            print(f"Image saved to: {output_path}")
+
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred: {e}")
+
+#############################################################################################################
+def set_payload(positive, negative="__il/quality/negative__"):
+    # 詳しくは http://127.0.0.1:7860/docs を参照
+    payload = {
+        "prompt": positive,
+        "negative_prompt": negative,
+        "steps": 28,
+        "cfg_scale": 3,
+        "width": 1024,
+        "height": 1536,
+        "sampler_name": "Euler a",
+        "scheduler": "Automatic",
+        "n_iter": BATCH_COUNT,
+        "seed": -1, 
+        # --- Hires. fix パラメータ ---
+        "enable_hr": False,                         # Hires. fix を有効化
+        "hr_scale": 2,                              # 2倍にアップスケール
+        "hr_upscaler": "4x-UltraSharp",             # アップスケーラーの種類
+        "hr_second_pass_steps": 0,                  # Hires steps 0に設定（元のと同じStep）
+        "denoising_strength": 0.3                   # Denoising strengthを0.5に設定
+    }
+
+    return payload
+
+#############################################################################################################
+def main(char_prompt):
+    """
+    メインの処理を実行する関数
+    """
+    # 生成したい画像のプロンプトをリストで用意
+    prompts_to_generate = [char_prompt + item for item in GEN_LIST]
 
     # 画像を保存するフォルダを作成
     output_folder = "C:\StabilityMatrix\Images\generated_images"
     os.makedirs(output_folder, exist_ok=True)
 
-    # # 各プロンプトで画像を生成
-    for i, prompt in enumerate(prompts_to_generate):
+    # 各プロンプトで画像を生成
+    # for i, prompt in enumerate(prompts_to_generate):
+    for prompt in prompts_to_generate:
         print(f"Prompt: {prompt}")
 
-    #     # APIに送るデータ（ペイロード）を定義
-    #     # 他にも多くのパラメータが指定可能です（例: width, height, sampler_nameなど）
-    #     # 詳しくは http://127.0.0.1:7860/docs を参照
-        payload = {
-            "prompt": prompt,
-            "negative_prompt": "__il/quality/negative__",
-            "steps": 28,
-            "cfg_scale": 4,
-            "width": 896,
-            "height": 1344,
-            "sampler_name": "Euler a",
-            "scheduler": "Automatic",
-            "n_iter": BATCH_COUNT,
-            "seed": -1, 
-        }
-
-        try:
-            # APIにPOSTリクエストを送信
-            response = requests.post(url=url, json=payload)
-            response.raise_for_status() # エラーがあれば例外を発生させる
-
-            r = response.json()
-
-            # レスポンスの中から画像データ（base64エンコード）を取得
-            for idx, img_data in enumerate(r['images']):
-                # 画像をデコードしてファイルに保存
-                # ファイル名にタイムスタンプとプロンプトの一部を使い、分かりやすくする
-                timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-                
-                # --- ここでファイル名を変更 ---
-                # キャラクター名とタイムスタンプを使ってファイル名を生成
-                # filename = f"{char_name}_{timestamp}_{idx+1}.png"
-                filename = f"{timestamp}_{idx+1}.png"
-                output_path = os.path.join(output_folder, filename)
-
-                with open(output_path, 'wb') as f:
-                    f.write(base64.b64decode(img_data))
-                
-                print(f"Image saved to: {output_path}")
-
-        except requests.exceptions.RequestException as e:
-            print(f"An error occurred: {e}")
+        payload = set_payload(prompt)
+        
+        # 画像生成
+        generate_img(payload, output_folder)
 
     print("--- All images generated! ---")
 
+#############################################################################################################
 if __name__ == '__main__':
     # 最初にライブラリがインストールされているか確認
     try:
@@ -146,10 +218,32 @@ if __name__ == '__main__':
         print("The 'PyYAML' library is not installed.")
         print("Please install it by running: pip install pyyaml")
         exit()
-    
-    # 指定キャラ数分　ランダム抽出で繰り返し
-    for i in range(CHARACTER_NUMBER):
-        main()
+
+    # 全てのキャラクター情報を抽出
+    try:
+        all_characters = load_all_characters(TITLE)
+    except:
+        all_characters = load_all_characters()
+
+    try:
+        if(isinstance(PICKUP, list)):
+            # ピックアップ指定キャラ数分　生成
+            print('--- Pick up generation ---')
+            selected_list = []
+            for sel, prompt in itertools.product(PICKUP, all_characters):
+                if sel in prompt['name']:
+                    selected_list.append(','.join(prompt['prompt'].splitlines()))
+
+            for char_prompt in selected_list:
+                main(char_prompt)
+        else:
+            print('PICKUP list definition error!!')
+    except:
+        print('--- Random generation ---')
+        # 指定キャラ数分　ランダム抽出で繰り返し
+        for i in range(CHARACTER_NUMBER):
+            char_prompt = select_random_character(all_characters)
+            main(char_prompt)
 
     print("\nTask completed!")
 

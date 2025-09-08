@@ -1,5 +1,5 @@
 nsfw:
-  oral-sex: "{|__saliva__}, {__irrumatio__|__blowjob__|__cunnilingus__}"
+  oral-sex: "{|__saliva__}, {__irrumatio__|__blowjob__|__cunnilingus/*__}"
   random-sex:
     - |
       __sex-base__, __sex-face__, {|__panty-action__|shibari, bound},
@@ -445,51 +445,56 @@ nsfw:
   #--- クンニ ---
   cunnilingus:
     def:
-      - |
-        cunnilingus, pussy juice, dripping pussy juice, trembling,
-        __panty-action__,
-        spread legs, thigh grab,
-        from above,
-        {|__breasts-apart__},
-        BREAK 1boy, faceless male, boy is licking pussy,
+    - |
+      cunnilingus, pussy juice, dripping pussy juice, trembling,
+      spread legs, thigh grab,
+      from above,
+      __panty-action__,
+      {|__breasts-apart__},
+      BREAK 1boy, faceless male, boy is licking pussy,
+
     cheek:
-      - |
-        __facial/embarrassed__,
-        hands on own cheeks,
-        __nsfw/cunnilingus/def__,
+    - |
+      __facial/embarrassed__,
+      __nsfw/cunnilingus/def__,
+      hands on own cheeks,
+
     spread-pussy:
-      - |
-        __sex-face__,
-        spread pussy,
-        __nsfw/cunnilingus/def__,
+    - |
+      __sex-face__,
+      __nsfw/cunnilingus/def__,
+      spread pussy,
+
     grab:
-      - |
-        __sex-face__,
-        grabbing own breast
-        __nsfw/cunnilingus/def__,
+    - |
+      __sex-face__,
+      __nsfw/cunnilingus/def__,
+      grabbing own breast
+
     folded:
-      - |
-        __sex-face__,
-        folded, legs up, on back,
-        __nsfw/cunnilingus/def__,
+    - |
+      __sex-face__,
+      __nsfw/cunnilingus/def__,
+      folded, legs up, on back,
+
     piledriver:
-      - |
-        __sex-face__,
-        piledriver \(sex\),
-        __nsfw/cunnilingus/def__,
+    - |
+      __sex-face__,
+      __nsfw/cunnilingus/def__,
+      piledriver \(sex\),
+
     leg-up:
-      - |
-        __sex-face__,
-        on side, leg up,
-        __nsfw/cunnilingus/def__,
+    - |
+      __sex-face__,
+      __nsfw/cunnilingus/def__,
+      on side, leg up,
 
     back:
-      - |
-        cunnilingus, pussy juice, trembling, spread ass,
-        __panty-action__,
-        from behind,
-        __sex-face__,
-        BREAK 1boy, faceless male, boy is licking pussy
+    - |
+      __sex-face__,
+      __panty-action__,
+      cunnilingus, pussy juice, trembling, spread ass, from behind,
+      BREAK 1boy, faceless male, boy is licking pussy
 
   #--- フェラ ---
   blowjob:
@@ -571,6 +576,11 @@ nsfw:
         __bukkake__,
         {|from side}
 
+    fat-man:
+    - |
+      hug and suck , hugging, fellatio, 1girl, 1boy, faceless male, hetero, testicles, oral,  
+      kneeling, dark-skinned male, fat man. netorare, ugly man, pants down, excessive cum,  
+
     # お風呂場で
     bath:
     - |
@@ -610,14 +620,13 @@ nsfw:
     # おもらし
     squrting:
       def:
-        - |
-          torn __rnd-pantyhose__, open top, high heels,
-          pussy, pubes, leaking joy juice on thighs, pussy squrting,
-          orgasm, climax, blush, cumdump, ((smaller cocks)),
-          handjob,
-          __blowjob-pose/*__,
-          motion_lines:1.2,
-          motion_blur:1.2
+      - |
+        torn __rnd-pantyhose__, 
+        open top, high heels,
+        pussy, pubes, leaking joy juice on thighs, pussy squrting,
+        orgasm, climax, blush, cumdump, ((smaller cocks)), handjob,
+        __blowjob-pose/*__,
+        motion_lines:1.2, motion_blur:1.2
       outdoor:
         - |
           __nsfw/blowjob/squrting/def__,
@@ -768,13 +777,19 @@ nsfw:
 
     force:
     - |
-      __nsfw/paizuri/def__, on back, arms up, __bukkake__,
-      motion lines, motion blur, trembling,
+      __nsfw/paizuri/def__, 
+      __bukkake__,
+      on back, arms up, motion lines, motion blur, trembling,
 
     sp-force:
     - |
-      __nsfw/paizuri/surprised__, on back, arms up, motion lines,
-      motion blur, trembling,
+      __nsfw/paizuri/surprised__, 
+      on back, arms up, motion lines, motion blur, trembling,
+
+    invitation:
+    - |
+      paizuri invitation, breasts apart, nude, naughty face, pouring onto breast, 
+      lotion, holding lotion bottle, dark room, on back, 
 
   #--- 手コキ ---
   handjob:
@@ -854,8 +869,9 @@ nsfw:
   #--- 足コキ ---
   footjob:
   - |
-    footjob, {naughty face|__facial/sexual__}, {__bondage__,
-    prison|nipples}, BREAK 1boy, penis, faceless male,
+    footjob, {naughty face|__facial/sexual__}, 
+    {__nsfw/bondage__, prison|nipples},
+    BREAK 1boy, penis, faceless male,
     {|cum|ejaculation|dripping semen},
 
   #--- オナニー---
@@ -927,6 +943,33 @@ nsfw:
       gamer girl, sweatshirt, ((VR headset, watching VR porn,)) 
       sitting in a gaming chair, no pants, no panties, masturbating, 
       dildo in pussy, medium shot, spread legs, pussy juice, moaning, 
+
+    samus:
+    - |-
+      spiked dildo, anus, ass, black nails, bottomless, coffee table, couch, cum, cum in pussy, 
+      black dildo), dildo riding, female masturbation, from behind, full body, huge dildo, kneeling, 
+      living room, masturbation, object insertion, open mouth, pussy, sex toy, solo, sweat, table, 
+      ((feet)), wooden floor, look at the viewer, face toward the viewer, cute slutty face, 
+      (((bouncing ass motion))), hearts symbol, (pleasured face), ass motion, nail polish, 
+      (hands on ass), turtleneck, bodysuit, zero suit, skin tight, bracelet, gloves, ankle boots
+
+    - |-
+      zero suit, crotch cutout, pussy, spread legs, space habitat, pussy juice, 
+      naughty face, saliva, tongue, object insertion, sex toy, squatting, arched back, hands on own thighs, 
+      center opening, nipples, collarbone, bare shoulder, 
+
+    - |-
+      zero suit, crotch cutout, pussy, spread legs, space habitat, pussy juice, 
+      saliva, closed mouth, closed eyes, painful, arguing, object insertion, glowing sex toy, 
+      squatting, arched back, hands on own thighs, center opening, nipples, collarbone, bare shoulder, trembling, 
+
+    tenga:
+    - |
+      __lingerie/*__, 
+      artificial vagina, holding sex toy, tenga, 
+      looking down, wariza, naughty face, 
+      girl on top, penis into tenga, male masturbation, dark room, motion lines, motion blur, spoken heart,    
+      {|cum in tenga,}
 
   #--- 素股---
   thigh-sex:
@@ -1041,6 +1084,12 @@ nsfw:
       (sound effects:1.5), neck bell, sideboob, long sleeves, cuffs, belt, garter straps, thighhighs, 
       legs up, feet aside head, scared, open mouth, wavy mouth, pussy juice, vulva, glans, bound ankles, 
       chain-link fence, puffy nipples, breasts apart, 
+
+    zerosuit:
+    - |
+      zero suit, crotch cutout, pussy, spread legs, space habitat, pussy juice, 
+      naughty face, saliva, licking own lips, imminent penetration, glans, penis,
+      {|center opening, nipples, collarbone, bare shoulder,}
 
   #--- 正常位 ---
   missionary:
@@ -1454,6 +1503,12 @@ nsfw:
       squatting, stiletto_heels, looking_at_viewer, naughty face, grabbing_own_breast,
       from_below, street, night,
 
+    open-coat:
+    - |
+      trench coat, open coat, shibari, naked, holding coat, x-cross \(bdsm\), nipple piercing, nipple chain, 
+      bondage, closed eyes, embarrassed, blush, wavy mouth, vibrator, pussy juice, trembling, 
+      <lora:all3yway:1> all3yway
+
   #--- セックスマシン ---
   sex-machine:
   - |-
@@ -1773,72 +1828,68 @@ nsfw:
       __nude/onsen/bathing__, 
       1boy, grabbing another's breast,
       {|faceless male, {|imminent} kiss},
-    
-    grabbing-behind: 
-    - |
-      __nsfw/onsen-fuck/grabbing__, 
-      from behind,
-    
+      {|from behind}
+       
     sucking-niple:
     - |
       __nude/onsen/bathing__, 
       1boy, faceless male, boy is {sucking|licking} her nipple,
 
   #---　母乳 ---
-  lactation: __nsfw/*__, lactation
+  lactation: 
+  - |
+    __nsfw/*__, 
+    lactation,
 
   #触手
   tentacle-sex:
     - |
-      tentacle sex, pussy juice, consensual tentacles, pelvic thrust,
-      spread legs, {on back|doggystyle}, {|tentacle grabbing breasts},
+      tentacle sex, pussy juice, consensual tentacles, pelvic thrust, spread legs, 
+      {on back|doggystyle}, {|tentacle grabbing breasts},
       scared, screaming,
 
   #---　吸いながら手マン ---
   suck-fingering:
     def:
-      - |
-        <lora:breast-sucking-fingering-illustriousxl-lora-nochekaiser:1>,
-        breast sucking, fingering,
-        pussy, nipples, pussy juice,
-        1boy,
-        spread legs, looking at another,
-        grabbing, breast grab,
-        on bed,
-        {on back|on side},
-        {naked|__panty-action__|__panty-action__, __bra-action__}
+    - |
+      <lora:breast-sucking-fingering-illustriousxl-lora-nochekaiser:1>,
+      breast sucking, fingering, pussy, nipples, pussy juice,
+      1boy, spread legs, looking at another, grabbing, breast grab, on bed,
+      {on back|on side},
+      {naked|__panty-action__|__panty-action__, __bra-action__}
+
     naughty:
-      - |
-        __nsfw/suck-fingering/def__,
-        __saliva__,
-        {naughty face|torogao|ahegao|seductive smile},
-        {blush|nose blush|full-face blush}
-        {__facial/mouth-action__|hands on own cheek, __facial/mouth-action__|bed sheet, sheet grab|arms up},
+    - |
+      __nsfw/suck-fingering/def__,
+      __saliva__,
+      {naughty face|torogao|ahegao|seductive smile},
+      {blush|nose blush|full-face blush}
+      {__facial/mouth-action__|hands on own cheek, __facial/mouth-action__|bed sheet, sheet grab|arms up},
+
     embarrassed:
-      - |
-        __nsfw/suck-fingering/def__,
-        __saliva__,
-        {embarrassed|confused|scared|shy|flustered|surprised},
-        {blush|nose blush|full-face blush}
-        {__facial/mouth-action__|hands on own cheek, __facial/mouth-action__|covering mouth|covering face|bed sheet, sheet grab},
+    - |
+      __nsfw/suck-fingering/def__,
+      __saliva__,
+      {embarrassed|confused|scared|shy|flustered|surprised},
+      {blush|nose blush|full-face blush}
+      {__facial/mouth-action__|hands on own cheek, __facial/mouth-action__|covering mouth|covering face|bed sheet, sheet grab},
 
   #---　パンティずらし ---
   panties-aside-spread:
     def:
-      - |
-         (from behind:1.2), looking at viewer, looking behind,
-          black pantyhose, damaged pantyhose,
-          hand on ass, spread pussy, ass grab,
-          panties aside, black panties,
-          pussy, anus, pussy juice, dripping pussy juice, pussy juice on the ground, pussy focus,
-          {standing|leaning forward|kneeling|squatting},
-          {|close-up},
-          __place/*__
+    - |
+        (from behind:1.2), looking at viewer, looking behind, black pantyhose, damaged pantyhose,
+        hand on ass, spread pussy, ass grab, panties aside, black panties,
+        pussy, anus, pussy juice, dripping pussy juice, pussy juice on the ground, pussy focus,
+        {standing|leaning forward|kneeling|squatting},
+        {|close-up},
+        __place/*__
+
     after-cum:
-      - |
-        __nsfw/panties-aside-spread/def__
-        cum drip, cum string, cum in pussy, cum pool,
-        {|body writing, tally},
+    - |
+      __nsfw/panties-aside-spread/def__
+      cum drip, cum string, cum in pussy, cum pool,
+      {|body writing, tally},
 
   #---　寝てる間にマンコ広げる ---
   sleeping-spread-pussy:
@@ -1893,49 +1944,69 @@ nsfw:
     on stomach, on bed, legs apart, facing away, pillow, spread ass, pussy juice,
 
   wrestling:
-    - |
-      red bowtie, blue one-piece swimsuit, frilled one-piece swimsuit, 
-      armlet, blue sleeves, black gloves, two-tone gloves, blue thighhighs, 
-      frilled thighhighs, black boots,(torn clothes:1.3),(nipples, pussy), clothing aside, 
-      steaming body,sensual,alluring,sweatdrop,heavy breathing, 
-      ${bgd:stage lights, wrestling ring, }
-      (lying,on back,on floor), 
-      (pov hands, pov),legs up,pussy juice, imminent penetration,penis, 
-      1boy,dark-skinned male, (large penis,precum,penis on stomach),
-      spread legs, faceless male, dark-skinned male, 
-      full-face blush,embarrassed,tears,(joy),open mouth,
-      looking down,wide-eyed,surprising,
-      spoken exclamation mark,
-      BREAK ${act:1boy, penis, boy is jerking own penis with hand, boy is grabbing own penis, handjob by self, __bukkake__}
+  - |
+    red bowtie, blue one-piece swimsuit, frilled one-piece swimsuit, 
+    armlet, blue sleeves, black gloves, two-tone gloves, blue thighhighs, 
+    frilled thighhighs, black boots,(torn clothes:1.3),(nipples, pussy), clothing aside, 
+    steaming body,sensual,alluring,sweatdrop,heavy breathing, 
+    ${bgd:stage lights, wrestling ring, }
+    (lying,on back,on floor), 
+    (pov hands, pov),legs up,pussy juice, imminent penetration,penis, 
+    1boy,dark-skinned male, (large penis,precum,penis on stomach),
+    spread legs, faceless male, dark-skinned male, 
+    full-face blush,embarrassed,tears,(joy),open mouth,
+    looking down,wide-eyed,surprising,
+    spoken exclamation mark,
+    BREAK ${act:1boy, penis, boy is jerking own penis with hand, boy is grabbing own penis, handjob by self, __bukkake__}
 
   #食い込み    
   wedgie:
-    - |
-      sensual,alluring,sweatdrop,heavy breathing,(spoken heart),
-      joy, outdoors, beach,day, 
-      ${cloth:(micro bikini,leopard print, black lace trim),}
-      (pussy, wedgie), 
-      from below,
-      (crotch aside,pussy,clitoris, pussy juice),
-      panties aside, joy,happy, blush,smile, seductive smile, half-closed eyes
+  - |
+    sensual,alluring,sweatdrop,heavy breathing,(spoken heart),
+    joy, outdoors, beach,day, 
+    ${cloth:(micro bikini,leopard print, black lace trim),}
+    (pussy, wedgie), 
+    from below,
+    (crotch aside,pussy,clitoris, pussy juice),
+    panties aside, joy,happy, blush,smile, seductive smile, half-closed eyes
 
   #乳首いじり
   nipple-stimulation:
-    - |
-      (((nipple stimulation))), 
-      sweat, nipples, female masturbation, open mouth, heavy breathing, 
-      thighs, moaning, 
-      depth of field, sharp focus, motion blur, depth of field, 
-      female orgasm, trembling, tongue out, pussy juice trail, 
-      underwear, panties, pussy to panty, sweat,
-      ${act:fingering}
+  - |
+    (((nipple stimulation))), 
+    sweat, nipples, female masturbation, open mouth, heavy breathing, 
+    thighs, moaning, 
+    depth of field, sharp focus, motion blur, depth of field, 
+    female orgasm, trembling, tongue out, pussy juice trail, 
+    underwear, panties, pussy to panty, sweat,
+    ${act:fingering}
 
   #HENTAIコミック
   hentai-comic:
-    - |
-      <lora:FComic_1to1000_Pony_V1:1>
-      {fcomic_1to1000_pony, (comic:1.25), (Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 1girl, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation, 2boys, mmf threesome, erection, penis, multiple penises, testicles, cum,  hetero, sex, group sex,  oral, fellatio,  spread legs, spitroast, irrumatio, sweat, gangbang, double penetration, bangs, folded, thick thighs,
-      | fcomic_1to1000_pony, (comic:1.25), (Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 3+girls, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation, 1boy, erection, penis, cum, hetero, sex,
-      | fcomic_1to1000_pony, (comic:1.25), (Multi view:1.1, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 3+girls, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation,
-      }
-    -  <lora:FComic_HardCore_Pony_V1:1> (comic:1.25),(Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect), 1girl, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation,  2boys, mmf threesome, erection, penis, multiple penises, testicles, cum, hetero, sex, group sex,  oral, fellatio,  irrumatio, paizuri,  spread legs, spitroast, sweat, gangbang, double penetration,  triple penetration
+  - |
+    <lora:FComic_1to1000_Pony_V1:1>
+    {fcomic_1to1000_pony, (comic:1.25), (Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 1girl, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation, 2boys, mmf threesome, erection, penis, multiple penises, testicles, cum,  hetero, sex, group sex,  oral, fellatio,  spread legs, spitroast, irrumatio, sweat, gangbang, double penetration, bangs, folded, thick thighs,
+    | fcomic_1to1000_pony, (comic:1.25), (Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 3+girls, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation, 1boy, erection, penis, cum, hetero, sex,
+    | fcomic_1to1000_pony, (comic:1.25), (Multi view:1.1, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) 3+girls, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation,}
+  -  <lora:FComic_HardCore_Pony_V1:1> (comic:1.25),(Multi view, Frame, Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect), 1girl, solo focus, breasts, navel, nipples, pussy, clitoris, vaginal, anus, ass, nude, torn clothes, pussy juice, female masturbation,  2boys, mmf threesome, erection, penis, multiple penises, testicles, cum, hetero, sex, group sex,  oral, fellatio,  irrumatio, paizuri,  spread legs, spitroast, sweat, gangbang, double penetration,  triple penetration
+
+  condom:
+  - |
+    nude, sweat, biting used condom, sitting on bed, indian style, naughty face, smile, narrowed eyes, 
+    closed mouth, looking at viewer, hotel room, tattoo, 
+
+  miko:
+  - |
+    (short height)girl, exposed vulva, vaginal sex, (sexual intercourse with 1man(penis)), at shrine, (eye highlights)large, 
+    (round breasts)cleavage, (puffy nipples)erect(lactation), red hakama miniskirt, topless, small hips, (female urethra)exposed, 
+    (wavy)labia, (erect clitoris)prominent, (slender legs)(M-shape), orgasm, exasperation, out of breath, (deep urethra)
+
+  pool:
+  - |
+    dutch angle, 1boy, sex, (doggystyle:1.4), (sex from behind:1.8), head down, ass up, black o-ring choker, leash, 
+    vaginal penetration, looking back, veiny penis, pool, outdoors, tan skin, bronzed skin, perky breasts, big ass, 
+    bubble butt, fit girl, athletic, defined body, full lips, beautiful, sexy, cute, seductive, sultry, 
+    prettiest girl in the world, (legs spread:1.6), (arched back:1.4),
+    depth of field, detailed background,
+    dark cinematography, cinematic, vibrant, shadows, 
+    Visible, 8k, sharp focus, beautiful, perfect lighting, smooth edges,

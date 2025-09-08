@@ -1,0 +1,33 @@
+hamakaze,${trg:hamakaze \(kancolle\), kantai collection,},${hair-clr: silver hair,},${hair-length:short hair,},${breast:large breasts,}
+evelyn,${trg:<lora:Evelyn_ZZZ_IL:0.7> evelyn_zzz, blonde hair, short hair,},purple eyes, mole under eye, sidelocks, bun with braided base,,ring hair ornament, hair ornament, black ribbon, earrings,,${breast:large breasts,}
+xilonen,${trg:xilonen \(genshin impact\),},genshin impact,,${hair-clr:blonde hair,},${hair-length:long hair,},${hair-style:animal ears, leopard girl, dark-skinned female,,<lora:xilonen_genshin_impact_pdxl_goofy:0.7> xilonen,,${breast:large breasts,}
+ena,${trg:shinonome ena, project sekai, braid, short hair, brown hair}
+shizuku,${trg:kuroe shizuku \(cosplay\), sono bisque doll wa koi wo suru, } ,purple hair, medium hair, black frilled bonnet,,tareme,,${breast:large breasts,}
+moka,${trg:akashiya moka, rosario+vampire,},long hair, green eyes, pink hair, ahoge,
+rem,${trg:rem \(re:zero\), re:zero kara hajimeru isekai seikatsu,},blue eyes, blue hair, hair over one eye
+st-louis,${trg:st. louis \(azur lane\), azur lane, blue hair, pink eyes,},side ponytail, curly sidelocks,
+belle,${trg:belle \(zenless zone zero\), zenless zone zero,},${hair-length:short hair,},${hair-clr:dark blue hair,},${breast:large breasts,}
+minako aino,${trg:aino minako,},${cloth:,},${hair-clr:blonde hair,},${hair-length:long hair,},${breast:large breasts,}
+ram,${trg:ram \(re:zero\), re:zero kara hajimeru isekai seikatsu,},pink hair, pink eyes, hair over one eye
+rio,${trg:rio \(blue archive\), black hair, red eyes, hair ornament,},hairclip, {|halo}, long hair, blue archive,,${breast:large breasts,}
+mizuki,${trg:<lora:yumemizuki_mizuki_pony:0.7> yumemizuki mizuki, grey hair},${breast:large breasts,}
+florence,${trg:florence nightingale (fate), fate (series),},${breast:large breasts,}
+dalia,${trg:<lora:Matsuyama_Dalia:0.7> dalia, long hair, white hair,},(dark-skinned female, dark skin:1.2), shining eyes,
+marine,${trg:houshou marine, virtual youtuber,},hair ribbon, red ribbon, red hair,,red eyes, yellow eyes,,{two side up|ponytail|twintails|side ponytails|one side up},,${breast:large breasts,}  
+mai,${trg:shiranui mai, fatal fury, parted bangs, black hair, ponytail}
+air-groove,${trg:air groove \(umamusume\), umamusume,},${hair-clr:brown hair},${hair-length:short hair,},animal ears,,${breast:large breasts,}      
+dehya,${trg:dehya \(genshin impact\), genshin impact, multicolored hair,},animal ears, black hair, yellow hair, blue eyes, long hair,,hair between eyes,,${breast:large breasts,}
+mejiro-ardan,${trg:mejiro ardan \(umamusume\), umamusume,},animal ears,,${breast:large breasts,}ayane,${trg:ayane \(doa\), dead or alive, purple hair}saki,${trg:nikaidou saki, zombie land saga,}
+kanao,${trg:tsuyuri kanao, kimetsu no yaiba},${breast:large breasts,}
+kikuchi makoto,${trg:kikuchi makoto, idolmaster,},${hair-length:short hair,},${hair-clr:black hair,},${breast:large breasts,}
+rena,${trg:<lora:Ero Appli Gakuen - Kawazoe Rena v1:0.7> kawazoe rena,},long hair, wavy hair, brown hair, purple eyes,
+keqing,${trg:keqing \(genshin impact\),},genshin impact,,${hair-clr:purple} hair,,${hair-length:long hair} hair,,${breast:large breasts,} 
+epsilon,${trg:<lora:shadow-epsilon-ponyxl-lora-nochekaiser:0.7> epsilon,},long hair, twintails, blue hair, purple eyes, sidelocks,,${breast:large breasts,}
+lunch,${trg:lunch \(dragon ball\), dragon ball,},{dark purple|blonde} hair,,${breast:large breasts,}
+
+kasumi,${trg:toyama kasumi, bang dream!, poppin'party,},${hair-clr:brown hair,},${breast:large breasts,}
+anby,${trg:anby demara, zenless zone zero,},anby demara, orange eyes, short hair, white hair, {|headphones},
+lunamaria,${trg:<lora:Lunamaria_Hawke_SEED_Destiny_Pony:0.7> lunamaria,},blue eyes, red hair, short hair, ahoge,,${breast:large breasts,}
+yotsuba,${trg:nakano yotsuba, medium hair, orange hair, hair between eyes,},parted bangs, eyebrows hidden by hair, blue eyes,,{|green hairband, hair ribbon, green ribbon},,${breast:large breasts,}
+tomori,${trg:<lora:takamatsu_tomori_PonyXL_V1.1:0.7> takamatsu tomori,},${hair-clr:grey hair, brown hair,},${hair-length:short hair,},${breast:large breasts,} 
+aqua,${trg:aqua \(konosuba\), aqua hair},${breast:large breasts,}

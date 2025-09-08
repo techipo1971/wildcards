@@ -103,6 +103,11 @@ sfw:
       <lora:Fantasy_Forge:0.25> 
       <lora:iLLMythD4rkL1nes:1>
 
+    - |
+      weapon, sword, sheath, holding sheath, jewelry, sitting, tattoo, black nails, flower, earrings, looking at viewer, 
+      silver bikini armor, crossed legs, ring, water, leg tattoo, fingernails, closed mouth, white nails, partially submerged, 
+      chromatic aberration, detailed lighting, dynamic angle, from below, glowing blade,
+      <lora:Bright_style:0.6> Bright_illu, sparkle, too many light particles, glitter, 
 
   bunny-girl:
     - |
@@ -146,3 +151,26 @@ sfw:
     Digital art,illustration, Delicate eyes,delicate face, extremely detailed CG unity 8k wallpaper,
     extremely detailed,High Detail, colorful theme, Psychedelic art, fractal art, dark background,
     deep dark background, (fractal art:0.6), (Psychedelic art:0.6),
+
+  tattoo:
+  - |
+    limited palette, Purple pigment,Purple pigment,Purple pigment,
+    (scenery:1.5), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, realistic, 
+    high resolution, sharp focus, soft lighting, aged up, close-up, glowing eyes, back, ear piercing, 
+    looking back, profile, bare shoulders, expressionless, blush, earrings, hair ornament, 
+    backless dress, dress, ring, blue fingernails, looking at viewer, sitting, knees up, glowing, backless outfit, 
+    bare back, piercing, blue theme, blurry, blurry background, from behind, from side, upper body, back focus, 
+    depth of field, monochrome, blue background, tattoo, back tattoo, jewelry, double dragon print tattoo, glowing tattoos,
+    full-body tattoo, hand up, flower tattoo, scales,pattern, light particles, glowing smoke, glowing tattoos, 
+    patterns, light particles, (dutch angle:1.2), (depth of field:1.3), 
+    <lora:rimixO:0.45> 
+    <lora:Semi-realism_illustrious:0.45> 
+    <lora:USNR_STYLE_ILL_V1_lokr3:0.4>  
+    <lora:96YOTTEA-WAI:0.3> 
+    <lora:sdxl_lightning_8step_lora:0.3>
+
+  # 横顔
+  profile:
+  - |
+    profile, moon, twilight, floating hair, facing down, gradient sky, off shoulder, closed eyes, 
+    bokeh, blurry background, cowboy shot, water, dark theme, partially starry sky, comet, 
