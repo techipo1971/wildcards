@@ -1075,6 +1075,11 @@ ero:
     leaning forward, breast press, between breasts,
     looking at viewer, black background, bokeh,
 
+  - |
+    __bunny-girl__, 
+    voluptuous, indoors, couch, nightclub, red couch, side view, blush, sitting on couch,((turn_around)),
+    viewed from above, incoming kiss, half-closed eyes, ((upper body)), ((looking at viewer)), turning head,
+
   #チャイナドレス
   china-dress:
     moon:
@@ -1697,6 +1702,10 @@ ero:
     side-tie bikini bottom, thighs, Pink thigh high socks
     <lora:lighting:1>, 
   
+  - |
+    oversized tank top, no bra, sideboob, sneakers, side-tie bikini bottom, hands on white footwear, leaning forward, embarrassed, blush,  
+    sunset, beach, sand, squatting, from behind, looking back, legs together, 
+
   # メイド
   maid:
   - |
@@ -2152,6 +2161,15 @@ ero:
       {|ass, adjusting clothes|breast lift|holding volleyball},
       volleyball net, indoors,
 
+    - |
+      __volleyball-uniform__, 
+      arched back, thighs, volleyball net, wooden floor, from behind, from below, 
+      legs apart, standing, against volleyball net, elbow pads, knee pads, volleyball, audience, 
+
+    - |-
+      __volleyball-uniform__, 
+      sitting, m legs, reclining, arm support, tired, :o, sweat, wooden floor, volleyball, 
+
     basketball:
     - |
       __basketball-uniform__, 
@@ -2421,4 +2439,24 @@ ero:
       blush, nuzzling lips, 
       __angle__
 
-  
+autumn:
+- |
+  (dutch angle), ,from side, beautiful face, perfect eyes, detailed eyes, 
+  updo, blunt bangs, hair ornament, head tilt, looking at viewer,light smile,red eyeliner,
+  parted lips, collarbone, sitting, partially submerged, outstretched leg, thighs,
+  red kimono, pattern red oil-paper umbrella, bridge, holding umbrella,(water fall:1.2),
+  cliff, tree shade,autumn leaves, autumn tree,
+  bokeh, dappled sunlight, (vignetting), blurry foreground, falling leaves, pagoda,
+  <lora:lighting:1>
+  <lora:Dark fantasy style-000002:1> <lora:shuluo14:0.7>  
+
+tattoo:
+- |
+  bokeh, depth_of_field, cyberpunk_background, outside,  colorful tattoo, shoulder_tattoo flowers, 
+  cybernetics, bare_shoulder, freckles, looking towards viewer, eye focus, detailed eye, foreshortening, profile, 
+
+# 千斗いすずスタイル
+military:
+- |
+  military uniform, red uniform, frilled skirt, black skirt, blue striped panties, spread legs, knee up, 
+  holding one thigh, modern room, smile, head tilt, frilled thigh strap, white thighhighs, 

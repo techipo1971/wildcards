@@ -31,3 +31,10 @@ lunamaria,${trg:<lora:Lunamaria_Hawke_SEED_Destiny_Pony:0.7> lunamaria,},blue ey
 yotsuba,${trg:nakano yotsuba, medium hair, orange hair, hair between eyes,},parted bangs, eyebrows hidden by hair, blue eyes,,{|green hairband, hair ribbon, green ribbon},,${breast:large breasts,}
 tomori,${trg:<lora:takamatsu_tomori_PonyXL_V1.1:0.7> takamatsu tomori,},${hair-clr:grey hair, brown hair,},${hair-length:short hair,},${breast:large breasts,} 
 aqua,${trg:aqua \(konosuba\), aqua hair},${breast:large breasts,}
+musashi,${trg:musashi \(azur lane\), azur lane,},${hair-style:long hair, straight hair,},${hair-clr:black,},${breast:huge breast}
+lucoa,${trg:lucoa \(maidragon\), blonde hair, blue hair, dragon girl,},gradient hair, green hair, hair between eyes, horns,,huge breasts, multicolored hair, green eyes, purple eyes,,yellow pupils, heterochromia,,${breast:huge breast,}
+chun-li,${trg:chun li, street fighter,},${hair-length:medium hair,},${hair-clr:black hair,},${hair-style:hair buns,},${breast:large breasts,}
+menace,${trg:menace \(queen's blade\), queen's blade,},dark-skinned female,,${breast:large breasts,}
+alina,${trg:<lora:alina_clover-girumasu_s1-v4-ixl-anime-soralz:1.0>,},alina clover (girumasu), long hair, (multicolored hair,,black hair:1.2), purple hair, {swept bangs,,black hair ribbon|parted bangs, hairclip, ponytail}, blue eyes,,(green eyes:0.8), cute girl, cute face,,${breast:large breasts,}
+kobeni,${trg:higashiyama kobeni, chainsaw manÅAblack hair}
+fiorayne,${trg:fiorayne \(monster hunter\), monster hunter \(character\),},${hair-length:short hair,},flipped hair, ,${breast:large breasts,}

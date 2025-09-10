@@ -160,156 +160,165 @@ naked-towel:
 
 #バニーガール
 bunny-girl:
-  - |
-    playboy bunny, rabbit ears, seamed pantyhose, bodysuit, sleeveless,
-    wrist cuffs, rabbit tail,
-  - |
-    playboy bunny, rabbit ears, seamed pantyhose, bodysuit, sleeveless,
-    wrist cuffs, rabbit tail, black choker, collarbone,
-  - |
-    wrist cuffs, black rabbit ears, bowtie, fake animal ears, 
-    red bowtie, skirt, sleeveless, bare shoulders, red skirt, black vest, miniskirt, white thighhighs, 
+- |
+  playboy bunny, rabbit ears, seamed pantyhose, bodysuit, sleeveless,
+  wrist cuffs, rabbit tail,
+
+- |
+  playboy bunny, rabbit ears, seamed pantyhose, bodysuit, sleeveless,
+  wrist cuffs, rabbit tail, black choker, collarbone,
+
+- |
+  wrist cuffs, black rabbit ears, bowtie, fake animal ears, 
+  red bowtie, skirt, sleeveless, bare shoulders, red skirt, black vest, miniskirt, white thighhighs, 
+
+- |
+  wrist cuffs, black rabbit ears, bowtie, fake animal ears, red bowtie, skirt, sleeveless, bare shoulders,
+  red skirt, black vest, miniskirt, white thighhighs
 
 #フィットネス
 fitness:
-  - |
-      camouflage tank top, tight leggings, midriff, {|underboob},
-      athlete,
-  - |
-      leggings with vertical lines, sports bra {|lift, underboob|slip},
-      midriff, athlete,
+- |
+    camouflage tank top, tight leggings, midriff, {|underboob},
+    athlete,
+- |
+    leggings with vertical lines, sports bra {|lift, underboob|slip},
+    midriff, athlete,
+
+# ネグリジェ
 negligee: negligee, side-tie panties, see-through silhouette
+
 #ビッチのボディコン
 bitch-bodycon:
-  - |
-    bodycon, side slit with cross lace, ((chest with cross lace)),
-    thighhighs, garter straps, black choker, earring, armband,
-    rose tattoo,
+- |
+  bodycon, side slit with cross lace, ((chest with cross lace)),
+  thighhighs, garter straps, black choker, earring, armband, rose tattoo,
+
 #ボンデージ衣装
 bondage:
   harness: 
-    - |
-      harness, bdsm, o-ring, nipples, crotchless, 
-      black choker, collarbone, sideboob, black gloves,
-    - |
-      lewd pubic tattoo, revealing clothes, o-ring, chest harness, 
+  - harness, bdsm, o-ring, nipples, crotchless, black choker, collarbone, sideboob, black gloves,
+  - lewd pubic tattoo, revealing clothes, o-ring, chest harness, 
+
   crotch-zipper:
-    - |
-      chest harness, crotch zipper, black bikini, black bra,
-      bondage harness, black panties, zipper, skindentation,
-      strap between breasts, underboob, black gloves, latex gloves,
-      elbow gloves, black thighhighs, latex thighhighs,
-      lewd pubic tattoo
-  dominatrix:
-    - |
-      dominatrix, bondage outfit, bondage, bdsm, latex,
-      cross-laced clothes, spikes, fishnets, fishnet thighhighs,
-      jewelry, earrings, elbow gloves, garter straps,
-      lewd pubic tattoo
-  garter:
-    - |
-      garter straps, black corset, center cross lace, panties,
-      o-ring harness, detached leather gloves, latex bra,
-      leather kneehighs,
-      lewd pubic tattoo
-  heart-pasties:
-    - |
-      chain, o-ring, chain leash, linked piercing,
-      black collar, black heart pasties, tassel,
-      black panties,
-      garter strap
-      lewd pubic tattoo
-
-
-sexy-nun:
   - |
-      nun, breast curtains, pelvic curtain, garter belt,
-      white thighhighs,
+    chest harness, crotch zipper, black bikini, black bra,
+    bondage harness, black panties, zipper, skindentation,
+    strap between breasts, underboob, black gloves, latex gloves,
+    elbow gloves, black thighhighs, latex thighhighs, lewd pubic tattoo
+
+  dominatrix:
+  - |
+    dominatrix, bondage outfit, bondage, bdsm, latex,
+    cross-laced clothes, spikes, fishnets, fishnet thighhighs,
+    jewelry, earrings, elbow gloves, garter straps,
+    lewd pubic tattoo
+
+  garter:
+  - |
+    garter straps, black corset, center cross lace, panties,
+    o-ring harness, detached leather gloves, latex bra,
+    leather kneehighs,
+    lewd pubic tattoo
+
+  heart-pasties:
+  - |
+    chain, o-ring, chain leash, linked piercing,
+    black collar, black heart pasties, tassel,
+    black panties,
+    garter strap
+    lewd pubic tattoo
+
+# セクシーな修道女
+sexy-nun:
+  - nun, breast curtains, pelvic curtain, garter belt, white thighhighs,
   - gloves, long sleeves, white gloves, robe, nun, habit
+
 #OL
 office-lady:
-  - |
-      gold necklace, hoop earrings, bracelet, fit body, formal suit,
-      business suit, office lady, black pantyhose, black jacket,
-      pencil skirt, id card, skindentation,
-  - |
-      naked shirt, collared shirt, white shirt, pencil skirt,
-      open shirt, cleavage, necklace, belt, sweat,
+- |
+    gold necklace, hoop earrings, bracelet, fit body, formal suit,
+    business suit, office lady, black pantyhose, black jacket,
+    pencil skirt, id card, skindentation,
+- |
+    naked shirt, collared shirt, white shirt, pencil skirt,
+    open shirt, cleavage, necklace, belt, sweat,
+
 #ブルマ
 buruma:
   def: buruma, gym shirt
-  yuuka-style:
-    - |
-      blue jacket, track jacket, black shirt, blue buruma,
-      covered nipples,
+  yuuka-style: blue jacket, track jacket, black shirt, blue buruma, covered nipples,
 
 #ベリーダンサー
 belly-dancer:
   aisha-purple:
-    - |
-      <lora:DanMachi_AishaBelka_IlluXL:0.8> detached collar, necklace, o-ring,
-      purple bandeau, bracelet, harem pants, see-through legwear, white panties, purple pants
+  - |
+    <lora:DanMachi_AishaBelka_IlluXL:0.8> detached collar, necklace, o-ring,
+    purple bandeau, bracelet, harem pants, see-through legwear, white panties, purple pants
+
   aisha-white:
-    - |
-      <lora:DanMachi_AishaBelka_IlluXL:0.8> detached collar, necklace, o-ring, 
-      white bandeau, bracelet, clothes around waist, white panties
+  - |
+    <lora:DanMachi_AishaBelka_IlluXL:0.8> detached collar, necklace, o-ring, 
+    white bandeau, bracelet, clothes around waist, white panties
+
   rnd:
-    - |
-        belly dancing, pelvic curtain, thong bikini, jewelry, gold trim,
-        see-through, curvy, covered nipples, arabic, gold thigh strap,
-        hair ornament, {|mouth veil},
-    - |
-        harem, harem pants, harem outfit, see-through, detached sleeves,
-        off shoulder, jewelry, thong, cleavage, {|mouth veil},
+  - |
+      belly dancing, pelvic curtain, thong bikini, jewelry, gold trim,
+      see-through, curvy, covered nipples, arabic, gold thigh strap,
+      hair ornament, {|mouth veil},
+  - |
+      harem, harem pants, harem outfit, see-through, detached sleeves,
+      off shoulder, jewelry, thong, cleavage, {|mouth veil},
+
 #アーミー
 army:
-  - |
-      camouflage jacket, short sleeves, camouflage shorts,
-      black gloves, open jacket, no bra, holster, thigh strap,
-      desert camouflage, covered nipples, shoulder belt,
-  - |
-      "{|camouflage} combat vest, sideboob, latex panties,
-      combat knife, arm strap, arm guards, ",
+- |
+    camouflage jacket, short sleeves, camouflage shorts,
+    black gloves, open jacket, no bra, holster, thigh strap,
+    desert camouflage, covered nipples, shoulder belt,
+- |
+    "{|camouflage} combat vest, sideboob, latex panties,
+    combat knife, arm strap, arm guards, ",
 
 #レースクイーン
 race-queen:
-  - |
-    race queen, criss-cross halter, pink and white uniform, miniskirt, midriff,
+- |
+  race queen, criss-cross halter, pink and white uniform, miniskirt, midriff,
 
-  - |
-    race queen, jacket, navel, skirt, cleavage, bandeau,
-    cropped jacket, open jacket, highleg panties, midriff,
-    thighhighs, long sleeves, miniskirt, crop top, microskirt,
-    jacket, strapless, collarbone,
+- |
+  race queen, jacket, navel, skirt, cleavage, bandeau,
+  cropped jacket, open jacket, highleg panties, midriff,
+  thighhighs, long sleeves, miniskirt, crop top, microskirt,
+  jacket, strapless, collarbone,
 
-  - |
-    race queen, checkered clothes, midriff, partially unzipped,
-    crop top, black clothes, yellow clothes, asymmetrical clothes,
+- |
+  race queen, checkered clothes, midriff, partially unzipped,
+  crop top, black clothes, yellow clothes, asymmetrical clothes,
 
-  - |
-    race queen, policewoman, latex, miniskirt, blue jacket, halterneck, 
-    choker, thong, belt, slanted belt, loose belt,
-    {|police cap}
+- |
+  race queen, policewoman, latex, miniskirt, blue jacket, halterneck, 
+  choker, thong, belt, slanted belt, loose belt,
+  {|police cap}
 
 #メイド
 maid:
   base: maid, maid headdress
   random:
-    - |-
-      __maid/base__, collar, collarbone, frills, sleeveless,
-      elbow gloves, white gloves, white apron, thighhighs,
+  - |-
+    __maid/base__, collar, collarbone, frills, sleeveless,
+    elbow gloves, white gloves, white apron, thighhighs,
 
-    - |-
-      __maid/base__,
-      hairclip, maid headdress, black dress,
-      pink bowtie, puffy short sleeves, wrist cuffs, corset,
-      layered skirt, white skirt, thigh strap, white thighhighs,
+  - |-
+    __maid/base__,
+    hairclip, maid headdress, black dress,
+    pink bowtie, puffy short sleeves, wrist cuffs, corset,
+    layered skirt, white skirt, thigh strap, white thighhighs,
 
   belfast-style:
-    - |
-      __maid/base__, 
-      collar, chain, collarbone, frills, sleeveless,
-      gauntlets, elbow gloves, white gloves, waist apron, white apron,
+  - |
+    __maid/base__, 
+    collar, chain, collarbone, frills, sleeveless,
+    gauntlets, elbow gloves, white gloves, waist apron, white apron,
 
 #学生服
 school-uniform:
@@ -362,77 +371,91 @@ school-uniform:
     purple skirt,
 
   mahiru-style:
-    - |
-      ,
-      <lora:mahiru-shiina-s1-ponyxl-lora-nochekaiser:0.7> __school-uniform/base__,
-      bow, jacket, pleated skirt, plaid, plaid skirt, blazer, cardigan,
-      blue blazer, red bowtie,
+  - |
+    ,
+    <lora:mahiru-shiina-s1-ponyxl-lora-nochekaiser:0.7> __school-uniform/base__,
+    bow, jacket, pleated skirt, plaid, plaid skirt, blazer, cardigan,
+    blue blazer, red bowtie,
+
   alya-style:
-    - |
-      __school-uniform/base__, shirt, long sleeves, bow, jacket,
-      white shirt, pleated skirt, collared shirt, bowtie, black skirt,
-      red bow, red bowtie, blazer, grey blazer, long sleeves,
+  - |
+    __school-uniform/base__, shirt, long sleeves, bow, jacket,
+    white shirt, pleated skirt, collared shirt, bowtie, black skirt,
+    red bow, red bowtie, blazer, grey blazer, long sleeves,
+
   ichika-style:
-    - |
-      __school-uniform/base__, blue jacket, blazer, wing collar,
-      open jacket, white shirt, collared shirt, dress shirt,
-      long sleeves, green skirt, pleated skirt,
+  - |
+    __school-uniform/base__, blue jacket, blazer, wing collar,
+    open jacket, white shirt, collared shirt, dress shirt,
+    long sleeves, green skirt, pleated skirt,
+
   nino-style:
-    - |
-      __school-uniform/base__, black cardigan, open cardigan,
-      white shirt, collared shirt, long sleeves, green skirt,
-      pleated skirt, zettai ryouiki, white thighhighs,
+  - |
+    __school-uniform/base__, black cardigan, open cardigan,
+    white shirt, collared shirt, long sleeves, green skirt,
+    pleated skirt, zettai ryouiki, white thighhighs,
+
   miku-style:
-    - |
-      __school-uniform/base__, aqua cardigan, white shirt,
-      collared shirt, long sleeves, green skirt, pleated skirt,
-      brown pantyhose,
+  - |
+    __school-uniform/base__, aqua cardigan, white shirt,
+    collared shirt, long sleeves, green skirt, pleated skirt,
+    brown pantyhose,
+
   yotsuba-style:
-    - |
-      __school-uniform/base__, sweater vest, yellow sweater,
-      green bowtie, plaid bowtie, white shirt, collared shirt,
-      short sleeves, green skirt, pleated skirt, black socks,
+  - |
+    __school-uniform/base__, sweater vest, yellow sweater,
+    green bowtie, plaid bowtie, white shirt, collared shirt,
+    short sleeves, green skirt, pleated skirt, black socks,
+
   itsuki-style:
-    - |
-      __school-uniform/base__, black jacket, blazer, wing collar,
-      open jacket, sweater vest, red sweater, white shirt,
-      collared shirt, long sleeves, green skirt, pleated skirt,
-      black socks,
+  - |
+    __school-uniform/base__, black jacket, blazer, wing collar,
+    open jacket, sweater vest, red sweater, white shirt,
+    collared shirt, long sleeves, green skirt, pleated skirt,
+    black socks,
+
   suguha-style:
-    - |
-      __school-uniform/base__, grey sweater, black sailor collar,
-      light green neckerchief, pleated skirt, miniskirt,
+  - |
+    __school-uniform/base__, grey sweater, black sailor collar,
+    light green neckerchief, pleated skirt, miniskirt,
+
   dxd-style:
-    - |
-      __school-uniform/base__, ribbon, white shirt, black ribbon,
-      neck ribbon, capelet, black capelet, long sleeves, skirt,
-      red skirt,
+  - |
+    __school-uniform/base__, ribbon, white shirt, black ribbon,
+    neck ribbon, capelet, black capelet, long sleeves, skirt,
+    red skirt,
+
   lum-serafuku-cos:
-    - |
-      __school-uniform/base__, serafuku, blue shirt, long sleeves,
-      blue skirt, pleated skirt, yellow neckerchief,
-      striped sailor collar,
+  - |
+    __school-uniform/base__, serafuku, blue shirt, long sleeves,
+    blue skirt, pleated skirt, yellow neckerchief,
+    striped sailor collar,
+
   marin-style:
-    - |
-      __school-uniform/base__, v-neck sweater, black long sweater,
-      long sleeves sweater, white collared shirt, black choker,
-      light blue checkered skirt,
+  - |
+    __school-uniform/base__, v-neck sweater, black long sweater,
+    long sleeves sweater, white collared shirt, black choker,
+    light blue checkered skirt,
+
   tomori-style:
-    - |
-      __school-uniform/base__, grey jacket, blazer, green necktie,
-      green skirt, miniskirt, pleated skirt, plaid skirt,
-      diagonal striped necktie,
+  - |
+    __school-uniform/base__, grey jacket, blazer, green necktie,
+    green skirt, miniskirt, pleated skirt, plaid skirt,
+    diagonal striped necktie,
+
   hanasakigawa-style: __school-uniform/base__, hanasakigawa school uniform
+
   bitch-style:
-    - |
-      makeup, jewelry, ring, earrings, lipstick, school uniform,
-      scrunchie, wrist scrunchie, shirt, white shirt, open clothes,
+  - |
+    makeup, jewelry, ring, earrings, lipstick, school uniform,
+    scrunchie, wrist scrunchie, shirt, white shirt, open clothes,
+
   lala-style:
-    - |
-      __school-uniform/base__, sweater vest, yellow vest, white shirt,
-      collared shirt, green bowtie, short sleeves, miniskirt,
-      green skirt, plaid skirt, pleated skirt, zettai ryouiki,
-      black thighhighs, demon tail,
+  - |
+    __school-uniform/base__, sweater vest, yellow vest, white shirt,
+    collared shirt, green bowtie, short sleeves, miniskirt,
+    green skirt, plaid skirt, pleated skirt, zettai ryouiki,
+    black thighhighs, demon tail,
 
 #カクテルドレス
 cocktail-dress:
