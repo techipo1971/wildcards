@@ -63,6 +63,7 @@ bikini:
   front-tie: front-tie bikini
   slingshot: slingshot bikini, {|areola slip}
   cow-print: cow print bikini, cow ears, cowbell, cow horns
+  criss-cross-halter: criss-cross halter bikini, criss-cross straps, micro bikini
   lum-style:
     - |
       tiger print bandeau bikini, strapless bikini, yellow bikini,
@@ -87,7 +88,7 @@ one-piece-swimsuit:
   one-piece: one-piece swimsuit
   competition: competition swimsuit
   school: school swimsuit
-  classic school: classic school swimsuit
+  classic: classic school swimsuit, blue one-piece swimsuit, school swimsuit,
 
 #ヒョウ柄ビキニ　ギャル
 jaguar-bikini-gal:
@@ -320,6 +321,11 @@ maid:
     collar, chain, collarbone, frills, sleeveless,
     gauntlets, elbow gloves, white gloves, waist apron, white apron,
 
+  bikini:
+  - |
+    jewelry, maid bikini, black bikini, maid headdress, detached collar, thighhighs, frills, ribbon, 
+    arm garter, leg garter, wrist cuffs
+
 #学生服
 school-uniform:
   base: school uniform, skirt
@@ -474,22 +480,23 @@ rin-style:
     white dress, black pantyhose, bare shoulders, sleeveless,
     white gloves, dress, off shoulder, gloves, collared dress,
     white coat, coat, pantyhose, blue necktie,
+
+#アシュリーコス
+ashley-cos: orange sweater, sleeveless turtleneck, necklace, green skirt, plaid skirt, miniskirt, 
+
 #セータードレス
 sweater-dress:
-  - |
-      sweater, __color__ sweater, open-chest sweater,
-      turtleneck sweater, long sleeves, sweater dress,
-  - |
-      wearing an oversized sweater slipping off one shoulder,
-      thigh-high socks,
+  - sweater, __color__ sweater, open-chest sweater, turtleneck sweater, long sleeves, sweater dress,
+  - wearing an oversized sweater slipping off one shoulder, thigh-high socks,
   - knit sweater & miniskirt
   - turtleneck sweater, black sweater, backpack, beret, plaid skirt
+
 #婦警
-police:
-  - |
-    police uniform, pencil skirt, shirt, pantyhose, leather belt,
-    emblem, collarbone,
+police: police uniform, pencil skirt, shirt, pantyhose, leather belt,emblem, collarbone,
+
+#フィッシュネット
 fishnet: fishnet {bodystocking|tights|stealth suit}
+
 beret-cos:
   - |
     <lora:senchouXL:0.7> blue beret, collared shirt, sleeveless,

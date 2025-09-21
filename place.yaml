@@ -1,5 +1,8 @@
 place:
   moody: "{hotel room|bedroom|love hotel|lounge|party}"
+  poolside: poolside, wet, reflective water, brick floor,
+  # 牛小屋
+  cow-shed: barn, straw floor, cow shed,
   water-front:
     - pool
     - poolside

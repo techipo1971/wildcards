@@ -6,12 +6,14 @@ from datetime import datetime
 import yaml  # YAMLファイルを扱うために追加
 import random  # ランダム選択のために追加
 import itertools
+import search_yaml
 
 # Web UIのAPIエンドポイント
 url = "http://127.0.0.1:7860/sdapi/v1/txt2img"
 
 # プロンプトを読み込むYAMLファイル名
 YAML_FILE = 'chara.yaml'
+SEQ_FILE = 'sequence.yaml'  # 連番管理用ファイル
 
 POSITIVE = "__il/quality/positive__,"
 # POSITIVE = "__il/quality/pos-simple__,"
@@ -32,7 +34,13 @@ GEN_LIST = [ERO, R18, R18_PLUS]
 # TITLE = 'fire-force'
 
 ### ピックアップ
-# PICKUP = ['ruby']
+# PICKUP = ['suguha kirigaya']
+
+### シナリオ名
+# SCENARIO_NAME = 'gym-uniform'
+
+### キーワード
+# KEYWORD = 'lactation'
 
 #############################################################################################################
 
@@ -85,6 +93,23 @@ def load_all_characters(key='all'):
 
     # 全てのキャラクター情報を抽出
     return extract_characters_from_yaml(yaml_data)
+
+#############################################################################################################
+def load_seq_data():
+    # 連番管理用YAMLファイルからデータを読み込む
+    try:
+        with open(SEQ_FILE, 'r', encoding='utf-8') as f:
+            seq_data = yaml.safe_load(f)
+            if not isinstance(seq_data, dict):
+                print(f"[Error] Invalid format in {SEQ_FILE}. Expected a dictionary.")
+                return {}
+            return seq_data
+    except FileNotFoundError:
+        print(f"[Error] Sequence YAML file not found: {SEQ_FILE}")
+        return {}
+    except yaml.YAMLError as e:
+        print(f"[Error] Could not parse sequence YAML file: {e}")
+        return {}
 
 #############################################################################################################
 def select_random_character(all_characters):
@@ -162,19 +187,19 @@ def generate_img(payload, output_folder):
         print(f"An error occurred: {e}")
 
 #############################################################################################################
-def set_payload(positive, negative="__il/quality/negative__"):
+def set_payload(positive, negative="__il/quality/negative__", steps=25, seed=-1):
     # 詳しくは http://127.0.0.1:7860/docs を参照
     payload = {
         "prompt": positive,
         "negative_prompt": negative,
-        "steps": 28,
+        "steps": steps,
         "cfg_scale": 3,
         "width": 1024,
         "height": 1536,
         "sampler_name": "Euler a",
         "scheduler": "Automatic",
         "n_iter": BATCH_COUNT,
-        "seed": -1, 
+        "seed": seed,  # -1でランダムシード
         # --- Hires. fix パラメータ ---
         "enable_hr": False,                         # Hires. fix を有効化
         "hr_scale": 2,                              # 2倍にアップスケール
@@ -186,12 +211,12 @@ def set_payload(positive, negative="__il/quality/negative__"):
     return payload
 
 #############################################################################################################
-def main(char_prompt):
+def main(char_prompt, list=GEN_LIST, seed=-1):
     """
     メインの処理を実行する関数
     """
     # 生成したい画像のプロンプトをリストで用意
-    prompts_to_generate = [char_prompt + item for item in GEN_LIST]
+    prompts_to_generate = [char_prompt + item for item in list]
 
     # 画像を保存するフォルダを作成
     output_folder = "C:\StabilityMatrix\Images\generated_images"
@@ -202,12 +227,27 @@ def main(char_prompt):
     for prompt in prompts_to_generate:
         print(f"Prompt: {prompt}")
 
-        payload = set_payload(prompt)
+        payload = set_payload(prompt, seed=seed)
         
         # 画像生成
         generate_img(payload, output_folder)
 
     print("--- All images generated! ---")
+
+#############################################################################################################
+def create_seq_prompts():
+    seq_data = load_seq_data()
+    if not seq_data or 'seq' not in seq_data or SCENARIO_NAME not in seq_data['seq']:
+        print(f"[Error] Scenario '{SCENARIO_NAME}' not found in {SEQ_FILE}.")
+        return []
+
+    gen_seq_list = [item + POSITIVE + STYLE + ", r18+, nsfw," for item in seq_data['seq'][SCENARIO_NAME]]
+    # 19桁の範囲を指定（10^18 ～ 10^19 - 1）
+    seed = random.randint(10**18, 10**19 - 1)
+    print(f"Seed: {seed}")
+
+    return gen_seq_list, seed
+
 
 #############################################################################################################
 if __name__ == '__main__':
@@ -225,6 +265,32 @@ if __name__ == '__main__':
     except:
         all_characters = load_all_characters()
 
+    # キーワード検索
+    keyword_mode = False
+    try:
+        if(isinstance(KEYWORD, str)):
+            # キーワード指定
+            print('--- Keyword search generation ---')
+            gen_keyword_list = [item + POSITIVE + STYLE + ", r18+, nsfw," for item in search_yaml.search_yaml_in_folder('.', KEYWORD)]
+            print(f"Keyword search results: {len(gen_keyword_list)} items")
+            keyword_mode = True
+    except:
+        print('--- Random generation ---')
+        pass
+
+    seq_mode = False
+    try:
+        if(isinstance(SCENARIO_NAME, str)):
+            # シナリオ指定
+            print('--- Scenario generation ---')
+            gen_seq_list, seed = create_seq_prompts()
+
+            seq_mode = True
+    except:
+        print('--- Random generation ---')
+        seq_mode = False
+        pass
+
     try:
         if(isinstance(PICKUP, list)):
             # ピックアップ指定キャラ数分　生成
@@ -235,7 +301,15 @@ if __name__ == '__main__':
                     selected_list.append(','.join(prompt['prompt'].splitlines()))
 
             for char_prompt in selected_list:
-                main(char_prompt)
+                if keyword_mode:
+                    # キーワード指定
+                    main(char_prompt, gen_keyword_list)
+                elif seq_mode: 
+                    # シナリオ指定
+                    print('--- Scenario generation ---')
+                    main(char_prompt, gen_seq_list, seed)
+                else:
+                    main(char_prompt)
         else:
             print('PICKUP list definition error!!')
     except:
@@ -243,7 +317,15 @@ if __name__ == '__main__':
         # 指定キャラ数分　ランダム抽出で繰り返し
         for i in range(CHARACTER_NUMBER):
             char_prompt = select_random_character(all_characters)
-            main(char_prompt)
+            if keyword_mode:
+                # キーワード指定
+                main(char_prompt, gen_keyword_list)
+            elif seq_mode: 
+                # シナリオ指定
+                print('--- Scenario generation ---')
+                main(char_prompt, gen_seq_list, seed)
+            else:
+                main(char_prompt)
 
     print("\nTask completed!")
 

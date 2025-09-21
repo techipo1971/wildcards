@@ -1,9 +1,13 @@
 nsfw:
   oral-sex: "{|__saliva__}, {__irrumatio__|__blowjob__|__cunnilingus/*__}"
   random-sex:
-    - |
-      __sex-base__, __sex-face__, {|__panty-action__|shibari, bound},
-      __sex-pose__,
+  - |
+    __sex-base__, 
+    __sex-face__, 
+    {|__panty-action__|shibari, bound},
+    __sex-pose__,
+
+  - __seq/*__
 
   topless:
     beach:
@@ -333,7 +337,12 @@ nsfw:
       after sex, 1boy, penis, pulling out from pussy, cum string,
       cum in pussy, doggystyle, 
       {|from side},
-      {|all fours}, 
+      {|all fours},
+
+    - |
+      solo, cum in pussy, anus, ass, torn clothes, cumdrip, cum, pussy, after sex, after vaginal, 
+      looking at viewer, torn pantyhose, back, pillow, blush, looking back, pantyhose, from behind, 
+      all fours, long sleeves, ass focus, spread arms, 
 
     removing-condom:
     - |
@@ -372,6 +381,10 @@ nsfw:
       ((sound effects, japanese sound effects,)) 
       trembling, motion lines, motion blur, pussy focus, 
 
+    tatami:
+    - |
+      lying on tatami, on back on tatami, nude, spread legs, hands up, bukkake,
+      embarrassed, moaning, half-closed eyes, spread arms, after sex, breasts apart, tatami_only,
 
   #正ちゃんマーク
   tally-mark:
@@ -534,6 +547,11 @@ nsfw:
         on stomach, 
         bulge,
 
+      open-shirt:
+      - |
+        bedroom, wariza, open shirt, white shirt, nipples, panties, saliva trail, black choker,  
+        {licking penis, tongue, handjob,|deepthroat,|head grab, irrumatio,} 
+
       smelling:
       - |
         __blowjob-pose/smelling__,
@@ -575,6 +593,8 @@ nsfw:
         <lora:cumtrail_pulling_outv4.0:1> cumtrail mouth to penis, pulling out penis, after oral, after fellatio,
         __bukkake__,
         {|from side}
+
+      over-eyes: penis on face, penis over eyes, open mouth, tongue, saliva, bound, chain collar,  
 
     fat-man:
     - |
@@ -623,51 +643,67 @@ nsfw:
       - |
         torn __rnd-pantyhose__, 
         open top, high heels,
-        pussy, pubes, leaking joy juice on thighs, pussy squrting,
+        pussy, leaking joy juice on thighs, pussy squrting,
         orgasm, climax, blush, cumdump, ((smaller cocks)), handjob,
         __blowjob-pose/*__,
         motion_lines:1.2, motion_blur:1.2
+
       outdoor:
-        - |
-          __nsfw/blowjob/squrting/def__,
-          on grassland, in grove,
+      - |
+        __nsfw/blowjob/squrting/def__,
+        on grassland, in grove,
+
       police:
-        - |
-          __nsfw/blowjob/squrting/def__,
-          __police__,
+      - |
+        __nsfw/blowjob/squrting/def__,
+        __police__,
+
       nurse:
-        - |
-          __nsfw/blowjob/squrting/def__,
-          __nurse-uniform__,
+      - |
+        __nsfw/blowjob/squrting/def__,
+        __nurse-uniform__,
+
       office-lady:
-        - |
-          __nsfw/blowjob/squrting/def__,
-          __office-lady__,
-          office,
+      - |
+        __nsfw/blowjob/squrting/def__,
+        __office-lady__,
+        office,
+
       student:
-        - |
-          __nsfw/blowjob/squrting/def__,
-          __school-uniform/*__,
-          classroom,
-    10dicks: pussy dripping, striping clothes for everyone to see, 10dicks out, force kissing, blowjob, sucking pussy, beaten, dicks around her, nude, cum
-    head-grab: __sex-base__, blowjob, veined penis, head grab, sucking penis, deepthroat, caressing testicles, handjob, deep oral insertion, __cum-action__
+      - |
+        __nsfw/blowjob/squrting/def__,
+        __school-uniform/*__,
+        classroom,
+
+    10dicks: 
+    - |
+      pussy dripping, striping clothes for everyone to see, 10dicks out, force kissing, blowjob, 
+      sucking pussy, beaten, dicks around her, nude, cum
+
+    head-grab: 
+    - |
+      __sex-base__, 
+      blowjob, veined penis, head grab, sucking penis, deepthroat, caressing testicles, handjob, deep oral insertion, 
+      __cum-action__
 
   #--- アフターフェラ ---
   after-blowjob:
     palm:
-      - |
-        __sex-face__, after fellatio, semen dripping on palms, facial,
-        cum in mouth,
+    - |
+      __sex-face__, 
+      after fellatio, semen dripping on palms, facial, cum in mouth,
+
     gokkun:
-      - |
-        after fellatio, closed mouth, cumdrip, cheek bulge, gokkun,
-        breast {suppress|grab},
+    - |
+      after fellatio, closed mouth, cumdrip, cheek bulge, gokkun,
+      breast {suppress|grab},
+
     in-mouth:
     - |
       __sex-face__, 
-      after fellatio, open mouth, cumdrip,
-      cum in mouth, 
+      after fellatio, open mouth, cumdrip, cum in mouth, 
       breast {suppress|grab},
+
     bukkake: 
     - |
       __sex-face__, 
@@ -883,6 +919,15 @@ nsfw:
       __fingering-action__, 
       sweat,
       {grabbing own breast, bra lift, nipples|licking own breast, tongue out|nipple tweak|spread pussy},
+
+    - |
+      t-shirt, panties, hand in panties, fingering through clothes, female masturbation,
+      bra lift, t-shirt lift by self, grabbing own breast, underboob, torogao, closed eyes, pussy juice, 
+      nipples, full-face blush, looking down, moaning, open mouth, 
+
+    - |
+      solo, female masturbation, fingering, from behind, pussy juice, pussy, top-down bottom-up, legs apart, 
+      panties around one leg, torogao, moaning, 
 
     dildo:
     - |
@@ -1285,6 +1330,10 @@ nsfw:
       sex from behind, on stomach, penis, front view, top-down bottom-up
         
     ass: 
+    - | 
+      pov, sex from behind, ass, camisole, head down, hands up, grabbing sheets penis, 
+      1boy, grabbing another's ass, deep penetration, trembling, panties around one leg, 
+    
     - |-
       __sex-base__, 
       __hardcore-motion__, 
@@ -1417,7 +1466,7 @@ nsfw:
       - |
         __ero/kunoichi/prison__, 
         breast out, nipples
-    
+
     missionary:
     - |
       __sex-base__, 
@@ -2010,3 +2059,9 @@ nsfw:
     depth of field, detailed background,
     dark cinematography, cinematic, vibrant, shadows, 
     Visible, 8k, sharp focus, beautiful, perfect lighting, smooth edges,
+
+  av-cover:
+  - |
+    lingerie, panties aside, panty, soapland, oily, bathroom, indoors, tiles, lotion, air mattress, pink air mattress, 
+    vaginal, sex, cum in pussy, cum overflow, cum dripping, 1boy, hetero, penis, pov, female orgasm, torogao, 
+    BREAK <lora:Soap1p2:0.9> av cover, from below, kneeling, cowgirl position, reaching towards viewer, 

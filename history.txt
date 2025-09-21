@@ -36,5 +36,40 @@ lucoa,${trg:lucoa \(maidragon\), blonde hair, blue hair, dragon girl,},gradient 
 chun-li,${trg:chun li, street fighter,},${hair-length:medium hair,},${hair-clr:black hair,},${hair-style:hair buns,},${breast:large breasts,}
 menace,${trg:menace \(queen's blade\), queen's blade,},dark-skinned female,,${breast:large breasts,}
 alina,${trg:<lora:alina_clover-girumasu_s1-v4-ixl-anime-soralz:1.0>,},alina clover (girumasu), long hair, (multicolored hair,,black hair:1.2), purple hair, {swept bangs,,black hair ribbon|parted bangs, hairclip, ponytail}, blue eyes,,(green eyes:0.8), cute girl, cute face,,${breast:large breasts,}
-kobeni,${trg:higashiyama kobeni, chainsaw manÅAblack hair}
+kobeni,${trg:higashiyama kobeni, chainsaw manÔøΩAblack hair}
 fiorayne,${trg:fiorayne \(monster hunter\), monster hunter \(character\),},${hair-length:short hair,},flipped hair, ,${breast:large breasts,}
+eclipse,${trg:<lora:Eclipse_pony:0.8> eclipdef, blue_eyes, long hair,},hair over one eye, black hair, colored inner hair,,multicolored hair, blue_hair,
+alya,${trg:alisa mikhailovna kujou, tokidoki bosotto roshia-go de dereru tonari no alya-san,},long hair, bangs, blue eyes, hair ribbon, ahoge, grey hair,,red ribbon,,${breast:large breasts,}
+narita taishin,${trg:narita taishin \(umamusume\), umamusume,},animal ears,,${breast:large breasts,}
+anna,${trg:<lora:yanami anna_makein_v1.0_PONY_epoch-000032:1> anna-default,},yanami anna, blue eyes, blue hair, medium hair,,${breast:large breasts,}
+alina,${trg:<lora:alina_clover-girumasu_s1-v4-ixl-anime-soralz:1.0>,},alina clover (girumasu), long hair, (multicolored hair,,black hair:1.2), purple hair, {swept bangs,,black hair ribbon|parted bangs, hairclip, ponytail}, blue eyes,,(green eyes:0.8), cute girl, cute face,,${breast:large breasts,}
+akane kurokawa,${trg:kurokawa akane, oshi no ko,},bangs, blue eyes, black hair, blue hair, multicolored hair,,gradient hair, bob cut,,${breast:large breasts,}
+epsilon,${trg:<lora:shadow-epsilon-ponyxl-lora-nochekaiser:0.7> epsilon,},long hair, twintails, blue hair, purple eyes, sidelocks,,${breast:large breasts,}
+mutsuki,${trg:mutsuki \(kancolle\), kantai collection,},${hair-clr:brown hair, red hair, multicolored hair,},${hair-length:short hair,},${breast:large breasts,}
+nicole,${trg:<lora:nicolePDXL_scarxzys:0.7> nicole, green eyes, pink hair,},long hair, two side up, black ribbon, hair ribbon, hair clip,,${breast:large breasts,}
+alya,${trg:alisa mikhailovna kujou, tokidoki bosotto roshia-go de dereru tonari no alya-san,},long hair, bangs, blue eyes, hair ribbon, ahoge, grey hair,,red ribbon,,${breast:large breasts,}
+hinata,${trg:hinata \(blue archive\), blue archive,},${breast:large breasts,}
+anby,${trg:anby demara, zenless zone zero,},anby demara, orange eyes, short hair, white hair, {|headphones},
+ai,${trg:ai-chan \(tawawa\), getsuyoubi no tawawa,},${breast:large breasts,}
+hibana,${trg:hibana \(enen no shoubotai\), en'en no shouboutai,},pink hair, (dark-skinned:1.4) female, symbol-shaped pupils, blue eyes,,${breast:large breasts,}
+shijou takane,${trg:shijou takane, idolmaster,},${hair-clr:silver hair,}        ,${hair-length:long hair,},${hair-style:blunt bangs,},${breast:large breasts,}
+honoka,${trg:honoka \(doa\), dead or alive, light brown hair, hair,},one side up, red eyes,
+fran,${trg:fran \(ffxii\), final fantasy xii,},${hair-clr:white hair,},${hair-length:long hair,},${breast:large breasts,},animal ears, dark-skinned
+marin,${trg:kitagawa marin, sono bisque doll wa koi wo suru,},long hair,,blonde hair, multicolored hair,,barbell piercing,,${breast:large breasts,}
+hotaru tomoe,${trg:tomoe hotaru,},${cloth:,},${hair-clr:purple hair,},${hair-length:short hair,},${breast:large breasts,}
+ellen,${trg:ellen joe, zenless zone zero,},red eyes, black hair,,short hair, colored inner hair, hairclip, ear piercing,,${breast:large breasts,}
+pecorine,${trg:pecorine \(princess connect!\), princess connect!,},${breast:large breasts,}
+ann,${trg:takamaki anne, persona, blonde hair, twintails, swept bangs,},blue eyes,,${breast:large breasts,}
+charlotte,${trg:charlotte \(genshin impact\), genshin impact,},pink hair,,medium hair, ,{|monocle},,${breast:large breasts,}
+mikasa,${trg:mikasa ackerman, shingeki no kyojin,},${hair-clr:black hair,},${breast:large breasts,}
+musashi,${trg:musashi \(azur lane\), azur lane,},${hair-style:long hair, straight hair,},${hair-clr:black,},${breast:huge breast}
+marciana,${trg:marciana \(nikke\), goddess of victory: nikke,},${breast:large breasts,}
+yukikaze,${trg:yukikaze \(kancolle\), kantai collection,},${hair-clr:brown hair,},${hair-length:short hair,},${breast:large breasts,}
+nodoka,${trg:haramura nodoka, saki \(manga\),},${hair-clr:pink hair,},${breast:large breasts,}
+haruka,${trg:shirogane haruka, project sekai,},${breast:large breasts,}
+mini yaemori,${trg:<lora:mini-yaemori-s1-ponyxl-lora-nochekaiser:0.7> mini yaemori,},long hair, bangs, black hair, blue hair, purple eyes,,multicolored hair, blunt bangs, streaked hair, ahoge,,${breast:large breasts,}
+sakuya shirase,${trg:shirase sakuya, idolmaster, },${hair-length:long hair,},${breast:large breasts,}
+matikane tannhauser,${trg:matikane tannhauser \(umamusume\), umamusume,},${hair-clr:brown hair, white hair, streaked hair, gradient hair,},${hair-length:long hair,},animal ears,,${breast:large breasts,}
+lunch,${trg:lunch \(dragon ball\), dragon ball,},{dark purple|blonde} hair,,${breast:large breasts,}
+mirabell,${trg:<lora:mirabell:0.8> mirabell, (dark skin:1.2), black hair,},orange eyes, ponytail, huge breasts, parted bangs, sidelocks,,${breast:large breasts,}
+matsuda yuki,${trg:matsuda yuki, idolmaster,},${hair-clr:black hair,}        ,${hair-length:short hair,},${breast:large breasts,}
