@@ -1,0 +1,173 @@
+#################################################################################################
+#   ベース
+#################################################################################################
+#--- sexベース ---
+sex-base: hetero, 1boy, faceless male, sex, vaginal, penis, __cum-action__
+
+#--- バックsexベース ---
+sex-back-base: __sex-base__, sex from behind
+
+#--- スタンディング ---
+standing-sex: __sex-base__, standing sex, standing
+
+#--- パイズリベース ---
+paizuri-base: paizuri, penis, look down
+
+#--- アフターパイズリ ---
+after-paizuri:
+  - |
+    after paizuri, breasts apart, penis, cum drip, cum string,
+    __bukkake__,
+
+#--- 射精アクション---
+cum-action:
+  -
+  - cum
+  - ejaculation
+  - dripping semen
+
+#--- ぶっかけアクション---
+bukkake:
+  - |
+    ejaculation, cum, cum on body, facial, cum on hair, bukkake,
+    cum string,
+
+#--- 母乳アクション---
+lactation:
+  -
+  - lactation
+#--- フェラポーズ ---
+blowjob-pose:
+  fellatio:
+    - |
+      penis,
+      fellatio,
+      __saliva__,
+      __cum-action__
+  glansjob:
+    - |
+      penis,
+      __glans-lick__,
+      __saliva__,
+      __cum-action__
+  deepthroat:
+    - |
+      penis,
+      deepthroat,
+      __saliva__,
+      __cum-action__
+  imminent:
+    - |
+      penis,
+      imminent fellatio,
+      __saliva__,
+  smelling:
+    - |
+      penis,
+      smelling penis, closed mouth, nose to glans
+      __saliva__,
+
+#--- 縛り　手を上に ---
+bound-wrist-up: bound wrists, armpits, bondage
+
+#--- ブラアクション ---
+bra-action:
+  -
+  - bra lift, {|strap slip}
+  - bra pull, {|strap slip}
+
+#--- パンティアクション ---
+panty-action:
+  -
+  - panties around one leg
+  - panties aside
+  - torn pantyhose
+
+#--- 横に広がる乳 ---
+breasts-apart: breasts apart, sagging breasts
+
+#---指舐め---
+finger-lick: licking finger, tongue out
+
+#---亀頭舐め---
+glans-lick: licking glans, tongue out
+
+#---エロ恥ずかし---
+sexual-or-embarrassed:
+  - __facial/sexual__
+  - __facial/embarrassed__
+
+#---ハッピーエロ---
+happy-or-sexual:
+  - __facial/happy__
+  - __facial/sexual__
+
+#--- エロ顔 ---
+sex-face:
+  - __facial/sexual__
+  - __facial/embarrassed__
+  - __facial/orgasm__
+  - __facial/clenched__
+  - __facial/torogao__
+
+#--- 体位 ---
+sex-pose:
+  - __nsfw/missionary/def*__
+  - __nsfw/cowgirl/def*__
+  - __nsfw/doggy/*__
+  - __nsfw/legs-up/*__
+  - __nsfw/piledriver/*__
+  - __nsfw/suspended/*__
+  - __nsfw/spooning*__
+  - __nsfw/leglift/*__
+  - __nsfw/bath-sex/*__
+  - __nsfw/rev-upright-straddle/*__
+  - __nsfw/rev-suspended/*__
+  - __nsfw/full-nelson/*__
+#--- よだれ ---
+saliva:
+  -
+  - saliva {|trail|drip|on breast}
+  - excessive saliva
+  - foaming at the mouth
+  - drooling
+  - mouth drool
+#--- 立ちファックの備品 ---
+standing-sex-obj:
+  - against wall
+  - on table
+  - on couch
+  - bar counter
+  - on vaulting horseon
+  - poker table, casino
+#--- 指オナニーアクション ---
+fingering-action:
+  - fingering, pussy juice
+  - fingering through panties, pussy juice
+  - fingering, panties aside, pussy juice
+#--- オナニーポーズ ---
+masturbation-pose:
+  - on back
+  - squatting
+  - leg up
+  - knee up
+  - top-down bottom-up
+  - legs up
+#################################################################################################
+
+#--- リバース駅弁 ---
+rev-suspended-congress:
+  - |
+    spread legs, reverse suspended congress,
+    {arms behind head|hands on own cheeks|covering face},
+    feet out of frame, {standing, |sitting}, close-up,
+#--- 駅弁 ---
+suspended-congress:
+  - |
+    suspended congress, arms around neck, ass, ass grab, breast press,
+    {|kiss},
+#--- 入浴 ---
+soap-bath:
+  - |
+    <lora:0156 bubble bath_v3_pony:1> ruanyi0156, soap bubbles, nude,
+    bathing, wet,

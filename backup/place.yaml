@@ -1,0 +1,33 @@
+place:
+  moody: "{hotel room|bedroom|love hotel|lounge|party}"
+  water-front:
+    - pool
+    - poolside
+    - shore
+    - ocean
+    - beach
+    - __theme/night-pool__
+  bathing:
+    - bathroom, tile floor, steam
+    - bathtub, tile floor
+    - spa
+    - sauna
+    - changing room
+  school: "{classroom|school|locker room}"
+  wall: (graffiti:1.1), (brick wall)
+  church: church, stained glass
+  dungeon: inside an ancient dungeon, stone walls covered in moss, dim torchlight, broken pillars, mysterious atmosphere, cinematic lighting, ancient cave
+  public:
+  - hospital
+  - balcony
+  - bar \(place\)
+  - cafe
+  - casino
+  - dungeon
+  - outdoors
+  - in the middle of a spaceport, fantasy, sci fi, bokeh, glow effects, godrays, unscored 
+  - lamppost, night sky,
+  - building, crosswalk, city
+  - sunset, outdoor, smile, park, sitting on the bench, blurry background, 
+  - kitchen
+  - cyberpunk, neon lights, skyscraper, ad, rooftop

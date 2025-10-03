@@ -1,0 +1,182 @@
+sfw:
+  black-angel:
+    - |
+      (EyesHD:1.2), ultra-detailed, very aesthetic, sharp focus, depth of field, vibrant colors, 
+      ray tracing, best lighting, detailed illustration, cinematic, 
+      beautiful face, beautiful eyes, (anime coloring:1.5), 
+      1girl, anime style, beautiful and mysterious, intense eyes glowing softly, 
+      black angel wings bursting from her back, black feathers scattering in the air, 
+      closeup,,thighhighs, gothic outfit, cloudy sky, wind blowing through her hair and feathers, breasts,
+      closeup,,Aes_stylemix, <lora: Setsu:1> 
+
+  in-a-bottle:
+    - |      
+      1girl, closed_eyes, sleeping, peaceful, small_girl, trapped_in_bottle, 
+      sideways_glass_bottle, floating_in_clouds, fluffy_clouds, pastel_sky, whimsical,
+      watercolor_style, painterly, soft_brushstrokes, gentle_colors, pastel_palette, 
+      dreamy, surreal, fantasy, skirt, long_sleeves, blouse, bare_legs, delicate, cute, 
+      alone, ethereal, light_particles, soft_lighting
+
+  ocean-breeze:
+    - |
+      1girl, ocean breeze, flowing hair, beach, waves, sunlight, 
+      serene expression, white dress, barefoot, standing on the shore,
+      wind blowing through her hair, soft focus, dreamy atmosphere, 
+      warm colors, summer vibes, peaceful scene, natural beauty,
+      adjusting hair, look down, upper body, 
+
+    - |
+      lazypos, curvy, beautiful eyes, narrow waist, wide hips, smile, looking at viewer, 
+      foreshortening, White sundress, wide-brimmed sun hat, open-toe sandals, windswept hair, 
+      Sitting at an outdoor café table under palm trees, 
+      sipping from a vivid tropical drink with two straws as ocean breeze tousles the dress in golden sunlight.
+
+  play-games:
+    - |
+      gaming chair, headphones over head, playing games, monitor, computer mouse,
+      serious, clenched teeth, looking at monitor, 
+      tank top, midriff, spoken exclamation mark, cinematic lighting, microphone, 
+      dynamic angle, depth of field, sharp focus, vibrant colors,
+      best lighting, detailed illustration, cinematic, 
+      beautiful face, beautiful eyes, (anime coloring:1.5), 
+      1girl, anime style, beautiful and mysterious, intense eyes glowing softly,  
+
+  warrior:
+    - |
+      low angle side view, 1female warrior, dark armor, 
+      dual glowing swords, red fire blade, blue ice blade, intense expression, 
+      crouching pose, dark enchanted forest, foggy atmosphere, magical energy, 
+      sharp focus, glowing embers, detailed leather boots, fantasy aesthetic, 
+      dramatic lighting 
+      <lora:NewAnimeCore_-_ILL:0.8> Newanimecore, 
+    
+    - |
+      hdr,(chromatic aberration, polarized:1.2),(blurry:1.4), (art by gothic style:1.3),
+      BREAK (goth 1girl:1.2),solo,very long silver hair,holding katana,
+      (action pose:1.3),(disintegration effect:1.4),ashes,
+      <lora:Aura_illu:0.5>,4ur4_illu,shiny,
+      <lora:NewAnimeCore_-_ILL:0.4>,newanimecore,
+      <lora:retro_scifi_artstyle:0.4>,retro_artstyle,
+      <lora:DetailerILv2:0.7>,Jeddtl02,
+      <lora:dark_art_style_illustriousXL:0.2>,dark_art_style,Mecha anime art style, 
+      focuses on giant robots and mechanical suits, intricate mechanical designs, dynamic action scenes, 
+      futuristic settings, appeals to fans of science fiction and action genres, Necropunk art style, 
+      dark and macabre, blending of death and technology, eerie and unsettling imagery, 
+      explores themes of mortality and decay, unique and thought-provoking concepts
+
+    - |
+      dutch angle, looking at viewer, expressionless, holding sword, katana, 
+      holding sheath, unsheathing, dynamic pose, blue fire, foreshortening, dark sky, cloud, wind, falling leaves, 
+      dark fantasy, sharp focus, depth of field, vibrant colors, best lighting, detailed illustration, cinematic, 
+      beautiful face, beautiful eyes, (anime coloring:1.5),
+
+    - |
+      dutch angle, looking at viewer, serious, holding sword, katana, dynamic pose, blue fire, 
+      lunging, foreshortening, legs apart, slashing, blue fire, aura, motion lines, 
+
+    - |
+      eye focus, close-up, looking at viewer, serious, holding sword, katana, unsheathing, 
+      blue fire, dark background, abstract background, 
+
+    - dutch angle, dynamic pose, starry sky, crescent moon, slashing, sparkle background, aura 
+
+    - |
+      cjl,\(glow\),emit light,Yoneyama Mai,\(glow\),emit light,figure,donghua,figure,realistic,
+      emit light,\(glow\),solo,Yoneyama Mai,hycg,yuedong,Nai3 style,official alternate costume,
+      close up,look at viewer,looking back,smile,glowing eye,glint,(Tyndall Effect:1.4),(wlop:0.6),
+      (reoen:0.8),(fuzichoco:0.8),(atdan:0.8),(torino_aqua:0.8),(ningen_mame:0.8),ciloranko,(rhasta:0.6),
+      tidsean,colorful,best quality,very aesthetic,absurdres,32K UHD,sharp focus,best-quality,
+      [Emotionalization],temperate atmosphere,with a high-end texture,
+      in the style of fashion photography,Dynamic,dynamic force picture,(Visual impact:1.2),
+      impactful picture,offcial art,Dark background,flower wall,3D 3D render CGI,(Dynamic angle, dynamic pose:1.5),
+      weapon,holding,sword,holding weapon,long hair,holding sword,water,blue theme,gloves,black gloves,   
+    
+    - |
+      masterpiece, best quality, absurdres, newest, 1woman, solo, sitting on glowing crescent moon, dynamic angle, 
+      tranquil dark lake with reflections, toes lightly touching water, cherry blossom petals falling gently, 
+      flowing long black hair with hair ornament and flower, elegant open kimono with floral print, glowing dark magical tattoos, 
+      holding katana sword, beautiful face with blue eyes, subtle blush, closed mouth, jewelry including rings, (dynamic pose:1.4), 
+      (detailed background:1.4), surreal and mystical atmosphere, sparkles and magical glitter, dark fantasy style, 
+      dramatic moody lighting, immersive composition, D4rkL1nes 
+      <lora:illustriousXLv01_stabilizer_v1.198:0.5> 
+      <lora:Fantasy_Forge:0.25> 
+      <lora:iLLMythD4rkL1nes:1>
+
+    - |
+      weapon, sword, sheath, holding sheath, jewelry, sitting, tattoo, black nails, flower, earrings, looking at viewer, 
+      silver bikini armor, crossed legs, ring, water, leg tattoo, fingernails, closed mouth, white nails, partially submerged, 
+      chromatic aberration, detailed lighting, dynamic angle, from below, glowing blade,
+      <lora:Bright_style:0.6> Bright_illu, sparkle, too many light particles, glitter, 
+
+    - |
+      cowboy shot, japanese clothes, weapon, sword, kimono, blurry, looking at viewer, exoskeleton, big katana, butterfly, 
+      sheath, sheathed, blurry background, closed mouth, depth of field, red kimono, floral print, long sleeves, obi, 
+      outdoors, wide sleeves, standing, from side, animal, limited palette, maple leaf, wind, fire, intricate detail, 
+      flaming sword, dynamic pose, dynamic composition, dutch angle ,temple, maple tree, scenery, detailed background, 
+      depth of field, flame_theme, dark_theme, detailed background, foreshortening,
+
+  bunny-girl:
+    - |
+      sexy beautiful tall girl, (cute,kawaii,idol,model,beauty), rabbit_ears, looking_at_viewer, 
+      seductive_smile, alluring, beauty face, small face, detailed face, makeup, long legs,
+      athletic body, slim body, model body, perfect hands,perfect fingers, 
+      nsfw, wearing a pink and white bunny suit with frills and ribbons, 
+      with cute ribbons and frilly details on the bunny suit, bowtie, wrist_cuffs, 
+      white fishnet tights, (shiny, glossy, luster), sitting on a bar stool at a neon bar counter, 
+      legs crossed, leaning her elbow on the counter, looking elegant and confident,
+      detailed_background, blue neon-colored bar counter glowing with vibrant lights, 
+      stylish nightlife atmosphere, bottles on the shelf, slightly dramatic perspective, 
+      cinematic lighting, medium shot:1.5
+
+  winter:
+  - |
+    1girl, winter, snow, snowy landscape, snowflakes, cold, cozy, warm clothing, 
+    scarf, mittens, boots, hat, long hair, braided hair, peaceful expression, 
+    standing in a snowy field with snow-covered trees in the background,
+    soft focus, dreamy atmosphere, cool colors, winter vibes, serene scene,
+    natural beauty, adjusting scarf, look down, upper body
+
+  - |
+    1girl, winter coat, fur-lined hood, earmuffs, scarf, gloves, boots,
+    standing in a snowy landscape with snow-covered trees and mountains in the background,
+    soft focus, dreamy atmosphere, cool colors, winter vibes,
+    serene scene, natural beauty, adjusting scarf,
+    looking at viewer, upper body
+
+  - |
+    from side, looking up, smile, winter clothes, fur-trimmed kimono, gloves, holding umbrella,
+      east asian architecture, snowing, overcast, 
+
+  dragon:
+  - |
+    Digital art scene illustration,Digital art,oil painting,art_PAK,art_POX,art_YUH,artist_57mod, 
+    thighhighs, dress, high heels, sky, cloud, dragon, solo, standing, arms behind back, day, 
+    eastern dragon, outdoors, white thighhighs, blue sky, profile, sleeveless, ribbon, sleeveless dress, 
+    reflection, blue ribbon, looking up, bird, hair ribbon, white dress, floating hair, wind, closed mouth, 
+    black dress, white footwear, building, bow, bare shoulders, hair bow, black footwear, tree, earrings,
+    Digital art,illustration, Delicate eyes,delicate face, extremely detailed CG unity 8k wallpaper,
+    extremely detailed,High Detail, colorful theme, Psychedelic art, fractal art, dark background,
+    deep dark background, (fractal art:0.6), (Psychedelic art:0.6),
+
+  tattoo:
+  - |
+    limited palette, Purple pigment,Purple pigment,Purple pigment,
+    (scenery:1.5), 8k, good anatomy, good shading, ultra detailed, refined details, high resolution, HD, masterwork, realistic, 
+    high resolution, sharp focus, soft lighting, aged up, close-up, glowing eyes, back, ear piercing, 
+    looking back, profile, bare shoulders, expressionless, blush, earrings, hair ornament, 
+    backless dress, dress, ring, blue fingernails, looking at viewer, sitting, knees up, glowing, backless outfit, 
+    bare back, piercing, blue theme, blurry, blurry background, from behind, from side, upper body, back focus, 
+    depth of field, monochrome, blue background, tattoo, back tattoo, jewelry, double dragon print tattoo, glowing tattoos,
+    full-body tattoo, hand up, flower tattoo, scales,pattern, light particles, glowing smoke, glowing tattoos, 
+    patterns, light particles, (dutch angle:1.2), (depth of field:1.3), 
+    <lora:rimixO:0.45> 
+    <lora:Semi-realism_illustrious:0.45> 
+    <lora:USNR_STYLE_ILL_V1_lokr3:0.4>  
+    <lora:96YOTTEA-WAI:0.3> 
+    <lora:sdxl_lightning_8step_lora:0.3>
+
+  # 横顔
+  profile:
+  - |
+    profile, moon, twilight, floating hair, facing down, gradient sky, off shoulder, closed eyes, 
+    bokeh, blurry background, cowboy shot, water, dark theme, partially starry sky, comet, 
