@@ -174,6 +174,18 @@ nsfw:
       __saliva__, 
       __rnd-panty__,
     
+    - |
+      upper body, dutch angle shot,
+      BREAK (Hair blowing in the wind:1.2),
+      BREAK black gothic Lolita, mini skirt, high socks, off the shoulder, elegant shoulder bag,
+      BREAK Purple head ribbon, purple waist ribbon, Purple mesh panties, (Purple mesh bra:0.35),
+      BREAK (nose blush:0.8),(close mouth),(open eyes:0.25),(steam:0.8),(wet:1.0),(sweat:1.4),(trembling:0.6),
+      contrapposto,(dripping in sweat:0.6),one knee up, head down, (hand on boy's arm:1.5), sitting on examination chair,
+      (looking at another:1.2),
+      BREAK (1 faceless boy, boy is security guard Costume:1.5, boy is beard, dark-skinned boy),
+      (hand on girl's breasts:1.5, hand in girl's panties:1.5 ), (locked arms:1.5),
+      BREAK Clear Sunshine, inside Historic White Museum, security gate,
+
     tweak:
     - |
       nude, torogao, nipple tweak, spread legs,
@@ -897,10 +909,15 @@ nsfw:
         __nsfw/handjob/cuddling/kissing__,
         ${act=looking at another, ejaculation, cum, {|__bukkake__}}
 
-  #     cuddling handjob, cuddling, handjob, look down, penis,
-  #     breast press, 1boy, girl is lying down beside boy, side view,
-  #     kiss,
-
+      all-fours:
+      - |
+        anime style, from below, mature, alternate breast size, blush, sweat, heavy breathing,
+        looking at penis, handjob with both hands, vigorous handjob,
+        happy handjob, closed mouth, pouting cheek, v-shaped eyebrows, happy, love,
+        kneeling, bent over, collarbone, upper body nude, navyblue pleated skirt, mini skirt, black pantyhose,(motion lines, motion blur:1.7),
+        BREAK
+        1man(man trembling, on back, bare penis, twitching penis, man spoken skull),
+        bedroom ,on bed, three-quarter view, raytracing, pathtracing, 
 
   #--- 足コキ ---
   footjob:
@@ -929,6 +946,10 @@ nsfw:
       solo, female masturbation, fingering, from behind, pussy juice, pussy, top-down bottom-up, legs apart, 
       panties around one leg, torogao, moaning, 
 
+    - |
+      solo, female masturbation, fingering, gym uniform, spread legs, puffy nipples, clothes lift, bra lift, buruma aside, pussy juice, 
+      ahegao, tongue, full-face blush, duffel bag, locker room, grabbing own breast, half-closed eyes, m legs, 
+
     dildo:
     - |
       female masturbation, dildo insertion, 
@@ -937,6 +958,10 @@ nsfw:
       __saliva__,
       {grab own breast| nipple tweak}, 
       trembling legs, bouncing breasts,
+    
+    - |
+      squatting, from behind, nude, high heels, hands on own knees, spread legs, pussy, anus, 
+      thighhighs, pussy juice, pussy juice trail, on floor, looking back, {|dildo riding, deep penetration,}
     
     shirt-lift:
     - |
@@ -1186,6 +1211,12 @@ nsfw:
       {|__hardcore-motion__},
       dutch angle,
 
+    - |
+      gyaru, school uniform,
+      BREAK undressing, (fertilization:1.3, sperm cell:1.3), happy, open mouth, blush cheeks, stomach, sweat, breath, saliva,
+      BREAK hetero, vaginal sex, spread legs, lying, on back, deep penetration, cum in pussy, faceless man,
+      BREAK <lora:ponyxl-deep_penetration-concept-v01:1>, vaginal, bouncing breasts, motion lines, dynamic angle, sound effect, on bed,
+
     thigh-grab:
     - |
       __nsfw/missionary/def__,
@@ -1211,6 +1242,11 @@ nsfw:
       __panty-action__,
       impact lines, trembling legs,
       spoken heart, grabbing another's breast, from side
+
+    hamedori:
+    - |
+      one-piece swimsuit, clothing aside, sex, pov, missionary, spread legs, vaginal, viewfinder, embarrassed, 
+      moaning, penis, pussy juice, hands over face, covering eyes, nipples, strap slip, 1boy, faceless male, 
 
   #--- 騎乗位 ---
   cowgirl:
@@ -1260,6 +1296,14 @@ nsfw:
       __nsfw/cowgirl/rnd__,
       __bra-action__,
       __panty-action__,
+
+    beach:
+    - |
+      girl on top, skirt lift by self, bottomless, 
+      {ahegao|torogao|embarrassed|female orgasm},
+      penis, sex, pussy juice, moaning, m legs, topless, 
+      nipples, ((grabbing own skirt:1.2)), beach, blue sky, parasol, sand, bouncing breasts, trembling,
+      motion lines, motion blur, wet, showing pussy, ((sound effects:1.2)), 
 
     hardcore:
       def:
@@ -1316,6 +1360,16 @@ nsfw:
       {ass grab|breast grab},
       __saliva__,
     
+    - |
+      Dutch angle shot, from side,
+      BREAK (Hair blowing in the wind:1.2),(shiny skin), nude, gray High socks, (green Delivery hat:1.2), (wrists tied behind the waist with green tape:1.5),
+      (green blindfold:1.2),(insert sex),
+      BREAK (nose blush:1.2),(open mouth :1.6),(close eyes:0.95 ),(orgasm:1.4),(orgasm face:1.2),(trembling:1.0),(drooling.1.2),(wet:1.4), (pussy juice:1.2),
+      (arched back:0.6,head back:1.4),
+      BREAK (1 faceless boy:1.5), (boy is beard, boy is beard, dark-skinned boy:1.2), (locked waist:1.5), (voice effects:1.6), (nipples motion effects:1.6),
+      BREAK in apartment room,spacious entrance, on green Delivery box, Clear sky, Clear Sunshine, Altar of Light,
+      BREAK (perfect fingers,4fingers and 1thumb:1.0),
+
     prone-bone:
     - |
       prone bone, prone bone position, volumetric lighting, cinematic lighting, blurry background, 
@@ -1892,6 +1946,23 @@ nsfw:
       BREAK (1 faceless boy, boy is nude:1.5), (doggystyle sex), (doggystyle:1.2), (locked waist:1.2),
       BREAK (sound effects:1.4),
       BREAK clear sky, Sunlight, outside onsen, rocks, on the Wooden deck,
+    
+    back:
+    - |
+      full body, long shot, from underwater,from above,from behind,
+      BREAK nude, (head back:1.2),nipples, (embarrassed,blush:1.3),(steam:0.8),(wet:1.0),
+      (sweat:1.4),(trembling:1.3),(arm up:0.9),(har hand on boy's arm:1.3),
+      (orgasm:1.2),(open mouth :1.4),(drooling.1.2),
+      BREAK (1 faceless boy),(nude boy:1.2), dark-skinned boy, (missionary position),(locked legs:1.2),
+      (sound effects:1.6), (voice effects:1.6),
+      BREAK clear sky,Sunlight,onsen,rocks, (bathing:1.5),partially submerged,
+      light particles,splashes of water, Lots of trees and autumn leaves,Many autumn leaves are flying up, stone tower,
+
+    aftersex:
+    - |
+      sitting, spread own pussy, looking down, clenched teeth, orgasm, intense ecstasy, heavy breath, japanese stone onsen, 
+      outdoor, day, sky, autumn, momiji, speech bubbles, cum dripping from pussy,(bouncing breasts),perky nipples, 
+      completely nude, (clitral), ((sound effects:1.2)), 
 
   #---　母乳 ---
   lactation: 
@@ -1905,6 +1976,17 @@ nsfw:
       tentacle sex, pussy juice, consensual tentacles, pelvic thrust, spread legs, 
       {on back|doggystyle}, {|tentacle grabbing breasts},
       scared, screaming,
+
+    - |
+      Dutch angle shot, from below,
+      BREAK (Hair blowing in the wind:1.2), (nose blush:0.8),(open eyes:0.35),(orgasm:0.6),
+      (orgasm face:0.8),(trembling:1.1),(drooling.1.1),(head down:1.2)(wet:1.2),
+      (red long miko, Off the shoulder,bottomless:1.5),(shrine maiden's sandals,Belle's Hair Ornament:1.2),(nipples:0.85),
+      (one knee up, knees together feet apart :1.2),(head down:1.4), (tentacles grab:1.4),arms up,
+      BREAK (light purple tentacles, Transparent tentacles:1.2), many tentacle, (tentacle sex,object insertion:1.2),
+      (wrists restrained:1.2,ankles restrained:1.2), (sound effects:1.6), (motion effects:1.4),
+      BREAK (light particles:1.5,bloom:1.5,god rays:0.4), (Cave, Altar of Light, and lots of candles),
+      BREAK (perfect fingers,4fingers and 1thumb:1.2),
 
   #---　吸いながら手マン ---
   suck-fingering:

@@ -34,9 +34,22 @@ nude:
 
   #トップレス
   topless:
+    armpits:
+    - |
+      soft tan skin, boob close-up, breast focus, short focal length,
+      (arms lift:0.7),(steam:0.6), detailed armpit, armpit smell,(sweat:0.6),
+      (full face blush:1.2),pink lips,(painful:0.9), ikigao,
+      nude, (puffy nipples:0.8), head out of frame, 
+
+    halloween:
+    - |
+      halloween, ghost costume, naked, panties, nipples, head tilt, :o, bat print panties, 
+      tattoo on stomach, glowing tattoo, ghost, {|against glass,}
+        
     on-bed:
     - on bed, lying on side, nude, thighs, nipples, hands up, embarrassed, blush, looking down, 
     - sleeping, on bed, nude, closed eyes, nipples, navel, thighs, panties, 
+    - knees to chest, sitting on bed, striped panties, topless, embarrassed, blush, holding own legs, egg vibrator, 
     - topless, blowing kiss, wink, puckered lips, pink lips, yokozuwari, smile, imminent kiss, nipples, on bed, reaching towards viewer, 
     - |
       topless, on back, spread legs, hands up, armpits, 
@@ -57,7 +70,6 @@ nude:
     - |
       hoodie, hood down, clothes lift, bra lift, covering breasts, skirt, embarrassed, blush, underboob, 
       breast lift, breasts squeezed together, looking down, wavy mouth, 
-
 
     floating:
     - |
@@ -118,7 +130,6 @@ nude:
       looking back,
       ass, ass focus,
       ((pantyhose pull)),
-#        ${panty:__rnd-panty__,}
 
     shower:
     - |
@@ -229,6 +240,15 @@ nude:
     - |
       topless, side-tie bikini bottom, guided breast grab, embarrassed, smile, nipples, profile, sitting, 
 
+    poolside:
+    - | 
+      poolside, tile floor, on back, topless, nipples, side-tie bikini bottom, spoken heart, smile, heart-shaped pupils, 
+      open mouth, tongue, dutch angle, wet, water, breasts apart, licking finger, 
+
+    - |
+      1girl, standing, leaning forward, breasts squeezed together, close-up breasts, wet skin, wet hair, 
+      outdoors, pool, lens flare, from below, smile, nipples, parted lips, pink lips, soaking, female head out of frame, faceless female, nude,
+
   ai-ojisan:
     - |
       <lora:AIイラストおじさん (2):0.5> nude, 
@@ -286,38 +306,49 @@ nude:
   #ニップレス
   pasties:
     heart:
-      - |
-        heart pasties, thong, breast press, breast lift,
-        ${face:__sexual-or-embarrassed__,}
+    - |
+      heart pasties, thong, breast press, breast lift,
+      ${face:__sexual-or-embarrassed__,}
+
+    - |
+      on back, heart pasties, pink pasties, naked, covered covering crotch, 
+      m legs, w arms, embarrassed, blush, breasts apart, 
+
+    - |
+      on back, heart pasties, pink pasties, naked, covered covering crotch, m legs, 
+      arms up, embarrassed, blush, breasts apart, underboob, moaning, open mouth, wet,
+
     cross:
-      - |
-        cross pasties, indoors, dungeon, slave, prison, prison cell,
-        brick wall, stone floor, bars, 
-        ${panty:black panties,} 
-        barefoot, 
-        on floor, 
-        parted lips, 
-        ${face:{surprised|embarrassed},}
-        sweatdrop, looking at viewer, neck chain,
-        {all fours|wariza|kneeling},
+    - |
+      cross pasties, indoors, dungeon, slave, prison, prison cell,
+      brick wall, stone floor, bars, 
+      ${panty:black panties,} 
+      barefoot, 
+      on floor, 
+      parted lips, 
+      ${face:{surprised|embarrassed},}
+      sweatdrop, looking at viewer, neck chain,
+      {all fours|wariza|kneeling},
 #        ${panty=__rnd-panty__, }
+
     black-heart:
-      - |
-        black heart-shaped pasties, 
-        ${panty:black panties,} 
-        {| spoken heart,}
-        heart-shaped pupils, opening trench coat, 
-        ${face:__facial/sexual__,}
-        urban, street, night, neon lights, 
-        {|squatting|kneeling},
+    - |
+      black heart-shaped pasties, 
+      ${panty:black panties,} 
+      {| spoken heart,}
+      heart-shaped pupils, opening trench coat, 
+      ${face:__facial/sexual__,}
+      urban, street, night, neon lights, 
+      {|squatting|kneeling},
 #        ${panty=__rnd-panty__, }
+
     cyber:
-      - |
-        perky breasts, massive breasts, small waist, soft thighs, wet, grooling,
-        skin pressed, naughty face, black leotard, lace sleeves, thighhighs, 
-        very awa, tilted angle, face focus, high angle, side view,
-        peeking, heart-shaped pasties, knees_up, hand_on_thigh,
-        <lora:cyber-sijren:0.7> cybersijren, dimly lit, black ink, low-key, inked cyber details, dark atmosphere, 
+    - |
+      perky breasts, massive breasts, small waist, soft thighs, wet, grooling,
+      skin pressed, naughty face, black leotard, lace sleeves, thighhighs, 
+      very awa, tilted angle, face focus, high angle, side view,
+      peeking, heart-shaped pasties, knees_up, hand_on_thigh,
+      <lora:cyber-sijren:0.7> cybersijren, dimly lit, black ink, low-key, inked cyber details, dark atmosphere, 
     
     removing:
     - |-
@@ -604,13 +635,16 @@ nude:
       looking to the side, 
       {on back|wariza|kneeling},
 
-    pantyhose-pull:
+    pantyhose: 
+    - topless, pantyhose {|pull}, on stomach, arms up, :o, from behind, no panties,
+    - topless, pantyhose, on back, grabbing thighs, :o, legs up, legs apart,
+    - topless, pantyhose pull, on back, grabbing thighs, :o, legs up, legs apart, no panties, pussy,  
+    - topless, pantyhose pull, undressing, standing, bent over, ass, no panties, bottomless, looking back, :o, anus, pussy,  
     - |
       ${face:__sexual-or-embarrassed__,}
       ${bgd:hotel room,}
       ${panty:panties} pull,
-      topless, naked, 
-      kneeling, thighs, 
+      topless, naked, kneeling, thighs, 
       panties under ${pantyhose:pantyhose,} 
       {arms up, armpits|ass},
       arched back,
@@ -1006,3 +1040,10 @@ nude:
   - white t-shirt, black pants, contrapposto, :o, indoor, empty eyes, t-shirt lift by self, black bra, grabbing own clothes, hands up,
   - white t-shirt, black pants, contrapposto, surprised, indoor, looking to bra, t-shirt lift by self, black bra, grabbing own clothes, hands up,
   - white t-shirt, black pants, contrapposto, surprised, indoor, looking to bra, t-shirt lift by self, black bra, grabbing own clothes, hands up, wavy mouth, moaning, 
+
+  bondage: belt bondage, bdsm, naked, shibari, all fours, linked collar, nipples, rope, 
+
+  milking:
+  - |
+    cowboy shot, living room, nipples sucking disk vacuum, full-face blush, bare breasts, 
+    nipples, areola, projectile\ (lactation\), drop drip, milker; milking machine

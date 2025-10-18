@@ -91,7 +91,7 @@ angel-next-door:
 # https://otonarino-tenshisama.jp/
 # お隣の天使様にいつの間にか駄目人間にされていた件
   mahiru:
-    name: mahiru
+    name: mahiru shiina
     prompt:
     - |
       ${trg:shiina mahiru \(otonari no tenshi-sama\), otonari no tenshi-sama ni itsu no mani ka dame ningen ni sarete ita ken,}
@@ -289,228 +289,217 @@ azur-lane:
 bang-dream:
 # https://bang-dream.com/
 # バンドリ！
-  afterglow:
-  # バンドリ！　Afterglow
-    ran:
-      name: ran mitake
-      prompt:
-      - |
-        ${trg:mitake ran, bang dream!, afterglow \(bang dream!\),}
-        ${hair-style:short hair, }
-        ${hair-clr:black hair, red hair, streaked hair,} 
-        ${breast:large breasts,}
+  ran:
+    name: ran mitake
+    prompt:
+    - |
+      ${trg:mitake ran, bang dream!, afterglow \(bang dream!\),}
+      ${hair-style:short hair, }
+      ${hair-clr:black hair, red hair, streaked hair,} 
+      ${breast:large breasts,}
 
-    tsugumi:
-      name: tsugumi hazawa
-      prompt:
-      - |
-        ${trg:hazawa tsugumi, bang dream!, afterglow \(bang dream!\),}
-        ${hair-style:short hair, bob cut,}
-        ${hair-clr: brown hair,}
-        ${breast:large breasts,}
+  tsugumi:
+    name: tsugumi hazawa
+    prompt:
+    - |
+      ${trg:hazawa tsugumi, bang dream!, afterglow \(bang dream!\),}
+      ${hair-style:short hair, bob cut,}
+      ${hair-clr: brown hair,}
+      ${breast:large breasts,}
 
-    himari:
-      name: himari uehara
-      prompt:
-      - |
-        ${trg:uehara himari, bang dream!, afterglow \(bang dream!\),}
-        ${hair-clr:pink hair,}
-        ${hair-style:long hair, }
-        ${breast:large breasts,}
+  himari:
+    name: himari uehara
+    prompt:
+    - |
+      ${trg:uehara himari, bang dream!, afterglow \(bang dream!\),}
+      ${hair-clr:pink hair,}
+      ${hair-style:long hair, }
+      ${breast:large breasts,}
 
-    moca:
-      name: moca aoba
-      prompt:
-      - |
-        ${trg:aoba moca, bang dream!, afterglow \(bang dream!\),}
-        ${hair-clr:white hair,}
-        ${hair-length:short hair,}
-        ${breast:large breasts,}
+  moca:
+    name: moca aoba
+    prompt:
+    - |
+      ${trg:aoba moca, bang dream!, afterglow \(bang dream!\),}
+      ${hair-clr:white hair,}
+      ${hair-length:short hair,}
+      ${breast:large breasts,}
 
-    tomoe:
-      name: tomoe udagawa
-      prompt:
-      - |
-        ${trg:udagawa tomoe, bang dream!, afterglow \(bang dream!\),}
-        ${hair-clr:red hair,}
-        ${hair-style:long hair, straight hair,}
-        ${breast:large breasts,}
+  tomoe:
+    name: tomoe udagawa
+    prompt:
+    - |
+      ${trg:udagawa tomoe, bang dream!, afterglow \(bang dream!\),}
+      ${hair-clr:red hair,}
+      ${hair-style:long hair, straight hair,}
+      ${breast:large breasts,}
+    
+  uika:
+    name: uika misumi
+    prompt:
+    - |
+      ${trg:<lora:Uika:0.7> uika,}
+      ${hair-clr:blonde hair,}
+      ${hair-length:medium hair,}
+      ${breast:large breasts,}
+
+  umiri:
+    name: umiri yahata
+    prompt:
+    - |
+      ${trg:<lora:Umiri:0.7> umiri,}
+      ${hair-clr:black hair,}
+      ${hair-length:long hair,}
+      ${breast:large breasts,}
+
+  nyamu:
+    name: nyamu yuutenji
+    prompt:
+    - |
+      ${trg:<lora:大喵-anime:0.7> Yuutenji Nyamu,}
+      ${hair-clr:purple hair,}
+      ${hair-length:short hair,}
+      ${breast:large breasts,}
+
+  sakiko:
+    name: sakiko togawa
+    prompt:
+    - |
+      ${trg:<lora:togawa_sakiko_ponyXL_V1.1:0.7> togawa sakiko,}
+      ${hair-clr:blue hair,}
+      ${hair-style:two side up, }
+      ${breast:large breasts,}
+
+  mutsumi:
+    name: mutsumi wakaba
+    prompt:
+    - |
+      ${trg:<lora:Mutsumi-v2:0.7> mutsumi,}
+      ${hair-clr:green hair,}
+      ${hair-style:blunt bangs,}
+      ${hair-length:long hair,}
+      ${breast:large breasts,}
+
+  soyo:
+    name: soyo nagasaki
+    prompt:
+    - |
+      ${trg:nagasaki soyo, mygo!!!!! \(bang dream!\), bang dream!,}
+      ${hair-clr:brown hair,}
+      ${hair-length:long hair,}
+      ${breast:large breasts,}
+
+  anon:
+    name: anon chihaya
+    prompt:
+    - |
+      ${trg:chihaya anon, mygo!!!!! \(bang dream!\), bang dream!,}
+      ${hair-clr:pink hair,}
+      ${hair-length:long hair,}
+      ${breast:large breasts,}
+
+  taki:
+    name: taki shiina
+    prompt:
+    - |
+      ${trg:<lora:TakiShiina:0.7> taki shiina,}
+      ${hair-clr:black hair, brown hair,}
+      ${hair-style:swept bangs,}
+      ${hair-length:long hair,}
+      ${breast:large breasts,}
+
+  raana:
+    name: raana kaname
+    prompt:
+    - |
+      ${trg:<lora:RaanaKaname:0.7> raana,}
+      (yellow eyes:1.1), (blue eyes:1.1), heterochromia,
+      ${hair-clr:white hair, grey hair,}
+      ${hair-length:short hair,}
+      ${breast:large breasts,}
+
+  tomori:
+    name: tomori takamatsu
+    prompt:
+    - |
+      ${trg:<lora:takamatsu_tomori_PonyXL_V1.1:0.7> takamatsu tomori,}
+      ${hair-clr:grey hair, brown hair,}
+      ${hair-length:short hair,}
+      ${breast:large breasts,} 
 
     
-  ave-mujiva:
-  # バンドリ！　Ave Mujiva
-    uika:
-      name: uika
-      prompt:
-      - |
-        ${trg:<lora:Uika:0.7> uika,}
-        ${hair-clr:blonde hair,}
-        ${hair-length:medium hair,}
-        ${breast:large breasts,}
+  kasumi:
+    name: kasumi toyama
+    prompt:
+    - |
+      ${trg:toyama kasumi, bang dream!, poppin'party,}
+      ${hair-clr:brown hair,}
+      ${breast:large breasts,}
 
-    umiri:
-      name: umiri
-      prompt:
-      - |
-        ${trg:<lora:Umiri:0.7> umiri,}
-        ${hair-clr:black hair,}
-        ${hair-length:long hair,}
-        ${breast:large breasts,}
+  tae:
+    name: tae hanazono
+    prompt:
+    - |
+      ${trg:hanazono tae, bang dream!, poppin'party,}
+      ${hair-clr:blonde hair,}
+      ${breast:large breasts,}        
 
-    nyamu:
-      name: nyamu
-      prompt:
-      - |
-        ${trg:<lora:大喵-anime:0.7> Yuutenji Nyamu,}
-        ${hair-clr:purple hair,}
-        ${hair-length:short hair,}
-        ${breast:large breasts,}
+  saya:
+    name: saya yamabuki
+    prompt:
+    - |
+      ${trg: yamabuki saya, bang dream!, poppin'party,}
+      ${breast:large breasts,}        
 
-    sakiko:
-      name: sakiko
-      prompt:
-      - |
-        ${trg:<lora:togawa_sakiko_ponyXL_V1.1:0.7> togawa sakiko,}
-        ${hair-clr:blue hair,}
-        ${hair-style:two side up, }
-        ${breast:large breasts,}
+  rimi:
+    name: rimi ushigome
+    prompt:
+    - |
+      ${trg:ushigome rimi, bang dream!, poppin'party,}
+      ${breast:large breasts,}        
 
-    mutsumi:
-      name: mutsumi
-      prompt:
-      - |
-        ${trg:<lora:Mutsumi-v2:0.7> mutsumi,}
-        ${hair-clr:green hair,}
-        ${hair-style:blunt bangs,}
-        ${hair-length:long hair,}
-        ${breast:large breasts,}
+  arisa:
+    name: arisa ichigaya
+    prompt:
+    - |
+      ${trg:ichigaya arisa, bang dream!, poppin'party,}
+      ${breast:large breasts,}        
 
-  mygo:
-  # バンドリ！　MyGO!!!!!
-    soyo:
-      name: soyo
-      prompt:
-      - |
-        ${trg:nagasaki soyo, mygo!!!!! \(bang dream!\), bang dream!,}
-        ${hair-clr:brown hair,}
-        ${hair-length:long hair,}
-        ${breast:large breasts,}
-
-    anon:
-      name: anon
-      prompt:
-      - |
-        ${trg:chihaya anon, mygo!!!!! \(bang dream!\), bang dream!,}
-        ${hair-clr:pink hair,}
-        ${hair-length:long hair,}
-        ${breast:large breasts,}
-
-    taki:
-      name: taki
-      prompt:
-      - |
-        ${trg:<lora:TakiShiina:0.7> taki shiina,}
-        ${hair-clr:black hair, brown hair,}
-        ${hair-style:swept bangs,}
-        ${hair-length:long hair,}
-        ${breast:large breasts,}
-
-    raana:
-      name: raana
-      prompt:
-      - |
-        ${trg:<lora:RaanaKaname:0.7> raana,}
-        (yellow eyes:1.1), (blue eyes:1.1), heterochromia,
-        ${hair-clr:white hair, grey hair,}
-        ${hair-length:short hair,}
-        ${breast:large breasts,}
-
-    tomori:
-      name: tomori
-      prompt:
-      - |
-        ${trg:<lora:takamatsu_tomori_PonyXL_V1.1:0.7> takamatsu tomori,}
-        ${hair-clr:grey hair, brown hair,}
-        ${hair-length:short hair,}
-        ${breast:large breasts,} 
-
-    
-  poppin'party:
-  # バンドリ！　Poppin'Party
-    kasumi:
-      name: kasumi
-      prompt:
-      - |
-        ${trg:toyama kasumi, bang dream!, poppin'party,}
-        ${hair-clr:brown hair,}
-        ${breast:large breasts,}
-
-    tae:
-      name: tae
-      prompt:
-      - |
-        ${trg:hanazono tae, bang dream!, poppin'party,}
-        ${hair-clr:blonde hair,}
-        ${breast:large breasts,}        
-
-    saya:
-      name: saya
-      prompt:
-      - |
-        ${trg: yamabuki saya, bang dream!, poppin'party,}
-        ${breast:large breasts,}        
-
-    rimi:
-      name: rimi
-      prompt:
-      - |
-        ${trg:ushigome rimi, bang dream!, poppin'party,}
-        ${breast:large breasts,}        
-
-    arisa:
-      name: arisa
-      prompt:
-      - |
-        ${trg:ichigaya arisa, bang dream!, poppin'party,}
-        ${breast:large breasts,}        
-
-  roselia:
-  # バンドリ！　Roselia
-    rinko:
-      name: rinko
-      prompt:
-      - |
-        ${trg:shirokane rinko, roselia \(bang dream!\), bang dream!,}
-        ${breast:large breasts,}        
-    yukina:
-      name: yukina
-      prompt:
-      - |
-        ${trg:minato yukina, roselia \(bang dream!\), bang dream!,}
-        ${hair-style:long hair, straight hair,}
-        ${breast:large breasts,}
-    lisa:
-      name: lisa imai
-      prompt:
-      - |
-        ${trg:imai lisa, roselia \(bang dream!\), bang dream!,}
-        ${hair-clr:brown hair,}
-        ${breast:large breasts,}
-    sayo:
-      name: sayo
-      prompt:
-      - |
-        ${trg:hikawa sayo, roselia \(bang dream!\), bang dream!,}
-        ${hair-clr:green hair,}
-        ${breast:large breasts,} 
-    ako:
-      name: ako
-      prompt:
-      - |
-        ${trg:udagawa ako, roselia \(bang dream!\), bang dream!,}
-        ${hair-clr:purple hair,}
-        ${hair-style:twintails,}
-        ${breast:large breasts,}
+  rinko:
+    name: rinko shirokane
+    prompt:
+    - |
+      ${trg:shirokane rinko, roselia \(bang dream!\), bang dream!,}
+      ${breast:large breasts,}        
+  yukina:
+    name: yukina minato
+    prompt:
+    - |
+      ${trg:minato yukina, roselia \(bang dream!\), bang dream!,}
+      ${hair-style:long hair, straight hair,}
+      ${breast:large breasts,}
+  lisa:
+    name: lisa imai
+    prompt:
+    - |
+      ${trg:imai lisa, roselia \(bang dream!\), bang dream!,}
+      ${hair-clr:brown hair,}
+      ${breast:large breasts,}
+  sayo:
+    name: sayo hikawa
+    prompt:
+    - |
+      ${trg:hikawa sayo, roselia \(bang dream!\), bang dream!,}
+      ${hair-clr:green hair,}
+      ${breast:large breasts,} 
+  ako:
+    name: ako udagawa
+    prompt:
+    - |
+      ${trg:udagawa ako, roselia \(bang dream!\), bang dream!,}
+      ${hair-clr:purple hair,}
+      ${hair-style:twintails,}
+      ${breast:large breasts,}
 
 ######################################################################################    
 blazblue:
@@ -530,7 +519,7 @@ bleach:
 # https://bleach-anime.com/
 # BLEACH
   rangiku:
-    name: rangiku
+    name: rangiku matsumoto
     prompt:
     - |
       ${trg:rangiku matsumoto, bleach,}
@@ -671,7 +660,7 @@ bocchi:
 # https://bocchi.rocks/
 # ぼっち・ざ・ろっく！
   ryo:
-    name: ryo-yamada
+    name: ryo yamada
     prompt:
     - |
       ${trg:yamada ryo, bocchi the rock!,}
@@ -680,7 +669,7 @@ bocchi:
       ${hair-style:eyes visible through hair, hairclips,}
       ${breast:large breasts,}     
   ikuyo:
-    name: ikuyo
+    name: ikuyo kita
     prompt:
     - |
       ${trg:kita ikuyo, bocchi the rock!,}
@@ -688,7 +677,7 @@ bocchi:
       ${hair-clr:red hair,}
       ${breast:large breasts,}
   hitori:
-    name: hitori
+    name: hitori gotou
     prompt:
     - |
       ${trg:hitori gotou, bocchi the rock!,}
@@ -696,7 +685,7 @@ bocchi:
       ${hair-clr:pink hair,}
       ${breast:large breasts,}
   nijika:
-    name: nijika
+    name: nijika ijichi
     prompt:
     - |
       ${trg:ijichi nijika, bocchi the rock!,}
@@ -755,7 +744,7 @@ card-captor-sakura:
 # https://ccsakura-official.com/
 # カードキャプターさくら
   sakura:
-    name: sakura-kinomoto
+    name: sakura kinomoto
     prompt:
     - |
       ${trg:kinomoto sakura, cardcaptor sakura, }
@@ -773,7 +762,7 @@ chainsaw-man:
     - |
       ${trg:himeno \(chainsaw man\), eyepatch,}
   kobeni:
-    name: kobeni
+    name: kobeni higashiyama
     prompt:
     - |
       ${trg:higashiyama kobeni, chainsaw man、black hair}
@@ -798,7 +787,7 @@ charlotte:
 # https://charlotte-anime.jp/
 # Charlotte
   nao:
-    name: nao
+    name: nao tomori
     prompt:
     - |
       ${trg:<lora:tomori-nao-xl:0.7> tomori nao, two side up,}
@@ -886,6 +875,7 @@ danmachi:
       brown hair,
       pointy ears, glasses,
       ${breast:large breasts,}
+  
   freya:
     name: freya
     prompt:
@@ -894,6 +884,7 @@ danmachi:
       long hair,
       hair ornament, grey hair,
       ${breast:large breasts,}
+
   hestia:
     name: hestia
     prompt:
@@ -902,12 +893,7 @@ danmachi:
       black hair, 
       twintails,
       ${breast:large breasts,}
-  syr:
-    name: syr
-    prompt:
-    - |
-      ${trg:<lora:DanMachi_SyrFlovaXL:1> {short hair,}
-      short ponytail|long hair}, grey hair, grey eyes,
+
 ######################################################################################
 darlin-in-the-franxx:
 # https://darli-fra.jp/
@@ -1000,10 +986,10 @@ dragon-ball:
 # https://www.toei-anim.co.jp/tv/dragonball/
 # ドラゴンボール
   and18:
-    name: and18
+    name: android 18
     prompt:
     - |
-      ${trg:android 18, blonde hair}
+      ${trg:android 18, dragon ball}
       ${breast:large breasts,}
 
   bulma:
@@ -1267,7 +1253,22 @@ evangelion:
       ${hair-clr:blue hair,}
       ${hair-length:short hair,}
       ${breast:large breasts,}
+######################################################################################
+fairy_tail:
+  erza:
+    name: erza scarlet 
+    prompt:
+    - |
+      ${trg:erza scarlet, fairy tail,}
+      ${hair-clr:red hair,}
+      ${breast:large breasts,}
 
+  lucy:
+    name: lucy heartfilia
+    prompt:
+    - |
+      ${trg:lucy heartfilia, fairy tail, }
+      ${breast:large breasts,}
 
 ######################################################################################
 fate:
@@ -1450,7 +1451,7 @@ games:
 # ゲームキャラクター
 
   blue-mary:
-    name: blue-mary
+    name: blue mary
     prompt:
     - |
       ${trg:blue mary, king of fighters,}
@@ -1458,7 +1459,7 @@ games:
       parted bangs, large breasts,
 
   cammy:
-    name: cammy
+    name: cammy white
     prompt:
     - |
       ${trg:cammy white, street fighter,}
@@ -1502,10 +1503,12 @@ games:
       parted bangs, large breasts,
 
   mai:
-    name: mai
+    name: mai shiranui
     prompt:
     - |
-      ${trg:shiranui mai, fatal fury, parted bangs, black hair, ponytail}
+      ${trg:shiranui mai, fatal fury,}
+      parted bangs, black hair, ponytail,
+      ${breast:large breasts,}
   
   minoto:
     name: minoto
@@ -2045,6 +2048,69 @@ gundam:
       ${trg:<lora:Talia Gladys Pony:0.7> talia gladys, blonde hair,}
       short hair, blue eyes, lipstick, makeup,
       ${breast:large breasts,}
+######################################################################################
+gundam_build_fighters:
+  rinko:
+    name: iori rinko
+    prompt:
+    - |
+      ${trg:iori rinko, gundam build fighters,}
+      ${breast:large breasts,}
+
+######################################################################################
+# 僕は友達が少ない
+haganai:
+  kate:
+    name: takayama kate
+    prompt:
+    - |
+      ${trg:takayama kate, boku wa tomodachi ga sukunai,}
+      ${breast:large breasts,}
+
+  kobato:
+    name: hasegawa kobato
+    prompt:
+    - |
+      ${trg:hasegawa kobato, boku wa tomodachi ga sukunai,}
+      heterochromia,
+      ${breast:large breasts,}
+
+  maria:
+    name: takayama maria
+    prompt:
+    - |
+      ${trg:takayama maria, boku wa tomodachi ga sukunai,}
+      ${breast:large breasts,}
+
+  rika:
+    name: shiguma rika
+    prompt:
+    - |
+      ${trg:shiguma rika, boku wa tomodachi ga sukunai,}
+      ${breast:large breasts,}
+
+  sena:
+    name: kashiwazaki sena
+    prompt:
+    - |
+      ${trg:kashiwazaki sena, boku wa tomodachi ga sukunai,}
+      ${breast:large breasts,}
+
+  yozora:
+    name: mikazuki yozora
+    prompt:
+    - |
+      ${trg:mikazuki yozora, boku wa tomodachi ga sukunai,}
+      short hair,
+      ${breast:large breasts,}
+
+  yukimura:
+    name: kusunoki yukimura
+    prompt:
+    - |
+      ${trg:kusunoki yukimura, boku wa tomodachi ga sukunai,}
+      short hair,
+      ${breast:large breasts,}
 
 ######################################################################################
 hololive:
@@ -2171,6 +2237,13 @@ how_not_to_summon:
 idol-master:
 # https://idolmaster-official.jp/
 # アイドルマスター  
+  ai:
+    name: hidaka ai
+    prompt:
+    - |
+      ${trg:hidaka ai, idolmaster dearly stars,}      
+      ${breast:large breasts,}
+
   airi:
     name: airi totoki
     prompt:
@@ -2341,7 +2414,46 @@ idol-master:
       ${hair-clr:brown hair,}        
       ${hair-length:short hair,}
       ${breast:large breasts,}
+######################################################################################
+# https://www.marv.jp/product/ikki_eb/character/
+# 一騎当千
+ikki-tousen:
+  bachou:
+    name: bachou mouki
+    prompt:
+    - |
+      ${trg:bachou mouki, ikkitousen,}
+      ${breast:large breasts,}
 
+  chouhi:
+    name: chouhi ekitoku
+    prompt:
+    - |
+      ${trg:chouhi ekitoku, ikkitousen,}
+      ${breast:large breasts,}
+
+  kan'u:
+    name: kan'u unchou
+    prompt:
+    - |
+      ${trg:kan'u unchou, ikkitousen,}
+      ${breast:large breasts,}
+
+  ryomou:
+    name: ryomou shimei
+    prompt:
+    - |
+      ${trg:ryomou shimei, ikkitousen,}
+      ${breast:large breasts,}
+
+  sonsaku:
+    name: sonsaku hakufu
+    prompt:
+    - |
+      ${trg:sonsaku hakufu, ikkitousen,}
+      ${breast:large breasts,}
+
+######################################################################################
 jujutsu-kaisen:
 # https://jujutsukaisen.jp/
 # 呪術廻戦
@@ -2963,15 +3075,19 @@ musaigen:
 # https://phantom-world.com/
 # 無彩限のファントム・ワールド
   mai:
-    name: mai
+    name: mai kawakami
     prompt:
     - |
-      ${trg:kawakami mai, musaigen no phantom world, blonde hair}
+      ${trg:kawakami mai, musaigen no phantom world,}
+      blonde hair,
+      ${breast:large breasts,}
+
   reina:
-    name: reina
+    name: reina izumi
     prompt:
     - |
       ${trg:izumi reina, musaigen no phantom world,}
+      ${breast:large breasts,}
 
 my-hero-academia:
 # https://heroaca.com/
@@ -2994,7 +3110,7 @@ my-hero-academia:
       ${breast:large breasts,}
 
   momo:
-    name: momo
+    name: momo yaoyorozu
     prompt:
     - |
       ${trg:yaoyorozu momo, boku no hero academia, high ponytail,}
@@ -3002,7 +3118,7 @@ my-hero-academia:
       ${breast:large breasts,}
 
   mt-lady:
-    name: mt-lady
+    name: mount lady
     prompt:
     - |
       ${trg:mount lady, boku no hero academia, red eyes, blonde hair,}
@@ -3010,7 +3126,7 @@ my-hero-academia:
       ${breast:large breasts,}
 
   nejire:
-    name: nejire
+    name: nejire hadou
     prompt:
     - |
       ${trg:hadou nejire, boku no hero academia, blue eyes, blue hair,}
@@ -3018,14 +3134,14 @@ my-hero-academia:
       ${breast:large breasts,}
 
   ochako:
-    name: ochako
+    name: ochako uraraka
     prompt:
     - |
       ${trg:uraraka ochako, boku no hero academia, brown hair}
       ${breast:large breasts,}
 
   tsuyu:
-    name: tsuyu
+    name: tsuyu asui
     prompt:
     - |
       ${trg:asui tsuyu, boku no hero academia, long hair, black hair,}
@@ -3300,11 +3416,30 @@ other:
       red hair, hair flower,
       ${breast:large breasts,}
 
-  rena:
-    name: rena
+######################################################################################
+motto!-haramase!-honoo-no-oppai-chou-ero-appli-gakuen!:
+# もっと！　孕ませ！　炎のおっぱい超エロアプリ学園！
+  akira:
+    name: akira kuromorihime
     prompt:
     - |
-      ${trg:<lora:Ero Appli Gakuen - Kawazoe Rena v1:0.7> kawazoe rena,}
+      ${trg: <lora:Kuromorihime_Akira:0.7> kuromorihime akira, motto! haramase! honoo no oppai chou ero appli gakuen!,}
+      tan, short hair, white hair, long braid, 
+      ${breast:large breasts,}
+
+  rio:
+    name: rio jougasaki
+    prompt:
+    - |
+      ${trg: <lora:Rio_Jougasaki_-_Motto_Haramase_Honoo_no_oppai_chou_ero_appli_gakuen:0.7> rio jougasaki, motto! haramase! honoo no oppai chou ero appli gakuen!,}
+      black hair, long hair,
+      ${breast:large breasts,}
+
+  rena:
+    name: rena kawazoe
+    prompt:
+    - |
+      ${trg:<lora:Ero Appli Gakuen - Kawazoe Rena v1:0.7> kawazoe rena, motto! haramase! honoo no oppai chou ero appli gakuen!,}
       long hair, wavy hair, brown hair, purple eyes,
       ${breast:large breasts,}
 
@@ -3398,7 +3533,7 @@ persona5:
       ${breast:large breasts,}
 
   kasumi:
-    name: kasumi
+    name: kasumi yoshizawa
     prompt:
     - |
       ${trg:yoshizawa kasumi, persona 5,}
@@ -3920,6 +4055,24 @@ sao:
       ${breast:large breasts,}
 
 ######################################################################################
+senran-kagura:
+# 閃乱カグラ
+  kafuru:
+    name: kafuru
+    prompt:
+    - |
+      ${trg:kafuru \(senran kagura\), senran kagura,}
+      ${breast:large breasts,}
+
+  kagura:
+    name: kagura
+    prompt:
+    - |
+      ${trg:kagura \(senran kagura\), senran kagura,}
+      ${breast:large breasts,}
+
+
+######################################################################################
 solo-leveling:
 # https://sololeveling-anime.net/
 # 俺だけレベルアップな件
@@ -4207,6 +4360,14 @@ umamusume:
       animal ears,
       ${breast:large breasts,}
 
+  haru-urara:
+    name: haru urara
+    prompt:
+    - |
+      ${trg:haru urara \(umamusume\), umamusume,}
+      animal ears,
+      ${breast:large breasts,}
+
   kitasan-black:
     name: kitasan black
     prompt:
@@ -4346,6 +4507,13 @@ vtuber:
       blue hair, hair ribbon, braid, flower, hair flower,
       ${breast:large breasts,}  
 
+  ema:
+    name: aizawa ema
+    prompt:
+    - |
+      ${trg:aizawa ema, virtual youtuber,}
+      ${breast:large breasts,}  
+
   hoshimachi:
     name: hoshimachi suisei
     prompt:
@@ -4353,6 +4521,13 @@ vtuber:
       ${trg:hoshimachi suisei, virtual youtuber,}
       side ponytail,
       blue hair ribbon,
+      ${breast:large breasts,}  
+
+  lize:
+    name: lize helesta
+    prompt:
+    - |
+      ${trg:lize helesta, virtual youtuber,}
       ${breast:large breasts,}  
 
   marine:
@@ -4364,7 +4539,14 @@ vtuber:
       red eyes, yellow eyes,
       {two side up|ponytail|twintails|side ponytails|one side up},
       ${breast:large breasts,}  
-  
+
+  mimi:
+    name: tosaki mimi
+    prompt:
+    - |
+      ${trg:tosaki mimi, virtual youtuber,}
+      ${breast:large breasts,}  
+
   noel:
     name: noel
     prompt:
@@ -4379,6 +4561,13 @@ vtuber:
     prompt:
     - |
       ${trg:tokino sora, hololive, virtual youtuber,}
+      ${breast:large breasts,}  
+
+  tsuna:
+    name: nekota tsuna
+    prompt:
+    - |
+      ${trg:nekota tsuna, virtual youtuber,}
       ${breast:large breasts,}  
 
   ui:
@@ -4600,6 +4789,13 @@ zzz:
       ${hair-length:long hair,}
       ${hair-clr:black hair, multicolored hair, red colored tips,}
       blunt bangs, tail, animal ears,
+      ${breast:large breasts,}
+
+  lucy:
+    name: lucy
+    prompt:
+    - |
+      ${trg:luciana de montefio, zenless zone zero,}
       ${breast:large breasts,}
 
   miyabi:

@@ -42,6 +42,10 @@ ero:
       kneeling, high heels, :o, vivid colors, smooth shadows, delicate highlights Inner glow of eyes and hair, 
       simple white background, low angle
 
+    face:
+    - |
+      face focus, close-up, shushing, pink lips, embarrassed, blush, looking to the side, collarbone, spaghetti strap, 
+      white strap, shiny hair, bright pupils, perfect fingers,
   aurora:
   - |
     [(white background:1.5),::5] Hexagon, (glowing eyes ) , (serious) ,  (Dynamic Angle) , 
@@ -276,8 +280,12 @@ ero:
     {|wooden locker,}
 
   - |
-    classic school swimsuit, blue one-piece swimsuit, school swimsuit, fidgeting, embarrassed,
-    full-face blush, wariza, poolside, index fingers together, covered nipples, wet, reflective water, 
+    __one-piece-swimsuit/classic__, 
+    fidgeting, embarrassed, full-face blush, wariza, poolside, index fingers together, covered nipples, wet, reflective water, 
+
+  - |
+    __one-piece-swimsuit/classic__, 
+    sitting, spread legs, locker room, leaning on locker,  steel locker, embarrassed, blush, hands on own chest,
   
   summer-festival:
   - |
@@ -848,6 +856,9 @@ ero:
     - |
       sleeves past wrists, white shirt, hands up, open shirt, naked shirt, oversized shirt, 
       panties, yokozuwari, leaning to the side, embarrassed, blush, laced curtains, side table, dawn, parted lips, 
+    
+    - open shirt, blue shirt, bra, panties, embarrassed, blush, {selfie, w arms, grabbing own clothes,}
+    - white shirt, t-shirt, v arms, embarrassed, blush, thighs, breasts squeezed together, 
 
     sagging:
     - |
@@ -859,6 +870,7 @@ ero:
       low angle, ustriousanime,
 
     lying:
+    - on side, on bed, smile, face focus, close-up, morning, sunlight, bra,
     - |
       __sexual-or-embarrassed__,
       __panty-thru-pantyhose__,
@@ -1690,22 +1702,35 @@ ero:
   ######################################################################################
   beach-set:
   - |
+    ocean, partially submerged, __bikini/*__, contrapposto, {arms behind head|ass focus, hand on hip},
+    head tilt, :o, blue sky, sunlight, white cloud, yacht, wet, water drop, seagull, 
+  
+  - |
+    shallow water, tropical beach, partially submerged, from above, shining water, barefoot, 
+    looking at viewer, head tilt, smile, water drop, rash guard, cleavage, shell,  
+  
+  - |
+    __rnd-swimsuit__, 
+    w arms, breasts squeezed together, head tilt, smile, open mouth, tongue, wink, curvy, 
+    thighs, blue ocean, blue sky, sunlight, 
+
+  - |
     sky blue bikini, view from above and below the stage, blue summer sky visible, dynamic angle, cute, 
     ((the location is a sandy beach:1.4)), ((the audience in the foreground is a blurry:1.4)), ((enthusiastic:1.5)), 
     ((dance costume:1.4)). upper body, looking at viewer, cowboy shot, 
     {{{{{gigantic tits}}}}}, {{{{{alternate breast size}}}}}, ((bursting breasts:1.3)), hair over one eye, ((sweat:1.5)), big ass,
   
   - |
-    __bikini/*__, 
+    __rnd-swimsuit__, 
     deck chair, sitting, 
     light_green t-shirt lift by self, embarrassed, blush, hands on chest, thighs, grabbing shirt,
 
   - |
-    __bikini/*__, 
+    __rnd-swimsuit__, 
     night, dark scene, on back on sand, hands on own chest, embarrassed, blush, looking down, thighs, from above, wet,
 
   - |
-    __bikini/*__, 
+    __rnd-swimsuit__, 
     lying on side, sand beach, blue sky, breast rest, wet, head rest, navel, blush, smile, water bottle on sand, 
     tanlines, tan, sunscreen, parasol, dutch angle, hip,
 
@@ -1737,18 +1762,18 @@ ero:
     {v arms,|pouring onto self, water drop, perfect hand,}    
   
   - | 
-    __bikini/*__, 
+    __rnd-swimsuit__, 
     outstretched arms, smile, head tilt, open mouth, tongue, from above, ocean, beach, sparkle, floating hair,  
     {|breast focus, upper body,}
   
   - |
-    __bikini/*__, 
+    __rnd-swimsuit__, 
     smile, head tilt, open mouth, tongue, ocean, beach, sparkle, floating hair, 
     {arm support, arched back,|lying on side,|contrapposto, hand on own hip,|contrapposto, hand on own hip, hand in hair,}
     {|wink}
 
   - |
-    __bikini/*__,
+    __rnd-swimsuit__, 
     smile, head tilt, open mouth, tongue, ocean, beach, sparkle, floating hair, 
     knee up, splashing, standing on one leg, 
 
@@ -1919,6 +1944,10 @@ ero:
 
   #制服セット
   school-uniform:
+  - | 
+    school uniform, navy blue blazer, yellow vest, v neck, white shirt, bowtie, 
+    pleated skirt, white sox, leaning forward, tucking hair, smile, open mouth, tongue, 
+  
   - |
     classroom, white shirt, bra peek, cleavage, pleated skirt, arched back, short sleeves, 
     smile, w arms, open mouth, tongue, school uniform, black choker, 
@@ -2137,6 +2166,10 @@ ero:
   - |-
     embarrassed, looking to the side, knit sweater & miniskirt,
     (Flirtingly lifting her skirt to show her panties:1.3),
+
+  - |
+    turtleneck, white sweater, holding coffee mug, steam, smile, cafe, wooden table, elbow on table, 
+    head tilt, squirrel, open terrace, outdoors, nut \(food\), maple leaf, 
 
   # 脱衣
   undressing-set:
@@ -2418,7 +2451,16 @@ ero:
       turtleneck, green sweater, sleeveless sweater, lab coat, open coat, miniskirt, black skirt, garter straps, 
       {hands in pockets,|holding coat,} smug, head tilt, infirmary, id card, loose belt, 
 
+    - |
+      hospital, lab coat, brown knit sweater, cleavage, miniskirt, laced panties, black panties, sitting on chair, 
+      laced thighhighs, head rest, elbow on arm rest,
+
     nurse:
+      open:
+      - |
+        nurse, open clothes, black bra, black panties, garter straps, naughty face, w arms, hospital, 
+        naked, grabbing own clothes, revealing clothes, booty, seductive,
+
       skirt-lift:
       - |
         __nurse-uniform__, 
@@ -2720,10 +2762,16 @@ ero:
     concert, night club, rave party, cowboy shot, from below,
     platform footwear,
 
+  - rainbow bikini, satin color, contrapposto, stripper, night club, hand behind head, pole dancing, 
+  - rainbow bikini, satin color, on back, from above, outstretched arms, five fingers, head tilt, smile, 
+
   # 体操着
   gym-uniform:
   - gym uniform, buruma, classroom, chair, sitting on chair, spread legs, backrest, breast rest on backrest, :o,
   - gym uniform, buruma, classroom, ass focus, adjusting clothes, embarrassed, full-face blush, thighs, 
+  - |
+    solo, gym shirt, midriff, spread legs, pulling own clothes, naughty face, open mouth, tongue, 
+    lying on vaulting horse, sound effects, underboob, hands up, 
 
   - |
     white shirt, short sleeves, gym uniform, black buruma, ass focus,
@@ -2751,3 +2799,84 @@ ero:
     elegantly adorned with prism-like jewels and lapis lazuli accents, featuring a glittery texture, 
     a bright smiling expression, walking confidently through a vibrant city street with blurred background details, 
     showcasing a blend of traditional and modern aesthetics, highly detailed, colorful, and vibrant lighting."
+
+  sarashi: sarashi, midriff, red hakama, cowboy shot, hand up, smile, 
+
+  off-shoulder:
+  - | 
+    off shoulder, pink sweater, skirt, autumn, pavement, tree, :o, cleavage, arms behind back, 
+    leaning forward, head tilt, autumn leaves, falling leaves, maple leaf,  
+
+  # ハロウィン
+  halloween:
+  - |
+    halloween costume, pumpkin, happy halloween, halloween bucket, halloween, hat, halloween bikini, 
+    garter straps, trick or treat, {wariza|all fours}, {{smile,|surprised,} open mouth, tongue,| :o, w arms,|from behind,}
+
+  - |
+    halloween costume, pumpkin, happy halloween, halloween bucket, halloween, hat, halloween bikini, garter straps, 
+    trick or treat, dutch angle, sexy pose, spread legs, 
+
+  - |
+    halloween costume, pumpkin, happy halloween, halloween bucket, halloween, hat, halloween bikini, garter straps, 
+    trick or treat, dutch angle, sexy pose, ghost, capelet, bat wings, 
+
+  - |
+    halloween costume, pumpkin, halloween bucket, halloween, hat, halloween bikini, garter straps, trick or treat, 
+    dutch angle, ghost, capelet, from behind, embarrassed, hands on ass, 
+
+  - |
+    halloween costume, pumpkin, halloween bucket, halloween, hat, halloween bikini, garter straps, trick or treat, 
+    dutch angle, ghost, capelet, from behind, embarrassed, skirt, panties under skirt,
+
+  - |
+    halloween, bodysuit, demon wings, demon horns, fishnet thighhighs, fangs, bats, red sky, nightmare, 
+    glowing eyes, pumpkin, demon tail, {holding whip,| all fours,|on back, arms up,}
+  
+  - halloween, pumpkin dress, orange dress, frilled dress, tweaking own skirt, capelet, embarrassed, wavy mouth, blush, 
+  - halloween, mummy costume, bandages, yokozuwari, naughty face, hands up, underboob, 
+  - halloween, bat shaped pasties, bat panties, capelet, from below, embarrassed, blush, moaning, open mouth, bat hairpin, 
+  - halloween, ghost costume, naked, panties, underboob, head tilt, :o, bat print panties, {|tattoo on stomach, glowing tattoo,}
+  - halloween, ghost t-shirt, one off shoulder, holding pumpkin, black choker, 
+  - |
+    halloween, bare shoulders, gothic lolita, orange dress, puffy sleeves, cross laced corset, black corset, black rose, 
+    crescent, night sky, cloud, purple sky, floating hair, hand in hair,
+  
+  super-heroine:
+  - |
+    superheroine, superhero costume, pink bodysuit, cleavage cutout, cape, gloves, standing on rooftop, cityscape, 
+    night sky, full moon, hands on hips, confident smile, wind blowing hair and cape, dynamic pose, heroic atmosphere, 
+    high detail, cinematic lighting, vibrant colors, upper body, 
+
+  - |
+    standing, cowboy shot, fighting stance, tokusatsu, pink bodysuit, henshin belt, belt, pink helmet, white edge on side head,
+    visor, pink shoulder armor, covered nipples,
+
+  eating:
+  - |
+    sitting on bench, holding baozi, wrapping paper, eating, closed mouth, wavy mouth, cheek bulge,presenting food, reaching, looking at viewer,
+    street, shibuya \(tokyo\), from side,narrow waist, eyes highlights, school uniform, serafuku, white shirt, (long sleeves), 
+    navy sailor collar, aqua neckerchief, cleavage, collarbone, black cardigan, closed cardigan, sleeves past wrists, partially unbuttoned, navy microskirt,
+
+  vampire:
+  - |
+    vampire, vampire costume, gothic lolita, black dress, red accents, corset, lace, choker, bat wings, fangs, red eyes, slit pupils,
+    night sky, full moon, cemetery, gothic architecture, holding a rose, seductive smile, dramatic lighting, dark atmosphere,
+    high detail, cinematic composition, vibrant colors, upper body,
+  
+  - |
+    vampire, capelet, revealing clothes, vampire fangs, criss-cross halter,  dutch angle, bat, shadow, crescent, dynamic pose, flowing capelet,
+    red eyes, slit pupils, contrapposto, {hand up|pointing}, dark purple aura, glowing eyes, black gloves, {|magic circle,} 
+
+  - |
+    vampire, backless outfit, vampire fangs, dutch angle, bat, shadow, crescent, red eyes, slit pupils, dark purple aura, 
+    glowing eyes, black gloves, yokozuwari, 
+
+  - vampire, backless outfit, vampire fangs, dutch angle, bat, shadow, crescent, red eyes, slit pupils, dark purple aura, glowing eyes, profile, 
+  
+  - |
+    vampire, backless outfit, vampire fangs, dutch angle, bat, shadow, crescent, tattoo on back, glowing tatoo, red eyes, slit pupils, pipe organ,
+    stairs, red carpet, 
+
+  - vampire, black leotard, vampire fangs, dutch angle, bat, shadow, crescent, red eyes, slit pupils, pipe organ, stairs, red carpet, m legs, 
+  - vampire, black leotard, vampire fangs, red eyes, slit pupils, red carpet, vampire costume, spread arms, 
