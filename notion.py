@@ -7,13 +7,17 @@ from datetime import datetime
 from notion_client import Client
 import immich
 import traceback
+from dotenv import load_dotenv
+
+load_dotenv()
 
 #import psycopg2
 from PIL import Image
 
 # NOTION_TOKEN >>> 環境変数に登録
 # 環境変数からNOTION_TOKEN呼び出し
-notion_token = os.environ["NOTION_TOKEN"]
+notion_token = os.getenv("NOTION_TOKEN")
+ROOT_PATH = os.getenv("ROOT_PATH")
 
 PAGE_ID = "27f0b631271a80ef8657e6081d7c435b"  # ページID
 NOTION_DATABASE_ID = "27f0b631271a80e2bd54ed729caadfdd"
@@ -125,10 +129,10 @@ def upsert_character_record(client, db_id, char_name, safe_count, r18_count, r18
         if q.get("results"):
             page_id = q["results"][0]["id"]
             client.pages.update(page_id=page_id, properties=props)
-            print(f"🔁 Updated {char_name}: safe={safe_count}, r18={r18_count}, r18+={r18p_count}, yuri={yuri_count}, folder={folder_path}")
+            print(f"🔁 Updated {char_name}: safe={safe_count}, r18={r18_count}, r18+={r18p_count}, yuri={yuri_count}, folder={folder_path}, last_created_dt={last_created_dt}")
         else:
             client.pages.create(parent={"database_id": db_id}, properties=props)
-            print(f"➕ Created {char_name}: safe={safe_count}, r18={r18_count}, r18+={r18p_count}, yuri={yuri_count}, folder={folder_path}")
+            print(f"➕ Created {char_name}: safe={safe_count}, r18={r18_count}, r18+={r18p_count}, yuri={yuri_count}, folder={folder_path}, last_created_dt={last_created_dt}")
     except Exception as e:
         print(f"❌ Notion update/create error ({char_name}):", e)
         traceback.print_exc()
@@ -157,7 +161,7 @@ def update_Generate_DB():
     df["folder"] = df.apply(lambda row: extract_root_folder(row.get("originalpath"), row.get("character")), axis=1)
 
     print("📊 DataFrame columns:", df.columns.tolist())
-    print(df.head(3))
+    print(df.head(5))
 
     # 集計: character x rating ごとに count と最終作成日時を取得
     summary = (
@@ -303,8 +307,12 @@ def check_keyword_in_character(keyword: str):
     if not found:
         print(f"❌ キーワード '{keyword}' を含むデータは見つかりませんでした")
 
+    return found
+
 #############################################################################################################
 if __name__ == '__main__':
+
+    immich.update_exif_info_to_postgres(ROOT_PATH)
 
     print("🚀 Uploading to Notion...")
     update_Generate_DB()

@@ -28,16 +28,28 @@ nsfw:
 
   goblin:
     fuck:
-    - |-
+    - |
       green goblin, sex from behind, dungeon, dark background, 
       crying, moaning, doggystyle, from side, standing, looking back, arms back,
 
-    - |-
+    - |
       green goblin, sex, dungeon, dark background, 
       crying, moaning, 
       {penis, missionary|upright straddle,|reverse suspended congress,}
       __cum-action__, lactation, 
+
+    - |
+      spyview,(door foreground:1.15),((green 1goblin)), out of frame,
+      BREAK
+      lying on back, hay grab, arms up, leg_focus, ((arched soles)),long legs, leg up, bare legs, legs on shoulders, 
+      feet up, saliva, night, ((arched back)),missionary, mating press, precum drip, defeated, defeat,
+      uncensored, orc piledriver \(sex\),held down, blurry foreground, dark cave,
     
+    - |
+      open mouth, goblin, navel, large breasts, nipples, nude, lying, ugly goblin, spread legs, cum, sex, vaginal, 
+      cum in pussy, dark-skinned goblin, cum on body, facial, rain, cum pool, solo focus, looking at another, facing viewer, 
+      naked, body bridge, arched back, holding leg, 
+
     irrumatio:
     - |-
       green goblin, giant penis, irrumatio, surprised, crying, 
@@ -373,6 +385,16 @@ nsfw:
       panties aside, pussy juice, 
       {|nipples, bikini lift},
 
+    - |
+      <lora:Removing_Condom_IL_V2:1>
+      removing_condom:1.5, pull condom pov hand, pov hand removing condom, hetero, penis, testicles, erection, 
+      pussy, condom, condom on penis, pov hand , Before sex, hide girl's hand,
+
+    - |
+       <lora:Removing_Condom_IL_V2:1.2> removing_condom:1.5, pull condom pov hand, pov hand removing condom, 
+       hetero, penis, testicles, erection, pussy, condom, condom on penis, pov hand , Before sex, hide girl's hand,
+        cowboy shot, look at viewer, blush, from behind , prone bone sex ,
+
     removing2:
     - |
       view from side, night time, beige wall, large window,
@@ -400,6 +422,10 @@ nsfw:
 
   #正ちゃんマーク
   tally-mark:
+    - |
+      wariza, peace sign, school uniform, bra lift, breast out, torn pantyhose, white panties, nipples, 
+      sad, crying, biting used condom, cum on breast, facial, from above, from side, tally,
+    
     - |-
       naughty face, after sex, condom belt, used condom, tally mark, cum in pussy, 
       {__finger-lick__|spread pussy}, 
@@ -435,37 +461,50 @@ nsfw:
   #--- イラマチオ ---
   irrumatio:
     def:
-      - |
-        irrumatio, hetero, penis, wide open mouth, head grab,
-        {|deepthroat},
-        {|sucking penis, caressing testicles, handjob},
-        {scared|surprised|crying, closed eyes},
-        __cum-action__,
-        __saliva__,
-        from side, from above
+    - |
+      irrumatio, hetero, penis, wide open mouth, head grab,
+      {|deepthroat},
+      {|sucking penis, caressing testicles, handjob},
+      {scared|surprised|crying, closed eyes},
+      __cum-action__,
+      __saliva__,
+      from side, from above
+
     surprised:
-      - |
-        irrumatio, hetero, penis, wide open mouth, head grab, {|deepthroat},
-        {surprised|ahegao},
-        __cum-action__, cum in mouth, cumdrip,
-        __saliva__,
-        from side, from above
+    - |
+      irrumatio, hetero, penis, wide open mouth, head grab, {|deepthroat},
+      {surprised|ahegao},
+      __cum-action__, cum in mouth, cumdrip,
+      __saliva__,
+      from side, from above
+
     kneeling:
-      - |
-        __nsfw/irrumatio/def__,
-        kneeling,
+    - |
+      __nsfw/irrumatio/def__,
+      kneeling,
+
     allfours:
-      - |
-        __nsfw/irrumatio/def__,
-        all fours,
+    - |
+      __nsfw/irrumatio/def__,
+      all fours,
+
     sitting:
-      - |
-        __nsfw/irrumatio/def__,
-        sitting,
+    - |
+      __nsfw/irrumatio/def__,
+      sitting,
+
     squatting:
-      - |
-        __nsfw/irrumatio/def__,
-        squatting,
+    - |
+      __nsfw/irrumatio/def__,
+      squatting,
+
+    rnd:
+    - |
+      traditional media, depth of field, blurry background, light particles, 
+      1girl, (1boy:0.4),  solo focus, tongue focus, tongue out, saliva drip, head out of frame, lipstick, 
+      full red lips, pale skin, dark background, seductive, taste buds, ((close up tongue, close up mouth:1.4)), 
+      pastel choker, cum in air, ejaculation, ((cum from above, cum into mouth, cum drip onto tongue:1.4)),  head tilt up, 
+      thick white cum on tongue, ((penis out of frame:1.4)), pov from above, cum string, hair grab, pale skin, <lora:Illustrious_V2:0.5> s1_dram
 
   #--- クンニ ---
   cunnilingus:
@@ -576,6 +615,11 @@ nsfw:
         stealth fellatio, penis, kneeling under table, classroom, handjob, saliva trail, 
         from above, looking at penis, steam, blush, half-closed eyes, torogao, 
 
+      - |
+        spyview, door foreground,1girl,1boy, blurry foreground, blurry background, sideways glance, bedroom, 
+        wooden wall, door, kneeling, fellatio, between legs, on floor, bed, window, night, dark room, dim lighting, 
+        clothed male nude female, uncensored, penis out, licking penis, tongue, blush, cum on breasts, peeking, 
+
       tucking-hair:
       - |
         __sex-face__,
@@ -611,7 +655,12 @@ nsfw:
     fat-man:
     - |
       hug and suck , hugging, fellatio, 1girl, 1boy, faceless male, hetero, testicles, oral,  
-      kneeling, dark-skinned male, fat man. netorare, ugly man, pants down, excessive cum,  
+      kneeling, dark-skinned male, fat man. netorare, ugly man, pants down, excessive cum, 
+    
+    - |
+      1boy, navel, large breasts, nipples, nude, lying, ugly man, spread legs, cum, sex, vaginal, cum in pussy, 
+      dark-skinned male, cum on body, facial, solo focus, tongue out, auctum, on stage, naked, stage lights, prostitution,
+      closed eyes, moaning, money in the floor, indoors, strip club, glowstick, audience, silhouette, crowd, body bridge, arched back, holding leg
 
     # お風呂場で
     bath:
@@ -963,6 +1012,10 @@ nsfw:
       squatting, from behind, nude, high heels, hands on own knees, spread legs, pussy, anus, 
       thighhighs, pussy juice, pussy juice trail, on floor, looking back, {|dildo riding, deep penetration,}
     
+    - |
+      pastel colors, tanned skin, portrait, pink lips, holding huge pink dildo, shy face, blushing, 
+      analog style, pastel colors, vintage, depth of field, faded color, kiss,
+
     shirt-lift:
     - |
       female masturbation, nipples, shirt lift, window, sleeveless shirt, no bra, 
@@ -1742,6 +1795,7 @@ nsfw:
       pussy juice:1.2), crying, tears, The expression of agony,
       flashing, screaming in orgasm, closed eyes, (teary eyes),
       teardrops,
+
   #--- お風呂でsex ---
   bath-base:
   - |
@@ -1970,6 +2024,11 @@ nsfw:
     __nsfw/*__, 
     lactation,
 
+  - |
+    <lora:Anime_in_real:1> ani2rel,
+    <lora:breast_kneading_v1_ill:0.8> breast_kneading, hug from behind, nipples, lactation, embarrassed, moaning, blush,
+    BREAK 1boy, faceless male, muscular, 
+
   #触手
   tentacle-sex:
     - |
@@ -2156,3 +2215,64 @@ nsfw:
     lingerie, panties aside, panty, soapland, oily, bathroom, indoors, tiles, lotion, air mattress, pink air mattress, 
     vaginal, sex, cum in pussy, cum overflow, cum dripping, 1boy, hetero, penis, pov, female orgasm, torogao, 
     BREAK <lora:Soap1p2:0.9> av cover, from below, kneeling, cowgirl position, reaching towards viewer, 
+
+  murakami-teruaki:
+  - |
+    <lora:MurakamiTeruaki_SSYsphere_Anime_IL_V2:0.7> murakami_teruaki,
+    1girl, blush, solo focus, Saliva, tears, runny nose, sweat, bodily fluids, wet skin, oily skin, 
+    revealing clothes, open clothes, elbow gloves, nipple, skindentation, deep skin, taut clothes,
+  
+  - |
+    <lora:MurakamiTeruaki_SSYsphere_Anime_IL_V2:0.7>
+    penis, multiple boys, hetero, 5+penises, erection, 5+boys, group sex,  ejaculation, sitting, veiny penis, teeth, 
+    rolling eyes, uvula, upper teeth only, after fellatio, cum in nose, gangbang, collarbone,
+
+  - |
+    <lora:MurakamiTeruaki_SSYsphere_Anime_IL_V2:0.7> murakami_teruaki,
+    (Hyottoko blowjob), ( :>=), 1girl, fellatio, penis, oral, hetero, 1boy, :>=, looking at viewer, blush, solo focus, 
+    shiny, and on another's head, irrumatio, shiny hair, pov, bare shoulders, veiny penis, sweat, veins, breasts, shiny skin, 
+    elbow gloves, cheek bulge, glaring, angry, scowl, gloves, bangs, hair between eyes, leotard, erection, clothed female nude male, head grab,
+
+  - |
+    <lora:MurakamiTeruaki_SSYsphere_Anime_IL_V2:0.7> murakami_teruaki,
+    ((close-up face)), open mouth, parody,  looking at viewer, portrait, teeth, cum, tongue, facial, bangs, saliva, hair between eyes, meme, 
+    (Tasting semen on tongue, semen pool in mouth), (( excessive cum)), ((bukkake)), ((facials)), ((facial)), sperm, ((cum on through)),
+
+  - |
+    <lora:MurakamiTeruaki_SSYsphere_Anime_IL_V2:0.7> murakami_teruaki,
+    ((cum bubbles)), ((put self fingers in self mouth, put the fingers of both self hands in self mouth)), Open mouth, cumdrip, uvula, Foaming,
+
+  - |
+    <lora:MurakamiTeruaki_SSYsphere_Anime_IL_V2:0.7> murakami_teruaki,
+    (((close-up face)))open mouth, solo, tongue, looking at viewer, portrait, teeth, tongue out, @_@, ringed eyes, plugsuit, crazy eyes:1.5, 
+    (ryuuguu rena (meme),(parody)), wide-eyed,
+
+  - |
+    <lora:MurakamiTeruaki_SSYsphere_Anime_IL_V2:0.7> murakami_teruaki,
+    ((gangbang)), ((group sex)), 6+boys, 6+penis, triple penetration, double penetration, sex, rough sex, epic sex, head grab,
+
+  # グループセックス
+  group-sex:
+  - |
+    <lora:Anime_in_real:1> ani2rel,
+    black leather harness, body harness, straps, leather cuffs, leather collar. leather harness, body harness, straps. body harness, 
+    leather arm straps, thigh straps, thigh belts, leather cuffs, leather straps, collar, (nr, nipple rings), body harness, black latex elbow gloves,
+    latex stockings, happy smile,multiple boys,penis,3+boys,hetero,nude,1girl, full body, cowgirl position, lying male, sex, on back male, uncensored, 
+
+  - |
+    <lora:Anime_in_real:1> ani2rel,
+    black leather harness, body harness, straps, leather cuffs, leather collar. leather harness, body harness, straps. body harness, 
+    leather arm straps, thigh straps, thigh belts, leather cuffs, leather straps, collar, (nr, nipple rings), body harness, black latex elbow gloves,
+    latex stockings, happy smile, fellatio, oral, squatting, solo focus,  steaming body, penis, hetero, multiple boys,6+boys,blush, cumdrip, 
+    6boy,precum, cum, male masturbation, sweatdrop, closed eyes,head grab,faceless male, ugly man, full body, multiple boys in background,uncensored,
+
+  - |
+    <lora:Anime_in_real:1> ani2rel,
+    IllusP0s,masterpiece,best quality, anime coloring,anime screenshot, multiple boys, penis, nude, sex, hetero, male masturbation, hand on penis,
+    6+boys, standing sex, heavy breathing, cum in pussy, sex from behind, moaning, from side, blush,
+    1girl,clothed female nude male, doggystyle, moaning, breasts pressed to the wall, full body,  ugly man, faceless male, uncensored, line up,
+    (female against wall:1.2), on stage, audience, spotlight, 
+    <lora:slave_clothes:1> slave clothes, chain, collar, brown collar, barefoot, slave, prostitution, chain, leash, torn clothing,
+
+  rei-no-pool:
+  - rei no pool, deck chair, spread legs, torogao, ugly man, hetero, sex, nipples, pussy juice, penis, vaginal, {kiss|moaning}, 

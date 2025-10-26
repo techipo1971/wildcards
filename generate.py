@@ -13,6 +13,7 @@ import notion
 import png_info
 from typing import Dict, Any
 import immich as imm
+import exif_util as exif
 
 from PIL import Image, PngImagePlugin
 
@@ -21,6 +22,15 @@ import slack
 import argparse
 from InquirerPy import inquirer
 
+# 最初にライブラリがインストールされているか確認
+try:
+    import yaml
+except ImportError:
+    print("The 'PyYAML' library is not installed.")
+    print("Please install it by running: pip install pyyaml")
+    exit()
+# ======================
+# 設定
 # Web UIのAPIエンドポイント
 url = "http://127.0.0.1:7860/sdapi/v1/txt2img"
 
@@ -33,8 +43,9 @@ POSITIVE = "__il/quality/positive__,"
 STYLE = "<lora:Realistic_Anime_-_Illustrious:0.35> illustriousanime, <lora:PHM_style_IL_v3.3:0.8>, <lora:illustriousXLv01_stabilizer_v1.185c:0.2>,"
 
 # 保存先定義
-DESTINATION_FOLDER = "Z:/StabilityMatrix/Images/workspace"
-RELEASE_FOLDER = "Z:/StabilityMatrix/Images/forRelease"
+ROOT_FOLDER = "//192.168.68.100/personal_folder/StabilityMatrix/Images"
+DESTINATION_FOLDER = ROOT_FOLDER + "/workspace"
+RELEASE_FOLDER = ROOT_FOLDER + "/forRelease"
 
 # ウォータマークスタンプ
 STAMP_IMG = "C:/tmp/Mabo.AiArt2.png"  # 固定パス（必要なら変更）
@@ -56,7 +67,7 @@ GEN_LIST = [ERO, R18, R18_PLUS]
 # TITLE = 'my-hero-academia'
 
 ### ピックアップ
-# PICKUP = ['rem']
+PICKUP = ['rem']
 
 ### シナリオ名
 SCENARIO_NAME = 'dakimakura-of'
@@ -108,28 +119,6 @@ def load_all_characters(key='all'):
             print(f"--- Title filter -> {key} ---")
             return extract_characters_from_yaml(yaml_data[key])
 
-    # # YAMLファイルからプロンプトを読み込む
-    # try:
-    #     with open(YAML_FILE, 'r', encoding='utf-8') as f:
-    #         yaml_data = yaml.safe_load(f)
-
-    # except FileNotFoundError:
-    #     print(f"[Error] YAML file not found: {YAML_FILE}")
-    #     return
-    # except yaml.YAMLError as e:
-    #     print(f"[Error] Could not parse YAML file: {e}")
-    #     return
-
-    # # 作品指定の場合, 作品の辞書を返す    
-    # if isinstance(yaml_data, dict):
-    #     if key == 'all':
-    #         return extract_characters_from_yaml(yaml_data)
-    #     elif key in yaml_data.keys():
-    #         print(f"--- Title filter -> {key} ---")
-    #         return extract_characters_from_yaml(yaml_data[key])
-
-    # # 全てのキャラクター情報を抽出
-    # return extract_characters_from_yaml(yaml_data)
 #############################################################################################################
 def load_yaml_with_titles(yaml_path: str) -> Dict[str, Dict[str, Any]]:
     """
@@ -196,7 +185,8 @@ def select_random_character(all_characters):
     while True:  
         selected_character = random.choice(all_characters)
         # notionデータベースをチェック
-        if not notion.check_keyword_in_character(selected_character['name']):
+        is_found = notion.check_keyword_in_character(selected_character['name'])
+        if not is_found:
             print("no history data")
             break
         else:
@@ -230,26 +220,23 @@ def generate_img(character, payload, output_folder, rating='safe'):
            # 画像をデコード
             img_bytes = base64.b64decode(img_data)
             img = Image.open(io.BytesIO(img_bytes))
+            info = img.info.copy()
+            parameters = info.get("parameters", "")
 
             ### DB処理 ###
             # PNG用のメタ情報
             png_info = PngImagePlugin.PngInfo()
-
-            # payload の各要素を tEXt に追加
-            for key, value in payload.items():
-                # 数値やブールは文字列に変換
-                png_info.add_text(key, str(value))
-
-            # キャラクター名も追加
-            png_info.add_text("title", character['title'])
-            png_info.add_text("character", character['name'])
-            png_info.add_text("rating", rating)
+            png_info.add_text("parameters", parameters)
 
             # immich用にImageDescriptionに概要記載
             png_info.add_text("ImageDescription", f"Title : {character['title']}\nCharacter : {character['name']}\nRating : {rating}")
 
             # 画像保存
             img.save(output_path, pnginfo=png_info)
+
+            # exif_utilでEXIF情報追加(parametersに統合)
+            exif.save_exif_info(output_path, title=character['title'], character=character['name'], rating=rating)
+
             print(f"Image saved to: {output_path}")
 
     except requests.exceptions.RequestException as e:
@@ -324,6 +311,9 @@ def main(char_prompt, mode, list=GEN_LIST, seed=-1, batch_count=1):
         # slackに送信
         slack.send_slack_img(random.choice(img_list) , message)
 
+        # immich メタ情報追加
+        imm.update_exif_info_to_postgres(output_folder)
+
         # notion データベースに追加
         notion.add_record(
             character= char_prompt['name'],
@@ -335,9 +325,6 @@ def main(char_prompt, mode, list=GEN_LIST, seed=-1, batch_count=1):
             rating_list=[rating]
         )
         
-        # immich update
-        imm.update_exif_info_to_postgres(output_folder)
-
         # ウォーターマーク押す
         if rating == 'safe':
             stamp2.add_stamp(output_folder, RELEASE_FOLDER, STAMP_IMG)
@@ -358,7 +345,6 @@ def create_seq_prompts():
     print(f"Seed: {seed}")
 
     return gen_seq_list, seed
-
 #############################################################################################################
 if __name__ == '__main__':
 
@@ -390,14 +376,6 @@ if __name__ == '__main__':
     print(f"Character number >>> {c_num} ")
     print(f"Mode >>> {mode}")
 
-    # 最初にライブラリがインストールされているか確認
-    try:
-        import yaml
-    except ImportError:
-        print("The 'PyYAML' library is not installed.")
-        print("Please install it by running: pip install pyyaml")
-        exit()
-
     # 全てのキャラクター情報を抽出
     try:
         all_characters = load_all_characters(TITLE)
@@ -416,7 +394,6 @@ if __name__ == '__main__':
         try:
             if(isinstance(SCENARIO_NAME, str)):
                 # シナリオ指定
-                mode = 'scenario'
                 gen_seq_list, seed = create_seq_prompts()
         except:
             pass
@@ -455,6 +432,6 @@ if __name__ == '__main__':
         else:
             main(char_prompt, mode, batch_count=b_cnt)
 
-    # Notion Generate DB update
-    notion.update_Generate_DB()
+    # immich ライブラリをスキャン
+    imm.scan_library(imm.LIBRARY_ID)
 # ======================

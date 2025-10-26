@@ -47,6 +47,9 @@ nude:
       tattoo on stomach, glowing tattoo, ghost, {|against glass,}
         
     on-bed:
+    - |
+      completely nude, nipples, all fours, tucking hair, hand in hair, from below, from side, 
+      embarrassed, blush, looking down, legs together, :o, <lora:Illustrious_V2:0.5> s1_dram
     - on bed, lying on side, nude, thighs, nipples, hands up, embarrassed, blush, looking down, 
     - sleeping, on bed, nude, closed eyes, nipples, navel, thighs, panties, 
     - knees to chest, sitting on bed, striped panties, topless, embarrassed, blush, holding own legs, egg vibrator, 
@@ -56,7 +59,10 @@ nude:
       __rnd-panty__,
       embarrassed, moaning, open mouth, full-face blush, dutch angle, 
       breasts apart, perky breasts, looking at viewer, dynamic pose,  
-        
+    - |
+      spread legs, leg up, from side, pussy, seductive smile, holding own thigh, on side, pink knit cardigan, 
+      white shirt, breast out, nipples, clitoris, pussy juice, white socks, panties around one leg, 
+
     elbow-cover:
     - |
       topless, covering breasts,
@@ -130,6 +136,11 @@ nude:
       looking back,
       ass, ass focus,
       ((pantyhose pull)),
+    
+    - |
+      pull own panties, smirk, lean sideways, hips, thigh focus, legs apart, 
+      straight legs, thicc thighs, topless, nipples, dark blue background, (pull drawstring:1.3), perky breasts, 
+      <lora:Illustrious_V2:0.5> s1_dram
 
     shower:
     - |
@@ -235,6 +246,10 @@ nude:
       magazines, undressing, pink curtains, window, narrow waist, dynamic angle, depth of field, depth of field, 
       detailed, arms up, crossed arms, low rise denim, 
       <lora:lighting:0.7>
+    
+    - |
+      visible nipples, striped panties,  low light, dutch angle, closeup, soft lighting,  posing, undressing, night, 
+      dark room, crossed arms, arms up, embarrassed, blush, 
 
     guided-grab:
     - |
@@ -592,6 +607,12 @@ nude:
     - |
       from below, looking down, smile, nude, nipples, underboob, 
       breasts apart, wet, showering, ((washing hair, foam,)) tile wall, steam, water, 
+
+    - |
+      depth of field, (blurred background), (dramatic lighting),soft reflections, amazing composition, 
+      extreme close up, adult, cute, aged up, thick eyelashes, erotic, tight body, close up, zoomed in, lithe, toned, 
+      ((naked, pale pink nipples slightly visible, dark tan lines)), cute pose, dynamic pose, looking at viewer, wet skin, 
+      sweaty, soaked, dark skin, gusty, tanned skin, dark brown skin, showering, 
   
   tanktop-lift:
   - |
@@ -1047,3 +1068,43 @@ nude:
   - |
     cowboy shot, living room, nipples sucking disk vacuum, full-face blush, bare breasts, 
     nipples, areola, projectile\ (lactation\), drop drip, milker; milking machine
+
+  wedding:
+  - |
+    <lora:Anime_in_real:1> ani2rel, 
+    bridal veil, topless, laced choker, frills, white panties, laced, garter straps, white straps, nipples, spread legs, sitting, 
+    breast focus, close-up, chapel, parted lips, light smile, blush, wet, sweat, reclining, 
+
+  - |
+    <lora:Anime_in_real:1> ani2rel, 
+    bridal veil, topless, laced choker, frills, white panties, laced, garter straps, white straps, nipples, sitting, chapel, 
+    parted lips, embarrassed, blush, wet, sweat, folded, holding own legs, m legs, looking down, 
+
+  tennis:
+  - |
+    <lora:Anime_in_real:1> ani2rel, 
+    tennis uniform, holding tennis racket, clothes lift, breasts out, nipples, biting own shirt, in tennis court, embarrassed, 
+    blush, wet, sweat, head tilt, wariza, 
+
+  - |
+    <lora:Anime_in_real:1> ani2rel, 
+    tennis uniform, tennis racket, clothes lift, breasts out, nipples, biting own shirt, in tennis court, embarrassed, blush, wet, 
+    sweat, head tilt, wariza, skirt lift, white panties, grabbing own skirt, showing panties, 
+
+  halloween:
+  - |
+    pumpkin breasts, lewd expression, pumpkin_paint_thd, body_paint, painted pumpkin, trick or treat, looking at viewer, pov doorway, pumpkin breast,
+    <lora:Pumpkin Body Paint - Concept (Halloween Costume) - Illustrious>, thong, black cloak, witch hat, masquerade mask, black gloves, thighhighs, 
+    smirk, strapless, topless, street, puffy labia, pussy juice, fellatio gesture, breast grab, saliva,
+
+  - |
+    happy halloween, trick or treat, breasts on large pumpkin, light smile, parted lips, blush, pumpkin breast, topless, 
+    pumpkin painted, body painted, witch hat, <lora:Anime_in_real:1> ani2rel
+
+  - |
+    cinematic light,goddess, elite, rich bitch, gorgeous, MILF, elegant, slim, slim waist, perfect body, fit body, thin body,
+    makeup, glowing arm tattoo, nude, sexy tight-highs, high heels, perfect posture, proud posture, sexy, seductive, 
+    , pumpkin_paint_thd, body_paint, painted pumpkin, lewd pumpkin, naughty pumpkin,
+    pumpkin ass, huge butt, huge pumpkin paint, Halloween slut, accenting butt, presenting butt, squatting,
+    outside, home backside, date, night, Halloween, Halloween party, 
+    detailed background, from behind, <lora:Pumpkin Body Paint - Concept (Halloween Costume) - Illustrious:0.6>

@@ -1,90 +1,214 @@
-import requests
-import json
+import os
+import re
+from PIL import Image, PngImagePlugin
+from dotenv import load_dotenv
 
-ACCESS_TOKEN = "g4ldcMVGicV-mmpoQHUcJmGslx1JeMORIDl17dEtiHU"
-API_BASE = "https://www.patreon.com/api/oauth2/v2"
+load_dotenv()
 
-########################################################################################################################
-def get_creator_campaign_id():
-    """自分のキャンペーンIDを取得"""
-    headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
-    url = f"{API_BASE}/campaigns?include=creator"
-    resp = requests.get(url, headers=headers)
-    resp.raise_for_status()
-    data = resp.json()
-    campaign_id = data["data"][0]["id"]
-    print(f"✅ Campaign ID: {campaign_id}")
-    return campaign_id
+ROOT_PATH = os.getenv("ROOT_PATH")
 
-########################################################################################################################
-def get_all_posts(campaign_id):
-    headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
-    params = {
-        "fields[post]": "title,content,published_at,url,is_public",
-        "page[size]": 20  # 一度に取得する件数（最大20）
-    }
-    url = f"{API_BASE}/campaigns/{campaign_id}/posts"
+#############################################################################################################
 
-    all_posts = []
-    while url:
-        resp = requests.get(url, headers=headers, params=params)
-        if resp.status_code != 200:
-            print("❌ APIエラー:", resp.status_code, resp.text)
-            break
+def rename_files(folder_path: str, character_name: str, force_replace: bool = False):
+    """
+    PNGファイル名を指定ルールでリネームする。
 
-        data = resp.json()
-        all_posts.extend(data.get("data", []))
-        print(f"📦 {len(data.get('data', []))} 件取得中... 合計: {len(all_posts)} 件")
+    - 通常: (キャラ名)_YYYYMMDD_(連番).png
+    - unknown_ や既存キャラ名も置き換え対象
+    - force_replace=True の場合、既存キャラ名を強制上書き
+    """
 
-        # 次ページURLを取得
-        url = data.get("links", {}).get("next")
-        params = None  # 次ページはURLにパラメータ込みで返ってくるのでクリアする
+    files = [f for f in os.listdir(folder_path) if f.lower().endswith(".png")]
+    if not files:
+        print("❌ PNGファイルが見つかりません。")
+        return
 
-    print(f"✅ すべての投稿データを取得しました。 合計: {len(all_posts)} 件")
+    rename_map = []
+    date_groups = {}
 
-    # JSONに保存
-    with open("patreon_posts_all.json", "w", encoding="utf-8") as f:
-        json.dump(all_posts, f, ensure_ascii=False, indent=2)
-    print("💾 全投稿データを patreon_posts_all.json に保存しました。")
+    for file in sorted(files):
+        date = None
 
-########################################################################################################################
-def get_attachment_file_name(attachment_id):
-    headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
-    url = f"{API_BASE}/attachments/{attachment_id}"
-    resp = requests.get(url, headers=headers)
-    if resp.status_code != 200:
-        print("❌ エラー:", resp.status_code, resp.text)
-        return None
+        # パターン: 20250823_135517_177272.png
+        m1 = re.match(r"(\d{8})_", file)
+        # パターン: tomoe_20250823_135517.png
+        m2 = re.match(r"([a-zA-Z0-9]+)_?(\d{8})_", file)
+        # パターン: unknown_20250902222301_1.png
+        m3 = re.match(r"unknown_(\d{8})\d{6}_\d+\.(png|PNG)", file)
 
-    data = resp.json().get("data", {})
-    attrs = data.get("attributes", {})
-    file_name = attrs.get("file_name")
-    file_url = attrs.get("url") or attrs.get("download_url")
-    if not file_name and file_url:
-        file_name = os.path.basename(file_url)
-    return file_name
+        if m1:
+            date = m1.group(1)
+        elif m2:
+            date = m2.group(2)
+        elif m3:
+            date = m3.group(1)
 
-########################################################################################################################
-def get_post_attachments(post):
-    attachments = []
-    rel = post.get("relationships", {}).get("attachments", {}).get("data", [])
-    for item in rel:
-        attachment_id = item.get("id")
-        if attachment_id:
-            name = get_attachment_file_name(attachment_id)
-            if name:
-                attachments.append(name)
-    return attachments
+        if not date:
+            print(f"⚠ スキップ: {file}（日付形式が不明）")
+            continue
 
+        date_groups.setdefault(date, []).append(file)
 
-if __name__ == "__main__":
-    campaign_id = get_creator_campaign_id()
-    # get_all_posts(campaign_id)
+    # --- 日付ごとにリネーム ---
+    for date, file_list in date_groups.items():
+        for i, old_name in enumerate(sorted(file_list), start=1):
+            ext = os.path.splitext(old_name)[1]
 
-    # 例：全投稿JSONから1投稿目のファイル名を取得
-    # with open("patreon_posts_all.json", "r", encoding="utf-8") as f:
-    #     all_posts = json.load(f)
+            # 既存キャラ名を保持 or 上書き
+            if not force_replace:
+                m_exist = re.match(r"([a-zA-Z0-9]+)_\d{8}_", old_name)
+                if m_exist and m_exist.group(1).lower() != "unknown":
+                    current_name = m_exist.group(1)
+                    new_name = f"{current_name}_{date}_{i:03d}{ext}"
+                else:
+                    new_name = f"{character_name}_{date}_{i:03d}{ext}"
+            else:
+                # 常に新しいキャラ名で上書き
+                new_name = f"{character_name}_{date}_{i:03d}{ext}"
 
-    # first_post = all_posts[0]
-    # files = get_post_attachments(first_post)
-    # print(files)
+            old_path = os.path.join(folder_path, old_name)
+            new_path = os.path.join(folder_path, new_name)
+
+            # 同名ファイルを避ける
+            if os.path.exists(new_path):
+                print(f"⚠ スキップ: {new_name}（既に存在）")
+                continue
+
+            os.rename(old_path, new_path)
+            rename_map.append((old_name, new_name))
+            print(f"✅ {old_name} → {new_name}")
+
+    print(f"\n🎯 {len(rename_map)} 個のファイルをリネーム完了！")
+
+#############################################################################################################
+def clear_file_info(folder_path):
+    """
+    指定フォルダ内のPNG画像の 'parameters' テキストから
+    title, character, rating の行を削除する。
+
+    Args:
+        folder_path (str): 画像フォルダのパス
+    """
+
+    keys_to_remove = ["title", "character", "rating"]
+
+    def remove_keys(parameters: str) -> str:
+        """指定されたキー行を削除"""
+        for key in keys_to_remove:
+            pattern = rf"^{key}:\s*.*$(\r?\n)?"
+            parameters = re.sub(pattern, "", parameters, flags=re.MULTILINE)
+        # 余分な空行を整理
+        parameters = "\n".join([line for line in parameters.splitlines() if line.strip()])
+        return parameters.strip()
+
+    for root, _, files in os.walk(folder_path):
+        for file in files:
+            if not file.lower().endswith(".png"):
+                continue
+
+            img_path = os.path.join(root, file)
+            try:
+                img = Image.open(img_path)
+                info = img.info.copy()
+                parameters = info.get("parameters", "")
+
+                print(f"🧹 {file} parameters(before):\n{parameters}")
+
+                new_parameters = remove_keys(parameters)
+
+                if new_parameters == parameters:
+                    print(f"ℹ {file} に削除対象なし")
+                    continue
+
+                # --- PNG情報更新 ---
+                pnginfo = PngImagePlugin.PngInfo()
+                for k, v in info.items():
+                    if isinstance(v, str) and k != "parameters":
+                        pnginfo.add_text(k, v)
+                pnginfo.add_text("parameters", new_parameters)
+
+                img.save(img_path, pnginfo=pnginfo)
+                print(f"✅ {file} 更新完了")
+                print(f"➡ parameters(after):\n{new_parameters}\n")
+
+            except Exception as e:
+                print(f"❌ Error processing {file}: {e}")
+
+    print("🎯 title / character / rating の削除完了！")
+#############################################################################################################
+
+def repair_file_info(folder_path, title="", character="", rating=""):
+    """
+    指定フォルダ内のPNG画像のEXIF(テキストメタデータ)を読み取り、
+    title / character / rating 情報を既存parametersに統合して保存する。
+
+    Args:
+        folder_path (str): 画像フォルダのパス
+        title (str): タイトル情報
+        character (str): キャラクター情報
+        rating (str): 評価情報
+    """
+    clear_file_info(folder_path)  # 既存情報をクリア
+
+    def update_or_append(parameters: str, key: str, value: str) -> str:
+        """既存キーを上書き、なければ追記"""
+        if not value:
+            return parameters  # 空ならスキップ
+        pattern = rf"^{key}:\s*.*$"
+        line = f"{key}: {value}"
+        if re.search(pattern, parameters, flags=re.MULTILINE):
+            parameters = re.sub(pattern, line, parameters, flags=re.MULTILINE)
+        else:
+            if parameters.strip():
+                parameters = parameters.strip() + "\n" + line
+            else:
+                parameters = line
+        return parameters
+    
+    for root, _, files in os.walk(folder_path):
+        for file in files:
+            if not file.lower().endswith(".png"):
+                continue
+
+            img_path = os.path.join(root, file)
+            try:
+                img = Image.open(img_path)
+                info = img.info.copy()
+                parameters = info.get("parameters", "")
+
+                print(f"📝 {file} parameters(before): {parameters}")
+
+                # --- 上書きまたは追記 ---
+                parameters = update_or_append(parameters, "title", title)
+                parameters = update_or_append(parameters, "character", character)
+                parameters = update_or_append(parameters, "rating", rating)
+
+                # --- PNG情報更新 ---
+                pnginfo = PngImagePlugin.PngInfo()
+                for k, v in info.items():
+                    if isinstance(v, str) and k != "parameters":
+                        pnginfo.add_text(k, v)
+                pnginfo.add_text("parameters", parameters)
+    
+                # immich用にImageDescriptionに概要記載
+                pnginfo.add_text("ImageDescription", f"Title : {title}\nCharacter : {character}\nRating : {rating}")
+
+                img.save(img_path, pnginfo=pnginfo)
+                print(f"✅ {file} に保存完了")
+                print(f"➡ parameters(after):\n{parameters}\n")
+
+            except Exception as e:
+                print(f"❌ Error processing {file}: {e}")
+
+    print("🎯 All done!")
+
+#############################################################################################################
+if __name__ == '__main__':
+    folder_path = ROOT_PATH + "/moca aoba/r18+"
+    # ファイル名リネーム
+    # rename_files(folder_path, character_name="ran mitake", force_replace=True)
+
+    repair_file_info(folder_path, title="bang-dream", character="moca aoba", rating="r18+")
+    
+    # 消去する場合はこちら
+    # clear_file_info(folder_path)

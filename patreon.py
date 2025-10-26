@@ -4,18 +4,23 @@ import os
 import re
 import time
 import notion as nt
+from dotenv import load_dotenv
 
 # ======================
 # 設定
 # ======================
 
+# .envファイルを読み込む
+load_dotenv()
+
 # Patreon API
-PATREON_TOKEN = "g4ldcMVGicV-mmpoQHUcJmGslx1JeMORIDl17dEtiHU"
+PATREON_TOKEN = os.getenv("PATREON_TOKEN")
 BASE_URL_PATREON_API = "https://www.patreon.com/api/oauth2/v2"
 
 # Notion API
-NOTION_TOKEN =  os.environ["NOTION_TOKEN"]
+NOTION_TOKEN =  os.getenv("NOTION_TOKEN")
 DATABASE_ID = "28a0b631271a80aeb46df809192739e5"
+
 NOTION_HEADERS = {
     "Authorization": f"Bearer {NOTION_TOKEN}",
     "Content-Type": "application/json",
@@ -64,7 +69,7 @@ def parse_title(title):
             char_name_parts.append(part)
 
     char_name = " ".join(char_name_parts)
-    return char_name, rating, pub_date
+    return char_name, rating
 
 # ======================
 # Patreonから投稿取得
@@ -118,7 +123,8 @@ def get_existing_urls():
 def create_notion_page(post):
     BASE_URL_PATREON = "https://www.patreon.com"
     title_text = post["attributes"].get("title", "タイトルなし")
-    char_name, rating, pub_date = parse_title(title_text)
+    char_name, rating = parse_title(title_text)
+    pub_date = post["attributes"].get("published_at", "").split("T")[0] if post["attributes"].get("published_at") else None  
     url = f"{BASE_URL_PATREON}{post['attributes'].get('url')}"
 
     data = {
@@ -127,7 +133,8 @@ def create_notion_page(post):
             "タイトル": {"title": [{"text": {"content": title_text}}]},      # タイトル列名に合わせる
             "投稿日": {"date": {"start": pub_date}},                       # 日付列名に合わせる
             "キャラ名": {"rich_text": [{"text": {"content": char_name}}]}, # キャラ名列名
-            "Rating": {"multi_select": [{"name": r} for r in nt.RATING]},              # マルチセレクト対応
+            # "Rating": {"multi_select": [{"name": r} for r in nt.RATING]},              # マルチセレクト対応
+            "Rating": {"multi_select": [{"name": r} for r in [rating]]},              # マルチセレクト対応
             "URL": {"url": url}                                          # URL列名
         }
     }

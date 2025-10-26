@@ -11,6 +11,13 @@ ero:
       ${act:,}
       {day|night|sunset},
 
+    cosplay:
+    - |
+      __cosplay/*__, 
+      __happy-or-sexual__, 
+      __gravure-pose__, 
+      simple background, white background, 
+
     midriff:
     - |
       __ero/gravure/def__,
@@ -138,6 +145,13 @@ ero:
     juliet sleeves, long sleeves, thong leotard, cockpit, science fiction, (space:0.9), bent over, 
     from behind, looking back, glasses, black gloves, ass, kneepits, legs, thighs, (against wall), 
     looking at viewer, ass grab, hand on own ass, grabbing own ass, closed mouth, laced thighhighs, 
+
+  casual:
+  - |
+    soft natural lighting, slightly glossy skin, relaxed expression, closed mouth, subtle makeup, soft eyeliner, 
+    light mascara, natural pink lips, gentle blush, wearing loose linen pants and a cropped tank top, lightweight open cardigan, 
+    barefoot, sitting on a cotton couch, indian style, natural pose,  cozy atmosphere, detailed textures, subtle depth of field, 
+    warm tone, head tilt, light smile, 
 
   #キョンシー
   jiangshi:
@@ -844,6 +858,12 @@ ero:
       black bra, black panties, laced thighhighs, bedroom, legs apart, strap slip, 
       looking to the side, embarrassed, full-face blush, on back, from above, 
       pillow, hands up, grabbing pillow,
+
+    - ruffles, white bra, white panties, embarrassed, blush, ass focus, unfastened bra, 
+
+    - |
+      <lora:Illustrious_V2:0.6> s1_dram, laced lingerie, arched back, bedroom, blush, 
+      smile, soft lighting, dark room, blurry background, depth of field, pale skin,
 
     naked-shirt:
     - |
@@ -1575,6 +1595,12 @@ ero:
     dancing, floating hair, arched back, arm up, outstretched arm, leg up, 
     {|ass focus},
 
+  - |
+    depth of field, volumetric lighting, glow, backlighting, dutch angle, perspective, navel, photorealistic, 
+    long fingernails, armpits, bracelet, shade, vambraces, closed mouth, hand up, blurry, arab clothes, upper body, 
+    golden bracelets, golden choker, dancing, armlet, looking at viewer, smile, bottom curtain, skinny, eyelashes, 
+    parted bangs, from below, transparent, Magic on hands,
+
   # 本屋さん
   book-store-clerk:
   - |
@@ -1701,6 +1727,24 @@ ero:
 
   ######################################################################################
   beach-set:
+  - |
+    <lora:Anime_in_real:1> ani2rel, blurry background, depth of field, 
+    __bikini/*__, 
+    embarrassed, smile, blush, dutch angle, beach, sunset, tucking hair, hand up, curvy, wide hips, 
+  
+  - |
+    (dirty feet), Steam soles, steam feet, hand on hip, (contrapposto:1.3), , smile, shiny skin, 
+    (, tongue out, (, pink inner hair, skinny, (dynamic pose:1.2), head tilt, leaning forward, necklace, ,
+
+  - |
+    gorgeous lips, closed mouth, High detail, detailed eyes, smile, anime style, focus, gorgeous eyes, detailed eyes, 
+    portrait, ((ear piercing, three rings on ear, two on the bottom, one on top)) 
+    BREAK cinematic lighting, soft light diffusion, depth of field, photorealistic shading, aesthetic, atmospheric perspective, 
+    subsurface scattering, film grain, (detailed textures:1.2), chiaroscuro, natural interaction, 
+    BREAK  bikini, purple bikini, swimsuit, slingshot swimsuit, multi-strapped bikini bottom, shirt, white shirt, open shirt, 
+    off shoulder, open clothes, see-through clothes, see-through sleeves, thigh strap, choker, outdoors, water, wading, wet, 
+    sky, cloud, tree, palm tree, leaf, cowboy shot, arms up, hand on own face, holding, holding ball, holding beachball, ball, beachball, 
+  
   - |
     ocean, partially submerged, __bikini/*__, contrapposto, {arms behind head|ass focus, hand on hip},
     head tilt, :o, blue sky, sunlight, white cloud, yacht, wet, water drop, seagull, 
@@ -2581,14 +2625,25 @@ ero:
   #魔法使い
   wizard-set:
     - |
-        __wizard/*__, mage staff, magic circle, pointing up, nebula,
-        night sky, arm up straightly,
+      __wizard/*__, mage staff, magic circle, pointing up, nebula,
+      night sky, arm up straightly,
+
     - |
-        __wizard/*__, __facial/sexual__, fantasy, magic circle,
-        {|ass focus},
+      __wizard/*__, __facial/sexual__, fantasy, magic circle,
+      {|ass focus},
+
     - |
-        __wizard/*__, {wariza|all fours}, __facial/embarrassed__,
-        {|ass focus},
+      __wizard/*__, 
+      {wariza|all fours}, 
+      __facial/embarrassed__,
+      {|ass focus},
+
+    - |
+      curvy, thick thighs,wide hips, covered nipples, tan, dark-skinned female, glowing eyes, 
+      smgrain, smgrhat, hat, black slingshot swimsuit, heart hair ornament, puffy sleeves, smggem, 
+      elbow gloves, showgirl skirt, thigh boots, pubic tattoo, looking at viewer, contrapposto,legs apart,hand on hip,
+      smug, smiling, head tilt, cowboy shot, abstract background, purple theme, glowing particles, soft glow, ethereal aura, 
+      (rim lighting, soft shadows:1.1)
 
   #パーカー
   hoodie:
@@ -2810,6 +2865,28 @@ ero:
   # ハロウィン
   halloween:
   - |
+    bandage, mummy costume, underboob, mummy pose, dutch angle, graveyard, halloween night,
+    leaning forward, pumpkin, jack-o'-lantern, violet theme, {|half-closed eyes, :o,}
+  
+  - |
+    halloween, halloween costume, gothic lolita, orange dress, pumpkin print, demon wings, striped pantyhose, orange pantyhose, garter straps,
+    {skirt lift|skirt lift, panties|w arms|v arms},
+    head tilt, {light smile|embarrassed}, blush, wariza, 
+    halloween bucket, party room, chandelier, party decorations, dark room, soft lighting,
+  
+  - |
+    halloween, pumpkin printed bikini, orange bikini, holding mage staff, magicalperfect face, beautiful face, pixie nose, tanlines, 
+    bubble butt,pumpkin_paint_thd,body_paint,painted pumpkin,pumpkin ass, (large pumpkin paint),purple and black thigh high socks, stripey socks, 
+    black witches hat, crooked witches hat, Kneeling, sitting on feet, looking over shoulder, 
+    From behind,cowboy shot, feet close to viewer,ass focus,haunted forest, dead trees, 
+    ((in summoning circle, pentagram)), candles, melted candles, large moon, dark clouds, mist fog, (will-o'-wisp),night time, spooky atmosphere  
+
+  - |
+    <lora:Anime_in_real:1> ani2rel, 
+    halloween, pumpkin printed bikini, orange bikini, holding mage staff, magical girl, witch hat, kneeling, bat, night, fog, 
+    legs apart, naughty face, asymmetrical thigh strap, outstretched arm, 
+
+  - |
     halloween costume, pumpkin, happy halloween, halloween bucket, halloween, hat, halloween bikini, 
     garter straps, trick or treat, {wariza|all fours}, {{smile,|surprised,} open mouth, tongue,| :o, w arms,|from behind,}
 
@@ -2880,3 +2957,86 @@ ero:
 
   - vampire, black leotard, vampire fangs, dutch angle, bat, shadow, crescent, red eyes, slit pupils, pipe organ, stairs, red carpet, m legs, 
   - vampire, black leotard, vampire fangs, red eyes, slit pupils, red carpet, vampire costume, spread arms, 
+
+  cat:
+  - |
+    D4rkL1nes, Upper body focus, Green background, Smile, looking sideways, looking at viewer, bracelet, black gloves, 
+    claw ring, elbow gloves, Crossed arms, a black cat and petting the black cat in her arms 
+
+  tennis:
+  - |
+    __cosplay/tennis-uniform__, 
+    __happy-or-sexual__,
+    holding racket, dynamic pose, wet, tennis ball, tennis court, tennis net,   
+  
+  - |
+    __happy-or-sexual__,
+    tennis outfit, tennis skirt, tennis racket, sporty pose, on court, net, sunny day, dynamic action shot, white panties,
+    ponytail, sweatband, wristbands, focused expression, mid-swing, high detail, vibrant colors,
+    {|ass focus|ass,}
+
+  christmas:
+  - |
+    sexy, alluring, slutty, (laying down on fuzzy rug, naked body wrapped in red ribbon, body is a gift, ribbon, 
+    ribbons around around thighs, ribbons wrapped around body, ribbons wrapped around abdomen, biting ribbon, spread legs:1.3), 
+    christmas decorations on bed, seductive expression, seductive smile, looking at viewer, arm up, (sexually attractive armpit:1.2), 
+    armpit focus, thigh up shot, fireplace, 
+
+  ghost-pirate:
+  - |
+    ghost pirate, pirate ship,  ghost ship, torn sail, pirate hat, eyepatch, smug, black capelet, dark night, ghost, revealing clothes, 
+    torn clothes, terrible night, horror, black black corset, center cross lace, crow on shoulder, bikini bottom, garter straps, 
+    dark purple theme, thunder, storm, on back, spread legs, licking finger, {|underboob,}
+
+  - |
+    ghost pirate, pirate ship,  ghost ship, torn sail, pirate hat, eyepatch, smug, black capelet, dark night, ghost, revealing clothes, 
+    torn clothes, terrible night, horror, black black corset, center cross lace, crow on shoulder, bikini bottom, garter straps, 
+    dark purple theme, thunder, storm, {|underboob,}
+    {standing on deck, hand on own hip,|ass focus|all fours,|bent over, arm support,| holding whip, whipping, hands up,},
+
+  portrait:
+  - |
+    <lora:Illustrious_V2:0.5> s1_dram,
+    portrait, upper body, detailed eyes, detailed face, looking at viewer, head tilt, light smile, blush, 
+    intricate background, floral pattern, soft lighting, high detail, vibrant colors, cinematic composition,  
+
+  - |
+    <lora:Illustrious_V2:0.5> s1_dram,
+    portrait, tank top, cleavage, slim, fit build, fabric texture, cleavage focus, jewelry, smirk, seductive, 
+    dynamic angle, dynamic pose, looking to the side, pink lips,  
+  
+  - |
+    <lora:Illustrious_V2:0.6> s1_dram, <lora:Anime_in_real:1> ani2rel, blurry background, depth of field, 
+    embarrassed, strapless bra, laced bra, see-through bra, armpits, arms up, pink lips, profile, 
+
+  - |
+    <lora:Illustrious_V2:0.6> s1_dram, <lora:Anime_in_real:1> ani2rel, blurry background, depth of field, 
+    embarrassed, pink lips, topless, covering breasts, crossed arms, 
+
+  - |
+    <lora:Anime_in_real:1> ani2rel, blurry background, depth of field, 
+    hood, hoodie, smile, choker, looking at viewer, black choker, grin, jewelry, red hoodie, hood down, 
+    long sleeves, piercing, pink hoodie, ear piercing, sitting, 
+
+  - |
+    <lora:Anime_in_real:1> ani2rel, blurry background, depth of field, dutch angle,  
+    (((1920s , disco, livingroom))), parted lips, night, detailed eyes, sexy legwear, flapper dress, 
+    flapper fashion, fit, slim, pretty face,  cool girl, perfect eyes, detailed eyes, side part, sensual hair, 
+    intricate detailing, bend over bar counter, (elegant appearance:1.2),  expressive eyelashes, expressive lips, 
+    (elegant), holding cocktail glass with ice inside, glowing cocktail, natural curves, playful girl, narrow waist, 
+    smile, close_up, retro artstyle, on bar-chair, bar, bar counter, side view, realistic plants, red lips, looking at viewer, 
+
+  - |
+    <lora:Anime_in_real:1> ani2rel, blurry background, depth of field, 
+    (dramatic lighting), soft reflections, amazing composition, extreme close up, nature, fall, partially submerged, 
+    thick eyelashes, erotic, close up, zoomed in, lithe, toned, __bikini/*__, cute pose, dynamic pose, looking at viewer, 
+    wet skin, sweaty, soaked, {{{skinny}}}, ass focus, 
+
+  - |
+    <lora:Anime_in_real:1> ani2rel, japanese clothes, naked kimono, off one shoulder, dynamic pose, dutch angle, summer festival,
+    contrapposto, night sky, happy, gripping clothes, undressing, 
+  
+  rei-no-pool:
+  - |
+    rei no pool,  <lora:Anime_in_real:1> ani2rel, submerged, spaghetti strap, red one-piece swimsuit, leaning forward, 
+    hands on tile floor, seductive smile, blush, wet, water drop, legs apart, 

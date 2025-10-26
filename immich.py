@@ -5,12 +5,21 @@ import subprocess
 import psycopg2
 import pandas as pd
 from PIL import Image
+from dotenv import load_dotenv
+import time
+from datetime import datetime
 
 IMMICH_URL = "http://192.168.68.100:2283"  # あなたの Immich サーバの API ベース URL
-TOKEN = "98BTL8i5RxQbTN2ItiJ4lD05tjayiUOlJuv8Ludihs"
+LIBRARY_ID = "6e75703c-aead-4497-b9e7-119d54496473"  # 対象ライブラリ ID (NASのパスに対応)
+
+load_dotenv()
+IMMICH_TOKEN = os.getenv("IMMICH_TOKEN")
+
+# Immich のアクセストークン（必要に応じて取得・設定してください）
+immich_access_token = "t8AKizTmC2lqk2IxIqfCKYGsSuJQEHPwOlJaz1s5Yk"
 
 headers = {
-    "x-api-key": TOKEN,  # ← Authorization ではなくこちら！
+    "x-api-key": IMMICH_TOKEN,  # ← Authorization ではなくこちら！
     "Content-Type": "application/json"
 }
 #############################################################################################################
@@ -22,14 +31,21 @@ def get_all_tags():
     return resp.json()
 #############################################################################################################
 def get_all_assets():
-    url = f"{IMMICH_URL}/api/assets"
-    resp = requests.get(url, headers=headers)
+    url = f"{IMMICH_URL}/api/search/metadata"
+
+    params = {
+        "page": 1,
+        "limit": 1000
+    }
+
+    all_assets = []
+    resp = requests.post(url, headers=headers, json=params)
     if resp.status_code != 200:
         print("❌ アセット取得失敗:", resp.status_code, resp.text)
-    else:
-        print("✅ アセット一覧取得成功")
-    resp.raise_for_status()
-    return resp.json()
+    data = resp.json()
+    assets = data.get("assets", [])
+
+    return all_assets
 
 #############################################################################################################
 def create_tag(tag_name: str, color: str = "#00FF00"):
@@ -120,6 +136,7 @@ def fetch_immich_data():
 #############################################################################################################
 # EXIF情報をDBに反映させる
 def update_exif_info_to_postgres(folder_path):
+
     conn = connect_db()
     cur = conn.cursor()
 
@@ -198,12 +215,50 @@ def repair_exif(folder_path):
                 print(f"❌ Error processing {file}: {e}")
 
 #############################################################################################################
+def get_library_info(library_id):
+    """ライブラリ情報を取得"""
+    url = f"{IMMICH_URL}/api/libraries/{library_id}"
+    resp = requests.get(url, headers=headers)
+    resp.raise_for_status()
+    return resp.json()
+
+#############################################################################################################
+# --- ライブラリスキャン ---
+# https://api.immich.app/endpoints/libraries/scanLibrary
+# curl -X POST -H "x-api-key: {IMMICH_TOKEN}" http://192.168.68.100:2283/api/libraries/6e75703c-aead-4497-b9e7-119d54496473/scan
+def scan_library(library_id, timeout=60):
+    """ライブラリをスキャンし完了を待つ"""
+    library = get_library_info(library_id)
+    refreshed_at_before = library["refreshedAt"]
+    print("スキャン前 refreshedAt:", datetime.fromisoformat(refreshed_at_before.replace("Z", "+00:00")).strftime("%H:%M:%S"))
+    
+    # スキャン開始
+    scan_url = f"{IMMICH_URL}/api/libraries/{library_id}/scan"
+    resp = requests.post(scan_url, headers=headers)
+    if resp.status_code == 204:
+        print("✅ スキャン開始成功")
+    else:
+        print(f"❌ スキャン開始失敗: {resp.status_code}, {resp.text}")
+        return
+
+    # 完了監視（refreshedAtの更新を確認）
+    start_time = time.time()
+    while True:
+        library = get_library_info(library_id)
+        refreshed_at_after = library["refreshedAt"]
+        if refreshed_at_after != refreshed_at_before:
+            print("スキャン完了: refreshedAt 更新", datetime.fromisoformat(refreshed_at_after.replace("Z", "+00:00")).strftime("%H:%M:%S"))
+            break
+        if time.time() - start_time > timeout:
+            print("❌ タイムアウト: スキャン完了を確認できませんでした")
+            break
+        time.sleep(2)  # 2秒ごとにチェック
+
+#############################################################################################################
 if __name__ == '__main__':
 
     data_path = "//192.168.68.100/personal_folder/StabilityMatrix/Images/workspace"
-    repair_exif(data_path)
-
-    # update_exif_info_to_postgres(data_path)
+    update_exif_info_to_postgres(data_path)
 
     # # 1️⃣ タグ作成
     # new_tag = create_tag("r18+", "#FF00FF")
@@ -213,6 +268,7 @@ if __name__ == '__main__':
     # print(tags)
 
     # # 3️⃣ アセット一覧を取得して最初の1枚にタグを付与
-    assets = get_all_assets()
+    # assets = get_all_assets()
+    # print(f"Total assets: {len(assets)}")
     # first_asset_id = assets[0]["id"]
     # add_tags_to_asset(first_asset_id, [new_tag["id"]])

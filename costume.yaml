@@ -30,7 +30,7 @@ pantyflash:
 rnd-skirt:
   - __school-uniform/*__
   - __police__
-  - __office-lady/*__
+  - __office-lady__
   - __maid/*__
   - __nurse-uniform__
   - __sailor-senshi-cos__
@@ -90,6 +90,10 @@ one-piece-swimsuit:
   competition: competition swimsuit
   school: school swimsuit
   classic: classic school swimsuit, blue one-piece swimsuit, school swimsuit,
+  twilight: <lora:TwilightFish_Doaxvv_v1:0.7> TwilightFish, multicolored swimsuit, striped one-piece swimsuit,
+  one-shoulder: <lora:One_shoulder_One_piece_Swimsuit:1> oneShouldrSwim, one-piece_swimsuit, bare shoulders, single_strap, cross-laced_clothes, sideless_outfit, sideless_swimsuit,
+  gravure-swimsuit: gravure swimsuit \(idolmaster\), 
+  
 
 #ヒョウ柄ビキニ　ギャル
 jaguar-bikini-gal:
@@ -484,6 +488,14 @@ rin-style:
 
 #アシュリーコス
 ashley-cos: orange sweater, sleeveless turtleneck, necklace, green skirt, plaid skirt, miniskirt, 
+
+#オルフェウスコス
+orpheus-style:
+- |
+  black beret, black hooded shrug, o-ring top, puffy long sleeves, o-ring arm strap, 
+  two-tone dress, black dress, grey dress, turtleneck dress, pencil dress, chest belt, 
+  utility belt, underbust, zipper dress, garter straps, black thighhighs, asymmetrical gloves, 
+  single fingerless glove, black gloves, yellow gloves
 
 #セータードレス
 sweater-dress:
