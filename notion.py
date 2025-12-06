@@ -7,26 +7,21 @@ from datetime import datetime
 from notion_client import Client
 import immich
 import traceback
-from dotenv import load_dotenv
-
-load_dotenv()
+import nas_env as nas   #環境情報
 
 #import psycopg2
 from PIL import Image
 
 # NOTION_TOKEN >>> 環境変数に登録
 # 環境変数からNOTION_TOKEN呼び出し
-notion_token = os.getenv("NOTION_TOKEN")
-ROOT_PATH = os.getenv("ROOT_PATH")
-
-PAGE_ID = "27f0b631271a80ef8657e6081d7c435b"  # ページID
-NOTION_DATABASE_ID = "27f0b631271a80e2bd54ed729caadfdd"
-
-GEN_DB_ID = "2820b631271a808ba8e0fd03172720f9" # Generate DB のID
+ROOT_PATH = nas.img_dirs['root']
+notion_token = nas.notion_params["notion_token"]
+PAGE_ID = nas.notion_params["notion_page_id"]
+NOTION_DATABASE_ID = nas.notion_params["notion_database_id"]
+GEN_DB_ID = nas.notion_params["notion_gen_db_id"]
 
 RATING = [{'name':'safe'}, {'name':'r18'}, {'name':'r18+'}, {'name':'yuri'},{'name':'R18++'}]
 MODE = [{'name':'random'}, {'name':'scenario'}, {'name':'pickup'}, {'name':'keyword search'}]
-
 
 headers = {
     "Authorization": f"Bearer {notion_token}",
@@ -286,10 +281,11 @@ def add_record(character, date, title, url, batch_cnt, mode_list=MODE, rating_li
 #############################################################################################################
 def check_keyword_in_character(keyword: str):
     # データベースをクエリ（全件取得）
-    response = client.databases.query(database_id=NOTION_DATABASE_ID)
+    pages = get_all_notion_pages(NOTION_DATABASE_ID)
+    print(f"🔍 Generate Log -> {len(pages)}  records")
 
     found = False
-    for page in response["results"]:
+    for page in pages:
         # character プロパティを取得
         character_property = page["properties"].get("character", {})
         title_items = character_property.get("title", [])
@@ -300,18 +296,44 @@ def check_keyword_in_character(keyword: str):
         # plain_text を結合して文字列化
         character_name = "".join([t["plain_text"] for t in title_items])
 
-        if keyword.lower() in character_name.lower():
-            print(f"✅ キーワード '{keyword}' を含むデータが見つかりました: {character_name}")
+        #完全一致で比較
+        if keyword.lower() == character_name.lower():
+            print(f"❌ キーワード '{keyword}' と一致するデータが見つかりました: {character_name}")
             found = True
 
     if not found:
-        print(f"❌ キーワード '{keyword}' を含むデータは見つかりませんでした")
+        print(f"✅ キーワード '{keyword}' と一致するデータは見つかりませんでした")
 
     return found
 
+
+#############################################################################################################
+def get_all_notion_pages(database_id: str):
+    """Notionデータベースの全ページを再帰的に取得する"""
+    all_results = []
+    has_more = True
+    next_cursor = None
+
+    while has_more:
+        # クエリパラメータを組み立て
+        query_params = {"database_id": database_id}
+        if next_cursor:
+            query_params["start_cursor"] = next_cursor
+
+        # データ取得
+        response = client.databases.query(**query_params)
+
+        all_results.extend(response["results"])
+        has_more = response.get("has_more", False)
+        next_cursor = response.get("next_cursor")
+
+        # print(f"📦 {len(all_results)} 件 取得完了...")
+
+    return all_results
+
 #############################################################################################################
 if __name__ == '__main__':
-
+   
     immich.update_exif_info_to_postgres(ROOT_PATH)
 
     print("🚀 Uploading to Notion...")

@@ -7,8 +7,6 @@ nsfw:
     {|__panty-action__|shibari, bound},
     __sex-pose__,
 
-  - __seq/*__
-
   topless:
     beach:
       sleeping-bukkake:
@@ -176,6 +174,26 @@ nsfw:
       standing, looking at viewer, straight-on,
       luxurious_room
 
+    tattoo:
+    - |
+      nude, spread pussy,
+      __sexual-or-embarrassed__
+      __cum-action__
+      {|fellatio gesture, tongue out, saliva}, 
+      {nipples|spade pasties},
+      <lora:QOS_WAIILL:1> {1-$$tattoo|facial tattoo|full-body tattoo}
+
+    - |
+      nude, ass focus, on side, looking back, tongue out, closed mouth, middle finger, fuck-you, 
+      __happy-or-sexual__
+      <lora:QOS_WAIILL:1> {1-$$tattoo|facial tattoo|full-body tattoo}
+
+    - |
+      nude, nipples, 
+      __happy-or-sexual__
+      <lora:QOS_WAIILL:1> {1-$$tattoo|facial tattoo|full-body tattoo}
+
+
   #セクシーなムード
   sexy-mood:
     finger:
@@ -204,6 +222,14 @@ nsfw:
       {covering crotch|grabbing own breast}, 
       __saliva__,
       __rnd-panty__,
+
+    - |
+      __cosplay/school-uniform/*__, 
+      clothes lift, bra lift, breast out, nipples, looking to the side, 
+      __facial/embarrassed__, 
+      front view, sitting,  
+      BREAK {1boy|ugly man}, 
+      {grabbing another's breast from behind|nipple tweak}
     
     red-lips:
     - |
@@ -225,9 +251,9 @@ nsfw:
 
     bulge:
     - |
-      sitting on lap, from above, from behind, pov, looking back,
-      bulge, {__facial/sexual__|__facial/embarrassed__, open mouth,
-      wavy mouth}, leaning back, grabbing waist,
+      {__cosplay/*__|__rnd-swimsuit__},
+      sitting on lap, from above, from behind, pov, looking back, bulge, leaning back, grabbing waist,
+      {__facial/sexual__|__facial/embarrassed__, open mouth, wavy mouth}, 
 
     grab:
     - |
@@ -414,6 +440,12 @@ nsfw:
       legs up, folded, pussy, naked, spread legs, torogao, blush, steam, cum in pussy, 
       ((sound effects, japanese sound effects,)) 
       trembling, motion lines, motion blur, pussy focus, 
+
+    - |
+      {off shoulder, white sweater down|sports bra,|t-shirt|tank top}
+      nipples, 
+      after sex, naughty face, open mouth, wavy mouth, trembling, 
+      on back, cum in pussy, cum string, m legs, holding own thigh, spoken heart, hand on stomach, saliva, 
 
     tatami:
     - |
@@ -811,6 +843,11 @@ nsfw:
       {|breasts squeezed together}, motion lines, motion blur,
       trembling, sweat",
     
+    - |
+      w arms, on back, embarrassed, blush, looking to the side, paizuri, penis, pov hands, grabbing another's breast, 
+      open mouth, wavy mouth, motion lines, motion blur, wet, 
+      {tank top|t-shirt|bra|bikini} lift, 
+
     after-on-back:
     - |
       __after-paizuri__, 
@@ -925,7 +962,7 @@ nsfw:
     
     condom:
     - |
-      penis, wearing condom, close-up, holding condom, open mouth,
+      penis, penis with condom, close-up, removing condom, open mouth,
       look down, __sex-face__, {|kneeling}, {|from side},
 
     nursing:
@@ -972,7 +1009,7 @@ nsfw:
   footjob:
   - |
     footjob, {naughty face|__facial/sexual__}, 
-    {__nsfw/bondage__, prison|nipples},
+    {__nsfw/bondage/*__, prison|nipples},
     BREAK 1boy, penis, faceless male,
     {|cum|ejaculation|dripping semen},
 
@@ -992,12 +1029,20 @@ nsfw:
       nipples, full-face blush, looking down, moaning, open mouth, 
 
     - |
-      solo, female masturbation, fingering, from behind, pussy juice, pussy, top-down bottom-up, legs apart, 
-      panties around one leg, torogao, moaning, 
+      female masturbation, from below, pussy, top-down bottom-up, thighs, 
+      panties around one leg, female orgasm, 
+      {fingering|dildo|carrot|cucmuber}
+      {pussy juice|female ejaculation}, 
 
     - |
       solo, female masturbation, fingering, gym uniform, spread legs, puffy nipples, clothes lift, bra lift, buruma aside, pussy juice, 
       ahegao, tongue, full-face blush, duffel bag, locker room, grabbing own breast, half-closed eyes, m legs, 
+
+    - |
+      on bed, on back on pillow, nude, m legs, pussy, female ejaculation, fingering, barefoot, 
+      female masturbation, looking down,
+      {hand over mouth|hand on own chest|biting own lip}
+      __facial/embarrassed__, 
 
     dildo:
     - |
@@ -1009,12 +1054,15 @@ nsfw:
       trembling legs, bouncing breasts,
     
     - |
-      squatting, from behind, nude, high heels, hands on own knees, spread legs, pussy, anus, 
-      thighhighs, pussy juice, pussy juice trail, on floor, looking back, {|dildo riding, deep penetration,}
-    
+      squatting, from behind,  high heels, hands on own knees, spread legs, pussy, anus, 
+      thighhighs, pussy juice, pussy juice trail, on floor, looking back, 
+      {|dildo riding, deep penetration,}
+      {|nude,}
+
     - |
       pastel colors, tanned skin, portrait, pink lips, holding huge pink dildo, shy face, blushing, 
-      analog style, pastel colors, vintage, depth of field, faded color, kiss,
+      analog style, vintage, depth of field, faded color, 
+      {kiss|licking, tongue, saliva}, 
 
     shirt-lift:
     - |
@@ -1077,12 +1125,14 @@ nsfw:
       (hands on ass), turtleneck, bodysuit, zero suit, skin tight, bracelet, gloves, ankle boots
 
     - |-
-      zero suit, crotch cutout, pussy, spread legs, space habitat, pussy juice, 
+      {zero suit, space habitat|latex bodysuit},
+      crotch cutout, pussy, spread legs,  pussy juice, 
       naughty face, saliva, tongue, object insertion, sex toy, squatting, arched back, hands on own thighs, 
       center opening, nipples, collarbone, bare shoulder, 
 
     - |-
-      zero suit, crotch cutout, pussy, spread legs, space habitat, pussy juice, 
+      {zero suit, space habitat|latex bodysuit},
+      crotch cutout, pussy, spread legs, pussy juice, 
       saliva, closed mouth, closed eyes, painful, arguing, object insertion, glowing sex toy, 
       squatting, arched back, hands on own thighs, center opening, nipples, collarbone, bare shoulder, trembling, 
 
@@ -1182,6 +1232,11 @@ nsfw:
       __panty-action__,
       __bra-action__,
 
+    - |
+      beach, ocean, bikini top, kiss, vaginal, pussy juice, reverse upright straddle, spread legs, arm around another's neck, 
+      closed eyes, female orgasm, blush, 
+      BREAK 1boy, faceless male, penis, grabbing another's breast, 
+
   #--- 挿入前 ---
   imminent-penetration:
     naked:
@@ -1210,9 +1265,10 @@ nsfw:
 
     zerosuit:
     - |
-      zero suit, crotch cutout, pussy, spread legs, space habitat, pussy juice, 
+      {zero suit, space habitat|latex bodysuit},
+      crotch cutout, pussy, spread legs, pussy juice, 
       naughty face, saliva, licking own lips, imminent penetration, glans, penis,
-      {|center opening, nipples, collarbone, bare shoulder,}
+      {|center opening, nipples, collarbone, bare shoulder|reverse bodysuit, revealing clothes, nipples, bare stomach},
 
   #--- 正常位 ---
   missionary:
@@ -1277,7 +1333,16 @@ nsfw:
       __saliva__,
       __panty-action__,
       __sex-face__,
-      grabbing own thighs, legs up,
+      grabbing {own|another's} thighs,
+      BREAK 1boy, faceless male, 
+
+    - |
+      on bed, nude, sex, spread legs, m legs, vaginal, pussy juice, closed eyes, clenched teeth, heavy breathing, 
+      full-face blush, white thighhighs, w arms, sheet grab, dutch angle, sexy pose, looking to the side, feet up, saliva, wet, 
+      __hardcore-motion__, 
+      __cum-action__,
+      BREAK 1boy, faceless male, penis, grabbing another's thighs, 
+
 
     sagging:
     - |
@@ -1300,6 +1365,20 @@ nsfw:
     - |
       one-piece swimsuit, clothing aside, sex, pov, missionary, spread legs, vaginal, viewfinder, embarrassed, 
       moaning, penis, pussy juice, hands over face, covering eyes, nipples, strap slip, 1boy, faceless male, 
+
+    paw-pose:
+    - |
+      paw pose, w arms, sex, vaginal, pov, missionary, cum in pussy, wet, female orgasm, naughty face, blush, 
+      spread legs, on back, heart, lactation, 
+
+    yukata:
+    - |
+      __sex-face__,
+      __cum-action__,
+      __lactation__,
+      {|panties aside,}
+      sex, missionary, pov, yukata, breast out, nipples, spread legs, 
+       penis, tokkuri, tatami, futon, on back on futon, pussy juice, hands up, 
 
   #--- 騎乗位 ---
   cowgirl:
@@ -1344,6 +1423,10 @@ nsfw:
       {__nsfw/cowgirl/def__|__nsfw/cowgirl/def-ass__|__nsfw/cowgirl/def-reverse__},
       __sex-face__,
 
+    - |
+      nsfw, nude, 1boy, 1girl, hetero, cowgirl position, nipple, penis, pussy, vaginal penis, motion lines, 
+      vulgarity,ahegao, Arching back climax, head back, tongue out,arms up behind head, ahegao, demon horns, orgasm,
+
     clothes:
     - |
       __nsfw/cowgirl/rnd__,
@@ -1357,6 +1440,12 @@ nsfw:
       penis, sex, pussy juice, moaning, m legs, topless, 
       nipples, ((grabbing own skirt:1.2)), beach, blue sky, parasol, sand, bouncing breasts, trembling,
       motion lines, motion blur, wet, showing pussy, ((sound effects:1.2)), 
+
+    - |
+      nude, nipples, spread legs, arched back, girl on top, vaginal, bouncing breasts, 
+      __sexual-or-embarrassed__,
+      saliva, wet, ocean, blue sky, sun, beach, parasol, {w arms|arms up|grabbing own breast},
+      penis, clitoris, tan, tanlines, 
 
     hardcore:
       def:
@@ -1423,6 +1512,24 @@ nsfw:
       BREAK in apartment room,spacious entrance, on green Delivery box, Clear sky, Clear Sunshine, Altar of Light,
       BREAK (perfect fingers,4fingers and 1thumb:1.0),
 
+    - |
+      standing sex, sex from behind, vaginal, pussy juice, torogao, moaning, window, arm support, ass focus, 
+      ((sound effects)), window,  motion lines, motion blur, 
+      __cum-action__, 
+      BREAK 1boy, cloud strife, penis, grabbing another's ass, 
+
+    - |
+      standing sex, sex from behind, school uniform, panties aside, classroom, pussy juice, torn pantyhose, 
+      __cum-action__, 
+      __sexual-or-embarrassed__,
+      leaning on desk, pov, ass focus, 
+      BREAK 1boy, faceless male, penis, 
+
+    - |
+      standing sex, sex from behind, breast out, bra lift, nipples, classroom, breasts on desk, breast press, bent over, 
+      arms behind back, vaginal, torogao, blush, serafuku, school uniform, motion lines, motion blur, trembling,  
+      BREAK 1boy, faceless male, grabbing another's arm,
+
     prone-bone:
     - |
       prone bone, prone bone position, volumetric lighting, cinematic lighting, blurry background, 
@@ -1435,8 +1542,28 @@ nsfw:
       __sex-base__, 
       __sex-face__, 
       sex from behind, on stomach, penis, front view, top-down bottom-up
-        
+
+    - |
+      on bed, top-down bottom-up, biting sheet, closed eyes, nude, female orgasm, crying, streaming tears, sex from behind, 
+      {|side view},
+      BREAK 
+      {1boy, faceless_male|green goblin, fat goblin|1boy, ugly man}, 
+      grabbing another's ass, 
+    
+    mating-press:
+    - |
+      mating press, top-down bottom-up, sex from behind, vaginal, clitoris, pussy juice, 
+      from below, from behind, breast press, thighs, puffy vulva,
+      panties {around one leg|aside}, 
+      {__cum-action__|pink condom on penis},
+      many used condom, 
+
     ass: 
+    - |
+      off shoulder, white sweater down, nipples, vaginal, sex from behind, embarrassed, open mouth, wavy mouth, 
+      trembling, sound effects, all fours, 
+      BREAK 1boy, ugly man, grabbing another's waist, 
+
     - | 
       pov, sex from behind, ass, camisole, head down, hands up, grabbing sheets penis, 
       1boy, grabbing another's ass, deep penetration, trembling, panties around one leg, 
@@ -1781,20 +1908,31 @@ nsfw:
 
   #--- 横バック ---
   spooning:
-    - |
-      __sex-base__, from behind, 1boy, ass grab, pussy,
-      sex from behind, laying down on side, penis, spooning,
-      penetration,
+  - |
+    __sex-base__, from behind, 1boy, ass grab, pussy,
+    sex from behind, laying down on side, penis, spooning,
+    penetration,
+
+  - |
+    spooning, sex, school uniform, no panties, breast out, torogao, moaning, nipples, on side, 
+    leg up, blush, classroom, pussy juice, bra lift, torn pantyhose, cum in pussy, 
+    BREAK 1boy, faceless male, 
+
+  - |
+    off shoulder, white sweater down, nipples, spooning, leg up, vaginal, sex, scared, open mouth, wavy mouth, 
+    trembling, sound effects, looking down, 
+    BREAK 1boy, ugly man, 
+
   #--- 松葉崩し ---
   matsuba:
-    - |
-      pussy, nude, intricate details, ((arched back)), hot atmosphere,
-      with 1man, large penis, (sex), (penis in pussy),
-      (matsubakuzushi), sex, leg lift, leg up, lying, grabbing leg,
-      grabbing breasts, on side, beauty, portrait, (wet pussy,
-      pussy juice:1.2), crying, tears, The expression of agony,
-      flashing, screaming in orgasm, closed eyes, (teary eyes),
-      teardrops,
+  - |
+    pussy, nude, intricate details, ((arched back)), hot atmosphere,
+    with 1man, large penis, (sex), (penis in pussy),
+    (matsubakuzushi), sex, leg lift, leg up, lying, grabbing leg,
+    grabbing breasts, on side, beauty, portrait, (wet pussy,
+    pussy juice:1.2), crying, tears, The expression of agony,
+    flashing, screaming in orgasm, closed eyes, (teary eyes),
+    teardrops,
 
   #--- お風呂でsex ---
   bath-base:
@@ -1821,7 +1959,7 @@ nsfw:
   - |
     __nsfw/bath-base__, 
     __sex-face__, 
-    __masturbation__,
+    __masturbation/*__,
 
   bath-oral: 
   - |
@@ -1887,7 +2025,7 @@ nsfw:
     - |
       __nsfw/bath-sex__, 
       on back, girl is lying on floor, leg lock, arched back, head back,
-    
+        
     missionary:
     - |
       __nsfw/bath-sex__, 
@@ -2194,12 +2332,6 @@ nsfw:
     nude, sweat, biting used condom, sitting on bed, indian style, naughty face, smile, narrowed eyes, 
     closed mouth, looking at viewer, hotel room, tattoo, 
 
-  miko:
-  - |
-    (short height)girl, exposed vulva, vaginal sex, (sexual intercourse with 1man(penis)), at shrine, (eye highlights)large, 
-    (round breasts)cleavage, (puffy nipples)erect(lactation), red hakama miniskirt, topless, small hips, (female urethra)exposed, 
-    (wavy)labia, (erect clitoris)prominent, (slender legs)(M-shape), orgasm, exasperation, out of breath, (deep urethra)
-
   pool:
   - |
     dutch angle, 1boy, sex, (doggystyle:1.4), (sex from behind:1.8), head down, ass up, black o-ring choker, leash, 
@@ -2274,5 +2406,79 @@ nsfw:
     (female against wall:1.2), on stage, audience, spotlight, 
     <lora:slave_clothes:1> slave clothes, chain, collar, brown collar, barefoot, slave, prostitution, chain, leash, torn clothing,
 
-  rei-no-pool:
-  - rei no pool, deck chair, spread legs, torogao, ugly man, hetero, sex, nipples, pussy juice, penis, vaginal, {kiss|moaning}, 
+  - |
+    laced pantyhose, topless, armpits, sweat, white panties under black pantyhose, blush, sad, :o, spread legs, 
+    BREAK 1boy, ugly man, licking armpit, grabbing another's breast, 
+
+  # 例のプール
+  rei-no-pool: rei no pool, deck chair, spread legs, torogao, ugly man, hetero, sex, nipples, pussy juice, penis, vaginal, {kiss|moaning}, 
+
+  #ビッチ
+  bitch:
+  - | 
+    nipples,(pussy, puffy pussy,) nippleless clothes, sexy lingerie, crotchless panties,pussy juice, exhibitionism, looking at viewer, 
+    blush, smile, long sleeves, navel, closed mouth, cleavage, jacket, collarbone,  thighs,sweat, open clothes, shoes, open jacket, coat,
+    thigh strap,open coat, public indecency, opened by self, steaming body,flashing,trench coat,street,night,outdoor,
+
+  - |
+    sex from behind, school uniform, all fours, penis, white socks, grabbing another's ass, side view, ahegao, facing up, breast out, 
+    bra lift, nipples, skirt, 
+    BREAK 1boy, ugly man, 
+
+  - |
+    demon girl, laced bodysuit, demon horns, demon wings, revealing clothes, cross-laced clothes, simple background, pink theme, cupless bra, 
+    crotchless leotard, spread legs, pussy juice, clitoris, licking finger, saliva, spread pussy, spoken heart, facial tattoo, tattoo, 
+    {|demon tail insertion,|dildo insertion,|tentacles sex,|penis, vaginal,}
+
+  - |
+    demon girl, curled horns, demon wings, demon tail, black choker, m legs, pussy juice, spread pussy, thighhighs, nipples, naughty face, public tattoo, 
+    gloves, spoken heart, sitting, on bed, hands on crotch, steaming body, purple theme, dark background,
+
+  # OL
+  office-lady:
+  - |
+    office lady, white shirt, pleated skirt, embarrassed, moaning, leaning forward, blush, id card, office, window, looking back, 
+    bursting breasts, pink lips, button gap, eyeshadow, 
+    BREAK 1boy, ugly man, grabbing another's breast from behind, 
+
+  - |
+    office lady, id card, black jacket, white shirt, pleated skirt, {torogao, moaning|embarrassed, closed mouth}, pink lips, blush,
+    spread legs, no panties, pussy juice, pov, missionary, vaginal, sex, penis, sound effects, skirt lift, office, computer, ((pulling own skirt)),
+    BREAK 1boy, faceless male, 
+
+  # クリスマス
+  christmas:
+  - |
+    merry christmas, christmas, santa hat, green bowtie, neck bell, 
+    sex,  nude, vaginal, ahegao, moaning,  
+    sound effects, female orgasm, saliva, 
+    {girl on top,|standing sex,}
+    __hardcore-motion__, 
+    BREAK 1boy, faceless male, 
+
+  # バレーボール
+  volleyball:
+  - |
+    volleyball net, volleyball uniform, breast out, nipples, sex, grabbing another's breast, sex from behind, shirt lift, bra lift, 
+    shorts pull, torogao, moaning, female orgasm, sound effects, 
+    BREAK 1boy, faceless male, 
+
+  - |
+    locker room, volleyball uniform, breast out, nipples, female masturbation, grabbing own breast, shirt lift, bra lift, shorts pull, 
+    torogao, moaning, female orgasm, sound effects, fingering through panties, 
+
+  # 巫女
+  miko:
+  - |
+    (short height)girl, exposed vulva, vaginal sex, (sexual intercourse with 1man(penis)), at shrine, (eye highlights)large, 
+    (round breasts)cleavage, (puffy nipples)erect(lactation), red hakama miniskirt, topless, small hips, (female urethra)exposed, 
+    (wavy)labia, (erect clitoris)prominent, (slender legs)(M-shape), orgasm, exasperation, out of breath, (deep urethra)
+
+  - |
+    on back on tatami, japanese room, tatami floor, miko, open kimono, miko uniform, naked, off shoulder, nipples, spread legs, 
+    after sex, cum in pussy, cum string, female orgasm, torogao, full-face blush, trembling,  
+
+  - |
+    kneeling, on tatami, undressing kimono, unworn hakama, miko, miko uniform, crotch, midriff, navel, off shoulder, 
+    naked, nipples, hands on own chest, 
+    __sexual-or-embarrassed__,

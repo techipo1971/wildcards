@@ -32,14 +32,41 @@ nude:
         partially submerged, water, one leg on bath edge, pink cat walking on the edge of a bathtub,
         hands out of frame, outstretched arms, torogao, wet, 
 
+  dramatic-lighting:
+  - |
+    {__nude/topless/*__,|__nude/indoors/*__|__nude/lipstick/*__}
+    <lora:Illustrious_V2:0.5> s1_dram
+
   #トップレス
   topless:
+    selfie:
+    - |
+      selfie, holding smartphone and another hand grabbing own breast, nude, nipples, panties, 
+      standing in front of basin, mirror over basin, against mirror, wash basin, bathroom,
+      __facial/embarrassed__, 
+
+    - |
+      <lora:One_Finger_Selfie_Challenge_attempt2:1> reflection,
+      selfie, mirror, phone, OneFingerSelfieER, topless, covering,
+      __rnd-panty__,
+
     armpits:
     - |
       soft tan skin, boob close-up, breast focus, short focal length,
       (arms lift:0.7),(steam:0.6), detailed armpit, armpit smell,(sweat:0.6),
       (full face blush:1.2),pink lips,(painful:0.9), ikigao,
-      nude, (puffy nipples:0.8), head out of frame, 
+      nude, (puffy nipples:0.8), head out of frame,
+
+    - |
+      {breast lift|arms up},
+      __sexual-or-embarrassed__,
+      nude, tanlines, topless, upper body, front view, simple background, pink background, curvy, head tilt, pink lips,  
+
+    t-shirt:
+    - |
+      t-shirt lift by self, bra lift, breast out, nipples, head tilt, 
+      __facial/embarrassed__ 
+      hand up, upper body, dutch angle, breast apart, 
 
     halloween:
     - |
@@ -48,12 +75,39 @@ nude:
         
     on-bed:
     - |
-      completely nude, nipples, all fours, tucking hair, hand in hair, from below, from side, 
-      embarrassed, blush, looking down, legs together, :o, <lora:Illustrious_V2:0.5> s1_dram
-    - on bed, lying on side, nude, thighs, nipples, hands up, embarrassed, blush, looking down, 
+      on bed, on side, head rest, topless, nipples, 
+      __sexual-or-embarrassed__ 
+    
+    - |
+      topless, nipples, 
+      {|__rnd-panty__},
+      on bed, arms up, on back, :o, thighs, one knee up, breast focus, from side, 
+
+    - |
+      {embarrassed, blush, looking down,|sleeping, closed eyes|naughty face|happy},
+      on stomach, pillow hug, nude, covered body with futon, dark room, on bed, 
+      from side, bokeh, blurry background, face to pillow, blue theme, soft lighting,
+    
+    - |
+      __sexual-or-embarrassed__,
+      {v arms,nipples,|covering breasts {|,crossed arms}|arms up, nipples,|breast lift, nipples,}},
+      wariza, completely nude,  on bed, 
+
+    - |
+      __sexual-or-embarrassed__,
+      {all fours|wariza|yokozuwari|kneeling},
+      completely nude, nipples, tucking hair, hand in hair, from below, from side, 
+      looking down, 
+
+    - |
+      __sexual-or-embarrassed__,
+      {hands up|arms up|v arms|covering eyes},
+      on bed, lying on side, nude, thighs, nipples, looking down, 
+
     - sleeping, on bed, nude, closed eyes, nipples, navel, thighs, panties, 
     - knees to chest, sitting on bed, striped panties, topless, embarrassed, blush, holding own legs, egg vibrator, 
     - topless, blowing kiss, wink, puckered lips, pink lips, yokozuwari, smile, imminent kiss, nipples, on bed, reaching towards viewer, 
+    - nude, yokozuwari, ass, thighs, embarrassed, blush, 
     - |
       topless, on back, spread legs, hands up, armpits, 
       __rnd-panty__,
@@ -209,12 +263,6 @@ nude:
       {naughty face|__facial/embarrassed__},
       {grabbing own breast|breasts squeezed together},
 
-    selfie:
-    - |
-      <lora:One_Finger_Selfie_Challenge_attempt2:1> reflection,
-      selfie, mirror, phone, OneFingerSelfieER, topless, covering,
-      __rnd-panty__,
-
     mirror:
     - |
       reflection, mirror, topless, covering breast, crossed arms,
@@ -251,6 +299,8 @@ nude:
       visible nipples, striped panties,  low light, dutch angle, closeup, soft lighting,  posing, undressing, night, 
       dark room, crossed arms, arms up, embarrassed, blush, 
 
+    - off shoulder, white sweater down, nipples, panties, m legs, head tilt, light smile, open mouth, w arms, on back, 
+
     guided-grab:
     - |
       topless, side-tie bikini bottom, guided breast grab, embarrassed, smile, nipples, profile, sitting, 
@@ -261,7 +311,7 @@ nude:
       open mouth, tongue, dutch angle, wet, water, breasts apart, licking finger, 
 
     - |
-      1girl, standing, leaning forward, breasts squeezed together, close-up breasts, wet skin, wet hair, 
+      standing, leaning forward, breasts squeezed together, close-up breasts, wet skin, wet hair, 
       outdoors, pool, lens flare, from below, smile, nipples, parted lips, pink lips, soaking, female head out of frame, faceless female, nude,
 
   ai-ojisan:
@@ -294,9 +344,7 @@ nude:
         ${theme=purple theme,}
         ${bgd=lounge, on couch,}
         
-  lipstick: 
-  - |
-    lipstick, close-up, torogao, steam, heavy breathing, nipples
+  lipstick: lipstick, close-up, torogao, steam, heavy breathing, nipples
 
   foot-focus:
   - |
@@ -326,7 +374,7 @@ nude:
       ${face:__sexual-or-embarrassed__,}
 
     - |
-      on back, heart pasties, pink pasties, naked, covered covering crotch, 
+      on back, heart pasties, pink pasties, naked, covered crotch, 
       m legs, w arms, embarrassed, blush, breasts apart, 
 
     - |
@@ -377,6 +425,9 @@ nude:
       BREAK 1boy, faceless male, ((removing pasties, a boy is removing her pasties.))
       bondage outfit, revealing clothes, dark background, block wall, concrete floor,
 
+    - |
+      floral print panties, topless, floral pasties, peeling pasties by another, nipple,  
+      __facial/embarrassed__,
 
   #修道女
   nun:
@@ -400,7 +451,7 @@ nude:
       nipples,
 
     - |
-      __ashley-cos__,
+      __cosplay/ashley-cos__,
       seiza, hand lifting sweater, sweater lift, nipples, full-face blush, wavy mouth, 
       {embarrassed|surprised}, 
       assisted exposure, shirt lifting, lifting shirt roughly, looking at boobs, bouncing breasts, 
@@ -434,15 +485,29 @@ nude:
   #エロ衣装
   erotic-clothes:
     cupless:
-      - |
-        __lingerie/cupless__, 
-        pussy, nipples,
-        ${face:__sexual-or-embarrassed__,}
+    - |
+      __lingerie/cupless__, 
+      pussy, nipples,
+      ${face:__sexual-or-embarrassed__,}
+
+    - |
+      cupless babydoll, nipples, curvy, dutch angle, sexy pose, crotchless panties, 
+      wet, balcony, cityscape, night, neon lights, 
+      __sexual-or-embarrassed__ 
+      cyberpunk, metropolis, glowing, pink neon,
+      {arms up, arched back|breast lift|v arms|contrapposto|licking finger}
+
     venus-bikini:
       - |
         <lora:venus bikini_noobai_V1.0:1> venus bikini,
         jewelry on nipples, jewelry on pussy, chain, crotch chain,
         ${face:__sexual-or-embarrassed__,}
+    micro-panties:
+      - |
+        micro panties, white t-shirt, short t-shirt, see-through shirt, midriff, open mouth,
+        {|covered nipples,} 
+        simple background, white background, from below, 
+        __sexual-or-embarrassed__,  
 
   #温泉
   onsen:
@@ -461,33 +526,50 @@ nude:
       __ero/onsen-set/bathing__, 
       nipples
 
+    - |
+      onsen, {wooden bathtub,|rock}, partially submerged, completely nude, v arms, 
+      __facial/embarrassed__ 
+      steaming body, covering crotch, wet,
+
+    sitting:
+    - |
+      __happy-or-sexual__
+      looking at viewer, sitting, nipples, collarbone, nude, barefoot, shiny, water,
+      feet, lips, wet, shiny skin, completely nude, toes, 
+      {beckoning|shushing|arm support|wiping sweat}, 
+      soles, leg up, crossed legs, steam, foreshortening, 
+      rock, onsen, foot focus, soaking feet, five toes,
+
     together:
     - |
-      seductive smile, 
+      __sexual-or-embarrassed__,
       ${bgd:onsen,}
       <lora:mixed_bathing_from_behind_pony_v01a:1> mixed bathing,
       looking at viewer, pov, nude, hug from behind,
       reverse upright straddle,
-      1boy, a boy is girl's back,
-      a girl is lying on back on a boy,
+      BREAK 1boy, a boy is girl's back,
+      a girl is lying on back on a boy, grabbing another's waist, 
 
     tan:
     - |
-      HDR, 8K, high contrast, masterpiece, best quality, amazing quality, very aesthetic, 
-      superabsurd res, high resolution, ultra-detailed, absurdres, newest, scenery, (horikoshi kouhei:0.3), 
-      (quasarcake:0.3), (wlop:0.3), light rays, dynamic angle, straight on, Marisol_GV, 
       (beautiful eyes, beautiful face, detailed eyes,detailed face, colorful highlights, 
       glossy lips, Latina face, light tanned skin, large hoop earrings, naked, nipples,) 
-      (wet hair:1.55), completely nude, seductive eyes, in heat, half closed eyes,large breasts, 
+      (wet hair:1.55), completely nude, seductive eyes, in heat, half closed eyes,
       (partially submerged), leaning back, legs spread, relaxing, upper body, inside, godrays, dark, night, 
       stardust, steam, hot tub, glow, fog, backlighting, partially illuminated, Intricately designed, Mysterious Shadows,  
       BREAK, beautiful detailed eyes, detailed skin, detailed hair, volumetric lighting, 
-      dappled light, light particles, dramatic shadows, harvest moon, cinematic lighting, photo background, depth of field,
+      dappled light, light particles, dramatic shadows, harvest moon, cinematic lighting, depth of field,
     
     tying:
     - |
       onsen, reflective water, pavement floor, hand up, wet, barefoot, sitting, squatting, one knee up, 
       on one knee, spread water, steaming body, naked, tying hair, steam, fog, convenient censoring,  
+
+    yukata:
+    - |
+      yukata, unfastened, breast out, nipples, opening clothes,
+      embarrassed, blush, looking to the side, standing in front of wall,
+      wooden wall, outdoors, panties, steaming body,  front view,
 
   #ブラホック外し
   unfasten-bra:
@@ -563,6 +645,17 @@ nude:
     artificial vagina, holding sex toy, tenga, 
     looking down, wariza, embarrassed, blush,
     {confused, ?, head tilt,|surprised, open mouth,}
+
+  - |
+    <lora:tenga_dress_IL_01:0.6> tenga dress, strapless, bare shoulders, 
+    __happy-or-sexual__, 
+    holding bottle, tenga, pouring onto self, lotion bottle, 
+    {wariza|on back|m legs|squatting}, 
+
+  - |
+    <lora:tenga_dress_IL_01:0.6>,bodycon dress, tenga dress, strapless bare shoulders, sideboob, side-tie, 
+    adult store, round shelf, multiple sex toy, id card, store clerk, many dildo on shelf,  
+    __facial/embarrassed__,
 
   sleeping-in-car:
     breast-out:
@@ -676,6 +769,21 @@ nude:
       topless, nipples, beach, sky, focus, day, ocean, looking at viewer, sweat, cloud, blue sky, navel,
       breasts apart, bikini panties, pulling down, pulling down panties, from below,
 
+    on-bed:
+    - |
+      on bed, topless, nipples, thigh boots, red boots, 
+      {sitting, m legs, one knee raised|legs up|leg up|knees to chest|leaning back|hands on own cheeks}
+      __sexual-or-embarrassed__,
+      dutch angle, sexy pose,
+
+    maid:
+    - |
+      maid, heart pasties, maid apron, topless, revealing clothes, long sleeves, juliet sleeves, 
+      __facial/embarrassed__ 
+      __hardcore-motion__
+      dutch angle, dynamic pose, 
+      {|removing pasties} 
+
   opening-shirt:
   - |
     opening shirt, 
@@ -702,6 +810,26 @@ nude:
     __sexual-or-embarrassed__, 
     {__rnd-panty__|dolphin shorts} pull,
     sleeves rolled up, arms up, on back, nipples,
+
+  - |
+    hoodie, hood down, dolphin shorts, hoodie lift,  open mouth, wavy mouth, 
+    nipples,
+    {arms behind back, leaning forward,|arms up,}
+    __sexual-or-embarrassed__,
+
+  - |
+    hoodie, hood down, dolphin shorts pull, hoodie lift, 
+    __sexual-or-embarrassed__, 
+    open mouth, wavy mouth, ass focus, pussy, top-down bottom-up, 
+    {ass grab,|spread ass,}
+
+  - |
+    {grey hoodie, open hoodie, hood down,|red jersey,}
+    {dolphin shorts,|denim shorts,}
+    bare shoulders, partially zipped, topless, showing breasts, 
+    embarrassed, blush, from above, 
+    {pasties, heart-shaped pasties,|nipples,} 
+    {|tanlines, tan,}
 
   # パジャマ
   pajama:
@@ -859,18 +987,34 @@ nude:
       closed eyes, heavy breathing, open mouth, wavy mouth, saliva, blush, furrowed brow, raised eyebrows, 
       embarrassed, pussy juice drip through clothes, trembling, on bed, from below, lower body,
       red bunny ears hairband, detached collar, bowtie, red thong leotard, leotard down, breasts out, nipples,
-      wide fishnet thighhighs,
+      wide fishnet thighhighs, 
+      {|hitachi magic wand to crotch, female masturbation, pov hand,}
 
     nightclub:
     - |
       ${cloth:__bunny-girl__,}
       ${face:__facial/sexual__,}
       voluptuous, 
-      vip, indoors, couch, nightclub,red couch, relaxing, 
+      vip, indoors, couch, nightclub, red couch, relaxing, 
       side view, blush, sitting on couch, ((turn around)), 
       nipples, exposed nipples, incoming kiss, turning head,
       {on back|on stomach|wariza|kneeling|arched back,}
-      {arms up, armpits|hands on own cheek|breast lift|grabbing own breast|head rest,},
+      {arms up, armpits|hands on own cheek|breast lift|grabbing own breast|head rest,}
+
+    - |
+      reverse bunnysuit, revealing clothes, heart-shaped pasties, black pasties, bottomless, covered crotch, black corset, black thighhighs,
+      {holding tray, food and drink on tray, serving,|sitting on couch, knees together, {v arms|serving, holding cocktail glass,}, head tilt,|m legs|one leg up,} 
+      __happy-or-sexual__, 
+      lounge, night, dark room, neon trim, pink theme, dramatic lighting,
+
+    - |
+      sagging breasts, nude, nipples, sitting on couch, leaning back, 
+      {|v arms,} 
+      looking {down|to the side|at viewer}, 
+      __facial/embarrassed__, 
+      pink lips, steaming body, dark room, window, curtains, seductive mood, black theme,
+
+
 # __nude/bunny/def__,
 # ${bgd:nightclub,}
 
@@ -998,7 +1142,11 @@ nude:
     __lingerie/*__,
     biting condom wrapper, condom wrapper in mouth, closed mouth, all fours, 
     pink theme, dark room, smile, head tilt, cinematic lighting, spotlight, illumination, 
-    on bed, pink bed sheet, heart-shaped pupils, from below, spoken heart, seductive scenery, large breasts, 
+    on bed, pink bed sheet, heart-shaped pupils, from below, spoken heart, seductive scenery, 
+
+  - |
+    micro bikini, m legs, squatting, biting condom wrapper, closed mouth, naughty face, blush, head tilt, 
+    bathroom, arms behind back, wet, steaming body, spoken heart, 
 
   morning-sunlight:
   - |
@@ -1008,7 +1156,10 @@ nude:
 
   teacher:
   - |
-    sitting, on desk, knee up, feet out of frame, spread legs, pointing at crotch, pointing,
+    sitting, on desk, 
+    {knee up|m legs},
+    feet out of frame, spread legs, 
+    {pointing at crotch, pointing|hands on knees|licking finger},
     looking at viewer, blush, parted lips, head tilt, half-closed eyes, earrings, lipstick,
     blazer, white shirt, black skirt, pencil skirt, black thighhighs, lace trim, lace-trimmed panties, 
     partially visible vulva, high heels, red footwear, pumps, collarbone, curvy, thick thighs, indoors, 
@@ -1057,7 +1208,7 @@ nude:
     looking to own armpit, BREAK 1boy, faceless male, licking armpit, tongue, grabbing another's breast from behind, upper body, 
 
   saimin:
-  - white t-shirt, black pants, contrapposto, :o, indoor, empty eyes, w arms, open palms, five fingers,]
+  - white t-shirt, black pants, contrapposto, :o, indoor, empty eyes, w arms, open palms, five fingers,
   - white t-shirt, black pants, contrapposto, :o, indoor, empty eyes, t-shirt lift by self, black bra, grabbing own clothes, hands up,
   - white t-shirt, black pants, contrapposto, surprised, indoor, looking to bra, t-shirt lift by self, black bra, grabbing own clothes, hands up,
   - white t-shirt, black pants, contrapposto, surprised, indoor, looking to bra, t-shirt lift by self, black bra, grabbing own clothes, hands up, wavy mouth, moaning, 
@@ -1108,3 +1259,82 @@ nude:
     pumpkin ass, huge butt, huge pumpkin paint, Halloween slut, accenting butt, presenting butt, squatting,
     outside, home backside, date, night, Halloween, Halloween party, 
     detailed background, from behind, <lora:Pumpkin Body Paint - Concept (Halloween Costume) - Illustrious:0.6>
+
+  tatami: 
+  - |
+    japanese room, on back on tatami, 
+    {one breast out, nipple,| breast out, nipples}
+    {|one knee up},
+    tank top, dolphin shorts pull, :o, blush, strap slip, wet, half-closed eyes, 
+
+  on-desk:
+  - |
+    ass focus, bent over, white garter straps, white panties, thighs, thighhighs, embarrassed, blush, moaning, 
+    wet, grabbing another's ass, pov hand, desk, {classroom|office}, on stomach,
+
+  # クリスマス
+  christmas:
+  - |
+    naked body wrapped in red ribbon, wrapped crotch, red capelet, santa hat, embarrassed, blush, indoors, green bowtie, neck bell, sparkle, glitter, 
+    on back on bed, gift on bed, arms up, bound wrists in red ribbon, gift wrapping on crotch, skindentation, nipples, 
+
+  - large christmas wreath, bell, fireplace, holding gift, head tilt, light smile, dutch angle, gift wrapping, santa costume, nipples, 
+  
+  - |
+    christmas, nude, body is christmas cake, whipped cream on body, strawberry on body, on back, 
+    merry christmas, decorations on body, covered crotch, embarrassed, blush,
+    {|moaning,}
+
+  - |
+    santa, heart pasties, red cape, topless, revealing clothes, santa hat, 
+    __facial/embarrassed__ 
+    __hardcore-motion__
+    dutch angle, dynamic pose, 
+    {|removing pasties},
+
+  #ボトムレス
+  bottomless:
+  - |
+    squatting, from below, covering crotch, hand on crotch, white thighhighs, no panties, bottomless,  white detached sleeves, 
+    laced gloves, embarrassed, blush,
+
+  - on stomach, bottomless, ass, on bed, sleeping, open bra, unfastened, zettai ryouiki, prone bone, 
+
+  succubus:
+  - |
+    demon girl, curled horns, demon wings, demon tail, black choker, thighhighs, nipples, naughty face, public tattoo, gloves, 
+    spoken heart, steaming body, purple theme, dark background, cupless bra, sexy pose, dutch angle, glowing tattoo,
+
+  bitch:
+  - |
+    chain, o-ring, chain leash, linked piercing, black collar,stomach,
+    black heart pasties,tassel,black panties, 
+    full body, stiletto heels,   
+    squatting, holding leash, looking at viewer, spread legs, front view, 
+    street, night, naughty face, 
+  
+  - |
+    hetero, night
+    narrow waist, seductive smile, smile, naughty face, light blush
+    chain, o-ring, chain leash, linked piercing, black collar, stomach, || black heart pasties, tassel, black panties, from below, 
+    forest, night, moon, moonlight, stars, galaxy, soft light,official art,natural textures, <lora:add-detail-xl:0.5>,detailed,
+
+  bathrobe:
+  - |
+    bathrobe, white robe, open robe, off shoulders, bare shoulders, naked, wariza, head tilt, nipples, 
+    grabbing own clothes, hands up, undone white sash, 
+    __sexual-or-embarrassed__,
+
+  bodycon:
+  - |
+    red sweater dress, off shoulder, {|torn} pantyhose, spy x family, spread legs, panties under pantyhose, 
+    __sexual-or-embarrassed__
+    dutch angle, dynamic pose, sexy pose, seductive, pink theme, 
+    {|one} breast out, nipples, pulling own clothes, perky breasts, 
+
+  race-queen:
+  - |
+    __race-queen__
+    surprised, open mouth, moaning, 
+    {|breast out, nipples, clothes pull}
+    BREAK 1boy, ugly man, grabbing another's breast from behind, racing suit,

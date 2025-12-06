@@ -558,9 +558,7 @@ cosplay:
   miko-san: miko, red hakama, white kimono,
 
   #ナース
-  nurse-uniform: 
-    - nurse, nurse uniform, nurse cap, tight skirt, white dress,
-    - nurse, pink dress, pink cap
+  nurse-uniform: __nurse-uniform__
 
   #シロネンコス
   xilonen-style:
@@ -701,17 +699,20 @@ cosplay:
       skirt, shirt, bare shoulders, collarbone, short sleeves, frills,
       choker, black skirt, off shoulder, black footwear, high heels,
       black choker, grey shirt, off-shoulder shirt, frilled shirt,
+
     charlotte-cos:
-      - |
-        cabbie hat, red headwear, hat feather, bare shoulders,
-        white shirt, red skirt, jewelry, blue gemstone, ribbon,
-        sleeveless shirt, red sleeves, white gloves, gem, puffy sleeves,
-        long sleeves, white belt, suspenders, thigh strap,
+    - |
+      cabbie hat, red headwear, hat feather, bare shoulders,
+      white shirt, red skirt, jewelry, blue gemstone, ribbon,
+      sleeveless shirt, red sleeves, white gloves, gem, puffy sleeves,
+      long sleeves, white belt, suspenders, thigh strap,
+
     arrow-cos:
       - |
         white headwear, red and white tabard, black bodysuit,
         bodysuit under clothes, black pantyhose, fingerless gloves,
         vambraces,
+
     egyptian-cos:
       - |
         breast curtains, pelvic curtain, egyptian clothes, capelet,
@@ -729,76 +730,97 @@ cosplay:
         hair ornament, bare shoulders, breastplate, black leotard,
         gauntlets, faulds, white belt, black thighhighs, greaves,
     asia-cos:
-      - |
-        green dress, neck ribbon, frilled collar, wide sleeves,
-        green skirt, brown belt,
+    - |
+      green dress, neck ribbon, frilled collar, wide sleeves,
+      green skirt, brown belt,
+
     phenex-cos: purple dress, purple ribbon, long sleeves, black pantyhose
+
     slave-bikini-cos: __random/bikini__, slave,public, scared chains,
+
     lacus-cos:
-      - |
-        <lora:lacus-clyne-ponyxl-lora-nochekaiser:0.7> dress, long dress,
-        long sleeves, white sleeves, frills frilled skirt,
-        frilled sleeves, detached sleeves, bare shoulders,
+    - |
+      <lora:lacus-clyne-ponyxl-lora-nochekaiser:0.7> dress, long dress,
+      long sleeves, white sleeves, frills frilled skirt,
+      frilled sleeves, detached sleeves, bare shoulders,
+
     awayuki-cos:
-      - |
-        <lora:awayuki-kokorone-s1-ponyxl-lora-nochekaiser:0.7> dress,
-        ribbon, frills, detached sleeves, choker, off shoulder,
-        white dress, fur trim, blue ribbon,
+    - |
+      <lora:awayuki-kokorone-s1-ponyxl-lora-nochekaiser:0.7> dress,
+      ribbon, frills, detached sleeves, choker, off shoulder,
+      white dress, fur trim, blue ribbon,
+
     succubus-cos:
-      - |
-        demon girl, demon horns, large demon wings, demon tail, smug,
-        {|holding whip}, bondage outfit, chest harness, thigh belt,
-        dark fantasy, demon, bat wings, demon soul, bat, moon, night sky,
-        garter straps, thigh gap, castle, dutch angle,
-        {|from behind|from side},
+    - |
+      demon girl, demon horns, large demon wings, demon tail, smug,
+      {|holding whip}, bondage outfit, chest harness, thigh belt,
+      dark fantasy, demon, bat wings, demon soul, bat, moon, night sky,
+      garter straps, thigh gap, castle, dutch angle,
+      {|from behind|from side},
+
     aiz-cos:
-      - |
-        <lora:aiz-wallenstein-ponyxl-lora-nochekaiser:1> armor,
-        black gloves, blue footwear, blue thighhighs, boots, breastplate,
-        covered navel, dress, gauntlets, gloves, headgear, knee pads,
-        long sleeves, multicolored clothes, multicolored dress,
-        taut clothes, taut dress, thigh boots, thighhighs,
+    - |
+      <lora:aiz-wallenstein-ponyxl-lora-nochekaiser:1> armor,
+      black gloves, blue footwear, blue thighhighs, boots, breastplate,
+      covered navel, dress, gauntlets, gloves, headgear, knee pads,
+      long sleeves, multicolored clothes, multicolored dress,
+      taut clothes, taut dress, thigh boots, thighhighs,
+
     freya-cos:
-      - |
-        <lora:freya_danmachi_pdxl_goofy:1> FreyaBDress, center opening,
-        latex strapless, detached latex collar, black latex collar,
-        navel, latex elbow gloves, black latex gloves,
-        asymmetrical latex legwear, red trim dress,
+    - |
+      <lora:freya_danmachi_pdxl_goofy:1> FreyaBDress, center opening,
+      latex strapless, detached latex collar, black latex collar,
+      navel, latex elbow gloves, black latex gloves,
+      asymmetrical latex legwear, red trim dress,
+
     syr-cos:
-      - |
-        <lora:DanMachi_SyrFlovaXL:1> wet shirt, collared shirt,
-        white shirt, sleeveless, wet skirt, bow skirt, pleated skirt,
-        white skirt, white bow,
+    - |
+      <lora:DanMachi_SyrFlovaXL:1> wet shirt, collared shirt,
+      white shirt, sleeveless, wet skirt, bow skirt, pleated skirt,
+      white skirt, white bow,
+
     syr-cos2:
-      - |
-        cropped jacket, white jacket, collared shirt, white shirt,
-        long sleeves, bow skirt, pleated skirt, white skirt, white bow,
+    - |
+      cropped jacket, white jacket, collared shirt, white shirt,
+      long sleeves, bow skirt, pleated skirt, white skirt, white bow,
+
     panther-cos: red bodysuit, latex, erect nipples under clothes
+
     idol-cos:
-      - |
-        black idol dress, frills, black thigh highs, (short skirt),
-        bare shoulders, (short dress), black hat, asymmetrical sleeves,
+    - |
+      black idol dress, frills, black thigh highs, (short skirt),
+      bare shoulders, (short dress), black hat, asymmetrical sleeves,
+
     wedding-cos:
-      - |
-        bare shoulders, jewelry, silver earring, sleeveless dress,
-        spaghetti strap, wedding dress, white hair flower, necklace,
-        bridal veil, collarbone, lace trim, white detached sleeves,
+    - |
+      bare shoulders, jewelry, silver earring, sleeveless dress,
+      spaghetti strap, wedding dress, white hair flower, necklace,
+      bridal veil, collarbone, lace trim, white detached sleeves,
     geranium-cos:
-      - |
-        <lora:GeraniumFKG-ILXL:1> ger2, pink clothes, white long gloves,
-        corset, navel, pelvic curtain, waist cape, black thighhighs,
-        cleavage, underboob,
+    - |
+      <lora:GeraniumFKG-ILXL:1> ger2, pink clothes, white long gloves,
+      corset, navel, pelvic curtain, waist cape, black thighhighs,
+      cleavage, underboob,
+
     geranium-cos2:
-      - |
-        <lora:GeraniumFKG-ILXL:1> yuk1, strapless, bare shoulders,
-        print kimono, black ribbon sash, animal print, flower print,
-        wide sleeves,
+    - |
+      <lora:GeraniumFKG-ILXL:1> yuk1, strapless, bare shoulders,
+      print kimono, black ribbon sash, animal print, flower print,
+      wide sleeves,
+
     maryrose:
-      - |
-        red bowtie, 
-        blue one-piece swimsuit, frilled one-piece swimsuit, 
-        armlet, blue sleeves, black gloves, two-tone gloves, 
-        blue thighhighs, frilled thighhighs, black boots
+    - |
+      red bowtie, blue one-piece swimsuit, frilled one-piece swimsuit, 
+      armlet, blue sleeves, black gloves, two-tone gloves, 
+      blue thighhighs, frilled thighhighs, black boots
+
+    #イドリーコス
+    yidhari:
+    - |
+      black beret, halter shirt, two-tone shirt, white shirt, black shirt, cleavage cutout, detached sleeves, 
+      two-tone sleeves, white sleeves, black sleeves, sleeve bow, high-waist shorts, black shorts, short shorts, 
+      half-skirt, yellow skirt, frilled skirt, layered skirt, single garter strap, single thighhigh, black thighhighs, 
+      torn thighhighs, single sock, black socks
 
   sexy:
     - |

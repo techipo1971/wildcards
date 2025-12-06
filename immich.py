@@ -5,18 +5,16 @@ import subprocess
 import psycopg2
 import pandas as pd
 from PIL import Image
-from dotenv import load_dotenv
+import nas_env as nas   #環境情報
 import time
 from datetime import datetime
 
-IMMICH_URL = "http://192.168.68.100:2283"  # あなたの Immich サーバの API ベース URL
-LIBRARY_ID = "6e75703c-aead-4497-b9e7-119d54496473"  # 対象ライブラリ ID (NASのパスに対応)
-
-load_dotenv()
-IMMICH_TOKEN = os.getenv("IMMICH_TOKEN")
-
-# Immich のアクセストークン（必要に応じて取得・設定してください）
-immich_access_token = "t8AKizTmC2lqk2IxIqfCKYGsSuJQEHPwOlJaz1s5Yk"
+#############################################################################################################
+# Immich の認証情報を環境変数から取得
+IMMICH_URL = nas.immich_params["immich_url"]
+LIBRARY_ID = nas.immich_params["immich_library_id"]
+IMMICH_TOKEN = nas.immich_params["immich_token"]
+immich_access_token = nas.immich_params["immich_access_token"]
 
 headers = {
     "x-api-key": IMMICH_TOKEN,  # ← Authorization ではなくこちら！
@@ -257,8 +255,10 @@ def scan_library(library_id, timeout=60):
 #############################################################################################################
 if __name__ == '__main__':
 
-    data_path = "//192.168.68.100/personal_folder/StabilityMatrix/Images/workspace"
-    update_exif_info_to_postgres(data_path)
+    scan_library(LIBRARY_ID, timeout=300)
+
+    # data_path = "//192.168.68.100/personal_folder/StabilityMatrix/Images/workspace"
+    # update_exif_info_to_postgres(data_path)
 
     # # 1️⃣ タグ作成
     # new_tag = create_tag("r18+", "#FF00FF")

@@ -36,7 +36,11 @@ facial:
     {seductive smile|smug|smirk|naughty face}, 
     {|open mouth|parted lips|moaning}
 
-  orgasm: female orgasm, moaning
+  orgasm: 
+  - female orgasm, moaning
+  - facing up, female orgasm, 
+  - torogao, moaning
+
   clenched: embarrassed, clenched teeth, wink, female orgasm
   torogao: female orgasm, torogao, wavy mouth, __facial/eye-motion__
   #--- 口のアクション ---
