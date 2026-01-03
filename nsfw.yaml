@@ -1,5 +1,5 @@
 nsfw:
-  oral-sex: "{|__saliva__}, {__irrumatio__|__blowjob__|__cunnilingus/*__}"
+  oral-sex: "{|__saliva__}, {__nsfw/irrumatio/*__|__blowjob__|__cunnilingus/*__}"
   random-sex:
   - |
     __sex-base__, 
@@ -97,7 +97,7 @@ nsfw:
     def:
     - |
       <lora:i_heart_bbc_illustrious:0.8> i heart bbc,
-      __bbc-choker__,
+      __cosplay/bbc-choker__
       __facial/sexual__,
 
     tanktop:
@@ -125,7 +125,7 @@ nsfw:
     relax:
     - |
       <lora:spade_pasties_v2_illustrious:0.8> spade pasties,
-      __bbc-choker__,
+      __cosplay/bbc-choker__
       __rnd-panty__,
       lying, relaxing,
       __facial/sexual__,
@@ -141,15 +141,15 @@ nsfw:
 
     fuck-me:
     - |
-      __bbc-choker__,
+      __cosplay/bbc-choker__,
       __sexual-or-embarrassed__,
       <lora:spade_pasties_v2_illustrious:0.8> spade pasties, fuck me pasties,
       upper body, close-up, breast lift, head out of frame
 
     saliva:
     - |
-      __bbc-choker__,
-      __sexual-or-embarrassed__,
+      __cosplay/bbc-choker__
+      __sexual-or-embarrassed__
       <lora:spade_pasties_v2_illustrious:0.8> spade pasties, fuck me pasties,
       __saliva__,
       face focus, close-up, head out of frame
@@ -159,14 +159,14 @@ nsfw:
       naughty face, closed mouth, bodycon,
       spade-shaped tattoo on breast, close-up,
       <lora:blacked locon :0.8> blacked qos tattoo,spade tattoo,qos tattoo,queen of spades symbol,
-      __bbc-choker__,
+      __cosplay/bbc-choker__
       {|__finger-lick__|shushing|tucking hair}
 
     covering:
     - |
       <lora:blacked locon :0.8> blacked, blacked qos tattoo, spade tattoo, qos tattoo, breast tattoo,
       covering own breasts, crossed arms, hand_covering_nipples,
-      __bbc-choker__,
+      __cosplay/bbc-choker__
       naughty face,
       dark-skinned_male, faceless_male, 1boy, tall_male, face_cut_out_male,
       hand on another's shoulder,
@@ -283,6 +283,23 @@ nsfw:
       body writing, tally on thigh, holding coat, nipples, night,
       neon lights, pink theme, crotchless panties,
       {|spread legs|slav squtting},
+
+    - |
+      trench coat, naked, opening coat, showing breasts, nipples, tally, contrapposto,
+       night, outdoors, dark, urban, neon lights, chastity belt, nipple piercing, linked chain,
+      __facial/sexual__,  
+
+    - |
+      trench coat, naked, opening coat, showing breasts, nipples, tally, squatting, 
+      high heels, thigh strap, {|shibari},{choker|ankle strap|panties}, {|body painting|tattoo},
+      outdoors, autumn leaves, autumn, maple leaf, forest, tree, pussy juice, 
+      __facial/sexual__,  
+
+    - |
+      trench coat, squatting, ass focus, bottomless, 
+      high heels, thigh strap, outdoors, autumn leaves, autumn, maple leaf, forest, tree, pussy juice, 
+      __facial/sexual__,  
+    
     slut-shirt:
     - |
       naughty face, slut shirt, {side-tie top|underboob}, midriff,
@@ -322,7 +339,7 @@ nsfw:
 
     classroom-fuck:
     - |-
-      __school-uniform/*__,         
+      __cosplay/school-uniform/*__,         
       __panty-action__,
       after sex, pussy, sweat, classroom, lying on back on desk,
       full-face blush, 
@@ -338,7 +355,7 @@ nsfw:
 
     classroom-fuck-back:
     - |
-      __school-uniform/*__,
+      __cosplay/school-uniform/*__,
       __panty-action__,
       after sex, pussy, sweat, classroom,
       lying down on stomach on desk, face down, anus, body writing,
@@ -622,7 +639,7 @@ nsfw:
 
       fellatio-gesture:
       - |
-        __nurse-uniform__, 
+        __cosplay/nurse-uniform__
         infirmary, 
         fellatio gesture, tongue out,
         naughty face, 
@@ -643,7 +660,7 @@ nsfw:
 
       stealth:
       - |
-        __school-uniform/*__
+        __cosplay/school-uniform/*__
         stealth fellatio, penis, kneeling under table, classroom, handjob, saliva trail, 
         from above, looking at penis, steam, blush, half-closed eyes, torogao, 
 
@@ -705,7 +722,7 @@ nsfw:
       def:
       - |
         pink lips,
-        __bbc-choker__,
+        __cosplay/bbc-choker__,
         close-up, eyes out of frame,
       penis:
       - |
@@ -748,24 +765,24 @@ nsfw:
 
       police:
       - |
-        __nsfw/blowjob/squrting/def__,
-        __police__,
+        __nsfw/blowjob/squrting/def__
+        __cosplay/police__
 
       nurse:
       - |
-        __nsfw/blowjob/squrting/def__,
-        __nurse-uniform__,
+        __nsfw/blowjob/squrting/def__
+        __cosplay/nurse-uniform__
 
       office-lady:
       - |
-        __nsfw/blowjob/squrting/def__,
-        __office-lady__,
+        __nsfw/blowjob/squrting/def__
+        __cosplay/office-lady__
         office,
 
       student:
       - |
-        __nsfw/blowjob/squrting/def__,
-        __school-uniform/*__,
+        __nsfw/blowjob/squrting/def__
+        __cosplay/school-uniform/*__
         classroom,
 
     10dicks: 
@@ -1105,7 +1122,7 @@ nsfw:
     glowing-dildo:
     - |
       riding on dildo, glowing dildo, pussy, clitoris, squatting, clothed masturbation, 
-      __school-uniform/*__,  
+      __cosplay/school-uniform/*__,  
       frilly socks, tiptoes, closed eyes, embarrassed, pussy juice, motion lines, motion blur, 
       trembling, skirt lift, biting own lip, 
 
@@ -1138,7 +1155,7 @@ nsfw:
 
     tenga:
     - |
-      __lingerie/*__, 
+      __cosplay/lingerie/*__, 
       artificial vagina, holding sex toy, tenga, 
       looking down, wariza, naughty face, 
       girl on top, penis into tenga, male masturbation, dark room, motion lines, motion blur, spoken heart,    
@@ -1174,26 +1191,26 @@ nsfw:
     
     bitch-reverse: 
     - |
-      __nsfw/thigh-sex/reverse__, 
-      __bitch-bodycon__, 
+      __nsfw/thigh-sex/reverse__
+      __cosplay/bitch-bodycon__
       nipples,
     
     bitch-standing: 
     - |
-      __nsfw/thigh-sex/standing__, 
-      __bitch-bodycon__, 
+      __nsfw/thigh-sex/standing__
+      __cosplay/bitch-bodycon__
       nipples,
 
     bitch-on-back: 
     - |
-      __nsfw/thigh-sex/on-back__, 
-      __bitch-bodycon__, 
+      __nsfw/thigh-sex/on-back__
+      __cosplay/bitch-bodycon__
       nipples,
 
     bitch-straddle: 
     - |
-      __nsfw/thigh-sex/straddle__, 
-      __bitch-bodycon__, 
+      __nsfw/thigh-sex/straddle__
+      __cosplay/bitch-bodycon__
       nipples,
 
   #--- 対面座位 ---
@@ -1610,32 +1627,59 @@ nsfw:
   casino-sex:
     blowjob:
       - |
-        __bunny-girl__, __theme/casino__, __blowjob-pose/*__,
+        __cosplay/bunny-girl__, __theme/casino__, __blowjob-pose/*__,
         {|handjob}, nipples, naughty face,
     back:
       - |
-        __sex-base__, __bunny-girl__, __theme/casino__, motion lines,
-        trembling, sweat, motion blur, prone bone, moaning, nipples,
+        __sex-back-base__
+        __cosplay/bunny-girl__
+        __theme/casino__
+        __sex-face__
+        {one breast out, nipple|nipples},
+        {|breasts on poker table, grabbing arms},
+        motion lines, trembling, sweat, motion blur, 
+        prone bone, nipples,
+
     cowgirl:
       - |
-        __sex-base__, __bunny-girl__, __theme/casino__, motion lines,
-        trembling, sweat, motion blur, cowgirl position, moaning,
-        nipples,
+        __sex-base__
+        __cosplay/bunny-girl__
+        __theme/casino__
+        __sex-face__
+        {one breast out, nipple|nipples},
+        motion lines, trembling, sweat, motion blur, 
+        falling money, money, coin, medal, banknote, floating card,
+        cowgirl position,
+        {|m legs}
+        {arms behind back, leaning back|arms up|hands on own cheeks|grabbing own breast}
+  
     missionary:
       - |
-        __sex-base__, __bunny-girl__, __theme/casino__, motion lines,
-        trembling, sweat, motion blur, missionary,
-        on back on poker table, moaning, nipples,
+        __sex-base__
+        __cosplay/bunny-girl__
+        __theme/casino__
+        __sex-face__
+        {one breast out, nipple|nipples},
+        motion lines, trembling, sweat, motion blur, missionary,
+        on back on poker table,
+        falling money, money, coin, medal, banknote, floating card,
+
     standing-back:
       - |
-        __sex-base__, __bunny-girl__, __theme/casino__, motion lines,
+        __sex-base__, __cosplay/bunny-girl__, __theme/casino__, motion lines,
         trembling, sweat, motion blur, standing sex, sex from behind,
         moaning, nipples, {|breasts on poker table, grabbing arms},
+    
     leg-up:
       - |
-        __sex-base__, __bunny-girl__, __theme/casino__, motion lines,
-        trembling, sweat, motion blur, standing sex, leg up, moaning,
-        nipples,
+        __sex-base__
+        __cosplay/bunny-girl__
+        __theme/casino__
+        __sex-face__
+        {one breast out, nipple|nipples},
+        motion lines, trembling, sweat, motion blur, 
+        falling money, money, coin, medal, banknote, floating card,
+        standing sex, leg up, legs apart, holding thigh,
 
   #--- 縛りプレイ ---
   #ボンデージ
@@ -1693,7 +1737,7 @@ nsfw:
         turn pale, sex slave, black bondage costume, black corset,
         chains, restrained, {blindfold|ahegao}, recording frame,
         arms up, bound wrists, crotch cutout, squatting, pussy,
-        __nipple-chain__, 
+        __cosplay/nipple-chain__, 
         bound legs, whip marks,
       
       kunoichi: 
@@ -1727,7 +1771,7 @@ nsfw:
 
     dominatrix:
     - |
-      __bondage/dominatrix__, 
+      __cosplay/bondage/dominatrix__, 
       naughty face, holding whip, straddling,
       unzipping, crotch zipper, pussy, penis, cupless,
 
@@ -1743,7 +1787,7 @@ nsfw:
     standing:
     - |
       __sex-back-base__,
-      {__bondage/*__|naked},
+      {__cosplay/bondage/*__|naked},
       {|__hardcore-motion__},
       __sex-face__,
       __bound-wrist-up__,
@@ -1755,7 +1799,7 @@ nsfw:
     bound-legs:
     - |
       __sex-base__,
-      {__bondage/*__|naked},
+      {__cosplay/bondage/*__|naked},
       {|__hardcore-motion__},
       __bound-wrist-up__,
       bound legs, linked legs, chain linked,
@@ -1780,7 +1824,7 @@ nsfw:
 
     squatting:
     - |
-      __bondage/*__,
+      __cosplay/bondage/*__,
       __finger-lick__,
       __saliva__,
       squatting, stiletto_heels, looking_at_viewer, naughty face, grabbing_own_breast,
@@ -1844,7 +1888,7 @@ nsfw:
     imminent-clothes: 
     - |
       __nsfw/leglift/imminent__, 
-      __panty-action__,
+      {__panty-action__|__cosplay/*__}
     
     imminent-obj: 
     - |
@@ -1854,14 +1898,14 @@ nsfw:
     imminent-rnd: 
     - |
       __nsfw/leglift/imminent__, 
-      __panty-action__, 
+      {__panty-action__|__cosplay/*__}
       __standing-sex-obj__,
 
     rnd:
     - |
       __standing-sex__, 
       __facial/sex-fear__, 
-      __panty-action__,
+      {__panty-action__|__cosplay/*__}
       standing on one leg, 
       {leg lift|one leg raised}, 
       moaning,
@@ -1897,7 +1941,7 @@ nsfw:
 
   #--- フルネルソン ---
   full-nelson:
-    imminent: __nsfw/imminent-penetration/naked__, __sex-face__, full nelson
+    imminent: __nsfw/imminent-penetration/naked__, __sex-face__, full nelson, {|__cosplay/*__}
     imminent-clothes: __nsfw/full-nelson/imminent__, __panty-action__
     naked: 
     - |
@@ -1959,7 +2003,7 @@ nsfw:
   - |
     __nsfw/bath-base__, 
     __sex-face__, 
-    __masturbation/*__,
+    __nsfw/masturbation/*__,
 
   bath-oral: 
   - |
@@ -2155,6 +2199,13 @@ nsfw:
       sitting, spread own pussy, looking down, clenched teeth, orgasm, intense ecstasy, heavy breath, japanese stone onsen, 
       outdoor, day, sky, autumn, momiji, speech bubbles, cum dripping from pussy,(bouncing breasts),perky nipples, 
       completely nude, (clitral), ((sound effects:1.2)), 
+
+    - |
+      {nude|naked towel, covered nipples},
+      {pussy juice|cum in pussy},
+      leg up, pussy, sitting, spread legs, torogao, parted lips, 
+      onsen, wooden wall, rock bathtub, steam, dutch angle, wet, steaming body, 
+      bokeh, blurry background, looking down, clitoris, puffy vulva, 
 
   #---　母乳 ---
   lactation: 
@@ -2456,6 +2507,13 @@ nsfw:
     __hardcore-motion__, 
     BREAK 1boy, faceless male, 
 
+  - |
+    christmas, santa hat, santa bikini, micro bikini, 
+    __facial/embarrassed__ 
+    dutch angle, dynamic pose, sexy pose, bedroom, dark room, merry christmas, bound wrists, armpits,
+    lying, 
+    BREAK 1boy, grabbing another's breast, 
+
   # バレーボール
   volleyball:
   - |
@@ -2482,3 +2540,10 @@ nsfw:
     kneeling, on tatami, undressing kimono, unworn hakama, miko, miko uniform, crotch, midriff, navel, off shoulder, 
     naked, nipples, hands on own chest, 
     __sexual-or-embarrassed__,
+
+  cumdump:
+  - |
+    {|toilet,}
+    dirty face, sitting, shibari, nude, bondage, bound wrists, ball gag, 
+    spread legs, legs up, bound legs, 
+    cum in pussy, cum on body, facial, tally, sound effects, cumdump, 

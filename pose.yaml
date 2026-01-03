@@ -128,11 +128,14 @@ arm-pose:
 
 sit-pose:
   - sitting
-  - "sit in a {chair|sofa}"
-  - "own hugging {feet|legs}"
+  - sit in a {chair|sofa}
+  - own hugging {feet|legs}
   - hugging own legs
   - lotus position
   - sitting against the wall
+  - wariza
+  - yokozuwari
+  - indian style
 
 # ポージングベース
 pose-base:

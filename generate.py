@@ -41,7 +41,8 @@ POSITIVE = "__il/quality/positive__,"
 STYLES =[
     "<lora:Realistic_Anime_-_Illustrious:0.35> illustriousanime, <lora:PHM_style_IL_v3.3:0.8>, <lora:illustriousXLv01_stabilizer_v1.185c:0.2>,",
     "<lora:CunnystyleV9.2:0.7>",
-    "<lora:AIイラストおじさん (2):0.8>"
+    "<lora:AIイラストおじさん (2):0.8>",
+    "<lora:MoriiMee_Gothic_Realistic:0.7>"
 ]
 STYLE = random.choice(STYLES)   # ランダムにスタイル選択
 

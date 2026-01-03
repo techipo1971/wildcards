@@ -2,6 +2,7 @@ import requests
 import json
 import os
 import re
+import character as char
 from collections import defaultdict
 from datetime import datetime
 from notion_client import Client
@@ -19,6 +20,7 @@ notion_token = nas.notion_params["notion_token"]
 PAGE_ID = nas.notion_params["notion_page_id"]
 NOTION_DATABASE_ID = nas.notion_params["notion_database_id"]
 GEN_DB_ID = nas.notion_params["notion_gen_db_id"]
+CHAR_DB_ID = nas.notion_params["notion_char_db_id"]
 
 RATING = [{'name':'safe'}, {'name':'r18'}, {'name':'r18+'}, {'name':'yuri'},{'name':'R18++'}]
 MODE = [{'name':'random'}, {'name':'scenario'}, {'name':'pickup'}, {'name':'keyword search'}]
@@ -31,6 +33,78 @@ headers = {
 
 # Notionクライアントを初期化
 client = Client(auth=notion_token)
+
+
+#############################################################################################################
+def to_rich_text(text: str):
+    if not text:
+        return []
+    return [{"type": "text", "text": {"content": text}}]
+
+#############################################################################################################
+def create_char_page(work_name: str, char_id: str, char_def: dict):
+    """
+    work_name: 作品名（例: 'azur-lane'）
+    char_id  : YAML キー（例: 'atago'）
+    char_def : { name: ..., prompt: [...] } の辞書
+    """
+    name = char_def.get("name", char_id)
+
+    prompts = char_def.get("prompt", [])
+    # prompt が文字列単体 or リストの両方に対応
+    if isinstance(prompts, str):
+        base_prompt = prompts
+    elif isinstance(prompts, list):
+        base_prompt = "\n".join(str(p) for p in prompts)
+    else:
+        base_prompt = ""
+
+    properties = {
+        # タイトル: キャラクターID
+        "キャラクターID": {
+            "title": to_rich_text(char_id),
+        },
+        # キャラクター名（表示名）
+        "キャラクター名": {
+            "rich_text": to_rich_text(name),
+        },
+        # 作品名
+        "作品": {
+            "rich_text": to_rich_text(work_name),
+        },
+        # ベースプロンプト
+        "ベースプロンプト": {
+            "rich_text": to_rich_text(base_prompt),
+        },
+        # メモは空
+        "メモ": {
+            "rich_text": [],
+        },
+    }
+
+    client.pages.create(
+        parent={"database_id": CHAR_DB_ID},
+        properties=properties,
+    )
+
+#############################################################################################################
+def update_char_db():
+    data = char.load_yaml(char.YAML_PATH)
+
+    count = 0
+    for work_name, chars in data.items():
+        if not isinstance(chars, dict):
+            continue
+
+        for char_id, char_def in chars.items():
+            if not isinstance(char_def, dict):
+                continue
+
+            create_char_page(work_name, char_id, char_def)
+            count += 1
+            print(f"created: [{work_name}] {char_id}")
+
+    print(f"done. created {count} pages.")
 
 #############################################################################################################
 # === description（EXIF）から Character と rating を抽出 ===
@@ -334,8 +408,10 @@ def get_all_notion_pages(database_id: str):
 #############################################################################################################
 if __name__ == '__main__':
    
-    immich.update_exif_info_to_postgres(ROOT_PATH)
+    # immich.update_exif_info_to_postgres(ROOT_PATH)
 
-    print("🚀 Uploading to Notion...")
-    update_Generate_DB()
-    print("✅ Done!")
+    # print("🚀 Uploading to Notion...")
+    # update_Generate_DB()
+    # print("✅ Done!")
+
+    update_char_db()

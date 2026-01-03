@@ -38,6 +38,7 @@ notion_params = {
     "notion_page_id": os.getenv("NOTION_PAGE_ID"), 
     "notion_database_id": os.getenv("NOTION_DATABASE_ID"),
     "notion_gen_db_id": os.getenv("NOTION_GEN_DB_ID"),
+    "notion_char_db_id": os.getenv("NOTION_CHAR_DB_ID"),
 }
 
 # Immichの認証情報

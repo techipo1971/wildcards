@@ -11,24 +11,27 @@ cosplay:
   #ヒョウ柄ビキニ　ギャル
   jaguar-bikini-gal:
     - |
-      jaguar print bikini, thong panties, micro denim, unzipped denim,
+      __bikini/jaguar-print__, thong panties, micro denim, unzipped denim,
       front-tie shirt, open white shirt, short sleeves,
 
   casual:
+    sweater:
+    - __color__ sweater, turtleneck, {|sleeveless,|short sleeves,} halterneck, {|midriff,} {|short shorts, thighs, thong,}
+   
     midriff:
       - |
         oversized t-shirt, white t-shirt, side-tie shirt, see-through silhouette,
         midriff, 
         short denim, damaged denim,
+    hoodie:
+    - casual outfit, __color__ hoodie, hood down, draw string, white shorts,
+
     random:
       - |
           "{hoodie|tank top|t-shirt|crop top}, {|midriff},
           {{short|dolphin|leather} shorts|jeans}",
       - black cropped lingerie top, low-waisted micro denim skirt
-      - collarbone, yellow shirt, t-shirt, bear print, green shorts
-      - |
-          casual outfit, __color__ hoodie, hood down, draw string,
-          white shorts,
+      - collarbone, __color__ shirt, t-shirt, animal print, __color__ shorts
       - |
           date outfit, collarbone, __color__ jacket, open clothes,
           __color__ shirt, jeans,
@@ -45,19 +48,19 @@ cosplay:
     base: china dress, pelvic curtain, chinese clothes, qipao
     dragon-china: 
     - |
-      __china-dress/base__, 
+      __cosplay/china-dress/base__, 
       gold trim, dragon print
     
     taihou-style:
     - |
-      __china-dress/base__,
+      __cosplay/china-dress/base__,
       bare shoulders, black thigh highs, cleavage cutout, gold bustier, gold hair ornament,
       pelvic curtain, red qipao, sleeveless dress, fishnet stockings,
       garter belt,
     
     jinhsi-style:
     - |
-      __china-dress/base__, 
+      __cosplay/china-dress/base__, 
       white thigh boots, dress, sleeveless dress,
       halterneck, multicolored dress, cleavage cutout, hair ornament,
       jewelry, sideboob, gold trim, white dress, black dress,
@@ -73,9 +76,8 @@ cosplay:
 
   #裸タオル
   naked-towel:
-    def: naked towel
-    covered: __naked-towel/def__, covered nipples
-    pull: __naked-towel/def__, towel pull, nipples
+    covered: naked towel, {|covered nipples,}
+    pull: naked towel, towel pull, {nipples|nipple slip|breast out},
 
   #バニーガール
   bunny-girl:
@@ -95,8 +97,11 @@ cosplay:
     wrist cuffs, black rabbit ears, bowtie, fake animal ears, red bowtie, skirt, sleeveless, bare shoulders,
     red skirt, black vest, miniskirt, white thighhighs
 
+  - playboy bunny, reverse bunnysuit, heart pasties, rabbit ears, center opening, 
+
   #フィットネス
   fitness:
+  - "{crop top|sports bra}, {short shorts|bikini bottom|bike shorts}, midriff"
   - |
       camouflage tank top, tight leggings, midriff, {|underboob},
       athlete,
@@ -104,14 +109,13 @@ cosplay:
       leggings with vertical lines, sports bra {|lift, underboob|slip},
       midriff, athlete,
 
-  # ネグリジェ
-  negligee: negligee, side-tie panties, see-through silhouette
-
   #ビッチのボディコン
   bitch-bodycon:
   - |
     bodycon, side slit with cross lace, ((chest with cross lace)),
     thighhighs, garter straps, black choker, earring, armband, rose tattoo,
+
+  - <lora:bodycon_dress_ilxl_goofy:1> bodycon, short dress,
 
   #ボンデージ衣装
   bondage:
@@ -148,10 +152,22 @@ cosplay:
       garter strap
       lewd pubic tattoo
 
+  # 体操着
+  gym-uniform:
+    buruma:
+    - __color__ jersey, sleeves rolled up, buruma
+    - gym {uniform|shirt}, buruma
+    - __cosplay/gym-uniform/yuuka-style__
+
+    shorts:
+    - red jersey, short shorts, black t-shirt
+
+    yuuka-style: blue jacket, track jacket, black shirt, blue buruma, covered nipples,
+    
   # セクシーな修道女
   sexy-nun:
-    - nun, breast curtains, pelvic curtain, garter belt, white thighhighs,
-    - gloves, long sleeves, white gloves, robe, nun, habit
+  - nun, breast curtains, pelvic curtain, garter belt, white thighhighs,
+  - nun, gloves, long sleeves, white gloves, robe, habit
 
   #OL
   office-lady:
@@ -162,11 +178,12 @@ cosplay:
   - |
       naked shirt, collared shirt, white shirt, pencil skirt,
       open shirt, cleavage, necklace, belt, sweat,
+      {|(button gap:1.2), cleavage}
 
-  #ブルマ
-  buruma:
-    def: buruma, gym shirt
-    yuuka-style: blue jacket, track jacket, black shirt, blue buruma, covered nipples,
+  - office lady, pantyhose, semi-rimless eyewear, red-framed eyewear, white shirt, bra peek,
+  - pink shirt, v-neck, pencil skirt, covered nipples, 
+    
+
 
   #ベリーダンサー
   belly-dancer:
@@ -188,6 +205,8 @@ cosplay:
     - |
         harem, harem pants, harem outfit, see-through, detached sleeves,
         off shoulder, jewelry, thong, cleavage, {|mouth veil},
+
+    - long fingernails, navel, bracelet, vambraces, arab clothes, golden bracelets, golden choker, bottom curtain
 
   #アーミー
   army:
@@ -224,29 +243,45 @@ cosplay:
     base: maid, maid headdress
     random:
     - |-
-      __maid/base__, collar, collarbone, frills, sleeveless,
+      __cosplay/maid/base__, collar, collarbone, frills, sleeveless,
       elbow gloves, white gloves, white apron, thighhighs,
 
     - |-
-      __maid/base__,
-      hairclip, maid headdress, black dress,
+      __cosplay/maid/base__,
+      hairclip, black dress,
       pink bowtie, puffy short sleeves, wrist cuffs, corset,
       layered skirt, white skirt, thigh strap, white thighhighs,
 
+    - |
+      __cosplay/maid/base__,
+      black bra, black panties, garter straps, white frills, 
+      white lace trim, see-through lingerie, 
+
     belfast-style:
     - |
-      __maid/base__, 
+      __cosplay/maid/base__, 
       collar, chain, collarbone, frills, sleeveless,
       gauntlets, elbow gloves, white gloves, waist apron, white apron,
 
     bikini:
     - |
-      jewelry, maid bikini, black bikini, maid headdress, detached collar, thighhighs, frills, ribbon, 
+      __cosplay/maid/base__, 
+      jewelry, maid bikini, black bikini, detached collar, thighhighs, frills, ribbon, 
       arm garter, leg garter, wrist cuffs
+
+    pasties:
+    - |
+      __cosplay/maid/base__, 
+      maid apron, heart pasties, (side-tie bikini bottom:0.9), 
+      black short skirt, red necktie whith single white line, underboob, detached collar,
+      white thighhighs with black ribbon, waist apron, white wrist cuffs, bare shoulders, 
+      arms not covered, navel, (Black enamel pumps:0.8)
+      
 
   #学生服
   school-uniform:
     base: school uniform, skirt
+    blazer: blue blazer, checkered skirt, plaid skirt, red bowtie, yellow trim, button gap,
     lycoris: lycoris uniform, backpack
     cardigan: beige cardigan, white collared shirt, red bowtie, miniskirt, pleated skirt, 
     momo-ayase-style:
@@ -257,7 +292,7 @@ cosplay:
     
     random:
     - |-
-      __school-uniform/base__,
+      __cosplay/school-uniform/base__,
       shirt, long sleeves, bow, jacket,
       white shirt, pleated skirt, collared shirt, bowtie,
       black skirt, red bow, red bowtie, blazer, grey blazer, long sleeves,
@@ -274,7 +309,7 @@ cosplay:
       {|jacket|blazer},
 
     - |-
-      __school-uniform/base__, 
+      __cosplay/school-uniform/base__, 
       shirt, jewelry, white shirt,
       pleated skirt, earrings, necktie, choker, bracelet, blue skirt,
       plaid, black choker, plaid skirt,
@@ -285,7 +320,7 @@ cosplay:
       brown pantyhose,
 
     - |-
-      __school-uniform/base__, 
+      __cosplay/school-uniform/base__, 
       black capelet, neck ribbon, white shirt, long sleeves, purple skirt,
 
     - |-
@@ -297,86 +332,90 @@ cosplay:
     mahiru-style:
     - |
       ,
-      <lora:mahiru-shiina-s1-ponyxl-lora-nochekaiser:0.7> __school-uniform/base__,
+      <lora:mahiru-shiina-s1-ponyxl-lora-nochekaiser:0.7> __cosplay/school-uniform/base__,
       bow, jacket, pleated skirt, plaid, plaid skirt, blazer, cardigan,
       blue blazer, red bowtie,
 
     alya-style:
     - |
-      __school-uniform/base__, shirt, long sleeves, bow, jacket,
+      __cosplay/school-uniform/base__, shirt, long sleeves, bow, jacket,
       white shirt, pleated skirt, collared shirt, bowtie, black skirt,
       red bow, red bowtie, blazer, grey blazer, long sleeves,
 
     ichika-style:
     - |
-      __school-uniform/base__, blue jacket, blazer, wing collar,
+      __cosplay/school-uniform/base__, blue jacket, blazer, wing collar,
       open jacket, white shirt, collared shirt, dress shirt,
       long sleeves, green skirt, pleated skirt,
 
     nino-style:
     - |
-      __school-uniform/base__, black cardigan, open cardigan,
+      __cosplay/school-uniform/base__, black cardigan, open cardigan,
       white shirt, collared shirt, long sleeves, green skirt,
       pleated skirt, zettai ryouiki, white thighhighs,
 
     miku-style:
     - |
-      __school-uniform/base__, aqua cardigan, white shirt,
+      __cosplay/school-uniform/base__, aqua cardigan, white shirt,
       collared shirt, long sleeves, green skirt, pleated skirt,
       brown pantyhose,
 
     yotsuba-style:
     - |
-      __school-uniform/base__, sweater vest, yellow sweater,
+      __cosplay/school-uniform/base__, sweater vest, yellow sweater,
       green bowtie, plaid bowtie, white shirt, collared shirt,
       short sleeves, green skirt, pleated skirt, black socks,
 
     itsuki-style:
     - |
-      __school-uniform/base__, black jacket, blazer, wing collar,
+      __cosplay/school-uniform/base__, black jacket, blazer, wing collar,
       open jacket, sweater vest, red sweater, white shirt,
       collared shirt, long sleeves, green skirt, pleated skirt,
       black socks,
 
     suguha-style:
     - |
-      __school-uniform/base__, grey sweater, black sailor collar,
+      __cosplay/school-uniform/base__, grey sweater, black sailor collar,
       light green neckerchief, pleated skirt, miniskirt,
 
     dxd-style:
     - |
-      __school-uniform/base__, ribbon, white shirt, black ribbon,
+      __cosplay/school-uniform/base__, ribbon, white shirt, black ribbon,
       neck ribbon, capelet, black capelet, long sleeves, skirt,
       red skirt,
 
     lum-serafuku-cos:
     - |
-      __school-uniform/base__, serafuku, blue shirt, long sleeves,
+      __cosplay/school-uniform/base__, serafuku, blue shirt, long sleeves,
       blue skirt, pleated skirt, yellow neckerchief,
       striped sailor collar,
 
     marin-style:
     - |
-      __school-uniform/base__, v-neck sweater, black long sweater,
+      __cosplay/school-uniform/base__, v-neck sweater, black long sweater,
       long sleeves sweater, white collared shirt, black choker,
       light blue checkered skirt,
 
     tomori-style:
     - |
-      __school-uniform/base__, grey jacket, blazer, green necktie,
+      __cosplay/school-uniform/base__, grey jacket, blazer, green necktie,
       green skirt, miniskirt, pleated skirt, plaid skirt,
       diagonal striped necktie,
 
-    hanasakigawa-style: __school-uniform/base__, hanasakigawa school uniform
+    hanasakigawa-style: __cosplay/school-uniform/base__, hanasakigawa school uniform
 
     bitch-style:
     - |
       makeup, jewelry, ring, earrings, lipstick, school uniform,
       scrunchie, wrist scrunchie, shirt, white shirt, open clothes,
 
+    - |
+      white shirt, collared shirt, naked shirt, tied shirt, cleavage, midriff, 
+      red plaid skirt, checkered skirt, thong, black thighhighs, golden necklace, pink lips,
+
     lala-style:
     - |
-      __school-uniform/base__, sweater vest, yellow vest, white shirt,
+      __cosplay/school-uniform/base__, sweater vest, yellow vest, white shirt,
       collared shirt, green bowtie, short sleeves, miniskirt,
       green skirt, plaid skirt, pleated skirt, zettai ryouiki,
       black thighhighs, demon tail,
@@ -384,14 +423,10 @@ cosplay:
   #カクテルドレス
   cocktail-dress:
     - |
-      revealing clothes, cocktail dress, satin dress, gloves, thighhighs,
-      garter straps,
-  #ユーベルコス
-  ubel-style:
-    - |
-      black choker, collarbone, sleeveless, black dress,
-      sleeveless dress, halterneck, pleated skirt, black gloves, belt,
-      black footwear,
+      revealing clothes, cocktail dress, {|satin dress}, gloves, thighhighs,
+      garter straps, {|backless dress}
+
+
   #リンコス
   rin-style:
     - |
@@ -418,28 +453,36 @@ cosplay:
     - turtleneck sweater, black sweater, backpack, beret, plaid skirt
 
   #婦警
-  police: police uniform, pencil skirt, shirt, pantyhose, leather belt,emblem, collarbone,
+  police: 
+  - police uniform, pencil skirt, shirt, pantyhose, leather belt, emblem, collarbone,
+  - policewomen, police hat, blue collared shirt, naked, cleavage, midriff, tied shirt, short sleeves, miniskirt
+  - policewoman, police hat, thong bikini, blue jacket, open jacket, asymmetrical legwear, short sleeves, latex jacket,
+  - |
+    blue latex jacket, short jacket, {|short sleeves}, blue latex bikini, police uniform, black gloves, 
+    short shorts, thong panties, black panties, police hat, black choker, chest belt, 
+
 
   #フィッシュネット
   fishnet: fishnet {bodystocking|tights|stealth suit}
-
-  beret-cos:
+  
+  # 宝鐘マリンコス
+  marine-cos:
     - |
       <lora:senchouXL:0.7> blue beret, collared shirt, sleeveless,
       high-waist skirt, pantyhose, blue jacket, fur trim,
       fingerless gloves, id card,
-  marine-cos:
+
     - |
       <lora:senchouXL:0.5> red bikini, white shorts, jewelry,
-      black jacket, baseball cap, heart-shaped eyewear,
+      black jacket, baseball cap, heart-shaped eyewear, {|sleeves rolled up,}
+  
   naked-overall: overalls, naked
-  #エプロンパンティ
-  apron-panty: naked apron, sideboob, {bow|thong} panties
+  
+  #裸エプロンパンティ
+  naked-apron: naked apron, sideboob, {|{bow|thong} panties}
+
   #バレーボール
-  volleyball-uniform:
-    - |
-      volleyball uniform, white uniform, blue trim, sleeveless, v-neck,
-      elbow pads,
+  volleyball-uniform: volleyball uniform, __color__ uniform, __color__ trim, sleeveless, v-neck, elbow pads, low rise, {|midriff}, {|knee pads}
 
   #バスケットボール
   basketball-uniform: basketball uniform, midriff, sleeveless, v-neck
@@ -451,29 +494,34 @@ cosplay:
   tennis-uniform: tennis uniform, pleated skirt, midriff, sleeveless, v-neck
 
   #アスリート
-  athlete-uniform: track uniform, sport bra, panty, low rise, sideboob, athlete
+  athlete-uniform: track uniform, sport bra, panty, low rise, athlete
 
   #ドクター
-  doctor:
-    - |
-      labcoat, necklace, choker, studded collar, harness dress,
-      sleeve rolled up, collarbone, chest harness, chain,
-  soviet-military:
-    - |
-      Soviet Military uniform, Soviet garrison cap, belt, skirt,
-      green garter straps, green stockings,
-  black-cat:
-    - |
-      choker, collarbone, jewelry, black bodysuit, fur-trimmed sleeves,
-      fur trim, skin tight, white gloves, spikes, superhero, bodysuit,
-      black choker, collar, cleavage, gloves, elbow gloves, long sleeves,
-      covered navel, straight-on,
-  santa: santa costume, miniskirt, thighs,christmas
+  doctor: 
+  - |
+    labcoat, necklace, choker, studded collar, harness dress, sleeve rolled up, 
+    collarbone, chest harness, chain,
+
+  - lab coat, tube top, miniskirt
+
+  soviet-military: Soviet Military uniform, Soviet garrison cap, belt, skirt, green garter straps, green stockings,
+  
+  black-cat: choker, collarbone, jewelry, black bodysuit, fur-trimmed sleeves, fur trim, skin tight, white gloves, spikes, superhero, bodysuit, black choker, collar, cleavage, gloves, elbow gloves, long sleeves, covered navel, straight-on,
+
+  # サンタ    
+  santa: 
+  - puffy detached sleeves, red elbow gloves, red strapless leotard, red two-sided skirt, large bow, santa claus, santa hat, 
+  - naked body wrapped in red ribbon, wrapped crotch, red capelet, santa hat, green bowtie, neck bell, 
+  - green santa {bikini|costume}, christmas tree print, christmas ornaments, {snowman hair ornament|santa hat}
+  - |
+    santa costume, 
+    {revealing clothes|miniskirt, thighs|sexy lingerie|heart pasties}, 
+    {|santa hat},
+    christmas
+
   #フーターズ
-  hooters:
-    - |
-      uniform, hooters, hooters_uniform, white_shirt, tanktop,
-      orange_shorts, shorts, print_tank_top, midriff,
+  hooters: uniform, hooters, hooters_uniform, white_shirt, tanktop, orange_shorts, shorts, print_tank_top, midriff,
+
   #Tilted Kilt
   tiltedkilt:
     - |
@@ -481,11 +529,13 @@ cosplay:
       collarbone, midriff, front-tie top, short sleeves, cleavage,
   #下着
   lingerie:
+    jacket: black jacket, short jacket, blue lingerie, bra, panties, hand up, thighs, navel, {|sleeves rolled up}
     thong: thong bra, thong, panties
     laced: laced __rnd-bra__, laced __rnd-panty__, laced kneehighs
     cupless: cupless bra, crotchless panties, black choker
-    nightgown: nightgown, spaghetti strap {pull|slip}, see-through
-    babydoll: babydoll, see-through
+    nightgown: nightgown, spaghetti strap {pull|slip}, {|see-through,}
+    babydoll: babydoll, {|see-through,}
+    negligee: negligee, side-tie panties, see-through silhouette
     garter:
       - |
           lingerie bra, lace g-string, thigh high stockings, garter belt,
@@ -500,21 +550,30 @@ cosplay:
           lace trim, lace-trimmed bra, lace-trimmed,
           lace-trimmed legwear, see-through, black transparent lingerie,
     belt: belt bra, black thighhighs, harness, o-ring
+
   #  random:
   #    - "bra {|pull|lift}, panties {|pull|lift}, {|strap slip}, underwear only"
   #    - "{|__color__} {|laced|frilled} lingerie,  {1-$$bra|panties|panties under pantyhose},{|torn}, underwear only"
+
+  #ステルススーツ
+  stealth-suit: black stealth suit {|with __color__ trim}, {|black beret}, thighhighs, {|sleeveless}
 
   #浴衣
   yukata:
     - |
       yukata, print kimono, hair flower, long sleeves, wide sleeves, obi,
       sash, {|off shoulder},
-  #ステルススーツ
-  stealth-suit:
-    - |
-      black stealth suit {|with __color__ trim}, black beret, thighhighs,
-      {|sleeveless},
-  halterneck-dress: halterneck {|lace} dress, {|cutout back}
+
+  # ハルタネックドレス
+  halterneck-dress: 
+  - halterneck {|lace} dress, {|cutout back}, {|criss-cross halter}, 
+    #ユーベルコス
+  - |
+    black choker, collarbone, sleeveless, black dress,
+    sleeveless dress, halterneck, pleated skirt, black gloves, belt, black footwear,
+
+
+  # クロスレース
   cross-laced:
     dress:
       - |
@@ -524,14 +583,11 @@ cosplay:
       - |
         laced corset, cross-laced bodysuit, cross-laced thighhighs,
         black choker, garter straps,
+  
   #DTを殺すセーター
   virgin-killer: virgin killer sweater, sideboob, no panties, {|butt crack}
-  ryza-cos:
-    - |
-      thighhighs, gloves, jewelry, jacket, thighs, shorts, belt,
-      necklace, star \(symbol\), short shorts, white beret, brown gloves,
-      single glove, yellow jacket, red shorts, leather,
-      sleeveless jacket, star necklace, leather gloves, midriff,
+
+
   #濡れシャツ
   wet-see-through:
     def:
@@ -549,22 +605,45 @@ cosplay:
   naked-pajama:
     def: open pajamas, collarbone, naked, midriff
     long:
-      - |
-        __naked-pajama/def__, long sleeves, long pants {|pull,
-        __rnd-panty__},
-    panty: __naked-pajama/def__, short sleeves, __rnd-panty__
+    - |
+      __cosplay/naked-pajama/def__
+      long sleeves, long pants {|pull, __rnd-panty__},
+    panty: 
+    - |
+      __cosplay/naked-pajama/def__
+      __rnd-panty__
+      short sleeves, 
 
   # 巫女さん
   miko-san: miko, red hakama, white kimono,
 
+  # Cendrillon Escalier - DOAXVV Outfit
+  cendrillon:
+  - |
+      <lora:CendrillonEscalier_Broken_v1:0.7> CendrillonEscalier,
+      {|crown,} 
+      colset, navel cutout, elbow gloves, white panties, garter belt, white thighhighs
+
+  - |
+    <lora:CendrillonEscalier_MagicDress_v1:0.7>
+    CendrillonEscalier, 
+    {|crown,} 
+    frilled dress, detached sleeves, elbow gloves, navel cutout, white thighhighs,
+
+  - |
+    <lora:CendrillonEscalier_v1:0.7> CendrillonEscalier,
+    frilled white dress,sideboob cutout,arm garter,navel cutout,
+    black and white layered skirt,gold embroidered skirt,white thighhighs
+
   #ナース
-  nurse-uniform: __nurse-uniform__
+  nurse-uniform: nurse, nurse uniform, tight skirt, {white dress, nurse cap|pink dress, pink cap}
 
   #シロネンコス
   xilonen-style:
     - |
       leopard print thong bikini top, micro denim shorts, damaged shorts,
-      unzipped, choker, earrings, jewelry,
+      unzipped, choker, earrings, jewelry, tan skin, dark skin,
+
   #にゃむコス
   nyamu-style:
     - |
@@ -596,7 +675,7 @@ cosplay:
     base: wizard, wizard hat, magicl girl
     mona-style:
       - |
-        __wizard/base__, highleg leotard, black pattern pantyhose,
+        __cosplay/wizard/base__, highleg leotard, black pattern pantyhose,
         capelet, elbow gloves,
 
   #スパイダーガール
@@ -611,11 +690,8 @@ cosplay:
   doa-mila: mma gloves, red sports bra, boxing shorts, clothes writing
 
   #ヨガ
-  yoga:
-    - |
-      yoga, sports bra, yoga pants, {|patterned pants, |striped pants, },
-      yoga mat,
-
+  yoga: yoga, sports bra, yoga pants, {|patterned pants,|striped pants,}
+      
   #剣バリエーション
   sword-type:
     lightning: lightning sword
@@ -630,197 +706,38 @@ cosplay:
     bikini-armor:
       - |
         bikini armor, see-through pelvic curtain,
-        white pelvic curtain amulet, thigh strap, motion lines,
-        motion blur, standing, cowboy shot, {|clenched teeth},
+        white pelvic curtain amulet, thigh strap, 
     #エンジェルアーマー
     angel-armor:
       - |
-        __bikini-armor__, white winged helmet, angel wings,
-        silver armlet, angel,
+        __cosplay/armor/bikini-armor__, 
+        white winged helmet, angel wings, armlet, angel,
 
   #法被
   happi:
-    summer-festival:
-      - |
-        sarashi, cleavage, blue happi, print happi, hachimaki, 
-    rnd:
-      - |
-        happi coat, japanese clothes, short sleeves, collarbone,
-        black thighhighs, black shorts, black choker, black belt,
-        black sash, black obi, red sash, red obi,
-      - |
-        happi coat, japanese clothes, short sleeves, collarbone,
-        black thighhighs, black shorts, black choker, black belt,
-        black sash, black obi, red sash, red obi,
-        {|holding a fan|holding a sword|holding a katana},
+  - sarashi, cleavage, blue happi coat, print happi coat, hachimaki, 
+  - |
+    happi coat, japanese clothes, short sleeves, collarbone,
+    black thighhighs, black shorts, black choker, black belt,
+    black sash, black obi, red sash, red obi,
+  - happi, naked, fundoshi, 
+
   #チアリーダー
   cheer-leader:
+    - millennium cheerleader outfit \(blue archive\), 
     - |
       cheerleader, cheerleader uniform, pleated skirt, 
       midriff, sleeveless, collarbone, white gloves, white thighhighs,
+
     - |
       cheerleader, cheerleader uniform, pleated skirt, pom-poms,
       midriff, sleeveless, collarbone, white gloves, white thighhighs,
       white pom-poms, blue pom-poms, red pom-poms,
       {|holding a megaphone|holding a baton|holding a flag},
 
-  #コスプレ
-  cosplay:
-    # 三日月閑
-    shizuka-cos:
     - |
-      {|multicolored jacket, hooded jacket,}
-      pink sports bra, cleavage,
-      dolphin shorts, pink shorts, black leggings
-
-    #リズきゅん
-    liz:
-    - |
-      long hair, two side up, hair ornament, wig, eyelashes,
-      long pointy ears, green eyes, slit pupils, long fingernails,
-      black nails, fangs, black horns, fake horns,
-      frilled shirt collar, white collar, white ribbon, neck ribbon,
-      black shirt, crop top, frilled shirt, juliet sleeves,
-      layered sleeves, bat wings, midriff, black panties,
-      frilled panties, black socks, frilled socks, demon tail,
-    demon-cos:
-    - |
-      floating, demon wings, (horns), fishnets, bat wings, 
-      (red eyes, slant eyes),
-    laufen-cos:
-    - |
-      halterneck, bare shoulders, bridal gauntlets, hair ornament, boots,
-    focalors-cos:
-    - |
-      anklet, evening gown, long dress, juliet sleeves,
-      bridal gauntlets, barefoot,
-    nyamu-cos2:
-    - |
-      skirt, shirt, bare shoulders, collarbone, short sleeves, frills,
-      choker, black skirt, off shoulder, black footwear, high heels,
-      black choker, grey shirt, off-shoulder shirt, frilled shirt,
-
-    charlotte-cos:
-    - |
-      cabbie hat, red headwear, hat feather, bare shoulders,
-      white shirt, red skirt, jewelry, blue gemstone, ribbon,
-      sleeveless shirt, red sleeves, white gloves, gem, puffy sleeves,
-      long sleeves, white belt, suspenders, thigh strap,
-
-    arrow-cos:
-      - |
-        white headwear, red and white tabard, black bodysuit,
-        bodysuit under clothes, black pantyhose, fingerless gloves,
-        vambraces,
-
-    egyptian-cos:
-      - |
-        breast curtains, pelvic curtain, egyptian clothes, capelet,
-        thong, gold thigh belt, jewelry, earrings, covered navel,
-        see-through, armlet, anklet, head wreath,
-    irina-cos:
-      - |
-        thighhighs, gloves, bare shoulders, black gloves, elbow gloves,
-        bodysuit, covered navel,
-    kuroka-cos: black kimono, off shoulder, sash, obi, hairband
-    rossweisse-cos: black suit, black pants, no shirt, buttoned
-    track-jacket-cos: track jacket, red jacket, track pants, red pants, cleavage
-    valkyrie-cos:
-      - |
-        hair ornament, bare shoulders, breastplate, black leotard,
-        gauntlets, faulds, white belt, black thighhighs, greaves,
-    asia-cos:
-    - |
-      green dress, neck ribbon, frilled collar, wide sleeves,
-      green skirt, brown belt,
-
-    phenex-cos: purple dress, purple ribbon, long sleeves, black pantyhose
-
-    slave-bikini-cos: __random/bikini__, slave,public, scared chains,
-
-    lacus-cos:
-    - |
-      <lora:lacus-clyne-ponyxl-lora-nochekaiser:0.7> dress, long dress,
-      long sleeves, white sleeves, frills frilled skirt,
-      frilled sleeves, detached sleeves, bare shoulders,
-
-    awayuki-cos:
-    - |
-      <lora:awayuki-kokorone-s1-ponyxl-lora-nochekaiser:0.7> dress,
-      ribbon, frills, detached sleeves, choker, off shoulder,
-      white dress, fur trim, blue ribbon,
-
-    succubus-cos:
-    - |
-      demon girl, demon horns, large demon wings, demon tail, smug,
-      {|holding whip}, bondage outfit, chest harness, thigh belt,
-      dark fantasy, demon, bat wings, demon soul, bat, moon, night sky,
-      garter straps, thigh gap, castle, dutch angle,
-      {|from behind|from side},
-
-    aiz-cos:
-    - |
-      <lora:aiz-wallenstein-ponyxl-lora-nochekaiser:1> armor,
-      black gloves, blue footwear, blue thighhighs, boots, breastplate,
-      covered navel, dress, gauntlets, gloves, headgear, knee pads,
-      long sleeves, multicolored clothes, multicolored dress,
-      taut clothes, taut dress, thigh boots, thighhighs,
-
-    freya-cos:
-    - |
-      <lora:freya_danmachi_pdxl_goofy:1> FreyaBDress, center opening,
-      latex strapless, detached latex collar, black latex collar,
-      navel, latex elbow gloves, black latex gloves,
-      asymmetrical latex legwear, red trim dress,
-
-    syr-cos:
-    - |
-      <lora:DanMachi_SyrFlovaXL:1> wet shirt, collared shirt,
-      white shirt, sleeveless, wet skirt, bow skirt, pleated skirt,
-      white skirt, white bow,
-
-    syr-cos2:
-    - |
-      cropped jacket, white jacket, collared shirt, white shirt,
-      long sleeves, bow skirt, pleated skirt, white skirt, white bow,
-
-    panther-cos: red bodysuit, latex, erect nipples under clothes
-
-    idol-cos:
-    - |
-      black idol dress, frills, black thigh highs, (short skirt),
-      bare shoulders, (short dress), black hat, asymmetrical sleeves,
-
-    wedding-cos:
-    - |
-      bare shoulders, jewelry, silver earring, sleeveless dress,
-      spaghetti strap, wedding dress, white hair flower, necklace,
-      bridal veil, collarbone, lace trim, white detached sleeves,
-    geranium-cos:
-    - |
-      <lora:GeraniumFKG-ILXL:1> ger2, pink clothes, white long gloves,
-      corset, navel, pelvic curtain, waist cape, black thighhighs,
-      cleavage, underboob,
-
-    geranium-cos2:
-    - |
-      <lora:GeraniumFKG-ILXL:1> yuk1, strapless, bare shoulders,
-      print kimono, black ribbon sash, animal print, flower print,
-      wide sleeves,
-
-    maryrose:
-    - |
-      red bowtie, blue one-piece swimsuit, frilled one-piece swimsuit, 
-      armlet, blue sleeves, black gloves, two-tone gloves, 
-      blue thighhighs, frilled thighhighs, black boots
-
-    #イドリーコス
-    yidhari:
-    - |
-      black beret, halter shirt, two-tone shirt, white shirt, black shirt, cleavage cutout, detached sleeves, 
-      two-tone sleeves, white sleeves, black sleeves, sleeve bow, high-waist shorts, black shorts, short shorts, 
-      half-skirt, yellow skirt, frilled skirt, layered skirt, single garter strap, single thighhigh, black thighhighs, 
-      torn thighhighs, single sock, black socks
+      <lora:DallasCowboysCheerleaders_IXL:0.7> DalCowCheer, navel, midriff, belt, blue tied shirt, white vest,
+      white shorts, short shorts, skindentation, stadium, {|cheerleader, pom pom (cheerleading),}
 
   sexy:
     - |
@@ -855,10 +772,9 @@ cosplay:
     - halter dress
     - wedding dress
 
+  # ウェディングドレス
   wedding:
-    - |
-      wedding dress, bridal veil, wedding, white garter straps,
-      white gloves #"ウェディングドレス",
+    - wedding dress, bridal veil, wedding, white garter straps,white gloves 
 
   #イブニングガウン
   evening-gown:
@@ -866,14 +782,272 @@ cosplay:
       - |
         evening gown, revealing clothes, bare shoulders, sleeveless,
         center opening, {|areola slip},
-    satin: __evening-gown/def__, satin dress
+    satin: __cosplay/evening-gown/def__, satin dress
     black:
       - |
-        __evening-gown/def__, black dress, backless dress, halter dress,
+        __cosplay/evening-gown/def__, black dress, backless dress, halter dress,
         pelvic curtain, covered piercing, see-through, choker, o-ring,
         jewelry, chain between breasts, navel piercing, belly chain,
         linked piercing, plunging neckline, collarbone,
-    black-satin: __evening-gown/black__, satin dress
+    black-satin: __cosplay/evening-gown/black__, satin dress
 
   # セーラー戦士コス
-  sailor-senshi-cos: sailor senshi uniform, sailor senshi, unofficial sailor senshi uniform,
+  sailor-senshi-cos: 
+    def: sailor senshi uniform, sailor senshi, unofficial sailor senshi uniform,
+    leotard:
+      - |
+        __cosplay/sailor-senshi-cos/def__, 
+        leotard, bow, choker, elbow gloves, tiara, 
+
+  # ギャル子コス
+  galko-cos:
+  - |
+    red bowtie, yellow cardigan, sleeves past wrists, white collared shirt, blue miniskirt, 
+    pleated skirt, plaid skirt, blue socks, kneehighs, 
+
+  - |
+    eyewear on head, blue-framed eyewear, sunglasses, black choker, blue bikini, micro bikini, 
+    bikini skirt, frilled bikini, highleg bikini, multiple bracelets, bangle
+
+  #リンコス
+  rin-cos:
+    - |
+      white dress, black pantyhose, bare shoulders, sleeveless,
+      white gloves, dress, off shoulder, gloves, collared dress,
+      white coat, coat, pantyhose, blue necktie,
+
+  #アシュリーコス
+  ashley-cos: orange sweater, sleeveless turtleneck, necklace, green skirt, plaid skirt, miniskirt, 
+
+  #シンディコス
+  cindy-cos: 
+    - |
+      red baseball cap, goggles around neck, yellow jacket, cropped jacket, unzipped, 
+      orange bikini, bikini top only, bikini under clothes, black gloves, brown belt, belt pouch, 
+      denim shorts, short shorts, black thighhighs, white boots, knee boots
+
+  #オルフェウスコス
+  orpheus-cos:
+  - |
+    black beret, black hooded shrug, o-ring top, puffy long sleeves, o-ring arm strap, 
+    two-tone dress, black dress, grey dress, turtleneck dress, pencil dress, chest belt, 
+    utility belt, underbust, zipper dress, garter straps, black thighhighs, asymmetrical gloves, 
+    single fingerless glove, black gloves, yellow gloves
+
+  # 三日月閑
+  shizuka-cos:
+  - |
+    {|multicolored jacket, hooded jacket,}
+    pink sports bra, cleavage,
+    dolphin shorts, pink shorts, black leggings
+
+  #リズきゅん
+  liz-cos:
+  - |
+    long hair, two side up, hair ornament, wig, eyelashes,
+    long pointy ears, green eyes, slit pupils, long fingernails,
+    black nails, fangs, black horns, fake horns,
+    frilled shirt collar, white collar, white ribbon, neck ribbon,
+    black shirt, crop top, frilled shirt, juliet sleeves,
+    layered sleeves, bat wings, midriff, black panties,
+    frilled panties, black socks, frilled socks, demon tail,
+
+  demon-cos:
+  - |
+    floating, demon wings, (horns), fishnets, bat wings, 
+    (red eyes, slant eyes),
+
+  laufen-cos:
+  - |
+    halterneck, bare shoulders, bridal gauntlets, hair ornament, boots,
+
+  focalors-cos:
+  - |
+    anklet, evening gown, long dress, juliet sleeves,
+    bridal gauntlets, barefoot,
+
+  nyamu-cos2:
+  - |
+    skirt, shirt, bare shoulders, collarbone, short sleeves, frills,
+    choker, black skirt, off shoulder, black footwear, high heels,
+    black choker, grey shirt, off-shoulder shirt, frilled shirt,
+
+  charlotte-cos:
+    - |
+      cabbie hat, red headwear, hat feather, bare shoulders,
+      white shirt, red skirt, jewelry, blue gemstone, ribbon,
+      sleeveless shirt, red sleeves, white gloves, gem, puffy sleeves,
+      long sleeves, white belt, suspenders, thigh strap,
+
+  arrow-cos:
+    - |
+      white headwear, red and white tabard, black bodysuit,
+      bodysuit under clothes, black pantyhose, fingerless gloves,
+      vambraces,
+
+  #エジプトコス
+  egyptian-cos:
+    - |
+      breast curtains, pelvic curtain, egyptian clothes, capelet,
+      thong, gold thigh belt, jewelry, earrings, covered navel,
+      see-through, armlet, anklet, head wreath,
+
+    - |
+      usekh collar, golden collar, bare shoulders, white see-through sarong, 
+      detached sleeves, see-through sleeves, pelvic curtain, golden chain, thighs, 
+      golden armlet, golden thigh strap, golden tiara,
+      {|underboob|sideboob}
+
+  irina-cos:
+    - |
+      thighhighs, gloves, bare shoulders, black gloves, elbow gloves,
+      bodysuit, covered navel,
+
+  kuroka-cos: black kimono, off shoulder, sash, obi, hairband
+
+  rossweisse-cos: black suit, black pants, no shirt, buttoned
+
+  track-jacket-cos: track jacket, red jacket, track pants, red pants, cleavage
+
+  valkyrie-cos:
+    - |
+      hair ornament, bare shoulders, breastplate, black leotard,
+      gauntlets, faulds, white belt, black thighhighs, greaves,
+
+  asia-cos:
+    - |
+      green dress, neck ribbon, frilled collar, wide sleeves,
+      green skirt, brown belt,
+
+  phenex-cos: purple dress, purple ribbon, long sleeves, black pantyhose
+
+  slave-bikini-cos: __random/bikini__, slave, public, scared chains,
+
+  lacus-cos:
+    - |
+      <lora:lacus-clyne-ponyxl-lora-nochekaiser:0.7> dress, long dress,
+      long sleeves, white sleeves, frills frilled skirt,
+      frilled sleeves, detached sleeves, bare shoulders,
+
+  awayuki-cos:
+    - |
+      <lora:awayuki-kokorone-s1-ponyxl-lora-nochekaiser:0.7> dress,
+      ribbon, frills, detached sleeves, choker, off shoulder,
+      white dress, fur trim, blue ribbon,
+
+  succubus-cos:
+    - |
+      demon girl, demon horns, large demon wings, demon tail, smug,
+      {|holding whip}, bondage outfit, chest harness, thigh belt,
+      dark fantasy, demon, bat wings, demon soul, bat, moon, night sky,
+      garter straps, thigh gap, castle, dutch angle,
+      {|from behind|from side},
+
+  aiz-cos:
+    - |
+      <lora:aiz-wallenstein-ponyxl-lora-nochekaiser:1> armor,
+      black gloves, blue footwear, blue thighhighs, boots, breastplate,
+      covered navel, dress, gauntlets, gloves, headgear, knee pads,
+      long sleeves, multicolored clothes, multicolored dress,
+      taut clothes, taut dress, thigh boots, thighhighs,
+
+  freya-cos:
+    - |
+      <lora:freya_danmachi_pdxl_goofy:1> FreyaBDress, center opening,
+      latex strapless, detached latex collar, black latex collar,
+      navel, latex elbow gloves, black latex gloves,
+      asymmetrical latex legwear, red trim dress,
+
+  syr-cos:
+    - |
+      <lora:DanMachi_SyrFlovaXL:1> wet shirt, collared shirt,
+      white shirt, sleeveless, wet skirt, bow skirt, pleated skirt,
+      white skirt, white bow,
+
+  syr-cos2:
+    - |
+      cropped jacket, white jacket, collared shirt, white shirt,
+      long sleeves, bow skirt, pleated skirt, white skirt, white bow,
+
+  panther-cos: red bodysuit, latex, erect nipples under clothes
+
+  idol-cos:
+    - |
+      black idol dress, frills, black thigh highs, (short skirt),
+      bare shoulders, (short dress), black hat, asymmetrical sleeves,
+
+  wedding-cos:
+    - |
+      bare shoulders, jewelry, silver earring, sleeveless dress,
+      spaghetti strap, wedding dress, white hair flower, necklace,
+      bridal veil, collarbone, lace trim, white detached sleeves,
+
+  geranium-cos:
+    - |
+      <lora:GeraniumFKG-ILXL:1> ger2, pink clothes, white long gloves,
+      corset, navel, pelvic curtain, waist cape, black thighhighs,
+      cleavage, underboob,
+
+  geranium-cos2:
+    - |
+      <lora:GeraniumFKG-ILXL:1> yuk1, strapless, bare shoulders,
+      print kimono, black ribbon sash, animal print, flower print,
+      wide sleeves,
+
+  maryrose:
+  - |
+    red bowtie, 
+    blue one-piece swimsuit, frilled one-piece swimsuit, 
+    armlet, blue sleeves, black gloves, two-tone gloves, 
+    blue thighhighs, frilled thighhighs, black boots
+
+  raikou-cos:
+  - |
+    armor, black gloves, tabard, covered navel, elbow gloves, fingerless gloves, japanese armor, 
+    kote, pelvic curtain, purple bodysuit, ribbed sleeves, rope, tassel    
+
+  - |
+    choker, black serafuku, black shirt, black skirt, collarbone, crop top, single fingerless gloves, 
+    long skirt, side slit, navel, pleated skirt, red gloves, red neckerchief, rope, short sleeves, side-tie bikini bottom, swimsuit
+
+  - |
+    armlet, armor, single armored gloves, bare shoulders, bikini, choker, black gloves, cleavage, eyepatch bikini, single fingerless gloves, 
+    japanese armor, jewelry, knee armor, navel, pink bikini, rope
+
+  #イドリーコス
+  yidhari-cos:
+  - |
+    black beret, halter shirt, two-tone shirt, white shirt, black shirt, cleavage cutout, detached sleeves, 
+    two-tone sleeves, white sleeves, black sleeves, sleeve bow, high-waist shorts, black shorts, short shorts, 
+    half-skirt, yellow skirt, frilled skirt, layered skirt, single garter strap, single thighhigh, black thighhighs, 
+    torn thighhighs, single sock, black socks
+
+  #ライザコス
+  ryza-cos:
+  - |
+    thighhighs, gloves, jewelry, jacket, thighs, shorts, belt,
+    necklace, star \(symbol\), short shorts, white beret, brown gloves,
+    single glove, yellow jacket, red shorts, leather,
+    sleeveless jacket, star necklace, leather gloves, midriff,
+
+  kanna-cos:
+  - |
+    hoop earrings, neck ring, gold choker, gold armlet, white bikini, bikini under clothes, white dress, sleeveless dress, halter dress, 
+    short dress, cleavage, gold and black sash, gold bracelet, gladiator sandals, black ankle straps, white sandals
+
+  - star hair ornament, pendant, strapless bikini, purple bikini, multicolored bikini, o-ring bikini
+  - aqua earrings, aqua necklace, white dress, long dress, side slit, cleavage, gold bangle, gold belt, white sandals, high heels
+  - high ponytail, hair bow, red bow, black bow, necklace, red bra, lace-trimmed bra, underwear, red panties
+  - low twin braids, turtleneck sweater, cleavage cutout, center opening, ribbed sweater, virgin killer sweater, sleeveless, sweater dress, grey sweater
+
+  dolphin-wave-cos: white rash guard, midriff, thong bikini, white shorts, short shorts,
+
+  umamusume-cos: 
+  - |
+    sailor shirt, two-tone shirt, purple shirt, white shirt, puffy short sleeves, purple neck bow, purple back bow, 
+    two-tone skirt, white skirt, purple skirt, pleated skirt, white thighhighs
+
+  team-rocket-cos: 
+  - |
+    team rocket uniform, white jacket, cropped jacket, white skirt, elbow gloves, midriff,
+    black thighhighs, zettai ryouiki, shirt has a  red "R" letter on it.

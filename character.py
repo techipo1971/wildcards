@@ -4,11 +4,17 @@ import notion
 import itertools
 from typing import Dict, Any
 
-# プロンプトを読み込むYAMLファイル名
-YAML_FILE = 'chara.yaml'
+# chara.yaml のパス
+YAML_PATH = r"C:\\StabilityMatrix\\Packages\\Stable Diffusion WebUI\\extensions\\sd-dynamic-prompts\\wildcards\\chara.yaml"
 
 ### ピックアップ
 PICKUP = ['rem', 'ram', 'emilia']
+
+
+#############################################################################################################
+def load_yaml(path: str):
+    with open(path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)
 
 #############################################################################################################
 def extract_characters_from_yaml(data):
@@ -38,9 +44,9 @@ def extract_characters_from_yaml(data):
 def load_all_characters(key='all'):
 
     try:
-        yaml_data = load_yaml_with_titles(YAML_FILE)
+        yaml_data = load_yaml_with_titles(YAML_PATH)
     except FileNotFoundError:
-        print(f"[Error] YAML file not found: {YAML_FILE}")
+        print(f"[Error] YAML file not found: {YAML_PATH}")
         return
     except yaml.YAMLError as e:
         print(f"[Error] Could not parse YAML file: {e}")
@@ -71,8 +77,7 @@ def load_yaml_with_titles(yaml_path: str) -> Dict[str, Dict[str, Any]]:
         }
     }
     """
-    with open(yaml_path, "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f)
+    data = load_yaml(yaml_path)
 
     if not isinstance(data, dict):
         raise ValueError("YAMLのトップレベルが辞書形式ではありません")
@@ -97,7 +102,7 @@ def load_yaml_with_titles(yaml_path: str) -> Dict[str, Dict[str, Any]]:
 #############################################################################################################
 def select_random_character(all_characters):
     if not all_characters:
-        print(f"[Error] No character entries with 'name' and 'prompt' found in {YAML_FILE}.")
+        print(f"[Error] No character entries with 'name' and 'prompt' found in {YAML_PATH}.")
         return
     
     while True:  

@@ -1,6 +1,6 @@
 place:
   moody: "{hotel room|bedroom|love hotel|lounge|party}"
-  water-front:
+  water:
     - pool
     - poolside
     - shore

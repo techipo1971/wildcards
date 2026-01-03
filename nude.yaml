@@ -124,6 +124,12 @@ nude:
       elbow over nipples,
       {hands to cheek|hand over mouth|hands over chin, hands together},
 
+    elbow-glove:
+    - |
+      nude, elbow gloves, latex gloves, black thighhighs, 
+      __facial/embarrassed__
+      looking at another, standing, arms at sides, 
+
     covering-breast:
     - topless, naked, covering breasts, crossed arms, perfect hands
     - embarrassed, looking to the side, cross-laced lingerie, garter straps, lying, covering breasts, crossed arms, 
@@ -314,6 +320,12 @@ nude:
       standing, leaning forward, breasts squeezed together, close-up breasts, wet skin, wet hair, 
       outdoors, pool, lens flare, from below, smile, nipples, parted lips, pink lips, soaking, female head out of frame, faceless female, nude,
 
+    bench:
+    - |
+      sitting, bench, outdoors, park, grass, from above, 
+      __happy-or-sexual__
+      breast curtain lift, nipples, breast out,
+
   ai-ojisan:
     - |
       <lora:AIイラストおじさん (2):0.5> nude, 
@@ -356,7 +368,7 @@ nude:
     __ero/baseball__,
     nipples,
 
-  # スク水で食い込み
+  # 食い込み
   self-wedgie:
   - |
     classical school swimsuit, blue one-piece swimsuit, 
@@ -365,6 +377,10 @@ nude:
     kneehighs, self wedgie,
     looking to the side, 
     breast out, nipples, 
+
+  - |
+    __ero/leotard__ 
+    self wedgie, pulling own clothes, 
 
   #ニップレス
   pasties:
@@ -433,11 +449,11 @@ nude:
   nun:
     breast-curtain-lift:
       - |
-        __sexy-nun__, 
+        __cosplay/sexy-nun__, 
         ${face:__sexual-or-embarrassed__,}
         breast curtain lift by self, nipples, revealing breast curtain,
         show nipples, 
-        ${bgd:__place/church__,}
+        ${bgd:__place/fantasy__,}
     piercing:
       - |
         __nude/nun/breast-curtain-lift__, 
@@ -511,16 +527,23 @@ nude:
 
   #温泉
   onsen:
-    def-pull: 
+    naked-towel:
     - |
       __ero/onsen-set/def__, 
-      __naked-towel/pull__,
+      __cosplay/naked-towel/pull__,
 
-    ass-pull: 
     - |
       __ero/onsen-set/ass__, 
-      __naked-towel/pull__,
+      __cosplay/naked-towel/pull__,
 
+    - |
+      __cosplay/naked-towel/pull__
+      __sexual-or-embarrassed__
+      lying on back on stone floor, onsen, steaming body, steam,
+      from above, wet,
+      {outstretched arms|hands up|w arms|hands on own stomach|hands on own crotch},
+      {legs apart|spread legs|sprawled legs|legs together|knees together} 
+    
     bathing: 
     - |
       __ero/onsen-set/bathing__, 
@@ -539,6 +562,17 @@ nude:
       {beckoning|shushing|arm support|wiping sweat}, 
       soles, leg up, crossed legs, steam, foreshortening, 
       rock, onsen, foot focus, soaking feet, five toes,
+
+    - |
+      __facial/embarrassed__
+      onsen, wooden wall, rock, water, steam, steaming body, nude, smile, water drop, foot in the bath, 
+      {sitting on rock, knees together|wariza on rock|yokozuwari on rock}, head tilt, 
+      {hand on own chest|v arms|covering breasts|ass focus|tying hair|arms up|arms behind back}
+
+    - |
+      __facial/embarrassed__
+      oversized shirt, white t-shirt, bottomless, wariza, ass focus, on wooden floor, white wall, 
+      looking back, one off shoulder, shirt over ass,
 
     together:
     - |
@@ -579,6 +613,12 @@ nude:
     unhooking: __ero/unfasten-bra/unhooking__, nipples
     unhooking+: __ero/unfasten-bra/unhooking+__, nipples
 
+  # 制服
+  school-uniform:
+  - |
+    __cosplay/school-uniform/*__,
+    __facial/embarrassed__
+    on bed, all fours, from side, ass focus, spread legs, panties, looking back, 
 
   breast-out:
     one:
@@ -641,7 +681,7 @@ nude:
 
   tenga:
   - |
-    __lingerie/*__, 
+    __cosplay/lingerie/*__, 
     artificial vagina, holding sex toy, tenga, 
     looking down, wariza, embarrassed, blush,
     {confused, ?, head tilt,|surprised, open mouth,}
@@ -717,6 +757,13 @@ nude:
     ${breast-action:{touching own nipples|grabbing own breast},}
     {|on back, spread legs|allfours|wariza|on side|on stomach},
 
+  - |
+    black tank top, shirt lift, breast out, nipples, 
+    {__sit-pose__|__gravure-pose__}
+    __sexual-or-embarrassed__
+    dutch angle, dynamic pose, sexy pose, seductive mood, dark room, indoors, 
+    purple theme, cinematic lighting,
+
   bandeau:
   - |
     ${face:surprised, open mouth,}
@@ -776,6 +823,17 @@ nude:
       __sexual-or-embarrassed__,
       dutch angle, sexy pose,
 
+    - |
+      on bed, spread legs, black panties, cross-laced panties, topless, 
+      {holding beer can|double v|selfie}, 
+      __happy-or-sexual__ 
+      window, night,
+
+    - |
+      on bed, nude, lying on back, putting on kneehighs with both hands, striped kneehighs, 
+      one knee to chest, pussy, dutch angle, 
+      __happy-or-sexual__
+
     maid:
     - |
       maid, heart pasties, maid apron, topless, revealing clothes, long sleeves, juliet sleeves, 
@@ -783,6 +841,17 @@ nude:
       __hardcore-motion__
       dutch angle, dynamic pose, 
       {|removing pasties} 
+
+    - |
+      __cosplay/maid/pasties__
+      __happy-or-sexual__
+      sitting sideways, outstretched leg, maid cafe, dutch angle
+
+    - |
+      topless, bottomless, maid apron, maid headdress, bowtie, 
+      __facial/embarrassed__ 
+      __gravure-pose__ 
+      dutch angle, {nipples|ass focus},
 
   opening-shirt:
   - |
@@ -855,7 +924,12 @@ nude:
     - |
       __nude/pajama/bulge__, 
       fellatio gesture,
-    
+
+    - |
+      black babydoll, black thighhighs, see-through clothes, black choker, black gloves, armband, 
+      fellatio gesture, kneeling, torogao, full-face blush, dutch angle, saliva trail, 
+      wet, steaming body, seductive, concrete floor,
+
     finger-lick:
     - |
       __nude/pajama/bulge__, 
@@ -947,12 +1021,12 @@ nude:
     sexy-nun:
     - |
       {__nude/curtain-lift/embarrassed__|__nude/curtain-lift/naughty__},
-      ${costume = __sexy-nun__},
+      ${costume = __cosplay/sexy-nun__},
 
     china-dress:
     - |
       {__nude/curtain-lift/embarrassed__|__nude/curtain-lift/naughty__},
-      ${costume = __china-dress/*__},
+      ${costume = __cosplay/china-dress/*__},
 
     egyptian-cos:
     - |
@@ -969,18 +1043,19 @@ nude:
   bunny:
     def:
     - |
-      ${cloth:__bunny-girl__,}
-      ${face:__facial/sexual__}
-      ${pose:{on back|on stomach|wariza|kneeling|arms up|hands on own cheek,}}
-      ${bgd:indoors}
-      nipples,
+      __cosplay/bunny-girl__
+      __facial/sexual__
+      {on back|on stomach|wariza|kneeling|arms up|hands on own cheek,}
+      indoors, breast out,
+      nipples, {|ass focus}
 #      bunny costume, bunny ears, bunny tail, 
 
     embarrassed:
     - |
-      __nude/bunny/def__,
-      ${face={embarrassed|confused|scared|shy|flustered|surprised}, {blush|nose blush|full-face blush}}
-      ${pose={__facial/mouth-action__|covering mouth|covering face|arms up, armpits},}
+      __cosplay/bunny-girl__
+      __facial/embarrassed__
+      __gravure-pose__
+      breast out, nipples, dutch angle, dynamic pose, 
 
     - |
       on back, bound ankles, bound wrists, arms up,
@@ -992,8 +1067,8 @@ nude:
 
     nightclub:
     - |
-      ${cloth:__bunny-girl__,}
-      ${face:__facial/sexual__,}
+      __cosplay/bunny-girl__
+      __facial/sexual__
       voluptuous, 
       vip, indoors, couch, nightclub, red couch, relaxing, 
       side view, blush, sitting on couch, ((turn around)), 
@@ -1008,6 +1083,7 @@ nude:
       lounge, night, dark room, neon trim, pink theme, dramatic lighting,
 
     - |
+      __cosplay/bunny-girl__
       sagging breasts, nude, nipples, sitting on couch, leaning back, 
       {|v arms,} 
       looking {down|to the side|at viewer}, 
@@ -1139,7 +1215,7 @@ nude:
   # 咥えコンドーム
   condom-wrapper:
   - |
-    __lingerie/*__,
+    __cosplay/lingerie/*__,
     biting condom wrapper, condom wrapper in mouth, closed mouth, all fours, 
     pink theme, dark room, smile, head tilt, cinematic lighting, spotlight, illumination, 
     on bed, pink bed sheet, heart-shaped pupils, from below, spoken heart, seductive scenery, 
@@ -1174,7 +1250,7 @@ nude:
 
   china-dress:
   - |
-    __china-dress/*__, 
+    __cosplay/china-dress/*__, 
     from behind, bent over, breast press on table, red table,
     anus, pussy, pussy juice, thighs, clothes lift, looking back, 
     panty pull, exposed ass, embarrassed, blush, moaning, 
@@ -1197,7 +1273,7 @@ nude:
 
   - |
     dakimakura of,
-    __school-uniform/*__, 
+    __cosplay/school-uniform/*__, 
     shirt lift, breast_out, nipples, breasts apart, skirt lift, panties, on back, floor mat on wooden floor, 
     embarrassed, open mouth, blush, hands up, looking down, legs apart, 
 
@@ -1275,6 +1351,11 @@ nude:
   # クリスマス
   christmas:
   - |
+    red capelet, nipples, arms up, santa bikini bottom, on back, looking to the side, 
+    __facial/embarrassed__
+    white carpet, from above, dutch angle, dynamic pose, christmas, gift box, fireplace, 
+
+  - |
     naked body wrapped in red ribbon, wrapped crotch, red capelet, santa hat, embarrassed, blush, indoors, green bowtie, neck bell, sparkle, glitter, 
     on back on bed, gift on bed, arms up, bound wrists in red ribbon, gift wrapping on crotch, skindentation, nipples, 
 
@@ -1334,7 +1415,7 @@ nude:
 
   race-queen:
   - |
-    __race-queen__
+    __cosplay/race-queen__
     surprised, open mouth, moaning, 
     {|breast out, nipples, clothes pull}
     BREAK 1boy, ugly man, grabbing another's breast from behind, racing suit,

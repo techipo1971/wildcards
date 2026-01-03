@@ -1,44 +1,101 @@
 place:
-  moody: "{hotel room|bedroom|love hotel|lounge|party}"
-  poolside: poolside, wet, reflective water, brick floor,
-  # 牛小屋
-  cow-shed: barn, straw floor, cow shed,
-  water-front:
+  scifi:
+    - |
+      in the middle of a spaceport, fantasy, sci fi, bokeh,
+      glow effects, godrays, unscored,
+    - cyberpunk, neon lights, skyscraper, ad, rooftop
+
+  fantasy:
+  - castle, castle exterior, towers, flag
+  - throne room, red carpet, stone pillars, luxury
+  - ballroom, chandelier, marble floor, elegant
+  - ancient ruins, broken stone, overgrown, history
+  - japanese shrine, torii gate, autumn leaves
+  - medieval village, cobblestone, wooden houses
+  - church, stained glass
+  - |
+    inside an ancient dungeon, stone walls covered in moss,
+    dim torchlight, broken pillars, mysterious atmosphere,
+    cinematic lighting, ancient cave,
+
+  urban:
+    - street, city scape, buildings, busy street
+    - alleyway, back street, dark, trash cans, brick
+    - train station, platform, railway
+    - train interior, subway, seats, window
+    - convenience store, shelves, products, bright light
+    - library, bookshelves, many books, quiet atmosphere
+    - office, office desk, computer, glass window
+    - airport, terminal, waiting area, suitcase
+    - "{classroom|school|locker room}"
+    - (graffiti:1.1), (brick wall)
+    - hospital
+    - balcony
+    - bar \(place\)
+    - cafe
+    - casino
+    - lamppost, night sky,
+    - building, crosswalk, city
+
+  nature:
+    - forest, trees, sunlight through trees, path
+    - flower field, meadow, blooming flowers, blue sky
+    - japanese garden, pond, stone lantern, bamboo
+    - snowy mountain, winter landscape, snow peak
+    - desert, sand dunes, hot sun, dry
+    - jungle, tropical plants, vines, humid
+    - cave, stalactites, rocky walls, dark
+    - barn, straw floor, cow shed,
+    - outdoors
+    - |
+      sunset, outdoor, smile, park, sitting on the bench,
+      blurry background,
+
+  indoor:
+    - "{hotel room|bedroom|love hotel|lounge|party}"
+    - kitchen
+
+  water:
+    - poolside, wet, reflective water, brick floor,
     - pool
     - poolside
     - shore
     - ocean
     - beach
     - __theme/night-pool__
-  bathing:
     - bathroom, tile floor, steam
     - bathtub, tile floor
     - spa
     - sauna
     - changing room
-  school: "{classroom|school|locker room}"
-  wall: (graffiti:1.1), (brick wall)
-  church: church, stained glass
-  dungeon:
-    - |
-      inside an ancient dungeon, stone walls covered in moss,
-      dim torchlight, broken pillars, mysterious atmosphere,
-      cinematic lighting, ancient cave,
-  public:
-  - hospital
-  - balcony
-  - bar \(place\)
-  - cafe
-  - casino
-  - dungeon
-  - outdoors
-  - |
-      in the middle of a spaceport, fantasy, sci fi, bokeh,
-      glow effects, godrays, unscored,
-  - lamppost, night sky,
-  - building, crosswalk, city
-  - |
-      sunset, outdoor, smile, park, sitting on the bench,
-      blurry background,
-  - kitchen
-  - cyberpunk, neon lights, skyscraper, ad, rooftop
+
+  moody:
+    rain:
+      - rainy street, wet asphalt, reflection, umbrella, cinematic lighting, melancholy
+      - heavy rain, storm, dark clouds, lightning, dramatic atmosphere, cold
+      - window with raindrops, indoor view, cozy, blurred background, bokeh, sadness
+      - pouring rain, puddle, splash, grey sky, urban depression
+    
+    fog:
+      - thick fog, mist, silhouette, mysterious, forest, dim light, silent
+      - morning mist, lake, calm water, hazy, ethereal, dreamlike
+      - london street, fog, gas lamp, victorian, night, mystery
+      - dense fog, visibility zero, unknown, eerie, horror theme
+
+    sunset:
+      - golden hour, sunset, warm light, lens flare, nostalgia, sentimental
+      - twilight, purple sky, silhouette, city skyline, evening, magic hour
+      - sunrise, morning glow, dew, fresh, hopeful, new beginning
+      - red sky, burning horizon, dramatic clouds, intense
+
+    night:
+      - night sky, milky way, stars, galaxy, vastness, wonder
+      - moonlight, full moon, dark forest, blue light, heavy shadows, solitude
+      - city lights, bokeh, night, urban, lonely, cyberpunk vibes
+      - midnight, darkness, minimal light, noir, contrast
+
+    indoor:
+      - dim room, candlelight, flickering light, shadows, intimacy, warm
+      - abandoned room, dust particles, godrays from window, decay, forgotten
+      - coffee shop, rain outside window, warm light, jazz atmosphere, chill
+      - dark bedroom, moonlight through window, insomnia, quiet
