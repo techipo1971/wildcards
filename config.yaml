@@ -1,0 +1,20 @@
+# config.yaml
+api:
+  url: "http://127.0.0.1:7860/sdapi/v1/txt2img"
+  retries: 3
+  backoff_factor: 0.5
+
+prompt:
+  positive: "__il/quality/positive__,"
+  negative: "__il/quality/negative__"
+  style: "<lora:RealisticAnimeIXL:0.5>"
+
+generation:
+  scenario_name: 'gym-uniform'
+  keyword: 'lactation'
+  # GEN_LISTに相当するリスト
+  lists:
+    - ",1girl,__ero/*__,"
+    - ",1girl,__nude/*__, r18, nsfw,"
+    - ",1girl,__nsfw/*__, r18+, nsfw,"
+  yuri: ",2girls, __yuri__, yuri, nsfw,"

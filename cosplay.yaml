@@ -14,6 +14,10 @@ cosplay:
       __bikini/jaguar-print__, thong panties, micro denim, unzipped denim,
       front-tie shirt, open white shirt, short sleeves,
 
+    - |
+      necklace,white shirt,front-tie top shirt,leopard print bikini,
+      bracelet,gold chain belt around stomach,plaid red skirt,
+
   casual:
     sweater:
     - __color__ sweater, turtleneck, {|sleeveless,|short sleeves,} halterneck, {|midriff,} {|short shorts, thighs, thong,}
@@ -68,6 +72,13 @@ cosplay:
       open skirt, two-tone skirt, black skirt, detached sleeves,
       single sleeve, short sleeves,
 
+    mai-blue:
+    - |
+      thighhighs,wide_sleeves,see-through_sleeves,talisman, 
+      china dress, flapper cuffs, gold trim,
+      {floral|dragon} print, 
+      mai_blue_china_dress, side slit clothes, cross laced clothes,
+    
   #タンクトップ＋ドルフィンショーツ
   tanktop-dolphin:
     - |
@@ -152,6 +163,12 @@ cosplay:
       garter strap
       lewd pubic tattoo
 
+    dark-prison:
+    - |
+      <lora:DarkPrison_Doaxvv_v2:0.8> bondage outfit,revealing clothes,cross-laced clothes, 
+      o-ring,fingerless gloves,cross-laced gloves,fishnets,crotch zipper panties,fishnet thighhighs,
+      skindentation
+
   # 体操着
   gym-uniform:
     buruma:
@@ -182,9 +199,15 @@ cosplay:
 
   - office lady, pantyhose, semi-rimless eyewear, red-framed eyewear, white shirt, bra peek,
   - pink shirt, v-neck, pencil skirt, covered nipples, 
+  - |
+    office lady, secretary,
+    white blouse, black bra peek,
+    buttons undone, cleavage,
+    tight black pencil skirt, side slit, thigh exposure,
+    black pantyhose, seams, 
+    red-framed glasses, ID badge, 
+    office interior, evening lighting,
     
-
-
   #ベリーダンサー
   belly-dancer:
     aisha-purple:
@@ -276,7 +299,14 @@ cosplay:
       black short skirt, red necktie whith single white line, underboob, detached collar,
       white thighhighs with black ribbon, waist apron, white wrist cuffs, bare shoulders, 
       arms not covered, navel, (Black enamel pumps:0.8)
-      
+
+    belua:
+      - |
+        <lora:Belua_Maid_IL:0.5> 			
+        sk_belua_maid, choker, 
+        {bra|cupless bra|see-through crop top, covered nipples},
+        {panties|crotchless panties|pussy},
+        {garter belt, garter straps, thighhighs|suspenders, garter belt, garter straps}      
 
   #学生服
   school-uniform:
@@ -290,6 +320,11 @@ cosplay:
       miniskirt, plaid skirt, black skirt,
       black choker, 
     
+    erika-style:
+    - |
+      white sailor collar, orange necktie, red jacket, juliet sleeves, white shirt, white skirt, 
+      pleated skirt, kneehighs, 
+
     random:
     - |-
       __cosplay/school-uniform/base__,
@@ -426,6 +461,11 @@ cosplay:
       revealing clothes, cocktail dress, {|satin dress}, gloves, thighhighs,
       garter straps, {|backless dress}
 
+  #シィシアコス
+  cissia-cos:
+  - |
+    red sleeveless top, cropped top,mini snake accessory, white sleeves,
+    black frilled skirt, thighhighs, asymmetrical legwear, garter straps, choker
 
   #リンコス
   rin-style:
@@ -491,8 +531,11 @@ cosplay:
   baseball-uniform: baseball uniform, baseball cap, belt, midriff, short shorts
 
   #tennis
-  tennis-uniform: tennis uniform, pleated skirt, midriff, sleeveless, v-neck
-
+  tennis-uniform: 
+  - |
+    tennis uniform, pleated skirt, midriff, sleeveless, v-neck, 
+    {panties|thong}, {|underboob,} {|ass,|cleavage,} sports bra
+  
   #アスリート
   athlete-uniform: track uniform, sport bra, panty, low rise, athlete
 
@@ -1040,6 +1083,9 @@ cosplay:
   - high ponytail, hair bow, red bow, black bow, necklace, red bra, lace-trimmed bra, underwear, red panties
   - low twin braids, turtleneck sweater, cleavage cutout, center opening, ribbed sweater, virgin killer sweater, sleeveless, sweater dress, grey sweater
 
+  #真三国無双・貂蝉
+  diaochan-cos: <lora:DiaoChan_Doaxvv_v1:0.8> necklace,off-shoulder pink dress,see-through dress,detached sleeves,hagoromo, collarbone,
+
   dolphin-wave-cos: white rash guard, midriff, thong bikini, white shorts, short shorts,
 
   umamusume-cos: 
@@ -1051,3 +1097,99 @@ cosplay:
   - |
     team rocket uniform, white jacket, cropped jacket, white skirt, elbow gloves, midriff,
     black thighhighs, zettai ryouiki, shirt has a  red "R" letter on it.
+
+  # サイバーパンク・テックウェア
+  techwear:
+    base:
+    - |
+      techwear, cyberpunk, urban ninja,
+      black jacket, neon accents, off the shoulder,
+      tight crop top, underboob, midriff,
+      multiple straps, buckles, utility belt, thigh strap,
+      fingerless gloves, {|black face mask},
+      tight cargo pants, asymmetrical clothes, 
+      glowing clothes, skindentation,
+      dynamic pose, neon lighting,
+
+  # レースクイーン
+  race-queen:
+    latex:
+    - |
+      race queen, motor sports,glowing bodysuit,
+      shiny latex bodysuit, front zipper, half-closed zipper, cleavage,
+      sleeveless, side cutout, bare hips,
+      choker, elbow gloves, over-knee boots,
+      sponsorship logos, {|holding umbrella,} 
+      skindentation, glossy skin, pit lane background,
+      dynamic lighting, highly detailed,
+
+  # ゴシックロリータ・コルセット
+  gothic-lolita:
+    corset:
+    - |
+      gothic lolita, dark fantasy,
+      elaborate black dress, frills, lace trim,
+      tight corset, cleavage, 
+      headdress, black ribbon, choker, 
+      spider web pattern, fishnet thighhighs, garter belt, 
+      antique room background, mysterious atmosphere,
+
+  # くノ一・和風サイバー
+  kunoichi:
+    fishnet:
+    - |
+      kunoichi, female ninja,
+      fishnet bodysuit, fishnet mesh, 
+      sleeveless kimono top, open collar, cleavage cutout,
+      sarashi, pelvic curtain, bare thighs,
+      thighhighs, {|ninja mask,}
+      holding kunai, dynamic action pose,
+
+  kimono:
+    classic_elegant:
+      - vibrant silk kimono, luxurious brocade, intricate floral patterns, refined elegance, glossy sheen, graceful beauty
+      - richly colored kimono, gold thread embroidery, traditional motifs, sophisticated, luminous fabric, exquisite detail
+      - elegant furisode kimono, long flowing sleeves, vivid gradients, ornate patterning, radiant beauty, ceremonial feel
+    opulent_glam:
+      - dazzling kimono, heavy gold embroidery, sparkling accents, jewel-like colors, glamorous, premium textile
+      - lavish kimono, metallic brocade, shimmering highlights, elaborate crest patterns, majestic, luxurious atmosphere
+      - glamorous kimono styling, bold vivid colors, glossy obi, decorative kanzashi, brilliant sparkle, high-class look
+    modern_chic:
+      - modern kimono, vivid color blocking, clean lines, stylish elegance, subtle shimmer, refined beauty
+      - contemporary kimono, bright accent colors, sleek obi, fashionable silhouette, polished, sophisticated
+      - stylish kimono, vibrant palette, minimal pattern, elegant texture, luminous finish, modern chic
+      - kimono with lace obiage, tasteful sparkle, refined styling, elegant yet trendy, glossy texture
+    seasonal_flower:
+      - seasonal floral kimono, vivid blossoms, elegant composition, luxurious silk, radiant color, exquisite beauty
+      - spring kimono, cherry blossom patterns, bright pastel yet vivid, graceful, luminous, delicate sparkle
+      - autumn kimono, maple leaf motifs, deep rich colors, gold accents, warm luxury, elegant beauty
+      - winter kimono, snowflake motifs, cool vivid tones, silver shimmer, crisp elegance, beautiful glow
+    gold_silver_shimmer:
+      - kimono with gold leaf accents, shimmering brocade, sparkling highlights, opulent, radiant, dazzling
+      - silver-thread kimono, luminous sheen, glittering details, elegant luxury, crisp brilliance, refined
+      - metallic brocade kimono, high contrast shine, jewel tones, sumptuous texture, glamorous sparkle
+    obi_accessories:
+      - ornate obi, glossy silk, intricate knot, gold embroidery, luxurious, elegant back view
+      - lavish obi, shimmering patterns, jewel-like colors, premium fabric, exquisite craftsmanship
+      - decorative kanzashi hair ornaments, sparkling accents, elegant updo, luxurious, refined beauty
+    texture_detail:
+      - close-up of kimono fabric, vibrant dye, intricate weave, glossy silk texture, gold thread detail, luxurious
+      - detailed brocade pattern, shimmering threads, vivid colors, exquisite craftsmanship, elegant, dazzling
+      - fine embroidery details, sparkling highlights, premium textile, luminous sheen, opulent beauty
+    color_palette:
+      - crimson and gold, vivid and luxurious, radiant, dazzling
+      - royal blue and silver, luminous, elegant, sparkling
+      - emerald green and gold, jewel-like, opulent, glossy
+      - purple and gold, noble, glamorous, brilliant
+      - white and red with gold accents, crisp elegance, luminous sparkle
+
+  nekomimi-cos:
+    - |
+      fake cat ears, latex, black outfit, black pantyhose, hair flower, flower hairclip, hair ornament, bare shoulders, 
+      zipper, tail, cat tail, cleavage,
+      
+  alsace-cos:
+    - |
+      blue ribbon wrapping, underboob, blue ribbon between breast,black halo,
+      high-waist skirt, white skirt, miniskirt, black thighhighs, arm guards, gauntlets, leg wings, 
+      black wings, couter, cuisses, 

@@ -47,6 +47,7 @@ rnd-skirt:
 #ビキニ
 #################################################################################################
 bikini:
+  black-trim: white bikini, black trim bikini,
   rainbow: rainbow bikini, satin color,
   eyepatch: eyepatch bikini, no eyepatch, 
   thong: thong bikini
@@ -59,17 +60,29 @@ bikini:
   brazilian: brazilian flag bikini
   german: german flag bikini
   floral: floral print bikini
+  norimaki: <lora:Norimaki_Doaxvv_v2:0.8> bandeau,tube top,strapless red bikini,micro bikini bottom,white pattern detail, {|butt crack,}  
   maid: maid bikini
   polka-dot: polka dot bikini
-  striped: striped bikini
+  striped: 
+    - striped bikini
+    - white bikini, black trim bikini
+    - Red and white striped bikini
   gingham print: gingham print bikini
   tropical pattern: tropical pattern bikini
   jaguar print: jaguar print bikini
   micro: micro bikini
   side-tie: side-tie bikini
   front-tie: front-tie bikini
-  slingshot: slingshot bikini, {|areola slip}
-  cow-print: cow print bikini, cow ears, cowbell, cow horns
+  slingshot: 
+    - slingshot bikini, {|areola slip}
+    - |
+      slingshot swimsuit, micro bikini, impossible clothes,
+      string bikini, barely covered, underboob, sideboob,
+      pelvic V-line, deep groin cutout, 
+      skindentation, taut string, pulling string,
+      wet skin, body oil, sweating,
+
+  cow-print: cow print bikini, cow ears, cowbell, cow horns, ear tag, cowprint elbow gloves, cowprint legwear,  
   criss-cross-halter: criss-cross halter bikini, criss-cross straps, micro bikini
   sailor: sailor bikini, sailor collar, thong, low rise shorts, serafuku,
   o-ring: o-ring bikini, 
@@ -167,9 +180,6 @@ sword-type:
   flame: flame sword
   ice: ice sword
   saint: saint sword
-
-
-
 
 ###############################################################################################
 

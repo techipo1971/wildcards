@@ -120,7 +120,7 @@ sex-pose:
   - __nsfw/suspended/*__
   - __nsfw/spooning*__
   - __nsfw/leglift/*__
-  - __nsfw/bath-sex/*__
+  - __nsfw/bath-sex__
   - __nsfw/rev-upright-straddle/*__
   - __nsfw/rev-suspended/*__
   - __nsfw/full-nelson/*__
@@ -171,3 +171,13 @@ soap-bath:
   - |
     <lora:0156 bubble bath_v3_pony:1> ruanyi0156, soap bubbles, nude,
     bathing, wet,
+
+#--- 膣内射精の描写 ---
+uterus:
+  - |
+    comic, cross-section, {|ejaculation, cum,}
+
+  - |
+    uterus, blush, 1boy, comic, sweat, uncensored, penis, pussy, sex, cum, vaginal, cum in pussy, ejaculation, 
+    cross-section, internal cumshot, deep penetration,
+

@@ -27,7 +27,7 @@ facial:
   surprised: surprised, moaning, open mouth
   embarrassed:
   - |
-    {embarrassed|confused|scared|shy|flustered|surprised},
+    {embarrassed|confused|scared|shy|flustered|surprised|pout},
     {blush|nose blush|full-face blush}
     __facial/mouth-action__,
 
@@ -40,6 +40,7 @@ facial:
   - female orgasm, moaning
   - facing up, female orgasm, 
   - torogao, moaning
+  - fucked silly, moaning, orgasm, tearful
 
   clenched: embarrassed, clenched teeth, wink, female orgasm
   torogao: female orgasm, torogao, wavy mouth, __facial/eye-motion__

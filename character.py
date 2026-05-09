@@ -1,14 +1,15 @@
 import yaml
+import os
 import random  # ランダム選択のために追加
 import notion
 import itertools
 from typing import Dict, Any
 
-# chara.yaml のパス
-YAML_PATH = r"C:\\StabilityMatrix\\Packages\\Stable Diffusion WebUI\\extensions\\sd-dynamic-prompts\\wildcards\\chara.yaml"
+# chara.yaml のパス（スクリプトと同じディレクトリから取得）
+YAML_PATH = os.path.join(os.path.dirname(__file__), "chara.yaml")
 
 ### ピックアップ
-PICKUP = ['rem', 'ram', 'emilia']
+PICKUP = ['toudou erika']
 
 
 #############################################################################################################

@@ -1,5 +1,5 @@
 nsfw:
-  oral-sex: "{|__saliva__}, {__nsfw/irrumatio/*__|__blowjob__|__cunnilingus/*__}"
+  oral-sex: "{|__saliva__}, {__nsfw/irrumatio/*__|__blowjob__|__nsfw/cunnilingus/*__}"
   random-sex:
   - |
     __sex-base__, 
@@ -49,10 +49,10 @@ nsfw:
       naked, body bridge, arched back, holding leg, 
 
     irrumatio:
-    - |-
-      green goblin, giant penis, irrumatio, surprised, crying, 
-      __cum-action__, 
-      side view, kneeling, bondage outfit, 
+      - |-
+        green goblin, giant penis, irrumatio, surprised, crying, 
+        __cum-action__, 
+        side view, kneeling, bondage outfit, 
 
 
   #ブラホック外し
@@ -194,8 +194,85 @@ nsfw:
       <lora:QOS_WAIILL:1> {1-$$tattoo|facial tattoo|full-body tattoo}
 
 
+  #野外露出・ハプニング
+  public-exposure:
+    alleyway:
+    - |
+      __cosplay/school-uniform/*__,
+      skirt lift, no panties, bottomless, 
+      __facial/embarrassed__,
+      {squatting, covering crotch|leaning against wall, leg up},
+      dark alleyway, night, street light, dramatic shadows,
+      looking at viewer, covering face, tear,
+      __saliva__, 
+
+    train:
+    - |
+      __cosplay/ol__
+      flashing, opening jacket, no bra, nipples, 
+      __sexual-or-embarrassed__,
+      train interior, night, empty train, window reflection,
+      standing, holding handrail, 
+      blush, nervous smile, looking around,
+
+  #ライトボンデージ・拘束
+  bondage-lite:
+    ribbon:
+    - |
+      nude, nipples, 
+      body wrapped in red ribbon, bound wrists, hands tied,
+      __facial/embarrassed__,
+      {on bed, on back, arms up|sitting on floor, knees up},
+      struggling, tear, blush, skin indentation,
+      soft lighting, luxurious bedroom, 
+
+    handcuffs:
+    - |
+      __cosplay/lingerie/*__,
+      metal handcuffs, hands tied behind back,
+      __sexual-or-embarrassed__,
+      kneeling, looking up, from above,
+      interrogation room, dark background, spotlight,
+      messy hair, sweat,
+
+  #壁穴・シークレット
+  glory-hole:
+    sucking:
+    - |
+      __nsfw/oral-sex/*__,
+      glory hole, wooden wall, hole in wall,
+      {kneeling|on all fours}, 
+      __saliva__, __cum-action__, 
+      close-up on face, dark lighting, dirty room, 
+
+    waiting:
+    - |
+      nude, spread legs, presenting pussy,
+      glory hole, leaning against wall, hands on wall,
+      __facial/sexual__,
+      looking back, from behind, ass focus,
+
   #セクシーなムード
   sexy-mood:
+    sweat-workout:
+    - |
+      __cosplay/gym-uniform/*__,
+      heavy sweat, dripping sweat, wet clothes, see-through,
+      {lifting shirt, underboob|pulling down shorts, v-line},
+      __facial/sexual__,
+      gym interior, locker room, fluorescent light,
+      tired, panting, heavy breathing, __saliva__,
+      close-up, low angle,
+
+    oil-massage:
+    - |
+      nude, on stomach, lying on massage table,
+      shiny skin, body oil, slippery, dripping oil,
+      ass focus, lower back, 
+      __facial/sexual__, 
+      looking back, half-closed eyes, moaning,
+      BREAK 1boy, faceless male, massaging another's back, hand on ass,
+      spa interior, dim lighting, candles, relaxing mood,
     finger:
     - |
       nude, torogao, 
@@ -303,7 +380,7 @@ nsfw:
     slut-shirt:
     - |
       naughty face, slut shirt, {side-tie top|underboob}, midriff,
-      covered nipples, __rnd-panty__, __standard-pose__,
+      covered nipples, __rnd-panty__, __standard-pose/*__,
     fingering:
     - |
       naughty face, nude, {__finger-lick__|grabbing own breast},
@@ -367,13 +444,20 @@ nsfw:
       naughty face, nipples, perky nipples, spread pussy,
       slav squatting, against the wall, cum string, cum in pussy,
       cum on floor, high heels, garter straps, licking palm,
-      open palm, cum on palm,
+      open palm, cum on palm,dirty wall, graffiti, downtown,
 
     pulling-out:
-    - |
-      <lora:cumtrail_pulling_outv4.0:1> cumtrail vagina to penis,
-      after sex, pulling out penis, cum on penis, cum in pussy,
-      __sexual-or-embarrassed__,
+      - |
+        cum string,  vagina to penis, after vaginal, 
+        after sex, pulling out penis, cum on penis, cum in pussy,
+        __sexual-or-embarrassed__,
+
+      - |
+        1man, nude male, cowgirl position, leaning back, spread legs, squatting, arms behind back, simple background,
+        cum on penis, (close-up pussy:1.3), foreshortening, perspective, withered, 
+        heavy breathing, sweat, blush, smile, open mouth,
+        ((after sex, after vaginal, )) female fertilization, speech bubble, 
+        ((sound effects:1.4))
 
     paizuri:
     - |
@@ -443,7 +527,7 @@ nsfw:
       view from side, night time, beige wall, large window,
       white window curtain, bed, in the bedroom,
       arm around woman's waist, 1man, 1girl ADDCOMM, 1man,
-      blonde hair, large penis, short hair, muscular man,
+      large penis, muscular man,
       eyes closed, sucking nipples, blush, saliva, penis,
       imminent penetration, lying down ADDCOL, 1girl, looking down,
       half opened eyes, blush, opened mouth, steam,
@@ -468,6 +552,21 @@ nsfw:
     - |
       lying on tatami, on back on tatami, nude, spread legs, hands up, bukkake,
       embarrassed, moaning, half-closed eyes, spread arms, after sex, breasts apart, tatami_only,
+
+    gamingroom:
+      - | 
+        (futanari behind:1.2), (doggy style:1.3), (back view:1.2), (butt focus:1.3), 
+        (extreme arching back:1.3), large ass, looking back at monitor, shocked expression,
+        (heavy blushing:1.2), parting lips, fully nude, (cum:1.3), penis,(cum on butt:1.2), 
+        (ejaculation:1.3), (white liquid flying towards monitor:1.3), (splashing on screen:1.2), 
+        (sweaty skin:1.2), oily skin, wet, messy, location: gaming room, dual monitors background,
+        mechanical keyboard, headset, pink neon lighting, cinematic lighting, sharp focus, highres. 
+
+      - |
+        gamingroom, desk, multiple monitors,computer keyboard,  rainbow neon lights, gaming lights, trembling, 
+        after sex, cum in pussy,  (on all fours:1.2), (butt up:1.2), arching back, looking back, blushing, fully nude, 
+        (butt:1.3), (pussy from behind:1.2), (heavy white liquid on body:1.1), dripping, wet, sweaty,  bokeh, highres, 
+        detailed illustration, 
 
   #正ちゃんマーク
   tally-mark:
@@ -528,10 +627,22 @@ nsfw:
       from side, from above
 
     kneeling:
-    - |
-      __nsfw/irrumatio/def__,
-      kneeling,
+      - |
+        __nsfw/irrumatio/def__,
+        kneeling,
 
+      - |
+        from side, irrumatio, grab head,  kneeling, nipples, perky breasts, 
+        deepthroat, motion lines, motion blur, trembling, ((sound effects:1.4))
+
+      - | 
+        from above, irrumatio, grab head,  naked, close-up, deepthroat, rolling eyes, cum in mouth, emphasis lines, 
+
+      - |
+        1boy, irrumatio, deepthroat, from side, 1girl, head grab, male pubic hair,
+        cumm in mouth, maid, breasts out, perky breasts, nipples, 
+        closed eyes, closed eyes, pain, female hand on another's thigh, female arm up,
+    
     allfours:
     - |
       __nsfw/irrumatio/def__,
@@ -597,17 +708,24 @@ nsfw:
       piledriver \(sex\),
 
     leg-up:
-    - |
-      __sex-face__,
-      __nsfw/cunnilingus/def__,
-      on side, leg up,
+      - |
+        __sex-face__,
+        __nsfw/cunnilingus/def__,
+        on side, leg up,
 
     back:
-    - |
-      __sex-face__,
-      __panty-action__,
-      cunnilingus, pussy juice, trembling, spread ass, from behind,
-      BREAK 1boy, faceless male, boy is licking pussy
+      - |
+        __sex-face__,
+        __panty-action__,
+        cunnilingus, pussy juice, trembling, spread ass, from behind,
+        BREAK 1boy, faceless male, boy is licking pussy
+
+    girl-on-top:
+      - |
+        __sex-face__,
+        1boy, faceless male, 
+        cunnilingus, pussy, tongue, pussy juice, girl on top, trembling,
+        {|from behind, looking back,}
 
   #--- フェラ ---
   blowjob:
@@ -795,6 +913,15 @@ nsfw:
       __sex-base__, 
       blowjob, veined penis, head grab, sucking penis, deepthroat, caressing testicles, handjob, deep oral insertion, 
       __cum-action__
+
+    licking:
+    - |
+      {|from side|from below|from above},
+      {|half } closed eyes, 
+      {licking penis|glansjob|licking testicles}, 
+      {|cum, ejaculation, facial, cum on tongue,  }
+      blush, open mouth, 1boy, hetero, penis, tongue, solo focus, tongue out, pubic hair, uncensored, saliva, 
+      erection, testicles, oral, fellatio, male pubic hair, licking, thick penis, completely nude, torogao, 
 
   #--- アフターフェラ ---
   after-blowjob:
@@ -1081,6 +1208,23 @@ nsfw:
       analog style, vintage, depth of field, faded color, 
       {kiss|licking, tongue, saliva}, 
 
+    - |
+      curvy, indoors, cowboy shot, squatting, heart-shaped pupils, spiral_eyes,  
+      (saimin:1.2), tongue out, saliva, spread legs, no panties, huge breasts, breasts, pussy, 
+      open clothes, exposed breasts,  nipples, 
+      bikini, grabbing own breast, vaginal fingering, female orgasm, solo, arched back, 
+      vibrator inserted in vagina, inserting a cylindrical vibrator into vagina, sex toy, 
+      toying self, female masturbation, 
+
+    - |
+      reclining, tongue out, open mouth, torogao,  female orgasm, 
+      lying on tree,  on grass, no panties, pussy,spread legs, clitoris, puffy vulva, spread pussy, pussy juice, saliva drip,  
+      licking sex toy,  dildo, holding dildo, moonlit dark forest, night, deep woods, tall trees, dense canopy, silhouettes of tree trunks, 
+      twisted branches overhead, faint mist, low fog hugging the ground, cool blue tones, soft moonlight filtering through leaves, 
+      dappled moonbeams, volumetric light rays, subtle rim light, faint glow in the distance, wet leaves, mossy ground, fallen branches, 
+      uneven forest path, puddles reflecting moonlight, fireflies, floating particles, quiet atmosphere, eerie calm, cinematic lighting, 
+      high contrast shadows, depth, detailed background, fantasy mood
+
     shirt-lift:
     - |
       female masturbation, nipples, shirt lift, window, sleeveless shirt, no bra, 
@@ -1118,6 +1262,19 @@ nsfw:
       __masturbation-pose__, 
       __saliva__, 
       too many sex toys,
+
+    banana:
+    - |
+      female masturbation, banana, 
+      __facial/masturbation-face__,
+      __masturbation-pose__, 
+      __saliva__, 
+      __panty-action__, naked,
+
+    - |
+      vaginal object insertion, banana, female masturbation, nipples, food, nude, 
+      spread legs,  pussy, fruit, white stocking, window, indoors, vegetable, 
+      female orgasm, moaning, sound effects, saliva, pussy juice, 
 
     glowing-dildo:
     - |
@@ -1260,6 +1417,11 @@ nsfw:
     - |
       imminent penetration, penis, 1boy, erection, pussy,
       ((glans into pussy)), pussy juice, incoming penetration,
+
+    - |
+      embarrassed, open mouth, tanlines, 
+      ((undressing panties:1.2)), nude, bent over, nipples,  hanging breasts, sweat, looking down, from side, panty pull, 
+      penis, imminent penetration, erection, trembling, 
     
     guided: 
     - |
@@ -1436,13 +1598,24 @@ nsfw:
         __panty-action__
 
     rnd:
-    - |
-      {__nsfw/cowgirl/def__|__nsfw/cowgirl/def-ass__|__nsfw/cowgirl/def-reverse__},
-      __sex-face__,
+      - |
+        {__nsfw/cowgirl/def__|__nsfw/cowgirl/def-ass__|__nsfw/cowgirl/def-reverse__},
+        __sex-face__,
 
-    - |
-      nsfw, nude, 1boy, 1girl, hetero, cowgirl position, nipple, penis, pussy, vaginal penis, motion lines, 
-      vulgarity,ahegao, Arching back climax, head back, tongue out,arms up behind head, ahegao, demon horns, orgasm,
+      - |
+        nsfw, nude, 1boy, 1girl, hetero, cowgirl position, nipple, penis, pussy, vaginal penis, motion lines, 
+        vulgarity,ahegao, Arching back climax, head back, tongue out,arms up behind head, ahegao, demon horns, orgasm,
+
+    tuckinghair:
+      - |
+        sex, vaginal,  girl on top, tucking hair, half closed eyes, open mouth, female orgasm, moaning, torogao, 
+        arm support, steaming body, heavy breathing,  looking down, from below,
+        bandeau pull, nipples, bandeau bottom aside, 
+        m legs, bouncing breasts, 
+        motion lines, motion blur, trembling,((sound effects:1.4)),
+        {|__uterus__, deep inside pussy, deep penetration,}
+        BREAK 1boy, faceless male, muscular male, 
+        love hotel, indoors, gradient background, pink and purple background,
 
     clothes:
     - |
@@ -1490,22 +1663,32 @@ nsfw:
 
     imminent:
       def:
-      - |
-        __nsfw/imminent-penetration/naked__,
-        doggystyle, ass, anus, vulva,
-        {|grabbing another's ass},
-        {|pillow hug}
+        - |
+          __nsfw/imminent-penetration/naked__,
+          doggystyle, ass, anus, vulva,
+          {|grabbing another's ass},
+          {|pillow hug}
 
       topdown:
-      - |
-        __nsfw/doggy/imminent/def__,
-        top-down bottom-up,
-        {from below|from side|from above},
+        - |
+          __nsfw/doggy/imminent/def__,
+          top-down bottom-up,
+          {from below|from side|from above},
 
       clothes:
+        - |
+          {__nsfw/doggy/imminent/def__|__nsfw/doggy/imminent/topdown__},
+          __panty-action__,
+
+    # ベイビードール
+    babydoll:
       - |
-        {__nsfw/doggy/imminent/def__|__nsfw/doggy/imminent/topdown__},
-        __panty-action__,
+        sex from behind, vaginal, top-down bottom-up, head on pillow, sheet grab, 
+        blue babydoll, floral babydoll, spaghetti strap, nipples, blue thong, sweat,
+        embarrassed, moaning, motion lines, motion blur, trembling, ((sound effects:1.4)),bouncing breasts, heavy breathing, 
+        looking to the side, 
+        BREAK 1boy , faceless male, ugly man, grabbing another's ass, 
+        BREAK bed, pink wall, window, curtains, 
 
     standing:
     - |
@@ -1546,6 +1729,12 @@ nsfw:
       standing sex, sex from behind, breast out, bra lift, nipples, classroom, breasts on desk, breast press, bent over, 
       arms behind back, vaginal, torogao, blush, serafuku, school uniform, motion lines, motion blur, trembling,  
       BREAK 1boy, faceless male, grabbing another's arm,
+
+    - |
+      in her early twenties, with a slim curvy form, soft vulva with pronounced outer lips and visible texture, 
+      thin, shaped patch with clean edges, sun-kissed tanned skin, colored in chestnut, 1boy, sex, doggystyle, 
+      side view, ass exposed, luxury spa pool with mosaic tiles, warm candlelight glow, steam drifting,  
+      eucalyptus branches, storybook atmosphere, naked,
 
     prone-bone:
     - |
@@ -1616,70 +1805,26 @@ nsfw:
       nipples, navel, blush, clenched teeth, dark-skinned male, thighs, dark skin, faceless male, 
       testicles, closed eyes, spread legs, sex from behind, solo focus, from below, sweat, interracial
     
+    # 跳び箱 sex
     vaulting-horse: 
-    - |
-      __sex-base__, 
-      __sex-face__,
-      doggy_over_desk, sex from behind, side view, vaulting horse, 
-      bent over, buruma pull, 
+      - |
+        __sex-base__, 
+        __sex-face__,
+        doggy_over_desk, sex from behind, side view, vaulting horse, 
+        bent over, buruma pull, 
+        {|elbow rest, breast press,}
+        {|__uterus__}
 
-  #--- カジノsex ---
-  casino-sex:
-    blowjob:
+    # 図書室 sex
+    library:
       - |
-        __cosplay/bunny-girl__, __theme/casino__, __blowjob-pose/*__,
-        {|handjob}, nipples, naughty face,
-    back:
-      - |
-        __sex-back-base__
-        __cosplay/bunny-girl__
-        __theme/casino__
-        __sex-face__
-        {one breast out, nipple|nipples},
-        {|breasts on poker table, grabbing arms},
-        motion lines, trembling, sweat, motion blur, 
-        prone bone, nipples,
-
-    cowgirl:
-      - |
-        __sex-base__
-        __cosplay/bunny-girl__
-        __theme/casino__
-        __sex-face__
-        {one breast out, nipple|nipples},
-        motion lines, trembling, sweat, motion blur, 
-        falling money, money, coin, medal, banknote, floating card,
-        cowgirl position,
-        {|m legs}
-        {arms behind back, leaning back|arms up|hands on own cheeks|grabbing own breast}
-  
-    missionary:
-      - |
-        __sex-base__
-        __cosplay/bunny-girl__
-        __theme/casino__
-        __sex-face__
-        {one breast out, nipple|nipples},
-        motion lines, trembling, sweat, motion blur, missionary,
-        on back on poker table,
-        falling money, money, coin, medal, banknote, floating card,
-
-    standing-back:
-      - |
-        __sex-base__, __cosplay/bunny-girl__, __theme/casino__, motion lines,
-        trembling, sweat, motion blur, standing sex, sex from behind,
-        moaning, nipples, {|breasts on poker table, grabbing arms},
-    
-    leg-up:
-      - |
-        __sex-base__
-        __cosplay/bunny-girl__
-        __theme/casino__
-        __sex-face__
-        {one breast out, nipple|nipples},
-        motion lines, trembling, sweat, motion blur, 
-        falling money, money, coin, medal, banknote, floating card,
-        standing sex, leg up, legs apart, holding thigh,
+        shirt lift,  bra lift,  breast out, sideboob, breast press, wide hips, skirt lift, panties aside, heavy breathing, 
+        sex from behind, against bookshelf, looking back, vaginal, thrusting ass,
+        torogao, female orgasm, moaning, spoken heart, ((sound effects:1.4)),
+        motion lines, motion blur, trembling, 
+        {|closed eyes,|half-closed eyes, }
+        {|__uterus__}
+        library, library stacks, perspective, depth of field
 
   #--- 縛りプレイ ---
   #ボンデージ
@@ -1944,28 +2089,42 @@ nsfw:
     imminent: __nsfw/imminent-penetration/naked__, __sex-face__, full nelson, {|__cosplay/*__}
     imminent-clothes: __nsfw/full-nelson/imminent__, __panty-action__
     naked: 
-    - |
-      __sex-base__, 
-      __sex-face__, 
-      full nelson, 
-      __panty-action__
+      - |
+        __sex-base__, 
+        __sex-face__, 
+        full nelson, 
+        __panty-action__
+
+      - |
+        full nelson, sex,penis, vaginal, pussy, pussy juice, 
+        fucked silly, rolling eyes, saliva, moaning, female orgasm, ((sound effects:1.4)),
+        simple background, white background, 
+        BREAK 1boy, faceless male, 
+        __uterus__ lactation, 
 
   #--- 横バック ---
   spooning:
-  - |
-    __sex-base__, from behind, 1boy, ass grab, pussy,
-    sex from behind, laying down on side, penis, spooning,
-    penetration,
+    - |
+      __sex-base__, from behind, 1boy, ass grab, pussy,
+      sex from behind, laying down on side, penis, spooning,
+      penetration,
 
-  - |
-    spooning, sex, school uniform, no panties, breast out, torogao, moaning, nipples, on side, 
-    leg up, blush, classroom, pussy juice, bra lift, torn pantyhose, cum in pussy, 
-    BREAK 1boy, faceless male, 
+    - |
+      spooning, sex, school uniform, no panties, breast out, torogao, moaning, nipples, on side, 
+      leg up, blush, classroom, pussy juice, bra lift, torn pantyhose, cum in pussy, 
+      BREAK 1boy, faceless male, 
 
-  - |
-    off shoulder, white sweater down, nipples, spooning, leg up, vaginal, sex, scared, open mouth, wavy mouth, 
-    trembling, sound effects, looking down, 
-    BREAK 1boy, ugly man, 
+    - |
+      off shoulder, white sweater down, nipples, spooning, leg up, vaginal, sex, scared, open mouth, wavy mouth, 
+      trembling, sound effects, looking down, 
+      BREAK 1boy, ugly man, 
+
+    - |
+      on side, spooning, sex from behind, vaginal, pussy, pussy juice, penis, 
+      slingshot swimsuit, breast out, nipples, legs apart, swimsuit aside,
+      embarrassed, moaning, heavy breathing,  motion lines, motion blur, trembling, ((sound effects:1.4)),
+      BREAK 1boy, faceless male, grabbing another's breast from behind,on bed, hugging another's thigh,
+      {|__uterus__}
 
   #--- 松葉崩し ---
   matsuba:
@@ -2181,7 +2340,7 @@ nsfw:
       BREAK kneeling,(Place girl's hands on the Wooden wall:1.5),(leaning her face against the wall.:1.2),
       BREAK (1 faceless boy, boy is nude:1.5), (doggystyle sex), (doggystyle:1.2), (locked waist:1.2),
       BREAK (sound effects:1.4),
-      BREAK clear sky, Sunlight, outside onsen, rocks, on the Wooden deck,
+      BREAK clear sky, Sunlight, outside, __place/onsen__, rocks, on the Wooden deck,
     
     back:
     - |
@@ -2191,8 +2350,16 @@ nsfw:
       (orgasm:1.2),(open mouth :1.4),(drooling.1.2),
       BREAK (1 faceless boy),(nude boy:1.2), dark-skinned boy, (missionary position),(locked legs:1.2),
       (sound effects:1.6), (voice effects:1.6),
-      BREAK clear sky,Sunlight,onsen,rocks, (bathing:1.5),partially submerged,
+      BREAK clear sky,Sunlight,__place/onsen__,rocks, (bathing:1.5),partially submerged,
       light particles,splashes of water, Lots of trees and autumn leaves,Many autumn leaves are flying up, stone tower,
+
+    fingering:
+      - |
+        sitting on bathtub edge, partially submerged,  spread legs, pussy,
+        torogao, moaning, heavy breathing, female orgasm, 
+        ((sound effects:1.4)),  steam, steaming body, wet, trembling, 
+        BREAK 1boy,  faceless male, ugly man, breast sucking, fingering from behind,
+        __place/onsen__,
 
     aftersex:
     - |
@@ -2235,6 +2402,32 @@ nsfw:
       (wrists restrained:1.2,ankles restrained:1.2), (sound effects:1.6), (motion effects:1.4),
       BREAK (light particles:1.5,bloom:1.5,god rays:0.4), (Cave, Altar of Light, and lots of candles),
       BREAK (perfect fingers,4fingers and 1thumb:1.2),
+
+    - |
+      from front,(triple penetration:1.4), anus, blunt bangs, blush, (tentacle breast sucking:1.2),
+      crying, crying with eyes open, barefoot,Soles,legs up,toes, full body,tentacle in mouth,cum, cum in ass, cum in pussy, nipples, nude,
+      oral,sucking,sucking tentacle,open mouth, solo, sweat, tears, tentacle in ear, tentacle pit, tentacle sex,
+      tentacles, tongue, tongue out, vaginal,large insertion, stomach bulge,cheek bulge,spread legs
+
+    - |
+      from behind, anal, anus, armor, boots, breasts squeezed together, broken armor,  double anal, double vaginal, knee boots, multiple anal, 
+      multiple vaginal, nipples, pussy, red shirt, shirt, solo, spread anus, spread pussy, tentacle sex, tentacles, thighhighs, torn clothes, 
+      vaginal,
+
+    - |
+      crying, fucked silly, in bed, hands cuffed overhead, rough sex, tentacles, demon,  extreme penetration, (white satin bridal lingerie:1.3), 
+      tentacles biting nipples and squeezing breasts, cum, (stomach bulge:0.5), pain, defeated, pink aura, kneeling, 
+      tentacle wrap, tentacle breast squeeze, tentacle wrapped around waist, 
+      vagina, clitoris, 
+      the background is an opulent white bedroom with satin bedding,, 
+      night, dark, candlelight,
+
+    - |
+      on stomach on desk, tentacle sex, from behind, from side, standing, sucking tentacle,  breast press, 
+      dirty ass, ass focus, anus, anal, tentacle pit, tentacles, 
+      penis awe,  panicking, moaning, sound effects, motion lines, trembling, dirty prison, torch light,
+      torn clothes, clothes pull, cum,tears,  spread thighs, 
+
 
   #---　吸いながら手マン ---
   suck-fingering:
@@ -2461,8 +2654,6 @@ nsfw:
     laced pantyhose, topless, armpits, sweat, white panties under black pantyhose, blush, sad, :o, spread legs, 
     BREAK 1boy, ugly man, licking armpit, grabbing another's breast, 
 
-  # 例のプール
-  rei-no-pool: rei no pool, deck chair, spread legs, torogao, ugly man, hetero, sex, nipples, pussy juice, penis, vaginal, {kiss|moaning}, 
 
   #ビッチ
   bitch:
@@ -2485,17 +2676,32 @@ nsfw:
     demon girl, curled horns, demon wings, demon tail, black choker, m legs, pussy juice, spread pussy, thighhighs, nipples, naughty face, public tattoo, 
     gloves, spoken heart, sitting, on bed, hands on crotch, steaming body, purple theme, dark background,
 
+  - |
+    nipples, black thighhighs, anus, spread pussy, lying, smile, looking at viewer, nude, spread legs, on back, clitoris, lips, 
+    presenting, clitoral hood, legs up, on couch, fingers, crotch, thighs, indoors, breasts apart, lace-trimmed legwear, lace trim, 
+    open mouth, naughty face, 
+
   # OL
   office-lady:
-  - |
-    office lady, white shirt, pleated skirt, embarrassed, moaning, leaning forward, blush, id card, office, window, looking back, 
-    bursting breasts, pink lips, button gap, eyeshadow, 
-    BREAK 1boy, ugly man, grabbing another's breast from behind, 
+    - |
+      office lady, white shirt, pleated skirt, embarrassed, moaning, leaning forward, blush, id card, office, window, looking back, 
+      bursting breasts, pink lips, button gap, eyeshadow, 
+      BREAK 1boy, ugly man, grabbing another's breast from behind, 
 
-  - |
-    office lady, id card, black jacket, white shirt, pleated skirt, {torogao, moaning|embarrassed, closed mouth}, pink lips, blush,
-    spread legs, no panties, pussy juice, pov, missionary, vaginal, sex, penis, sound effects, skirt lift, office, computer, ((pulling own skirt)),
-    BREAK 1boy, faceless male, 
+    - |
+      office lady, id card, black jacket, white shirt, pleated skirt, {torogao, moaning|embarrassed, closed mouth}, pink lips, blush,
+      spread legs, no panties, pussy juice, pov, missionary, vaginal, sex, penis, sound effects, skirt lift, office, computer, ((pulling own skirt)),
+      BREAK 1boy, faceless male, 
+
+    - |
+      office lady,sex from behind,one leg up,vaginal, penis, pussy, spread legs, 
+      {all fours, arm support,|standing},
+      open shirt, collared shirt, white shirt, naked shirt, nipples, id card, sleeve rolled up, thighhighs, high heels, hand to desk,
+      embarrassed, moaning, trembling, motion lines, ((sound effects:1.4)),
+      garter belt, garter straps, 
+      BREAK 1boy, faceless male, hugging another's leg,
+      BREAK office, desk, floor, unworn panties,  unworn skirt, 
+
 
   # クリスマス
   christmas:
@@ -2547,3 +2753,681 @@ nsfw:
     dirty face, sitting, shibari, nude, bondage, bound wrists, ball gag, 
     spread legs, legs up, bound legs, 
     cum in pussy, cum on body, facial, tally, sound effects, cumdump, 
+
+  # モンスター
+  monster:
+  - |
+    indoor, dungeon, topless, bare shoulders, bare arms, breasts out,
+    bikini armor, golden armor, 
+    white skirt, miniskirt, groin,
+    white panties, micro panties, g-string, panties aside, 
+    huge breasts, narrow waist, wide hips, huge ass, puffy nipples, 
+    monster, giant, gigantic penis, veiny penis, 
+    giant king sitting on throne,
+    size difference, height difference, 
+    reverse cowgirl position, spread legs, 
+    vaginal, pussy, impossible fit, bulge, stomach bulge, 
+    cervical penetration, penis hitting uterus, uterus filled with cum, 
+    cum in uterus, internal cumshot, x-ray, 
+    grabbing another's breast from behind
+    moaning, female orgasm,
+    motion lines, speed lines, motion blur, speed blur, afterimage,
+
+  police-officer:
+  - |
+    police officer, milf, 
+    {|salute}, 
+    perfect smile, sweaty, exhausted,
+    japanese female police uniform, tie, police cap, open shirts, open jacket, bra rolled up, 
+    skirt rolled up, breasts out, pussy out, panties around knees, messy pubic hair, 
+    erect nipples, hanging breasts,  
+    {|lactation, milk stain on the wall,}
+    standing on one leg, 
+    sex from behind, standing doggystyle, one leg up, hand on wall, vaginal sex, vaginal insertion, 
+    penis penetration, cum in pussy, cum stream on thigh,
+    BREAK 1man, (naked man, male homeless, hobo:1.5), fat man, tall man and short girl, 
+    size difference, male face out of frame, daytime, midday, outdoors, street,
+    
+  virgin-killer:
+    - smirk, virgin killer sweater, butt crack, looking back, bent over, confident, cum on ass, penis on ass, ejaculation, cum,
+
+  dark-prison:
+    - |
+      squatting, cowgirl position, naked,sex, trembling, female orgasm, saliva trail, open mouth, tongue out, vaginal, tears, 
+      three quarter view, looking down, motion lines, motion blur, ((sound effects:1.4, )), o-ring thigh strap,  
+      dark prison, stone floor, penis, mesugaki, chain choker,sad,
+
+  climax:
+    - |
+      clinging to pillow, on stomach, under covers,  from side, ((sound effects:1.4)), 
+      female orgasm, moaning, saliva, torogao, 
+      trembling, steaming body, spoken heart, naked, 
+
+  # 3P
+  3p:
+    - |
+      {|rough sex, grab head,twisted torso, from side}
+      from above, dutch angle, leaves foreground, ground, grass, mmf threesome, implied fellatio, 
+      doggystyle, vaginal sex, 2boys, 1girl,
+      thrusting ass, motion lines, motion blur
+      
+    - |
+      from side, nipples, mmf threesome, outdoors, 
+      beach,reflective water,  
+      1girl, 2boys, bikini top lift, large breasts, tanned skin, 
+      oral sex, doggy style, saliva, holding penis,
+      thrusting ass, motion lines, motion blur, 
+
+    - |
+      from side, spitroast,threesome,1boy(dark-skinned male,nude,fat man,hairy man),
+      rough sex,hair grab,deepthroat,head out of frame,from above,dutch angle,ass grab,hands on floor,
+      thrusting ass, motion lines, motion blur, penis, spoken exclamation mark, ((sound effects:1.4))
+      cum in mouth, surprised, 
+
+    - |
+      vulgarity, hetero, dutch angle, 
+      gangbang, 2boys,
+      school uniform, breast out, nipples, 
+      sex from behind,  vaginal, fellatio, 
+      embarrassed, blush, heavy breathing, pussy juice,
+      faceless male, fat man,
+      motion lines, motion blur, ((sound effects,:1.4)),
+      hotel, on bed, grabbing another's ass, 
+  
+  # 牝牛プレイ
+  cow-girl-play:
+    sucking:
+      - |
+        cow print bikini, cow horns, cow ears, cowbell, ((bikini lift, breast out, nipples, lactation)), mature female, 
+        detached sleeves, cow print sleeves, hair ornament, full-face blush, heavy breathing, trembling, 
+        female orgasm, moaning, sweat, torogao, spoken heart, ((sound effects:1.4)),
+        on back, on bed, looking to the side, dutch angle, head on pillow, pink pillow,
+        BREAK 1boy, faceless male, breast sucking, grabbing another's breast, 
+        BREAK night sky through window, curtains, city lights
+
+      - |
+        cow print bikini, cow horns, cow ears, cowbell, ((bikini lift, breast out, nipples, lactation)), mature female, 
+        detached sleeves, cow print sleeves, cow print legwear, toeless footwear, hair ornament, full-face blush, heavy breathing, trembling, 
+        female orgasm, moaning, sweat, torogao, spoken heart, ((sound effects:1.4)),
+        {kneeling, on bed|sitting on bed, back against wall}, looking to the side, dutch angle, 
+        BREAK 1boy, faceless male, fat man, breast sucking, grabbing another's breast, 
+        BREAK night sky through window, curtains, city lights, pink cushion, heart-shaped cushion,
+
+    smile:
+      - |
+        cow print bikini, cow horns, cow ears, cowbell, ((bikini lift, breast out, nipples, lactation)), mature female, 
+        detached sleeves, cow print sleeves, cow print legwear, toeless footwear, hair ornament, full-face blush, heavy breathing, 
+        smile, :D, touching own nipples, from above, bottomless, thigh gap, head tilt, 
+        sitting on bed, looking at viewer, dutch angle, 
+        BREAK night sky through window, curtains, city lights, pink cushion, heart-shaped cushion
+
+      - |
+        cow print bikini, cow horns, cow ears, cowbell, ((bikini lift, breast out, nipples, lactation)), mature female, 
+        detached sleeves, cow print sleeves, cow print legwear, toeless footwear, hair ornament, full-face blush, heavy breathing, 
+        smile, :D, hands on own breasts, from above, from below, one knee up, head tilt, head on pillow, pink pillow,
+        lying on back, on bed, looking at viewer, dutch angle, {|spread legs,}
+        pink cushion, heart-shaped cushion, bookshelf, 
+
+    #おしゃぶり
+    milking:
+      - |
+        cow print bikini, cow horns, cow ears, cowbell, ((bikini lift, breast out, nipples, lactation)), mature female, 
+        detached sleeves, cow print sleeves, hair ornament, full-face blush, 
+        naughty face, open mouth, upper teeth only, lactation, cum on breasts,  sweat on face, hands up, bottomless, 
+        holding milk bottles,  panties around one leg, standing, 
+        BREAK night sky through window, curtains, city lights, 
+        bed, pink bed sheet, pink pillow,  pink cushion, heart-shaped cushion, stand light,
+
+      - |
+        cow print bikini, cow horns, cow ears, cowbell, ((bikini lift, breast out, nipples, lactation)), mature female, 
+        detached sleeves, cow print sleeves, cow print legwear, hair ornament, full-face blush, heavy breathing, 
+        kneeling, ((milking machine,)), milk flowing down, 
+        torogao, moaning, saliva, 
+        on bed, looking at viewer, dutch angle, 
+        BREAK night sky through window, curtains, city lights, pink cushion, heart-shaped cushion, bookshelf, 
+
+    # 乳搾りsex
+    fuck:
+      - |
+        __bikini/cow-print__
+        ((bikini lift, breast out, nipples, lactation)), 
+        hair ornament, full-face blush,
+        sex from behind, kneeling, ((milking machine,)) vaginal, milk flowing down, 
+        female orgasm, moaning, torogao, trembling, ((sound effects:1.4)), spoken heart, 
+        motion lines, motion blur, trembling, thrusting ass,
+        BREAK 1boy,  faceless male,  fat man, old male,grabbing another's breast, 
+        BREAK night sky through window, curtains, city lights, 
+        bed, pink bed sheet, pink pillow, pink cushion, heart-shaped cushion, stand light,
+        {|__uterus__}
+
+    # 自慰
+    masturbation:
+      - |
+        __bikini/cow-print__
+        spread legs, female masturbation,  clitoral stimulation, grabbing own breast, heart,
+        female orgasm, ,moaning, ((sound effects:1.4)), trembling, heavy breathing, nipples, bra pull, panties aside, 
+        shed,hay,
+
+  # 例のプールで
+  av-pool-fuck:
+    - |
+      __bikini/*__
+      bikini lift, breast out,nipples, 
+      ass, focus,vulgarity, hetero,
+      standing, vaginal, sex from behind, arms behind back,holding wrist,arched back,
+      embarrassed, blush, female orgasm, moaning, torogao, panicking, bouncing breasts, heavy breathing,
+      motion lines, motion blur,  trembling,  ((sound effects:1.4)),
+      1boy, faceless male, fat man,
+      {|__uterus__}
+      __av-pool__
+      partially submerged,
+
+    - |
+      spread legs, torogao, faceless male,ugly man, hetero, sex, nipples, pussy juice, penis, vaginal, 
+      {kiss|moaning}, thrusting ass, motion lines, motion blur, ((sound effects:1.4)),
+      __av-pool__
+      {|__uterus__}
+
+    - |
+      pov, from below,close-up ass, foreshortening, perspective, cum on ass, buttjob,
+      embarrassed,  wet skin, blush,wavy mouth, looking back, huge ass,penis, school swimsuit,  strap slip,
+      __av-pool__
+
+  # エロマンガ
+  eromanga:
+    - |
+      multiple views, comic, panel borders,
+      completely nude,
+      embarrassed, female orgasm, moaning, torogao, saliva, sweat, 
+      motion lines, motion blur, trembling, bouncing breasts, 
+      ((sound effects:1.4)),
+      intense sex, vaginal, 
+      {missionary|doggystyle|cowgirl position|standing sex}, 
+      1boy, faceless male,
+      {|__uterus__}
+
+  # ロッカー
+  locker-room:
+    - |
+      ((back shot)), pussy, ass,
+      school gym uniform, shirt lift, buruma aside, 
+      orgasm, embarrassed, blush,
+      ((bukkake, having sex, vaginal penis, doggystyle)),
+      holding penis, fellatio, 
+      multiple boys, muscular, condom, used condom,
+      locker room, graffiti, tally, dirty room
+      
+  #指で
+  fingering:
+    - |
+      standing,  heavy breathing, sweat, blush, hands up, curled fingers, living room,
+      embarrassed, torogao, moaning, ((sound effects:1.4)),
+      white sweater, clothes lift, nipples,
+      cross necklace,denim pants pull, black lace thong,
+      BREAK 1man, ugly man, faceless male,  ((grabbing another's breasts from behind, fingering from behind,  hand in panties, ))
+
+  # 尻への挿入
+  buttjob:
+    - |
+      1man, sitting, upright straddle, hug, cuddling, grabbing another's ass, backshot, from below,
+      buttjob over clothes, pale blue lace panties, ass focus, foreshortening, perspective,
+      cum on ass, living room, on couch, penis, erection, cum on penis
+      BREAK white collared shirt, bare shoulders, drop off shoulders,open clothes,
+
+  # 縄で縛られた水着の女の子
+  bondage-school-swimsuit:
+    - | 
+      top down bottom up, backshot, backview,
+      arms beween legs, bound wrists, red rope, v arms
+      face in bed,hitachi magic wand, pov hands,
+      pink theme, hotel room, on bed,
+      restrained ankles,
+      from below, female ejaculation, faceless, wedgie,twitching,
+      ((sound effects:1.4)),
+      BREAK school swimsuit, shibari, crotch rope, between labia, pussy juice, (very sweaty:1.3), sweat,
+
+  #ギャル
+  gal:
+    - |
+      top down bottom up, head rest, grin, sideways glance,elbow rest, , 
+      1man, implied cunnilingus,
+      ((dark-skinned female, shiny skin,)),
+      single earrings,tanlines, 
+      BREAK unbuttoned (beige cardigan:1.2),
+      white collared shirt, collarbone, cleavage, shirt tucked in, sleeves past wrists,
+      grey plaid skirt, microskirt,
+      heart-shaped gold necklace,
+      loose socks,
+      black bra lift, open clothes, nipples, loose socks, black lace panties around leg,
+      on bed,faceless male, 
+
+    - |
+      sex, pov, girl on top, vaginal, penis, pussy, pussy juice, 
+      ((sound effects:1.4)), sweat, heavy breathing, 
+      {fucked silly,__uterus__| panicking|torogao},
+      blush, moaning, trembling, motion lines, motion blur, bouncing breasts, 
+      female orgasm, saliva, spoken heart, 
+      spread legs, bottomless, m legs, from below,dutch angle, dynamic pose, 
+      BREAK sleeveless, black  ribbed sweater, sweater lift, breast out, nipples,  bottomless,  tanlines, ((dark-skinned female, )), gold necklace, earrings, 
+      BREAK 1boy, faceless male, pov hands, grabbing another's breast, 
+      BREAK on bed, white sheet, 
+      
+  #巫女
+  miko:
+    - |
+      standing sex, sex from behind,
+      1man, hugging from behind, piston, motion lines, motion blur, 
+      bouncing breasts, nipples, facing up, cowboy shot, shrine,
+      from side, winter,
+      ((sound effects:1.4)),
+      shy, blush, panicking, tearing up, wavy mouth, open mouth,
+      clothes male, (very sweaty:1.3),
+      hands on wall, arms up,
+      female fertilization,  
+      BREAK traditional miko, white kimono, red hakama,
+      BREAK faceless male, clothed male,
+      {|__uterus__}
+
+  #OLのフェラチオ
+  OL-blowjob:
+    - |
+      handjob, fellatio, under table,blush,torogao, heavy breathing, squatting, spread legs,
+      sweat, foreshortening, perspective, from below,(from side:0.8),female masturbation, clitoral stimulation,
+      ((sound effects:1.4)),
+      lower lip only,saliva, 
+      silver drop earring,
+      white collared shirt, black lace bra, open clothes,nipples,bra lift,
+      piston,motion lines, navy pencil skirt,
+      black lace panties visible through pantyhose, high heels,
+      office, black simple background, clothed male,
+
+    - |
+      pov, from above,
+      all fours, handjob, open mouth, tongue out, licking penis, adjusting hair,
+      clothed mal, under table, office,closed eyes,
+      BREAK light beige cardigan, (open cardigan:1.4), off shoulder cardigan,
+      white collared shirt, shirt tucked in,
+      button gap, (collarbone:0.8),
+      sleeves past wrists,
+      red short ribbon on chest,
+      grey plaid skirt, miniskirt, pleated skirt,high-waist skirt,
+
+
+  #カジノ
+  casino:
+    blowjob:
+      - |
+        __cosplay/bunny-girl__ 
+        __casino__ 
+        __blowjob-pose/*__
+        {|handjob}, nipples, naughty face,
+
+    back:
+      - |
+        __sex-back-base__
+        __cosplay/bunny-girl__
+        __casino__
+        __sex-face__
+        {one breast out, nipple|nipples},
+        {|breasts on poker table, grabbing arms},
+        motion lines, trembling, sweat, motion blur, 
+        prone bone, nipples,
+
+    cowgirl:
+      - |
+        __sex-base__
+        __cosplay/bunny-girl__
+        __casino__
+        __sex-face__
+        {one breast out, nipple|nipples},
+        motion lines, trembling, sweat, motion blur, 
+        falling money, money, coin, medal, banknote, floating card,
+        cowgirl position,
+        {|m legs}
+        {arms behind back, leaning back|arms up|hands on own cheeks|grabbing own breast}
+  
+    missionary:
+      - |
+        __sex-base__
+        __cosplay/bunny-girl__
+        __casino__
+        __sex-face__
+        {one breast out, nipple|nipples},
+        motion lines, trembling, sweat, motion blur, missionary,
+        on back on poker table,
+        falling money, money, coin, medal, banknote, floating card,
+
+    standing-back:
+      - |
+        __sex-base__, __cosplay/bunny-girl__, __casino__, motion lines,
+        trembling, sweat, motion blur, standing sex, sex from behind,
+        moaning, nipples, {|breasts on poker table, grabbing arms},
+    
+    leg-up:
+      - |
+        __sex-base__
+        __cosplay/bunny-girl__
+        __casino__
+        __sex-face__
+        {one breast out, nipple|nipples},
+        motion lines, trembling, sweat, motion blur, 
+        falling money, money, coin, medal, banknote, floating card,
+        standing sex, leg up, legs apart, holding thigh,
+
+    #マスタベーション
+    masturbation:
+      - |
+        wrist cuffs, bowtie,  playboy bunny, highleg,  one breast out, nipples, clothes pull, 
+        m legs, female masturbation, clitoral stimulation, grabbing own breast, 
+        fucked silly, torogao, saliva, blush, trembling, 
+        fishnet thighhighs, high heels, squatting, ((sound effects:1.4)),
+        __casino__
+
+  #ロデオ
+  rodeo:
+    - |
+      riding, mechanical bull, 
+      (bouncing breasts:1.3), motion lines,
+      facing up, rolling eyes, screaming, heavy breathing, (very sweaty:1.3), blush,
+      arms behind back, dildo, pussy juice, female ejaculation,
+      shibari, red rope, bound wrists,
+      cowboy shot, from below,
+      black background, ((sound effects:1.4))
+      BREAK nude, restrained ankles,
+
+  classroom-sex:
+    - |
+      vaginal sex, standing sex, 
+      sex from behind, from side,
+      looking back, 
+      moaning, panicking, heavy breathing,
+      ((sound effects:1.4)),
+      doggystyle, bouncing breasts, elbow rest, motion lines, motion blur, 
+      skirt lift, shirt lift,  bra lift, panties around one leg, 
+      classroom, 
+      BREAK navy sweater vest,
+      white collared shirt, (collarbone:0.8),
+      sleeves rolled up,
+      navy skirt, miniskirt, pleated skirt,
+      BREAK 1boy, faceless male, 
+      female fertilization, 
+      {|__uterus__}
+
+  #カラオケ
+  karaoke:
+    - |
+      1girl, all fours, pov hands,
+      2men, irrumatio, gangbang,
+      looking back, half-closed eyes, heavy breathing, sweat, blush, pussy juice, female ejaculation, tearing up, wince,
+      karaoke box, on couch,
+      darkness theme, neon lighting, (microphone in pussy:1.5), pov holding microphone, (object insertion:1.5),
+      from below,
+      ((sound effects:1.4))    
+      BREAK light beige cardigan, (open cardigan:1.4), off shoulder cardigan,
+      white collared shirt, shirt tucked in,
+      button gap, (collarbone:0.8),
+      sleeves past wrists,
+      grey plaid skirt, miniskirt, pleated skirt,high-waist skirt,
+      black pantyhose pull, pink lace panties, panty aside, bare ass, anus, pussy,
+      open clothes, nipples, speech bubble, bare shoulders, undressed,
+      
+  # アナルセックス
+  anal-sex:
+    - |
+      1girl, 1man, anal sex, lying, on side, penis awe,
+      cum in anus, (piston motion lines:1.3), one leg up, legs apart, 
+      large penis, pussy juice, cum overflow, 
+      half-closed eyes, open mouth, saliva trail,
+      heavy breathing, sweat, twitching, female orgasm, torogao, moaning,
+      ((sound effects:1.4)),
+      used condom , cum on penis,
+      BREAK nude, hotel room, on bed,pussy juice stain on bed,
+      BREAK man at right, holding another's leg, faceless male, nude male, fat male, ugly man is grin
+  
+  # コンビニ
+  lawson:
+    - |
+      standing,torogao, heavy breathing, sweat, blush,wavy mouth, 
+      condom box on table,
+      grab own arm, trembling, 
+      cowboy shot, 
+      ((lawson, convenience store, cashier, ))buying condoms,  
+      BREAK naked coat, light beige coat, pink heart pasties, pink lace panties, thong,
+      remote control vibrator with legband,
+
+  #まんこいぢり
+  tickle-pussy:
+    - | 
+      lying, on back, hugging own legs, legs up, legs together, on table, classroom,
+      foreshortening, perspective,  flying sweatdrops,
+      embarrassed, blush, moaning, ((sound effects:1.4)),trembling, 
+      torn pussy, pussy, pussy juice, 
+      pov hand, tickling pussy, wet finger, 
+      BREAK light beige cardigan, (open cardigan:1.4), off shoulder cardigan,
+      white collared shirt, shirt tucked in,
+      button gap, (collarbone:0.8),
+      sleeves past wrists,
+      red short ribbon on chest,
+      grey plaid skirt, miniskirt, pleated skirt,high-waist skirt,
+      black pantyhose, loafers,
+
+  #コンドーム
+  condom:
+    - |
+      naughty face, sitting, cowboy shot, 
+      __place/bedroom__
+      closed mouth,  pink condom wrapper in mouth,  head tilt, 
+      hand up, index finger raised, 
+      yokozuwari, barefoot, nude,
+  
+  #コンドーム使用済み
+  used-condom:
+    - |
+      after sex, cowgirl position, ass, ass focus, pussy, pussy juice,  looking back, all fours, from side,
+      embarrassed,  blush, moaning, heavy breathing, torogao, ((sound effects:1.4)),
+      BREAK
+      1boy, erection, used condom on penis,  
+
+  #魔女によるセックス
+  witch-sex:
+    - |
+      1girl, 1man, pov, from below, guided penetration, seductive smile, blush, heavy breathing,
+      m legs,  v arms, glans in pussy, bottomless, pussy,pussy juice, 
+      holding penis, glowing pubic tattoo,
+      black background, pink magic circle,  pink aura, 
+      BREAK witch, nipples, witch costume, witch hat,
+      long gloves, thighhigh boots, fantasy clothes,
+      female fertilization, 
+      BREAK 1boy, faceless male, 
+
+  #スクール水着によるセックス
+  school-swimsuit-sex:
+    - |
+      all fours, motion lines, school swimsuit, in water, doggystyle, 
+      pool, outdoor, partially submerged,  hands on poolside edge, glossy tile floor,
+      half closed eyes, heavy breathing,
+      blush, sweat,wet skin, wet hair,tanlines,  wedgie, 
+      bare shoulders, strap slip,
+      BREAK 1boy, faceless male with swimsuit, grabbing another's ass, standing behind girl, bulge, 
+  
+  #スクール水着によるフェラチオ
+  school-swimsuit-fellatio:
+    - |
+      pov, licking penis, close-up face,
+      torogao, heavy breathing, sweat, blush, tongue out, saliva on penis, 
+      looking down, holding penis,
+      ((sound effects:1.4))
+      school swimsuit, covered nipples, strap slip, 
+      pool, outdoors, lens flare,
+
+  #体操着によるパイズリ
+  gym-uniform-paizuri:
+    - |
+      pov, paizuri under clothes,
+      shy, torogao, moaning, ((sound effects:1.4)), looking down, 
+      sweat, blush, motion lines, motion blur, 
+      BREAK school gym uniform, white shirt, red buruma, wet clothes, wet skin, wet hair, covered nipples,
+      BREAK locker room, blue bench,
+      BREAK 1man,nude male,
+
+  #ピンクナース
+  pink-nurse:
+    - |
+      on hospital bed, pink curtains, 
+      sex, vaginal, girl on top, torn pantyhose, from below, arched back, 
+      breast out, nipples, bouncing breasts, saliva, 
+      {arms up| grabbing own breast|tweaking own nipple|nipple nipple tweak|nipple torture|v arms|arms behind back}, 
+      torogao, moaning, trembling, motion lines, motion blur, 
+      ((sound effects:1.4)),
+      BREAK (vivid pink clothes, hot pink clothes:1.3),(shiny clothes,glossy clothes:1.3),
+      (hot pink nurse:1.3),hot pink nurse cap with heart symbol,
+      hot pink shirt, short sleeves, crop top, (underboob:1.2), 
+      stand-collar,heart-shaped cleavage cutout, navel,
+      hot pink pencil skirt, (microskirt:1.3), low-rised skirt,bare hip,bare midriff,
+      white pantyhose, (hot pink straped pumps:1.2),
+      white friendship bracelet ,
+      BREAK 1boy, faceless male, penis,
+      {|__uterus__}
+
+    - |
+      on hospital bed,  pink curtains, ((touching bulge,)) naughty face, blush, v arms, 
+      sitting on bulge,  1boy, clothed male,
+      BREAK (vivid pink clothes, hot pink clothes:1.3),(shiny clothes,glossy clothes:1.3),
+      (hot pink nurse:1.3),hot pink nurse cap with heart symbol,
+      hot pink shirt, short sleeves, crop top, (underboob:1.2), 
+      stand-collar,heart-shaped cleavage cutout, navel,
+      hot pink pencil skirt, (microskirt:1.3), low-rised skirt,midriff,
+      white pantyhose,   white friendship bracelet ,
+
+  # メイドによるセックス
+  maid-sex:
+    - |
+      sex, missionary,  pov, arms up, head on pillow, vaginal, grabbing pillow,
+      motion lines, motion blur, trembling, ((sound effects:1.4)), sweat, heavy breathing, 
+      {fucked silly,__uterus__| panicking|embarrassed},
+      blush,  female orgasm, moaning, tears, saliva, 
+      spread legs, torn thighhighs,  bottomless, m legs, 
+      pussy, penis, pussy juice, thrusting,
+      BREAK  maid, maid headdress, maid apron, breast out, nipples, on back, 
+      long sleeves,  white wrist cuffs, red hair ribbon, red bowtie, black skirt,
+      BREAK 1boy, faceless male, pov hand, grabbing another's breast, 
+      BREAK bed, white sheet, 
+
+    - |
+      after sex,  pov, arms up, head on pillow, grabbing pillow,
+      trembling, ((sound effects:1.4)), sweat, heavy breathing, 
+      {rolling eyes, blush, smile|ahegao|embarrassed},
+      cum in pussy, cum pool, {|female fertilization,}
+      blush,  female orgasm, moaning, tears, saliva, 
+      spread legs, torn thighhighs,  bottomless, m legs, pull out penis, pussy,
+      BREAK  maid, maid headdress, maid apron, breast out, nipples, on back, 
+      long sleeves,  white wrist cuffs, red hair ribbon, red bowtie, black skirt,
+      BREAK bed, white sheet, 
+
+  # メイドによる搾乳
+  maid-milking:
+    - |      
+      embarrassed, moaning, wavy mouth,:o, lactation, blush,
+      trembling, motion lines, motion blur, 
+      upper body, pov, {|looking at another,}
+      BREAK maid, maid headdress, breast out, nipples, on back, long sleeves,  white wrist cuffs, red hair ribbon, red bowtie, 
+      BREAK 1boy, faceless male, pov hands, grabbing another's breast, 
+      BREAK maid cafe, teacup, steam, on table, white table cloth,
+
+    - |
+      embarrassed, moaning, wavy mouth,:o, blush,
+      trembling, motion lines, motion blur, 
+      spread legs, dildo riding,  glossy dildo on desk, pussy, pussy juice, bottomless, skirt lift, maid apron, 
+      hands up, grabbing another's wrist, female masturbation, lactation, squatting, 
+      pov hand, grabbing another's breast,  
+      ((sound effects:1.4)),
+      BREAK maid, maid headdress, breast out, nipples, long sleeves,  white wrist cuffs, red hair ribbon, red bowtie, 
+
+  # 修道女によるセックス  
+  nun-sex:
+    - |
+      traditional nun,  skirt lift, ass, ass focus,  looking back, bottomless, 
+      {fucked silly, female orgasm,  __uterus__| embarrassed},
+      heavy breathing, crawling on all fours, cowgirl position, penis, pussy, vaginal, 
+      ((sound effects:1.4)), motion lines, motion blur, thrusting ass, blush,
+      BREAK church, solemn, stained glass, 
+      BREAK 1boy, faceless male, 
+
+  # ポリスによるセックス
+  police-sex:
+    - |
+      on back, spread legs, knees up,   hugging own legs, 
+      sex, missionary, vaginal, penis, pussy, pussy juice, 
+      shirt lift, breast out, nipples, skirt lift, torn pantyhose, 
+      { embarrassed| torogao|fucked silly, __uterus__},
+      moaning, female orgasm, trembling, motion lines, motion blur, ((sound effects:1.4)),
+      BREAK policewoman, police hat, short blue necktie, blue collared shirt, dark blue miniskirt, 
+      BREAK in prison, dirty room,
+
+  # 尻コキ
+  buttjob:
+    - |
+      buttjob, penis, ass, looking back, naughty face, cowgirl position, thrusting ass, sweat,
+      motion lines, motion blur, blush, heavy breathing, cum, ((sound effects:1.4)), grabbing own ass,
+
+  # バニーガールによるセックス
+  bunny-girl-sex:
+    - |
+      comic, multiple views:1.3, intense sex, one breast out, nipple, 
+      heavy breathing, embarrassed, orgasm, playboy bunny,
+      cum overflow, ejaculation, uterus, motion lines, ((sound effects:1.4)),
+      BREAK 1boy, faceless male, pulling another's clothes, 
+
+  # 廃墟
+  ruin:
+    - |
+      vulgarity, hetero,completely nude, 
+      doggystyle, standing, dutch angle,  sex from behind, 
+      {arms up, restrained, torso grab,bound wrists|arms behind back, grabbing another's wrist},
+      spread legs, vaginal insertion,
+      embarrassed, blush, screaming, closed eyes,
+      heavy breathing, pussy juice,
+      ruins, dark dungeon, fantasy, night, moon,
+      motion lines, ((sound effects:1.4)),
+      BREAK 1boy, faceless male,
+      {|__uterus__}
+
+  # 少年による陵辱
+  shota:
+    cunnilingus:
+      - |
+        1shota and 1girl, funny, explicit,nsfw
+        embarrassed face, girl flat on back, smile,
+        dress shirt, open shirt, slip strap, bra pull down, pale nipples, detailed nipples, panties pull down, blush
+        in boy's room
+        shota sucking boobs, shota grabbing girl's breast, shota touching girl's pussy
+
+    upright-straddle:
+      - |
+        1shota and 1girl, 
+        embarrassed, blush, orgasm, 
+        in boy's room, tongue out, saliva trail, 
+        sex, upright straddle, hug, kiss, ((sound effects:1.4))
+
+    fellatio:
+      - |
+        1shota and 1girl, 
+        embarrassed, blush, orgasm, 
+        fellatio, penis,micro bikini, silver bikini, one breast out, nipple, bikini lift, 
+        spread legs, fingering through panties, female masturbation, ((holding penis, licking glans, tongue out, ))
+        beach, rock,
+        he is standing ,
+        ((sound effects:1.4))
+
+    sucking-boobs:
+      - |
+        1boy, 1shota,  guided breast grab,  grabbing another's breast, breast sucking, licking nipple, 
+        embarrassed, looking at another, blush, ((sound effects, )) trembling, moaning, 
+
+  # 拷問
+  torture:
+    - |
+      egg vibrator on nipples,  spread legs, dildo, object insertion, sex machine, thrusting,
+      ahegao, moaning, trembling, ((sound effects:1.4)),crying, wide-eyed, 
+      bound wrists, bound feet,  sitting, legs up, ball gag, bound thighs, 
+      in prison,  torture instruments, torture chair, marks of torture, 

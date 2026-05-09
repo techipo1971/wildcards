@@ -18,63 +18,66 @@ import slack
 import argparse
 from InquirerPy import inquirer
 import nas_env as nas   #環境情報
+import logging
+from tqdm import tqdm
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+import censor
 
-# 最初にライブラリがインストールされているか確認
-try:
-    import yaml
-except ImportError:
-    print("The 'PyYAML' library is not installed.")
-    print("Please install it by running: pip install pyyaml")
-    exit()
+# ロギング設定
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
 # ======================
 # 設定
+CONFIG_FILE = os.path.join(os.path.dirname(__file__), "config.yaml")
+try:
+    with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
+        config_data = yaml.safe_load(f)
+except Exception as e:
+    logger.error(f"Could not load config.yaml: {e}")
+    exit(1)
+
 # Web UIのAPIエンドポイント
-url = "http://127.0.0.1:7860/sdapi/v1/txt2img"
+url = config_data.get('api', {}).get('url', "http://127.0.0.1:7860/sdapi/v1/txt2img")
+API_RETRIES = config_data.get('api', {}).get('retries', 3)
+API_BACKOFF = config_data.get('api', {}).get('backoff_factor', 0.5)
+
+# APIリトライ設定
+api_session = requests.Session()
+retry = Retry(total=API_RETRIES, connect=API_RETRIES, read=API_RETRIES, backoff_factor=API_BACKOFF)
+adapter = HTTPAdapter(max_retries=retry)
+api_session.mount('http://', adapter)
+api_session.mount('https://', adapter)
 
 # プロンプトを読み込むYAMLファイル名
 SEQ_FILE = 'sequence.yaml'  # 連番管理用ファイル
 
-POSITIVE = "__il/quality/positive__,"
-# POSITIVE = "__il/quality/pos-simple__,"
-
-# スタイル定義
-STYLES =[
-    "<lora:Realistic_Anime_-_Illustrious:0.35> illustriousanime, <lora:PHM_style_IL_v3.3:0.8>, <lora:illustriousXLv01_stabilizer_v1.185c:0.2>,",
-    "<lora:CunnystyleV9.2:0.7>",
-    "<lora:AIイラストおじさん (2):0.8>",
-    "<lora:MoriiMee_Gothic_Realistic:0.7>"
-]
-STYLE = random.choice(STYLES)   # ランダムにスタイル選択
+POSITIVE = config_data.get('prompt', {}).get('positive', "__il/quality/positive__,")
+STYLE = config_data.get('prompt', {}).get('style', "<lora:RealisticAnimeIXL:0.5>")
+NEGATIVE_DEFAULT = config_data.get('prompt', {}).get('negative', "__il/quality/negative__")
 
 # 保存先定義
 ROOT_FOLDER = nas.img_dirs['root']
 RELEASE_FOLDER = nas.img_dirs['release']
 DESTINATION_FOLDER = nas.img_dirs['workspace']   
 
-# ウォータマークスタンプ
-STAMP_IMG = "C:/tmp/Mabo.AiArt2.png"  # 固定パス（必要なら変更）
-
-SFW = ",1girl,__sfw/*__," + POSITIVE + STYLE
-ERO = ",1girl,__ero/*__," + POSITIVE + STYLE
-R18 = ",1girl,__nude/*__, r18, nsfw," + POSITIVE + STYLE
-R18_PLUS = ",1girl,__nsfw/*__, r18+, nsfw," + POSITIVE + STYLE
-YURI = ",2girls, __yuri__, yuri, nsfw," + POSITIVE + STYLE
+# ウォータマークスタンプ（環境変数 STAMP_IMG_PATH が未設定の場合はデフォルトパスを使用）
+STAMP_IMG = config_data.get('generation', {}).get('stamp_img', os.getenv("STAMP_IMG_PATH", "C:/tmp/Mabo.AiArt2.png"))
 
 # 生成リスト（あとでキャラプロンプトと結合する）
-# GEN_LIST = [SFW]
-# GEN_LIST = [ERO]
-GEN_LIST = [ERO, R18, R18_PLUS]
+GEN_LIST_RAW = config_data.get('generation', {}).get('lists', [])
+GEN_LIST = [item + POSITIVE + STYLE for item in GEN_LIST_RAW]
+YURI_RAW = config_data.get('generation', {}).get('yuri', "")
+YURI = YURI_RAW + POSITIVE + STYLE if YURI_RAW else ""
 
 #############################################################################################################
 
-### 作品フィルター
-# TITLE = 'my-hero-academia'
-
 ### シナリオ名
-SCENARIO_NAME = 'gym-uniform'
+SCENARIO_NAME = config_data.get('generation', {}).get('scenario_name', '')
 
 ### キーワード
-KEYWORD = 'lactation'
+KEYWORD = config_data.get('generation', {}).get('keyword', '')
 
 #############################################################################################################
 def load_seq_data():
@@ -83,38 +86,37 @@ def load_seq_data():
         with open(SEQ_FILE, 'r', encoding='utf-8') as f:
             seq_data = yaml.safe_load(f)
             if not isinstance(seq_data, dict):
-                print(f"[Error] Invalid format in {SEQ_FILE}. Expected a dictionary.")
+                logger.error(f"Invalid format in {SEQ_FILE}. Expected a dictionary.")
                 return {}
             return seq_data
     except FileNotFoundError:
-        print(f"[Error] Sequence YAML file not found: {SEQ_FILE}")
+        logger.error(f"Sequence YAML file not found: {SEQ_FILE}")
         return {}
     except yaml.YAMLError as e:
-        print(f"[Error] Could not parse sequence YAML file: {e}")
+        logger.error(f"Could not parse sequence YAML file: {e}")
         return {}
 
 #############################################################################################################
 def generate_img(character, payload, output_folder, rating='safe'):
+    img_list = []
     try:
         # APIにPOSTリクエストを送信
-        response = requests.post(url=url, json=payload)
+        response = api_session.post(url=url, json=payload)
         response.raise_for_status() # エラーがあれば例外を発生させる
 
         r = response.json()
 
-        img_list = []
         # レスポンスの中から画像データ（base64エンコード）を取得
         for idx, img_data in enumerate(r['images']):
-            # 画像をデコードしてファイルに保存
             # ファイル名にタイムスタンプとプロンプトの一部を使い、分かりやすくする
-            timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+            timestamp = datetime.now().strftime("%Y%m%d%H%M%S%f")  # ミリ秒まで含める
         
             # キャラクター名とタイムスタンプを使ってファイル名を生成
             filename = f"{character['name']}_{timestamp}_{idx+1}.png"
             output_path = os.path.join(output_folder, filename)
             img_list.append(output_path)
 
-           # 画像をデコード
+            # 画像をデコード
             img_bytes = base64.b64decode(img_data)
             img = Image.open(io.BytesIO(img_bytes))
             info = img.info.copy()
@@ -131,15 +133,18 @@ def generate_img(character, payload, output_folder, rating='safe'):
             # 画像保存
             img.save(output_path, pnginfo=png_info)
 
-            print(f"Image saved to: {output_path}")
+            logger.info(f"Image saved to: {output_path}")
 
     except requests.exceptions.RequestException as e:
-        print(f"An error occurred: {e}")
+        logger.error(f"API request failed: {e}")
+
+    if rating != "safe":
+        censor.batch_censor(output_folder)
 
     return img_list
 
 #############################################################################################################
-def set_payload(positive, negative="__il/quality/negative__", steps=25, seed=-1, batch_count=1):
+def set_payload(positive, negative=NEGATIVE_DEFAULT, steps=25, seed=-1, batch_count=1):
     # 詳しくは http://127.0.0.1:7860/docs を参照
     payload = {
         "prompt": positive,
@@ -163,12 +168,12 @@ def set_payload(positive, negative="__il/quality/negative__", steps=25, seed=-1,
     return payload
 
 #############################################################################################################
-def main(char_prompt, mode, list=GEN_LIST, seed=-1, batch_count=1):
+def main(char_prompt, mode, gen_list=GEN_LIST, seed=-1, batch_count=1, current_char_idx=1, total_char_count=1):
     """
     メインの処理を実行する関数
     """
     # 生成したい画像のプロンプトをリストで用意
-    prompts_to_generate = [char_prompt['prompt'] + item for item in list]
+    prompts_to_generate = [char_prompt['prompt'] + item for item in gen_list]
 
     # レーティング設定
     rating = 'safe'
@@ -176,14 +181,17 @@ def main(char_prompt, mode, list=GEN_LIST, seed=-1, batch_count=1):
     os.makedirs(root_folder, exist_ok=True)
 
     # 各プロンプトで画像を生成
-    for i, prompt in enumerate(prompts_to_generate):
+    for i, prompt in enumerate(tqdm(prompts_to_generate, desc=f"Gen: {char_prompt['name']}")):
 
-        if("r18, nsfw" in prompt):
+        # r18+ を先に判定（r18 より厳しい条件を先にチェック）
+        if "r18+, nsfw" in prompt:
+            rating = "r18+"
+        elif "r18, nsfw" in prompt:
             rating = "r18"
-        elif("r18+, nsfw" in prompt):
-            rating = "r18+"    
-        elif("yuri, nsfw," in prompt):
-            rating = "yuri"    
+        elif "yuri, nsfw," in prompt:
+            rating = "yuri"
+        else:
+            rating = "safe"
 
         if rating == 'safe':
             output_folder = root_folder
@@ -192,13 +200,13 @@ def main(char_prompt, mode, list=GEN_LIST, seed=-1, batch_count=1):
             output_folder = os.path.join(root_folder, rating)
             os.makedirs(output_folder, exist_ok=True)
 
-        print(f"Character: {char_prompt['name']} \nRating: {rating} \nStart generating...")
+        logger.info(f"Character: {char_prompt['name']} | Rating: {rating} | Start generating...")
 
         payload = set_payload(prompt, seed=seed, batch_count=batch_count)        
         img_list = generate_img(char_prompt, payload, output_folder, rating=rating)
 
         # slackへの送信処理
-        message = f"\n Mode : {mode}\ncharacter : {char_prompt['name']}\nTitle : {char_prompt['title']}\nBatch cnt : {batch_count}\nRating : {rating}"
+        message = f"\n Mode : {mode}\ncharacter : {char_prompt['name']} ({current_char_idx}/{total_char_count})\nTitle : {char_prompt['title']}\nBatch cnt : {batch_count}\nRating : {rating}"
         if mode == 'scenario':
             message += f"\n Seq : {i+1}/{len(prompts_to_generate)}"
 
@@ -206,7 +214,10 @@ def main(char_prompt, mode, list=GEN_LIST, seed=-1, batch_count=1):
         slack.send_slack_img(random.choice(img_list) , message)
 
         # immich メタ情報追加
-        imm.update_exif_info_to_postgres(output_folder)
+        try:
+            imm.update_exif_info_to_postgres(output_folder)
+        except Exception as e:
+            logger.error(f"Immich update failed: {e}")
 
         # notion データベースに追加
         notion.add_record(
@@ -223,32 +234,33 @@ def main(char_prompt, mode, list=GEN_LIST, seed=-1, batch_count=1):
         if rating == 'safe':
             stamp2.add_stamp(output_folder, RELEASE_FOLDER, STAMP_IMG)
 
-    print("--- All images generated! ---")
+    logger.info("--- All images generated! ---")
 
 
 #############################################################################################################
 def create_seq_prompts():
     seq_data = load_seq_data()
     if not seq_data or 'seq' not in seq_data or SCENARIO_NAME not in seq_data['seq']:
-        print(f"[Error] Scenario '{SCENARIO_NAME}' not found in {SEQ_FILE}.")
+        logger.error(f"Scenario '{SCENARIO_NAME}' not found in {SEQ_FILE}.")
         return []
 
     gen_seq_list = [item + POSITIVE + STYLE + ", r18+, nsfw," for item in seq_data['seq'][SCENARIO_NAME]]
     # 19桁の範囲を指定（10^18 ～ 10^19 - 1）
     seed = random.randint(10**18, 10**19 - 1)
-    print(f"Seed: {seed}")
+    logger.info(f"Seed: {seed}")
 
     return gen_seq_list, seed
 
 #############################################################################################################
 def create_prompt_from_keyword():
     # キーワード検索
+    keyword_prompt = []
     try:
-        if(isinstance(KEYWORD, str)):
+        if isinstance(KEYWORD, str):
             keyword_prompt = [item + POSITIVE + STYLE + ", r18+, nsfw," for item in search_yaml.search_yaml_in_folder('.', KEYWORD)]
-            print(f"Keyword search results: {len(gen_keyword_list)} items")
-    except:
-        pass
+            logger.info(f"Keyword search results: {len(keyword_prompt)} items")
+    except Exception as e:
+        logger.error(f"Keyword search failed: {e}")
 
     return keyword_prompt
 
@@ -279,9 +291,9 @@ if __name__ == '__main__':
     c_num = args.char_num
     mode = args.mode
 
-    print(f"Batch count >>> {b_cnt}")
-    print(f"Character number >>> {c_num} ")
-    print(f"Mode >>> {mode}")
+    logger.info(f"Batch count >>> {b_cnt}")
+    logger.info(f"Character number >>> {c_num} ")
+    logger.info(f"Mode >>> {mode}")
 
     # キャラリスト初期化
     selected_list = character.generate_list(mode, c_num)
@@ -291,25 +303,30 @@ if __name__ == '__main__':
         gen_keyword_list = create_prompt_from_keyword()
     elif mode == 'scenario':
         try:
-            if(isinstance(SCENARIO_NAME, str)):
+            if isinstance(SCENARIO_NAME, str):
                 # シナリオ指定
                 gen_seq_list, seed = create_seq_prompts()
-        except:
-            pass
+        except Exception as e:
+            logger.error(f"Scenario prompt creation failed: {e}")
 
-    for char_prompt in selected_list:
+    total_chars = len(selected_list)
+    for idx, char_prompt in enumerate(selected_list):
+        current_idx = idx + 1
         if mode == 'keyword search':
             # キーワード指定
-            main(char_prompt, mode, gen_keyword_list, batch_count=b_cnt)
+            main(char_prompt, mode, gen_list=gen_keyword_list, batch_count=b_cnt, current_char_idx=current_idx, total_char_count=total_chars)
         elif mode == 'scenario':
             # シナリオ指定
-            main(char_prompt, mode, gen_seq_list, seed, batch_count=b_cnt)
+            main(char_prompt, mode, gen_list=gen_seq_list, seed=seed, batch_count=b_cnt, current_char_idx=current_idx, total_char_count=total_chars)
         elif mode == 'yuri':
             # 百合モード
-            main(char_prompt, mode, list=[YURI], batch_count=b_cnt)
+            main(char_prompt, mode, gen_list=[YURI], batch_count=b_cnt, current_char_idx=current_idx, total_char_count=total_chars)
         else:
-            main(char_prompt, mode, batch_count=b_cnt)
+            main(char_prompt, mode, batch_count=b_cnt, current_char_idx=current_idx, total_char_count=total_chars)
 
     # immich ライブラリをスキャン
-    imm.scan_library(imm.LIBRARY_ID)
+    try:
+        imm.scan_library(imm.LIBRARY_ID)
+    except Exception as e:
+        logger.error(f"Immich library scan failed: {e}")
 # ======================

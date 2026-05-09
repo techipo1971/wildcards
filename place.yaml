@@ -1,4 +1,47 @@
 place:
+  china:
+    - |-
+      traditional Chinese street, old town alley, gray brick walls, curved roof tiles,
+      red lanterns hanging, wooden signboards with Chinese characters,
+      wet stone pavement after rain, reflections, warm lantern glow,
+      cinematic night street photography, volumetric fog, bokeh, high detail, 35mm
+
+    - |-
+      modern China city street, Shanghai-style skyline in the distance,
+      neon shop signs with Chinese characters, bustling pedestrians, street food stalls,
+      electric scooters passing by, light trails, rainy night, reflections on asphalt,
+      cyberpunk-lite, teal and magenta color grade, cinematic, ultra-detailed
+
+    - |-
+      Beijing hutong, narrow alley, courtyard gates, bicycles parked,
+      morning light, soft haze, steam from breakfast stalls,
+      candid documentary photography, natural colors, 50mm, shallow depth of field
+
+    - |-
+      Chongqing hillside city, layered roads and overpasses, dense buildings,
+      steep stairways, neon signs, misty evening, humid atmosphere,
+      dramatic perspective, wide angle, cinematic lighting, high contrast, film grain
+
+    - |-
+      Chinese water town (Jiangnan), canal street, stone bridges, white walls and black tiles,
+      red lantern reflections in water, small boats, dusk blue hour,
+      serene mood, long exposure feel, soft glow, ultra-detailed
+
+    - |-
+      Guangzhou street market, crowded alley, colorful umbrellas, hanging goods,
+      fluorescent lights + warm stall lights mixed, lively atmosphere,
+      street photography, crisp detail, realistic skin tones, 28mm wide lens
+
+    - |-
+      winter northern China street, light snow, bare trees, gray buildings,
+      warm shop interiors spilling light, people in coats, breath visible,
+      cinematic low-key lighting, soft snowfall, realistic, high detail
+
+    - |-
+      rural Chinese town main street, low-rise buildings, faded painted signs in Chinese,
+      late afternoon sun, dust in the air, quiet atmosphere,
+      nostalgic film look, muted colors, 35mm, subtle grain
+
   scifi:
     - |
       in the middle of a spaceport, fantasy, sci fi, bokeh,
@@ -99,3 +142,229 @@ place:
       - abandoned room, dust particles, godrays from window, decay, forgotten
       - coffee shop, rain outside window, warm light, jazz atmosphere, chill
       - dark bedroom, moonlight through window, insomnia, quiet
+
+  bedroom:
+    - |-
+      warm bedside lamp, soft shadows, shallow depth of field, bokeh,
+      messy bed sheets, pillow, headboard, nightstand, curtain, cozy bedroom,
+      50mm, f1.8, cinematic color grade, film grain
+
+    - |-
+      moonlight through window blinds, dust motes, dim room, cool color grade,
+      subtle rim light, high contrast, low-key lighting,
+      85mm portrait, shallow depth of field, realistic skin texture, fine grain
+
+    - |-
+      neon accent lights (purple/blue), moody cinematic lighting, glossy highlights,
+      smoke haze, volumetric light, reflective satin sheets,
+      dutch angle, 35mm, high detail, crisp focus
+
+    - |-
+      morning window light, soft haze, pastel grade, airy atmosphere,
+      linen sheets, light bloom, gentle shadows,
+      50mm, natural skin texture, subtle film look
+
+    - |-
+      hotel room, city lights bokeh outside window, night skyline,
+      warm interior light + cool exterior light mix, cinematic contrast,
+      70mm, shallow depth of field, high detail, film grain
+
+    - |-
+      couch scene, cozy living room, fairy lights, warm tones,
+      plush blanket, soft textures, intimate framing,
+      35mm, f2.0, natural vignette, filmic color grade
+
+    - |-
+      studio fashion editorial, clean backdrop, softbox key light + rim light,
+      controlled shadows, high-end look,
+      85mm, tack sharp, magazine photo, high detail
+      
+  kitchen:
+    - bright modern kitchen, white cabinets, marble countertop, morning light through window, soft shadows
+    - cozy small kitchen, warm tungsten light, hanging utensils, wooden countertop, kettle steam
+    - home kitchen, cooking in progress, cutting board, vegetables, apron, gentle smile, candid moment
+    - night kitchen, fridge light, dim ambient light, quiet mood, blue tone
+    - cafe-style open kitchen, bar counter, espresso machine, bokeh lights, cinematic lighting
+    - japanese kitchen, tiled wall, rice cooker, teapot, neat and clean, soft warm light
+    - messy kitchen after baking, flour dust in the air, mixing bowl, cookies on tray, playful mood
+    - rainy day kitchen, droplets on window, gray daylight, cozy atmosphere, hot drink
+
+  cafe:
+    - cozy cafe interior, window seat, latte art, warm ambient light, candid mood
+    - modern minimalist cafe, concrete walls, large glass windows, soft daylight, clean look
+    - vintage cafe, wooden tables, warm tungsten light, nostalgic atmosphere, film grain
+    - night cafe, neon sign reflections on window, moody lighting, city rain outside
+    - outdoor terrace cafe, greenery, sun flare, breezy, relaxed afternoon
+    - busy cafe, barista counter, espresso machine, bokeh lights, lively atmosphere
+    - quiet early morning cafe, empty tables, gentle morning light, calm mood
+    - book cafe, bookshelves, reading nook, soft shadows, cozy atmosphere
+
+  living_room:
+    - cozy living room, sofa, warm ambient light, soft shadows, calm mood
+    - modern living room, large window, morning light, minimal decor, clean look
+    - rainy day living room, window droplets, gray daylight, cozy atmosphere, blanket
+    - night living room, floor lamp, low key lighting, cinematic mood, bokeh
+
+  library:
+    - quiet library, tall bookshelves, warm tungsten light, soft shadows, calm mood
+    - modern library, wide aisle, daylight from skylight, clean atmosphere
+    - book cafe style library, reading nook, cozy lighting, gentle bokeh
+    - old library, wooden shelves, dust motes, cinematic light rays, nostalgic mood
+
+  office:
+    - office desk, monitor glow, evening mood, city lights outside window
+    - modern office, glass walls, daylight, clean lines, professional atmosphere
+    - late night office, desk lamp, papers, coffee cup, moody low key lighting
+
+  hotel_lobby:
+    - luxury hotel lobby, chandelier, marble floor, warm ambient light, elegant mood
+    - modern hotel lobby, large glass entrance, soft daylight, minimal design
+    - night hotel lobby, warm lighting, reflections, cinematic atmosphere
+
+  rooftop:
+    - rooftop, sunset sky, warm rim light, city skyline, gentle wind
+    - rooftop at blue hour, cool tone, city lights, cinematic mood
+    - rooftop night, neon glow, reflections, dramatic lighting
+
+  onsen:
+    - outdoor onsen, steaming hot spring, night sky, moonlight, drifting steam, wet skin, water surface reflections, stone pool, wooden fence, japanese garden, tranquil atmosphere
+    - open-air hot spring bath, thick steam, lantern light, misty air, wet hair, collarbone, partially submerged, looking to the side, calm expression, cinematic lighting
+    - onsen pool, warm vapor, night sky, stars, soft rim light, water droplets, towel on the edge, rock basin, cozy atmosphere, depth of field
+    - outdoor hot spring, morning mist, rising steam, soft diffused light, water ripples, serene mood, japanese countryside background
+    - night onsen, warm lantern glow, steam swirling, reflections on wet rocks, quiet mood, bokeh lights, atmospheric haze
+
+  garden:
+    - garden, flowers, soft daylight, bokeh, gentle breeze, fresh atmosphere
+    - garden path, morning light, soft shadows, calm mood
+    - evening garden, fairy lights, warm glow, dreamy atmosphere
+
+  park:
+    - park, bench, spring blossoms, soft daylight, calm mood
+    - park in autumn, colorful leaves, warm light, nostalgic atmosphere
+    - park after rain, wet ground reflections, overcast light, quiet mood
+
+  train_station:
+    - train station platform, travel mood, daylight, depth of field, candid moment
+    - night station, neon signs, reflections, cinematic lighting
+    - quiet early morning station, soft light, empty platform, calm atmosphere
+
+  arcade:
+    - arcade, neon lights, colorful bokeh, reflections, energetic atmosphere
+    - retro arcade, warm neon glow, film grain, nostalgic mood
+    - night arcade, high contrast lighting, glossy floor reflections, cinematic
+
+  festival:
+    - japanese festival night, lanterns, food stalls, warm glow, lively atmosphere
+    - summer festival, fireworks bokeh, warm rim light, cheerful mood
+    - festival street, colorful lights, crowd bokeh, candid moment
+
+  ancient-china-palace:
+    throne_hall:
+      - ancient chinese imperial palace throne hall, grand crimson pillars, golden dragon carvings, jade balustrades, ornate lacquered ceiling, ceremonial atmosphere, symmetrical composition
+      - vast audience hall, polished stone floor, incense smoke drifting, silk banners, gilded throne platform, majestic scale, quiet tension
+      - imperial throne room interior, dragon motif screens, carved wood panels, gold and vermilion palette, soft ambient glow, regal elegance
+    corridor_vermilion:
+      - vermilion palace corridor, repeating red columns, long perspective, patterned stone tiles, hanging lanterns, calm and solemn, cinematic depth
+      - covered walkway inside the palace, carved brackets and beams, warm lantern light, subtle haze, rhythmic shadows, elegant geometry
+      - palace corridor after rain, wet stone reflections, red walls and golden trims, quiet footsteps mood, atmospheric
+    courtyard_inner:
+      - inner palace courtyard, white marble terraces, red walls, golden roof edges seen through gate, morning mist, serene grandeur
+      - imperial courtyard, stone lion statues, jade ornaments, silk curtains fluttering, sunlight shafts, dignified and beautiful
+      - twilight courtyard, lanterns gradually lit, deep shadows, glowing warm highlights, poetic mood, refined luxury
+    garden_palace:
+      - palace garden, koi pond, rockery, pavilion with lacquered beams, willow trees, elegant calm, refined imperial taste
+      - imperial garden at golden hour, warm rim light, light through leaves, stone bridge, tranquil yet opulent
+      - night garden, lantern-lit paths, reflections on water, soft haze, cinematic atmosphere, quiet romance
+    library_archive:
+      - palace library interior, shelves of bamboo scrolls, carved wood lattice windows, dust motes in light rays, scholarly elegance, calm mood
+      - archive room, stacks of scrolls, ink stone and brushes, warm tungsten lantern light, quiet concentration, refined texture
+      - ceremonial study, silk curtains, lacquered desk, ornate screens, soft shadows, dignified atmosphere
+    royal_bedchamber:
+      - imperial bedchamber, embroidered silk canopy bed, gold accents, carved screens, soft warm light, luxurious and intimate
+      - palace chamber, layered silk drapes, incense burner, lacquered furniture, delicate glow, elegant richness
+      - moonlit chamber, window lattice shadows, cool tone with warm lantern highlights, tranquil, cinematic
+    gate_and_steps:
+      - inside the palace gate, massive wooden doors, gilded studs, stone steps, guards silhouettes, dramatic scale, high contrast lighting
+      - palace hall entrance, sunlight streaming through open doors, volumetric light rays, dust particles, majestic reveal
+      - grand stairway, marble railings, red and gold architecture, wide angle, epic composition
+    materials_detail:
+      - close-up, gilded dragon relief, intricate carving, glossy lacquer, exquisite craftsmanship, luxurious texture
+      - close-up, jade ornament, translucent sheen, refined detail, soft glow, premium look
+      - close-up, embroidered silk pattern, gold thread sparkle, rich colors, elegant texture, dazzling detail
+
+time_light:
+  - morning light, soft shadows
+  - golden hour, warm rim light
+  - blue hour, cool tone, city lights
+  - night, neon lights, reflections
+  - overcast, diffused light
+  - candle light, cozy atmosphere
+  - softbox lighting, studio look, clean shadows
+  - window light, backlight, dust particles, cinematic
+  - rim light, high contrast, dramatic mood
+  - volumetric light, light rays, atmospheric haze
+  - moody low key lighting, subtle highlights
+  - high key lighting, bright airy mood
+  - studio lighting, even light, professional setup
+  - outdoor natural light, soft shadows, realistic
+  - harsh sunlight, strong contrast, cinematic shadows
+  - cinematic lighting, dramatic shadows, depth
+  - soft studio lighting, gentle shadows, clean
+  - backlight, rim light, subject separation
+  - moody sidelight, atmosphere, mystery
+  - overhead lighting, top-down, flat look
+  - soft overhead light, even illumination
+  - ambient lighting, natural room light
+  - mixed lighting, warm and cool tones
+
+sunset:
+  - golden hour, vivid sunset, warm orange glow, magenta sky, red and purple clouds, sun near the horizon, sun rays, atmospheric haze, soft bloom, warm color grading, long shadows, rim light, cinematic lighting, bokeh, depth of field, photorealistic
+  - vivid sunset sky, orange to magenta gradient, dramatic cloudscape, crepuscular rays, atmospheric perspective, city skyline silhouette, distant buildings, heat haze, rooftop view, soft wind, neon signs turning on, reflective windows, cinematic lighting, filmic color grading, photorealistic
+  - fiery sunset, crimson sky, deep purple clouds, glowing cloud edges, high contrast sky, sun glare, lens flare, haze, silhouettes, golden rim light, dramatic cinematic lighting, shallow depth of field, photorealistic
+  - blue hour, afterglow sunset, pink and purple twilight sky, soft gradient, city lights, neon glow, wet rooftop reflections, cinematic lighting, bokeh, depth of field, photorealistic
+  - sunset over ocean, shimmering water reflections, orange and magenta sky, sun on horizon, glowing clouds, sea breeze, golden rim light, cinematic lighting, photorealistic
+
+blue-sky:
+  - clear blue sky, bright daylight, soft shadows, clean, photorealistic
+  - bright blue sky, few white clouds, soft sunlight, refreshing mood, photorealistic
+  - vibrant blue sky, deep azure, clear atmosphere, sharp details, photorealistic
+  - summer blue sky, high contrast, sun glare, blue sky with clouds, photorealistic
+  - early morning blue sky, soft warm tone, gentle clouds, calm atmosphere, photorealistic
+  - late afternoon blue sky, warm golden tint, soft clouds, cinematic lighting, photorealistic
+  - pure blue sky, no clouds, gradient from light to deep blue, crisp, photorealistic
+  - blue sky with dramatic clouds, epic cloudscape, rays of sun, high contrast, photorealistic
+  - evening blue sky, purple and pink hues, soft gradient, twilight atmosphere, photorealistic
+  - winter blue sky, cold tone, crisp air, clear atmosphere, photorealistic
+
+bubble-bath:
+  - bubble bath, thick foamy bubbles, warm steam, soft ambient light, glossy water surface, soap suds floating, cozy atmosphere, clean skin shine, cinematic lighting
+  - bubble bath, overflowing foam, playful bubbles, bath rim, wet hair, towel nearby, warm bathroom light, relaxing mood, depth of field
+  - bubble bath, lots of bubbles covering body, soft highlights on foam, gentle mist, close-up, intimate cozy mood, smooth gradients, bokeh
+  - bubble bath, foam piled high, candle light, warm glow, dreamy atmosphere, steam haze, quiet night, cinematic composition
+
+clinic:
+  - hospital exam room, white walls, fluorescent lighting, medical desk, rolling stool, clean clinical atmosphere, minimal decor
+  - clinic consultation room, doctor desk, computer monitor, medical chart, stethoscope on desk, bright white light, sterile mood
+  - examination room, examination bed, privacy curtain, medical instruments tray, hand sanitizer, soft shadows, realistic clinical detail
+  - small clinic room, cabinets with medical supplies, posters on wall, antiseptic cleanliness, quiet tense atmosphere
+  - hospital exam room, clipboard, paperwork, prescription pad, calm professional mood, clean composition, depth of field
+
+water_surface_sparkle:
+  - water surface, intense sparkling highlights, glittering reflections, sun glitter, shimmering ripples, specular highlights, high contrast, cinematic bokeh
+  - calm water, strong light reflection streaks, dazzling sparkles, shimmering caustics, gentle ripples, glossy surface, depth of field
+  - night water surface, moonlight glints, twinkling reflections, dark water, bright sparkles, low key lighting, dreamy atmosphere, bokeh
+  - close-up water surface, micro ripples, sparkling droplets, glittering caustics patterns, macro, ultra detailed, crisp highlights
+  - water surface reflections, scattered glitter points, lens flare, soft haze, cinematic lighting, high detail, shimmering texture
+
+casino:
+  - casino interior, slot machines, roulette table, poker chips, neon lights, glossy floor reflections, crowded atmosphere, colorful bokeh, cinematic lighting
+  - luxury casino hall, chandeliers, velvet carpet, gold accents, high contrast lighting, glittering decor, lively mood, depth of field
+  - casino floor, rows of slot machines, LED screens glow, flashing lights, smoky haze, dramatic lighting, vibrant colors, film grain
+  - poker room, green felt tables, stacks of chips, cards, dim warm light, focused atmosphere, moody cinematic shadows
+  - roulette wheel close-up, spinning ball, sparkling highlights, casino ambience, shallow depth of field, bokeh lights
+
+av-pool:
+  - |
+    poolside, rei no pool,
+    indoor swimming pool, dim ambient light, clear water surface, gentle ripples, underwater caustics, 
+    glossy wet tiles, soft reflections, subtle misty humidity, cinematic lighting, quiet atmosphere
