@@ -368,3 +368,145 @@ av-pool:
     poolside, rei no pool,
     indoor swimming pool, dim ambient light, clear water surface, gentle ripples, underwater caustics, 
     glossy wet tiles, soft reflections, subtle misty humidity, cinematic lighting, quiet atmosphere
+
+# 古代ローマ風
+roman_style:
+  forum_romanum:
+    - ancient rome, Roman Forum ruins, grand marble columns, travertine stone, arch fragments, latin inscriptions, laurel wreath motifs
+    - Roman Forum, basilica ruins, broken colonnade, marble steps, scattered statues, weathered stone, monumental scale
+    - forum plaza, triumphal columns, stone pavement, rubble, historic ruins, wide angle, epic composition
+  triumphal_arch:
+    - ancient rome, triumphal arch, massive stone archway, relief sculptures, roman eagles, carved friezes, monumental architecture
+    - triumphal arch, detailed stone reliefs, ceremonial road, banners, marble and travertine, grand perspective
+  roman_temple:
+    - ancient roman temple, corinthian columns, marble steps, pediment sculptures, altar, laurel garlands, bronze brazier
+    - temple courtyard, incense smoke drifting, gilded details, ceremonial atmosphere, symmetrical composition, monumental scale
+  baths_ruins:
+    - ancient roman baths ruins, gigantic arches, mosaic floor fragments, steam haze, wet stone reflections, monumental interior courtyard
+    - roman bath complex, vaulted ceilings, broken brick arches, marble fragments, humid atmosphere, atmospheric haze
+  roman_street:
+    - ancient rome, roman street, stone pavement, weathered walls, market stalls, amphorae, latin signs, authentic atmosphere
+    - cobblestone street, narrow alley, stucco and stone, hanging cloth awnings, dust in the air, historic mood
+  rooftop_overlook:
+    - ancient rome skyline, rooftops and domes, distant ruins, panoramic view, windy, cinematic atmosphere
+  amphitheater:
+    - ancient roman amphitheater exterior, massive arches, stone texture, monumental scale, wide angle, dramatic composition
+    - amphitheater interior, tiered stone seating, arena sand, towering walls, epic scale, atmospheric haze
+  aqueduct:
+    - roman aqueduct, repeating arches, massive stone structure, countryside backdrop, ancient engineering, long perspective
+    - aqueduct at distance, rolling hills, wind, dust, cinematic landscape
+  harbor_port:
+    - roman harbor, stone quay, ships, masts, amphora crates, sea breeze, mediterranean atmosphere
+  villa_atrium:
+    - roman villa atrium, marble columns, impluvium reflecting pool, mosaic floor, fresco walls, indoor-outdoor courtyard feel
+    - peristyle garden, colonnade, fountains, trimmed greenery, marble statues, elegant classical architecture
+
+time_light_ancient_rome:
+  - warm mediterranean sunlight, golden hour, warm rim light
+  - midday sun, hard shadows, high contrast, heat haze
+  - overcast, diffused light, soft shadows, muted stone tones
+  - blue hour, cool tone, long shadows, quiet monumental mood
+  - night, torches, warm firelight, deep shadows, smoke, cinematic lighting
+  - volumetric light rays, atmospheric haze, dust motes
+
+atmosphere_materials_roman:
+  materials:
+    - travertine, tufa stone, marble, terracotta, weathered stone, cracked plaster
+    - latin inscriptions, roman reliefs, carved friezes, laurel wreath motifs
+    - bronze brazier, incense smoke, aged patina, stone dust
+  symbols_props:
+    - SPQR banner, roman eagle, legion standards, laurel garlands
+    - amphorae, stone statues, broken columns, rubble
+  air_fx:
+    - wind, fluttering banners, dust motes, sand dust, atmospheric haze, smoke  
+
+training_gym:
+  free_weights:
+    - training gym, free weight area, squat rack, bench press, dumbbell rack, barbell plates, rubber flooring, chalk dust, industrial interior
+    - gym free weights, mirrors, steel frames, weightlifting platform, gritty atmosphere, realistic lighting
+  cardio_zone:
+    - modern gym, cardio zone, treadmills, stationary bikes, LED panels, clean interior, bright lighting, reflective floor
+    - cardio machines row, large windows, daylight, airy atmosphere, minimal design
+  crossfit_box:
+    - crossfit gym, rig, pull-up bar, battle ropes, plyo boxes, kettlebells, warehouse space, concrete walls, raw industrial vibe
+    - functional training area, medicine balls, agility ladder, tire flips, intense atmosphere
+  empty_after_hours:
+    - empty gym after hours, dim ambient light, monitor glow, quiet atmosphere, cinematic shadows, reflections on rubber floor
+  locker_room:
+    - gym locker room, rows of lockers, benches, tiled floor, warm fluorescent lighting, clean and organized
+    - locker room showers, steam haze, wet tiles, realistic detail
+  details_props:
+    - protein shaker bottles, towels, resistance bands, lifting straps, jump rope, water bottle, gym bag, motivational posters
+
+time_light_gym:
+  - bright fluorescent lighting, clean shadows, high clarity
+  - softbox lighting, studio look, crisp highlights
+  - morning light through large windows, dust motes, calm mood
+  - night gym, low key lighting, neon accent lights, moody atmosphere
+  - high contrast lighting, dramatic shadows, cinematic
+
+# ボクシング
+boxing:
+  boxing_gym:
+    - boxing gym, boxing ring, hanging heavy bags, speed bag platform, jump ropes, worn canvas, sweat haze, gritty atmosphere
+    - old-school boxing gym, peeling paint, brick walls, vintage posters, fluorescent lights, chalk dust, cinematic
+    - modern boxing gym, clean mats, bright lighting, mirrored walls, organized equipment, high clarity,
+  ring_arena:
+    - boxing ring, corner stool, ropes, turnbuckles, spotlights, dramatic shadows, haze in the air, cinematic lighting
+    - arena ring, crowd silhouettes, stadium lights, bokeh highlights, intense atmosphere, high contrast
+  training_zone:
+    - heavy bag row, chains, leather gloves on hooks, wraps, kettlebells, medicine balls, rubber flooring, industrial interior
+    - focus mitts training area, cones, agility ladder, sweat on floor, raw energy
+  locker_backstage:
+    - locker room, benches, open lockers, towels, tape, water bottles, warm fluorescent lighting, quiet tension
+    - backstage corridor to the ring, concrete hallway, harsh overhead lights, cinematic mood
+  details_props:
+    - boxing gloves, hand wraps, mouthguard case, punching bag, speed bag, double-end bag, ring bell, towel, vaseline tin
+    - scuffed mat, sweat droplets, chalk marks, rosin, tape on floor
+
+time_light_boxing:
+  - harsh fluorescent lighting, gritty realism, hard shadows
+  - spotlight, dramatic rim light, high contrast, cinematic shadows
+  - low key lighting, moody atmosphere, smoky haze
+  - warm tungsten light, vintage gym vibe, film grain
+  - cool tone, blue hour mood, quiet gym after hours
+
+sound_motion_fx_boxing:
+  - dust motes, sweat haze, motion blur, dynamic energy, impact vibration, subtle camera shake feel
+  - floating chalk dust, atmosphere haze, bokeh highlights
+
+#牧場
+ranch_farm:
+  pasture:
+    - ranch, open pasture, rolling green hills, wooden fences, grazing cattle, big sky, soft daylight, peaceful atmosphere
+    - countryside pasture, tall grass swaying in the wind, scattered wildflowers, distant barn, calm rural mood
+  barn_stable:
+    - rustic barn, red wooden siding, weathered boards, hay bales, stable interior, warm sunlight shafts, dust motes, cozy atmosphere
+    - horse stable aisle, stall doors, straw bedding, leather tack on hooks, warm tungsten light, earthy tones
+  corral_gate:
+    - ranch corral, wooden gate, dirt ground, hoof prints, ranch tools, water trough, rugged country vibe
+    - fenced paddock, morning mist, soft backlight, quiet rural scene
+  feed_hay:
+    - hayloft, stacked hay bales, pitchfork, dusty air, warm golden light, rustic texture
+    - feed storage, grain sacks, barn lantern light, utilitarian farm mood
+  ranch_house_yard:
+    - ranch house yard, porch, rocking chair, windmill, pickup truck, gravel driveway, sunlit dust, rural calm
+    - farmhouse exterior, vegetable garden, clothesline, late afternoon light, nostalgic atmosphere
+  windmill_water_tank:
+    - ranch windmill, water tank, dry grass, wide landscape, sun glare, heat haze, western mood
+    - windmill silhouette at sunset, long shadows, dramatic sky, cinematic
+  dirt_road:
+    - ranch dirt road, fence line, tire tracks, dust cloud, golden hour, warm rim light, cinematic countryside
+    - gravel road after rain, puddle reflections, overcast sky, quiet mood
+
+time_light_ranch:
+  - sunrise, morning mist, soft backlight, gentle shadows
+  - midday sun, hard shadows, clear sky, dry air
+  - golden hour, warm rim light, sun flare, dust motes
+  - overcast, diffused light, soft tones, calm atmosphere
+  - blue hour, cool tone, quiet countryside mood
+  - night, lantern light, warm glow, starry sky, low key lighting
+
+atmosphere_fx_ranch:
+  - wind, tall grass swaying, dust motes, sun glitter, heat haze
+  - light fog, morning dew, soft haze, cinematic depth

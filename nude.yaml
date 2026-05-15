@@ -70,7 +70,7 @@ nude:
       __facial/embarrassed__,
       wearing black sweatpants with red stripes, her hands in pockets, 
       casually posing with minimal clothing exposure under soft ambient light. the grey sports bra is lifted, 
-      her breats are exposed, nipples, depth of field, dynamic pose, depth of field, 
+      her breasts are exposed, nipples, depth of field, dynamic pose, depth of field, 
       dynamic angle, dutch angle, sexy mood, :o
 
     - |
@@ -100,17 +100,16 @@ nude:
       pool,outdoors, summer,
       BREAK competition swimsuit,
 
-
     t-shirt:
-    - |
-      t-shirt lift by self, bra lift, breast out, nipples, head tilt, 
-      __facial/embarrassed__ 
-      hand up, upper body, dutch angle, breast apart, 
+      - |
+        t-shirt lift by self, bra lift, breast out, nipples, head tilt, 
+        __facial/embarrassed__ 
+        hand up, upper body, dutch angle, breast apart, 
 
     halloween:
-    - |
-      halloween, ghost costume, naked, panties, nipples, head tilt, :o, bat print panties, 
-      tattoo on stomach, glowing tattoo, ghost, {|against glass,}
+      - |
+        halloween, ghost costume, naked, panties, nipples, head tilt, :o, bat print panties, 
+        tattoo on stomach, glowing tattoo, ghost, {|against glass,}
         
     on-bed:
     - |
@@ -154,7 +153,7 @@ nude:
     
     - |
       __sexual-or-embarrassed__,
-      {v arms,nipples,|covering breasts {|,crossed arms}|arms up, nipples,|breast lift, nipples,}},
+      {v arms,nipples,|covering breasts {|,crossed arms}|arms up, nipples,|breast lift, nipples,},
       wariza, completely nude,  on bed, 
 
     - |
@@ -396,15 +395,21 @@ nude:
         busty, curvy, nipples, smile, blush, 
         {tank top|crop top|sweater|t-shirt},
         {denim shorts|jeans|skirt},
-        sexy, pillow, sheets, 
-        magazines, undressing, pink curtains, window, narrow waist, dynamic angle, depth of field, 
-        detailed, arms up, crossed arms, low rise denim, 
+        magazines, undressing, narrow waist, dynamic angle, depth of field, 
+        detailed, arms up, crossed arms, low rise denim, unbuttoned, visible panties, 
+        __place/bedroom__
 
       - |
         visible nipples, striped panties,  low light, dutch angle, closeup, soft lighting,  posing, undressing, night, 
         dark room, crossed arms, arms up, embarrassed, blush, 
 
       - off shoulder, white sweater down, nipples, panties, m legs, head tilt, light smile, open mouth, w arms, on back, 
+
+      - |
+        undressing, crossed arms, crop top lift, sports bra lift,nipples, 
+        looking down, upper body, sweat, steaming body,  spoken exclamation mark, 
+        surprised, :o, embarrassed, 
+        locker room, 
 
     guided-grab:
     - |
@@ -493,7 +498,7 @@ nude:
       m legs, w arms, embarrassed, blush, breasts apart, 
 
     - |
-      on back, heart pasties, pink pasties, naked, covered covering crotch, m legs, 
+      on back, heart pasties, pink pasties, naked, covering crotch, m legs, 
       arms up, embarrassed, blush, breasts apart, underboob, moaning, open mouth, wet,
 
     cross:
@@ -522,7 +527,7 @@ nude:
 
     cyber:
     - |
-      perky breasts, massive breasts, small waist, soft thighs, wet, grooling,
+      perky breasts, massive breasts, small waist, soft thighs, wet, drooling,
       skin pressed, naughty face, black leotard, lace sleeves, thighhighs, 
       very awa, tilted angle, face focus, high angle, side view,
       peeking, heart-shaped pasties, knees_up, hand_on_thigh,
@@ -1289,7 +1294,7 @@ nude:
   # ストリッパー
   stripper:
   - |
-    shiny skin, shiny clothes, Detailed face, 1pole dancing, dark background, 
+    shiny skin, shiny clothes, Detailed face, pole dancing, dark background, 
     poledancing, pole dancing, stripper pole, holding, spread legs, crotch rub, 
     pole grind, dutch angle, detailed skin, sensual pose, realistic skin texture, 
     sharp focus, detailed face, soft natural light, vibrant colors, captivating composition, 
@@ -1418,7 +1423,7 @@ nude:
   milking:
   - |
     cowboy shot, living room, nipples sucking disk vacuum, full-face blush, bare breasts, 
-    nipples, areola, projectile\ (lactation\), drop drip, milker; milking machine
+    nipples, areola, projectile\ (lactation\), drop drip, milker, milking machine
 
   wedding:
   - |
@@ -1455,7 +1460,7 @@ nude:
   - |
     cinematic light,goddess, elite, rich bitch, gorgeous, MILF, elegant, slim, slim waist, perfect body, fit body, thin body,
     makeup, glowing arm tattoo, nude, sexy tight-highs, high heels, perfect posture, proud posture, sexy, seductive, 
-    , pumpkin_paint_thd, body_paint, painted pumpkin, lewd pumpkin, naughty pumpkin,
+    pumpkin_paint_thd, body_paint, painted pumpkin, lewd pumpkin, naughty pumpkin,
     pumpkin ass, huge butt, huge pumpkin paint, Halloween slut, accenting butt, presenting butt, squatting,
     outside, home backside, date, night, Halloween, Halloween party, 
     detailed background, from behind, <lora:Pumpkin Body Paint - Concept (Halloween Costume) - Illustrious:0.6>
@@ -1507,7 +1512,7 @@ nude:
 
   succubus:
   - |
-    demon girl, curled horns, demon wings, demon tail, black choker, thighhighs, nipples, naughty face, public tattoo, gloves, 
+    demon girl, curled horns, demon wings, demon tail, black choker, thighhighs, nipples, naughty face, pubic tattoo, gloves, 
     spoken heart, steaming body, purple theme, dark background, cupless bra, sexy pose, dutch angle, glowing tattoo,
 
   #ビッチ
@@ -1736,13 +1741,21 @@ nude:
       - |
         classic school gym uniform, buruma, wedgie,  
         squatting, ass, ass focus, close-up, from behind, from above, looking back, naughty face, blush, 
-        sports articles, hands on ass,
+        sports articles, hands on ass
     
-  topless-babydoll:
-    - |
-      kneeling, arms behind head, naughty face,  looking down,
-      babydoll,  see-through clothes,  bottomless, legs apart, breast out, nipples,  topless,
-      bed, ceiling light, window, curtains, stand light,
+    # 体育倉庫
+    gym-storeroom:
+      - |
+        gym uniform lift, topless, buruma pull, bottomless,
+        yokozuwari,  hands up, glasses ,
+        embarrassed, smile, blush,
+        gym storeroom,     
+
+    topless-babydoll:
+      - |
+        kneeling, arms behind head, naughty face,  looking down,
+        babydoll,  see-through clothes,  bottomless, legs apart, breast out, nipples,  topless,
+        bed, ceiling light, window, curtains, stand light,
 
   rei-no-pool:
     - |
@@ -1776,9 +1789,16 @@ nude:
   mesugaki:
     - |
       standing, cowboy shot, classroom,
-      mesugaki,  nipples, light smile,  blush,  spoken heart, 
+      dark-skinned female, mesugaki,  nipples, light smile,  blush,  spoken heart, 
       BREAK light beige cardigan, buttoned cardigan,
       black pantyhose, nude, pulling  pantyhose, bottomless, 
+
+    - |
+      school gym uniform, buruma, shirt lift, nipples, choker, earrings, 
+      hand on own chest, lifting shirt,another hand tucking hair, bra lift,
+      dark-skinned female, grin, mesugaki, 
+      outdoors, school, tree, 
+      
   
   #スクール水着
   school-swimsuit:
@@ -1813,3 +1833,18 @@ nude:
       wet clothes,
       (white transparent g-string:1.3),
       BREAK pink tile wall,steam, sliding door, glass door,
+  
+  # 膝抱え込み
+  hugging-legs:
+    - |
+      hugging own legs, lying on side, nude,
+      sad, embarrassed, 
+      __place/bedroom__
+  
+  # バスローブ（ホテル）
+  bathrobe-hotel:
+    - |
+      white  bathrobe, open bathrobe, untied bathrobe, nipples, lying on bed,  on back, from above, hands up,  
+      thighs, midriff, crotch,
+      embarrassed, looking at another, blush,
+      night, hotel room, 

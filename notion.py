@@ -34,7 +34,6 @@ headers = {
 # Notionクライアントを初期化
 client = Client(auth=notion_token)
 
-
 #############################################################################################################
 def to_rich_text(text: str):
     if not text:
@@ -346,34 +345,23 @@ def add_record(character, date, title, url, batch_cnt, mode_list=MODE, rating_li
             }
         )
 
-        print(f"✅ レコード追加成功: {new_page['id']}")
+        print(f"✅ Notion record added successfully: {new_page['id']}")
 
     except Exception as e:
-        print(f"❌ エラーが発生しました: {e}")
+        print(f"❌ Notion record add failed: {e}")
 
 
 #############################################################################################################
 def check_keyword_in_character(keyword: str):
-    # データベースをクエリ（全件取得）
-    pages = get_all_notion_pages(NOTION_DATABASE_ID)
-    print(f"🔍 Generate Log -> {len(pages)}  records")
-
+    
     found = False
-    for page in pages:
-        # character プロパティを取得
-        character_property = page["properties"].get("character", {})
-        title_items = character_property.get("title", [])
-
-        if not title_items:
-            continue
-
-        # plain_text を結合して文字列化
-        character_name = "".join([t["plain_text"] for t in title_items])
+    for character_name in NOTION_CHAR_LIST:
 
         #完全一致で比較
         if keyword.lower() == character_name.lower():
             print(f"❌ キーワード '{keyword}' と一致するデータが見つかりました: {character_name}")
             found = True
+            break
 
     if not found:
         print(f"✅ キーワード '{keyword}' と一致するデータは見つかりませんでした")
@@ -388,6 +376,7 @@ def get_all_notion_pages(database_id: str):
     has_more = True
     next_cursor = None
 
+    print(f"📦Notion Character DB 取得中...")
     while has_more:
         # クエリパラメータを組み立て
         query_params = {"database_id": database_id}
@@ -400,10 +389,25 @@ def get_all_notion_pages(database_id: str):
         all_results.extend(response["results"])
         has_more = response.get("has_more", False)
         next_cursor = response.get("next_cursor")
+    
+    print(f"📦Notion DB {len(all_results)} 件 取得完了...")
 
-        # print(f"📦 {len(all_results)} 件 取得完了...")
+    character_list = []
+    for page in all_results:
+        # character プロパティを取得
+        character_property = page["properties"].get("character", {})
+        title_items = character_property.get("title", [])
+        if not title_items:
+            continue
 
-    return all_results
+        # plain_text を結合して文字列化
+        character_name = "".join([t["plain_text"] for t in title_items])
+        character_list.append(character_name)
+
+    return character_list
+
+# Load時に全キャラをNotionから取得
+NOTION_CHAR_LIST = get_all_notion_pages(NOTION_DATABASE_ID)
 
 #############################################################################################################
 if __name__ == '__main__':
@@ -414,4 +418,5 @@ if __name__ == '__main__':
     # update_Generate_DB()
     # print("✅ Done!")
 
-    update_char_db()
+    # update_char_db()
+    print(check_keyword_in_character('toudou erika'))

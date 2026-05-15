@@ -175,7 +175,13 @@ azur-lane:
       ${trg:august von parseval \(azur lane\), azur lane,}
       curled horns,
       ${breast:large breasts,}
-
+  azuma:
+    name: azuma
+    prompt:
+    - |
+      ${trg:azuma \(azur lane\), azur lane,}
+      black hair,
+      ${breast:large breasts,}
   belfast:
     name: belfast
     prompt:
@@ -721,7 +727,12 @@ blue-archive:
     - |
       ${trg:airi \(blue archive\), blue archive,}
       ${breast:large breasts,}
-
+  akane:
+    name: murokasa akane
+    prompt:
+    - |
+      ${trg:akane \(blue archive\), blue archive,}
+      ${breast:large breasts,}
   akari:  
     name: wanibuchi akari
     prompt:
@@ -2908,6 +2919,51 @@ gotobun:
       ${breast:large breasts,}
 
 ######################################################################################
+granblue-fantasy:
+# https://granbluefantasy.jp/
+# グランブルーファンタジー
+  alicia:
+    name: alicia
+    prompt:
+    - |
+      ${trg:alicia \(granblue fantasy\), granblue fantasy,}
+      ${breast:large breasts,}
+
+  charlotte-gb:
+    name: charlotte
+    prompt:
+    - |
+      ${trg:charlotta \(granblue fantasy\), granblue fantasy,}
+      ${hair-length:long hair,}
+      pointy ears,
+      ${breast:large breasts,}  
+
+  jeanne-gb:
+    name: jeanne d'arc 
+    prompt:
+    - |
+      ${trg:jeanne d'arc \(granblue fantasy\), granblue fantasy,}
+      ${hair-clr:multicolored hair,blonde hair, silver hair,}
+      ${hair-length:long hair,}
+      ${breast:large breasts,}
+  
+  beatrix-gb:
+    name: beatrix
+    prompt:
+    - |
+      ${trg:beatrix \(granblue fantasy\), granblue fantasy,}
+      ${hair-clr:brown hair,}
+      ${hair-length:long hair,}
+      ${breast:large breasts,}
+  
+  djeeta-gb:
+    name: djeeta  
+    prompt:
+    - |
+      ${trg:djeeta \(granblue fantasy\), , granblue fantasy,}
+      ${breast:large breasts,}
+
+######################################################################################
 gundam00:
   sumeragi:
     name: sumeragi lee noriega
@@ -3036,7 +3092,6 @@ gundam-hathaway:
       blonde hair,
       ${breast:large breasts,}
 
-
 ######################################################################################
 gundam-zz:
   elle:
@@ -3080,50 +3135,14 @@ gundam-zz:
       ${breast:large breasts,}
 
 ######################################################################################
-granblue-fantasy:
-# https://granbluefantasy.jp/
-# グランブルーファンタジー
-  alicia:
-    name: alicia
+gurren-lagann:
+  yoko:
+    name: yoko littner
     prompt:
-    - |
-      ${trg:alicia \(granblue fantasy\), granblue fantasy,}
+    - |      
+      ${trg:yoko littner, tengen toppa gurren lagann,}
+      red hair,
       ${breast:large breasts,}
-
-  charlotte-gb:
-    name: charlotte
-    prompt:
-    - |
-      ${trg:charlotta \(granblue fantasy\), granblue fantasy,}
-      ${hair-length:long hair,}
-      pointy ears,
-      ${breast:large breasts,}  
-
-  jeanne-gb:
-    name: jeanne d'arc 
-    prompt:
-    - |
-      ${trg:jeanne d'arc \(granblue fantasy\), granblue fantasy,}
-      ${hair-clr:multicolored hair,blonde hair, silver hair,}
-      ${hair-length:long hair,}
-      ${breast:large breasts,}
-  
-  beatrix-gb:
-    name: beatrix
-    prompt:
-    - |
-      ${trg:beatrix \(granblue fantasy\), granblue fantasy,}
-      ${hair-clr:brown hair,}
-      ${hair-length:long hair,}
-      ${breast:large breasts,}
-  
-  djeeta-gb:
-    name: djeeta  
-    prompt:
-    - |
-      ${trg:djeeta \(granblue fantasy\), , granblue fantasy,}
-      ${breast:large breasts,}
-
 ######################################################################################
 # 僕は友達が少ない
 haganai:
@@ -3261,7 +3280,15 @@ hibike!-euphonium:
     - |
       ${trg:yoshikawa yuuko, hibike! euphonium,}
       ${breast:large breasts,}
-
+######################################################################################
+himawari-wa-yoru-ni-saku:
+  hisato:
+    name: azuma hisato
+    prompt:
+    - |
+      ${trg:<lora:Azuma_Hisato_Himawari_wa_Yoru_ni_Saku:1> azumahasato,}
+      brown hair,plump, narrow waist, 
+      ${breast:large breasts,}
 ######################################################################################
 hololive:
 # https://hololive.hololivepro.com/
@@ -4383,6 +4410,14 @@ keion:
 ######################################################################################
 keroro-gunso:
 # ケロロ軍曹
+  aki:
+    name: hinata aki
+    prompt:
+    - |
+      ${trg:hinata aki, keroro gunsou, }
+      dark blue hair,
+      ${breast:large breasts,}
+
   alisa:
     name: alisa southerncross
     prompt:
@@ -4392,6 +4427,20 @@ keroro-gunso:
       ${hair-length:long hair,}
       ${breast:large breasts,}
 
+  mois: 
+    name: mois
+    prompt:
+    - |
+      ${trg:angol mois, keroro gunsou, }
+      blonde hair, 
+      ${breast:large breasts,}
+  natsumi:
+    name: hinata natsumi
+    prompt:
+    - |
+      ${trg:hinata natsumi, keroro gunsou, }
+      pink hair,
+      ${breast:large breasts,}
 ######################################################################################
 kimetsu:
 # https://kimetsu.com/
@@ -4503,6 +4552,16 @@ kisekoi:
       ${trg:kuroe shizuku \(cosplay\), sono bisque doll wa koi wo suru, } 
       purple hair, medium hair,
       tareme,
+      ${breast:large breasts,}
+######################################################################################
+kochikame:
+# コチラ葛飾区亀有公園前派出所
+  reiko:
+    name: reiko
+    prompt:
+    - |
+      ${trg:akimoto katherine reiko, kochikame,}
+      blonde hair, long hair,
       ${breast:large breasts,}
 ######################################################################################
 kokorone:
@@ -4843,6 +4902,37 @@ love-plus:
     - |
       ${trg:<lora:Nene_Anegasaki_-_Love_Plus:0.8> loplnean, brown hair,}
       {short|long} hair, mole under right eye, brown eyes,
+      ${breast:large breasts,}
+######################################################################################
+lucky-star:
+# らきすた
+  konata:
+    name: izumi konata 
+    prompt:
+    - |
+      ${trg:konata izumi, lucky star,}
+      blue hair, 
+      ${breast:large breasts,}
+  kagami:
+    name: hiiragi kagami 
+    prompt:
+    - |
+      ${trg:hiiragi kagami, lucky star, }
+      purple hair, twin tails,
+      ${breast:large breasts,}
+  miyuki:
+    name: takara miyuki
+    prompt:
+    - |
+      ${trg:takara miyuki, lucky star,}
+      pink hair, glasses,
+      ${breast:large breasts,}
+  tsukasa:
+    name: hiiragi tsukasa 
+    prompt:
+    - |
+      ${trg:hiiragi tsukasa, lucky star,}
+      purple hair, yellow hair ribbon,
       ${breast:large breasts,}
 ######################################################################################
 lv2-cheat:
@@ -5581,7 +5671,13 @@ persona3:
     - |
       ${trg:yamagishi fuuka, persona 3,}
       ${breast:large breasts,}
-
+  makoto:
+    name: yuuki makoto 
+    prompt:
+    - |
+      ${trg:yuuki makoto \(persona 3\), persona 3,}
+      dark blue hair,
+      ${breast:large breasts,}
 ######################################################################################
 persona4:
 # ペルソナ4
@@ -5704,6 +5800,13 @@ princess-lover:
 project-sekai:
 # https://pjsekai.sega.jp/
 # プロジェクトセカイ カラフルステージ! feat. 初音ミク
+  airi:
+    name: momoi airi
+    prompt:
+    - |
+      ${trg:momoi airi, project sekai,}
+      pink hair,
+      ${breast:large breasts,} 
   ena:
     name: ena shinonome
     prompt:
@@ -5731,14 +5834,33 @@ project-sekai:
     - |
       ${trg:hoshino ichika \(project sekai\), project sekai,}
       ${breast:large breasts,}
-  
+  kanade:
+    name: yoisaki kanade 
+    prompt:
+    - |
+      ${trg:yoiyoisaki kanade, project sekai,}
+      silver hair, 
+      ${breast:large breasts,}
+  mafuyu:
+    name: asahina mafuyu
+    prompt:
+    - |
+      ${trg:asahina mafuyu, project sekai,}
+      purple hair, 
+      ${breast:large breasts,}
   minori:
     name: minori hanasato
     prompt:
     - |
       ${trg:hanasato minori, project sekai,}
       ${breast:large breasts,}  
-
+  nene:
+    name: kusanagi nene 
+    prompt:
+    - |
+      ${trg:kusanagi nene, project sekai,}
+      light green hair,
+      ${breast:large breasts,}  
   saki:
     name: tenma saki 
     prompt:
@@ -5746,7 +5868,14 @@ project-sekai:
       ${trg:tenma saki, project sekai,}
       multicolored hair, blonde hair, pink hair, 
       ${breast:large breasts,}
-
+  
+  shiho:
+    name: shiho hinomori 
+    prompt:
+    - |
+      ${trg: <lora:Shiho_Hinomori_Release:1> shiho hinomori, project sekai,}
+      grey hair, short hair,
+      ${breast:large breasts,}
   shizuku:
     name: haruka kiritani 
     prompt:
@@ -5760,6 +5889,13 @@ queen's-blade:
 # https://queensblade.net/
 # クイーンズブレイド
 
+  cattleya:
+    name: cattleya
+    prompt:
+    - |
+      ${trg:cattleya \(queen's blade\), queen's blade,}
+      dark purple hair,
+      ${breast:large breasts,}
   elina:
     name: elina
     prompt:
@@ -5992,7 +6128,13 @@ rezero:
       ${trg:rem \(re:zero\), re:zero kara hajimeru isekai seikatsu,}
       blue hair, hair over one eye
       ${breast:large breasts,}
-
+  shaula:
+    name: shaula
+    prompt:
+    - |
+      ${trg:shaula \(re:zero\),  re:zero kara hajimeru isekai seikatsu,}
+      brown hair, 
+      ${breast:large breasts,}
 ######################################################################################
 roshidere:
 # https://roshidere.com/
@@ -7656,7 +7798,8 @@ vtuber:
     - |
       ${trg:nekota tsuna, virtual youtuber,}
       ${breast:large breasts,}  
-
+  
+  # しぐれうい
   ui:
     name: ui shigure
     prompt:
@@ -7664,6 +7807,7 @@ vtuber:
       ${trg:shigure ui \(vtuber\), virtual youtuber,}
       ${breast:large breasts,}
 
+  # 神成きゅーぴぃ
   qpi:
     name: kaminari qpi
     prompt:
@@ -7671,6 +7815,7 @@ vtuber:
       ${trg:kaminari qpi, virtual youtuber,}
       ${breast:large breasts,}
 
+  # 椎名唯華
   yuika:
     name: shiina yuika
     prompt:

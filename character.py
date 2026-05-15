@@ -4,13 +4,13 @@ import random  # ランダム選択のために追加
 import notion
 import itertools
 from typing import Dict, Any
+import nas_env as nas   #環境情報
 
 # chara.yaml のパス（スクリプトと同じディレクトリから取得）
 YAML_PATH = os.path.join(os.path.dirname(__file__), "chara.yaml")
 
 ### ピックアップ
 PICKUP = ['toudou erika']
-
 
 #############################################################################################################
 def load_yaml(path: str):
@@ -101,11 +101,17 @@ def load_yaml_with_titles(yaml_path: str) -> Dict[str, Dict[str, Any]]:
     return result
 
 #############################################################################################################
-def select_random_character(all_characters):
+def select_random_character(all_characters, check_notion:bool=True):
     if not all_characters:
         print(f"[Error] No character entries with 'name' and 'prompt' found in {YAML_PATH}.")
         return
     
+    # check_notion=True で Notion データベースをチェック
+    # check_notion=False で 全キャラからランダムに抽出
+    if not check_notion:
+        selected_character = random.choice(all_characters)
+        return selected_character
+
     while True:  
         selected_character = random.choice(all_characters)
         # notionデータベースをチェック
@@ -135,8 +141,8 @@ def generate_list(mode, c_num):
     elif mode == 'yuri':
         selected_list = []
         for i in range(int(c_num)):
-            char_1st = select_random_character(ALL_CHARACTERS) 
-            char_2nd = select_random_character(ALL_CHARACTERS) 
+            char_1st = select_random_character(ALL_CHARACTERS, False) 
+            char_2nd = select_random_character(ALL_CHARACTERS, False) 
             selected_list.append({'name': f"{char_1st['name']}_and_{char_2nd['name']}", 'prompt': f"{char_1st['prompt']}, {char_2nd['prompt']}", 'title': f"{char_1st['title']}_and_{char_2nd['title']}"})  
     else:
         # 指定キャラ数分　ランダム抽出で繰り返し
@@ -151,6 +157,6 @@ ALL_CHARACTERS = load_all_characters()
 #############################################################################################################
 if __name__ == '__main__':
 
-    selected_characters = select_random_character(ALL_CHARACTERS)
+    selected = select_random_character(ALL_CHARACTERS)
 
-    print(ALL_CHARACTERS)
+    print(selected['prompt'])
