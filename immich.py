@@ -5,16 +5,17 @@ import subprocess
 import psycopg2
 import pandas as pd
 from PIL import Image
-import nas_env as nas   #環境情報
+import nas_env   #環境情報
 import time
 from datetime import datetime
 
 #############################################################################################################
 # Immich の認証情報を環境変数から取得
-IMMICH_URL = nas.immich_params["immich_url"]
-LIBRARY_ID = nas.immich_params["immich_library_id"]
-IMMICH_TOKEN = nas.immich_params["immich_token"]
-immich_access_token = nas.immich_params["immich_access_token"]
+immich_params = nas_env.get_immich_params()
+IMMICH_URL = immich_params["immich_url"]
+LIBRARY_ID = immich_params["immich_library_id"]
+IMMICH_TOKEN = immich_params["immich_token"]
+immich_access_token = immich_params["immich_access_token"]
 
 headers = {
     "x-api-key": IMMICH_TOKEN,  # ← Authorization ではなくこちら！
@@ -92,14 +93,8 @@ def delete_tag(tag_id: str):
 
 #############################################################################################################
 def connect_db():
-    conn = psycopg2.connect(
-        dbname="immich",
-        user="postgres",
-        password="postgres",
-        host="192.168.68.100",
-        port=15432
-    )
-
+    db_params = nas_env.get_db_params()
+    conn = psycopg2.connect(**db_params)
     return conn
 
 #############################################################################################################
@@ -132,9 +127,21 @@ def fetch_immich_data():
     return df
 
 #############################################################################################################
+def normalize_rating_to_int(rating) -> int | None:
+    if rating is None:
+        return None
+    r = str(rating).strip().lower()
+    mapping = {
+        "safe": 0,
+        "r18": 1,
+        "r18+": 2,
+        "yuri": 2,
+    }
+    return mapping.get(r)  # 未知の文字列は None
+
+#############################################################################################################
 # EXIF情報をDBに反映させる
 def update_exif_info_to_postgres(folder_path):
-
     conn = connect_db()
     cur = conn.cursor()
 
@@ -147,31 +154,49 @@ def update_exif_info_to_postgres(folder_path):
             try:
                 img = Image.open(img_path)
                 info = img.info
-
                 title = info.get("title")
                 character = info.get("character")
-                rating = info.get("rating")
+                rating_raw = info.get("rating")
+                rating_int = normalize_rating_to_int(rating_raw)
 
-                if not any([title, character, rating]):
+                # title/character/rating が全部無いならスキップ（必要なら条件は調整）
+                if not any([title, character, rating_raw]):
                     print(f"⚠️ No EXIF data for {file}, skip")
                     continue
 
-                cur.execute("""
-                    UPDATE asset_exif
-                    SET title = %s,
-                        character = %s,
-                        rating = %s
-                    FROM asset a
-                    WHERE asset_exif."assetId" = a.id
-                    AND a."originalFileName" = %s
-                """, (title, character, rating, file))
+                if rating_int is None:
+                    # rating は更新しない（title/character だけ更新）
+                    cur.execute(
+                        """
+                        UPDATE asset_exif
+                        SET title = %s,
+                            character = %s
+                        FROM asset a
+                        WHERE asset_exif."assetId" = a.id
+                          AND a."originalFileName" = %s
+                        """,
+                        (title, character, file),
+                    )
+                else:
+                    # rating も更新する（int）
+                    cur.execute(
+                        """
+                        UPDATE asset_exif
+                        SET title = %s,
+                            character = %s,
+                            rating = %s
+                        FROM asset a
+                        WHERE asset_exif."assetId" = a.id
+                          AND a."originalFileName" = %s
+                        """,
+                        (title, character, rating_int, file),
+                    )
 
                 conn.commit()
                 print(f"✅ Updated DB for {file}")
-
             except Exception as e:
                 print(f"❌ Error processing {file}: {e}")
-                conn.rollback()  # ← これが重要！
+                conn.rollback()  # 重要：失敗時にロールバック
 
     cur.close()
     conn.close()
