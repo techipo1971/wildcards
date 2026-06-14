@@ -5,13 +5,6 @@ from tkinter import filedialog, Tk
 from tkinter import Button, Label
 from PIL import Image, PngImagePlugin
 
-# 保存先定義
-ORG_IMG_FOLDER = "Z:/StabilityMatrix/Images/generated_images"
-RELEASE_FOLDER = "Z:/StabilityMatrix/Images/forRelease"
-
-# ウォータマークスタンプ
-STAMP_IMG = "C:/tmp/Mabo.AiArt2.png"  # 固定パス（必要なら変更）
-
 
 # 画像スタンプを画像に追加する関数
 def add_stamp(input_folder, output_folder, stamp_image_path):
@@ -107,7 +100,5 @@ def delete_files_in_folder(folder_path):
 # GUI実行
 if __name__ == "__main__":
     select_folders_and_stamp_image()
-    # add_stamp(ORG_IMG_FOLDER, RELEASE_FOLDER, STAMP_IMG)
-    # delete_files_in_folder(ORG_IMG_FOLDER)
 
  

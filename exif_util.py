@@ -360,27 +360,169 @@ def search_title_from_character_name(target_name):
 
     print(f"❌ No found title -> character name : {target_name}")
     return None
+#############################################################################################################
+def get_exif_info(img_path):
+    """
+    PNG画像のEXIF(テキストメタデータ)を読み取る。
+    """
+    try:
+        with open(img_path, "rb") as f:
+            img = PngImagePlugin.PngImageFile(f)
+            exif = img.info
 
+            # parameters があれば辞書に変換して返す
+            parameters = exif.get("parameters")
+            img_desc = exif.get("ImageDescription")
+            if img_desc:
+                try:
+                    img_desc_dict = yaml.safe_load(img_desc)
+                    print(img_desc_dict)
+                except yaml.YAMLError:
+                    print("❌ Failed to parse ImageDescription")
+            if parameters:
+                try:
+                    parameters = "Positive prompt: " + parameters
+                    param_dict = parse_sd_metadata(parameters)
+                except yaml.YAMLError:
+                    print("❌ Failed to parse ImageDescription")
+
+            if img_desc_dict and param_dict:
+                return {**img_desc_dict, **param_dict}
+            else:
+                return {}
+
+    except Exception as e:
+        print(f"❌ Error processing {img_path}: {e}")
+        return {}
+
+
+#############################################################################################################
+def parse_sd_metadata(text: str) -> dict:
+
+    result = {}
+
+    # Positive Prompt
+    pos_match = re.search(
+        r"Positive prompt:\s*(.*?)\s*Negative prompt:",
+        text,
+        re.DOTALL | re.IGNORECASE
+    )
+
+    if pos_match:
+        result["positive_prompt"] = (
+            pos_match.group(1)
+            .replace("\n", " ")
+            .strip()
+        )
+
+    # Negative Prompt
+    neg_match = re.search(
+        r"Negative prompt:\s*(.*?)\s*Steps:",
+        text,
+        re.DOTALL
+    )
+
+    if neg_match:
+        result["negative_prompt"] = (
+            neg_match.group(1)
+            .replace("\n", " ")
+            .strip()
+        )
+
+    # Parameters
+    param_match = re.search(
+        r"Steps:\s*(.*)$",
+        text,
+        re.DOTALL
+    )
+
+    if not param_match:
+        return result
+
+    params_text = param_match.group(1)
+
+    # key:value を抽出
+    pairs = re.findall(
+        r'([A-Za-z0-9 _]+):\s*("[^"]*"|[^,]+)',
+        params_text
+    )
+
+    for key, value in pairs:
+
+        key = (
+            key.strip()
+            .lower()
+            .replace(" ", "_")
+        )
+
+        value = value.strip().strip('"')
+
+        result[key] = value
+
+    # 型変換
+
+    int_keys = [
+        "steps",
+        "seed",
+        "clip_skip"
+    ]
+
+    float_keys = [
+        "cfg_scale"
+    ]
+
+    for k in int_keys:
+        if k in result:
+            try:
+                result[k] = int(result[k])
+            except:
+                pass
+
+    for k in float_keys:
+        if k in result:
+            try:
+                result[k] = float(result[k])
+            except:
+                pass
+
+    # Size
+    if "size" in result:
+        m = re.match(
+            r"(\d+)x(\d+)",
+            result["size"]
+        )
+
+        if m:
+            result["width"] = int(m.group(1))
+            result["height"] = int(m.group(2))
+
+    return result
 #############################################################################################################
 if __name__ == '__main__':
 
-    chracter_name = "shinobu kochou"
-    try:
-        title_name = search_title_from_character_name(chracter_name)
-    except Exception as e:
-        print(f"❌ Error processing {chracter_name}: {e}")
+    # chracter_name = "shinobu kochou"
+    # try:
+    #     title_name = search_title_from_character_name(chracter_name)
+    # except Exception as e:
+    #     print(f"❌ Error processing {chracter_name}: {e}")
 
-    rating = ["safe", "r18", "r18+"]
-    for r in rating:
-        folder_path = ROOT_PATH + "/" + chracter_name
-        if r and not r.startswith("safe"):
-            folder_path += f"/{r}"
+    # rating = ["safe", "r18", "r18+"]
+    # for r in rating:
+    #     folder_path = ROOT_PATH + "/" + chracter_name
+    #     if r and not r.startswith("safe"):
+    #         folder_path += f"/{r}"
 
-        if Path(folder_path).is_dir():
-            # ファイル名リネーム
-            rename_files(folder_path, character_name=chracter_name, force_replace=True)
-            # EXIF情報修復
-            repair_files_info(folder_path, title=title_name, character=chracter_name, rating=r)
-        else:
-            print(f"⚠ No directory -> {folder_path}")
+    #     if Path(folder_path).is_dir():
+    #         # ファイル名リネーム
+    #         rename_files(folder_path, character_name=chracter_name, force_replace=True)
+    #         # EXIF情報修復
+    #         repair_files_info(folder_path, title=title_name, character=chracter_name, rating=r)
+    #     else:
+    #         print(f"⚠ No directory -> {folder_path}")
     
+    img_path = r"//192.168.68.100/personal_folder/StabilityMatrix/Images/workspace/aizawa ema/aizawa ema_20260516195117505749_1.png"
+    info = get_exif_info(img_path)
+    print(info["Title"])
+    print(info["Character"])
+    print(info["Rating"])
+    print(info["positive_prompt"])

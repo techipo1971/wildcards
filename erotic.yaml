@@ -11,6 +11,12 @@ ero:
       ${act:,}
       {day|night|sunset},
 
+    simple:
+      - |
+        vivid pink one-piece swimsuit, frilled, dark-skinned female, looking back, 
+        wet, smile, wide hips, glossy lips, arched back, kneeling, 
+        simple background, white background, cinematic lighting,
+
     cosplay:
     - |
       __cosplay/*__, 
@@ -79,6 +85,12 @@ ero:
       white choker, white t-shirt tied at the side, water droplets on skin,
       bright summer sun, sparkle highlights, crisp focus, ultra-detailed, cinematic bokeh
 
+    - |
+      dark-skinned female,huge breasts, pouring onto self, holding milk bottle, milk on breasts,
+      yokozuwari, hand on own breast, criss-cross halter, 
+      __av-pool__
+      leopard print micro bikini,
+      seductive smile,  looking at own breasts,  parted lips, blush,
 
     competitive-swimsuit:
     - |
@@ -287,7 +299,7 @@ ero:
     innertube:
     - |-
       __bikini/*__, 
-      areola slip, water, partially submerged, afloat, shallow water, 
+       water, partially submerged, afloat, shallow water, 
       ripples, innertube, on innertube, swim ring, spread legs, skindentation,
       groin, looking at viewer, ok sign, hand up, one eye closed, blush, sweatdrop, 
       smile, head tilt, parted lips, 
@@ -666,7 +678,7 @@ ero:
     glowing, shade, ( high saturation, high brightness, strong light:1.4), lens flare, blush, 
     closed mouth, tongue , BREAK, denim, jean shorts, hotpants, cutoff jeans, denim shorts, blue denim shorts, 
     open fly, lowleg shorts, daisy dukes, torn shorts, ripped shorts, damaged shorts, lowleg denim, open shorts, 
-    down shorts, skindentation, no panties, naked suspenders, areola slip, explicit, nether region, groin, midriff, 
+    down shorts, skindentation, no panties, naked suspenders,  explicit, nether region, groin, midriff, 
     looking at viewer, (dynamic pose, dynamic angle:1.2), sitting, outstretched leg, barefoot , linea alba, arched back, 
     t-pose , head tilt , BREAK, soaked, oiled skin, wet, wet body, oiled skin, droplet, gl0ssy, sweaty, steaming body, 
     ((pulling own suspenders,)) 
@@ -889,7 +901,7 @@ ero:
     ${face:__facial/embarrassed__,}
     ${eye-motion:looking to the side,}
     thighs,   
-    ${breast-action:areola slip,}
+    ${breast-action:}
     ${pose: wariza,}
     ${cloth:slingshot swimsuit}, 
 
@@ -1211,7 +1223,7 @@ ero:
       looking at viewer, dressing room, blush,
       cute woman, in love, closed mouth, close-up, seductive smile,
       adoring, infatuation, hourglass-shaped body, narrow waist,
-      wide hips, areola slip, shoulder strap slip,
+      wide hips,  shoulder strap slip,
       {on back|on stomach|arched back|all fours|ass},
 
     pink-neon:
@@ -1269,7 +1281,7 @@ ero:
       hand on stomach, naked shirt, 
       __rnd-panty__, 
       covered nipples,
-      areola slip, wet clothes, thighs,
+       wet clothes, thighs,
 
     - |
       sleeves past wrists, white shirt, hands up, open shirt, naked shirt, oversized shirt, 
@@ -1318,6 +1330,12 @@ ero:
       __facial/embarrassed__, 
       dutch angle, sexy pose, 
       night, window, curtains, blurry background, bokeh, depth of field, dark room, 
+
+    - |
+      black lingerie,  see-through lingerie,  garter straps, frills, fishnets, revealing clothes, 
+      on back, on bed, pillow, bed sheet, 
+      embarrassed, looking to the side,  dutch angle, heavy breathing, sweat, 
+      arms up,  slightly parted thighs, thigh gap, pillow hug,  pov hand, 
 
     heart-shaped:
     - |
@@ -1369,6 +1387,11 @@ ero:
       pastel color babydoll,  gingham,  garter straps, thigh strap, white thighhighs, choker, laced panties, 
       __facial/embarrassed__, 
       on bed,  curtains, wall,window, 
+
+    - |
+      __color__ nightgown, see-through nightgown, (panties visible through:1.2) , black panties, lying, 
+      night, bed room, illustration, dynamic angle, dutch angle, armpit, caressing breast,
+      ecstasy, torogao, heavy breathing, sweat,
 
     open-closet:
     - |
@@ -1532,6 +1555,12 @@ ero:
       standing in deep water,dynamic lighting, 
       underboob, sideboob, spiked collar, flower bracelet, red bikini, string bikini, side-tie bikini bottom
 
+    towel:
+    - |
+      onsen, snow, rock, steam, naked towel, plump, yokozuwari, partially submerged, 
+      embarrassed, shy, caressing breasts, bare shoulders, cinematic lighting,
+      snow, night, moon, stone floor, looking to the side, wet, 
+
   #ブラホック外し
   unfasten-bra:
     def:
@@ -1595,7 +1624,7 @@ ero:
     - |
       smile, embarrassed, blush, half-closed eyes, open mouth, upper teeth only, 
       detached collar, black bowtie, playboy bunny, black leotard, cleavage, mole on breast, wrist cuffs, pantyhose, skindentation, 
-      ((adjusting clothes,)) areola slip,  
+      ((adjusting clothes,))   
       __casino__
 
     - |
@@ -1644,6 +1673,12 @@ ero:
       __sexual-or-embarrassed__,
       {|__casino__},
 
+    - |
+      reverse bunnysuit,  underboob, 
+      embarrassed, shy, wavy mouth,  looking to the side, 
+      bare thighs,  heart pasties,  wrist cuffs,  bare arms,  breasts apart,
+      caressing breasts, fishnet pantyhose, 
+      __place/casino__
 
   #チャイナドレス
   china-dress:
@@ -1847,21 +1882,19 @@ ero:
     breast-grab:
     - |
       __ero/bondage/def__,
-      areola, spread legs,        
+      spread legs,        
       ${pose=grabbing own breast, perfect hands}
       ${bgd=indoors,}
 
     standing:
     - |
       __ero/bondage/def__,
-      areola, 
       ${pose=standing, knee up, {|ass}, {|armpits},}
       ${bgd=indoors,}
 
     posing:
     - |
       __ero/bondage/def__,
-      areola,         
       ${pose={all fours, {|ass}|arched back|leaning forward|bent over|squatting|top-down bottom-up|wariza, {|ass},}}
       ${bgd=indoors,}
 
@@ -1873,14 +1906,12 @@ ero:
     knees-together:
     - |
       __ero/bondage/def__,
-      areola,         
       ${pose=legs together, thigh gap, knees together, sweat, dynamic pose,}
       ${bgd=indoors,}
 
     lying:
     - |
       __ero/bondage/def__,
-      areola,         
       ${pose=lying, presenting, spread legs, on back, cleavage, (hand on own stomach), excited,}
       ${bgd=indoors,}
 
@@ -2210,12 +2241,12 @@ ero:
       __theme/morning__
       {yawning|rubbing eyes}
  
-    areola-slip:
+    lying:
     - |
       __cosplay/naked-pajama/*__
       __happy-or-sexual__
       __theme/morning__
-      open mouth, lying, bedroom, thighs, head tilt, arched back, reclining, areola slip,
+      open mouth, lying, bedroom, thighs, head tilt, arched back, reclining, 
 
     sleepy:
     - |
@@ -2312,7 +2343,7 @@ ero:
 
   open-shirt-set:
   - |
-    areola slip, open shirt, white shirt, collared shirt,
+    open shirt, white shirt, collared shirt,
     __facial/embarrassed__, open mouth, collarbone, navel, arms up,
     spread legs, thong panties, wet, sweatdrop, lying on table,
 
@@ -2493,7 +2524,7 @@ ero:
       thighs, lighting, beach, sunlight, sunbeam, smile, closed mouth,
       denim micro shorts, hotpants, cutoffs, open fly, denim shorts,
       damaged denim shorts, lowleg shorts, micro bikini, thong,
-      string bikini, areola slip, covered nipples, latex,
+      string bikini,  covered nipples, latex,
       looking at viewer, standing, from below, wet, water drop, sweaty,
       dynamic angle, lowleg, dwarfoilpony,
       arms up  <lora:dwarfoil-PonyXL:0.3>,
@@ -2503,7 +2534,7 @@ ero:
       __sexual-or-embarrassed__, 
       denim micro shorts, hotpants, cutoffs,
       open fly, denim shorts, damaged denim shorts, lowleg shorts,
-      micro bikini, thong, string bikini, areola slip, covered nipples,
+      micro bikini, thong, string bikini,  covered nipples,
       latex, looking at viewer, wet, water drop, sweaty, dynamic angle,
       lowleg, dwarfoilpony, <lora:dwarfoil-PonyXL:0.3>,
 
@@ -2583,58 +2614,96 @@ ero:
       <lora:lighting:1>, 
     
     - |
+      cleavage, blue candy striped  micro bikini, beach, outdoors, wariza, side-tied bikini,
+      head tilt, arms leaning back, smile, glass of tropical drink, straw,
+      sunbeam,  lens flare, 
+      tomboy, (aged up:1.2), 
+      (skinny:0.5), (large breasts:1.6), natural breasts, ribs, (dynamic pose:1.4), joyful, happy, open mouth, (thickthighs, wide hips:1.2), wet, sunshine, cameltoe,
+      BREAK, depth of field, volumetric lighting
+      Enchanting Eyes, 
+      vesrharr, very short hair, pixie cut, short bangs, forehead,
+      breast implants, caressing,
+    
+    - |
+      bright summer beach, clear turquoise ocean, bright blue sky with fluffy clouds, strong sunlight, sparkling water reflections, wet sand near shoreline, small waves touching sand, vibrant summer colors, cinematic lighting, highly detailed beach environment,
+      BREAK
+      small blue string bikini, tied side bikini bottom, thin straps, minimal coverage swimwear, 
+      BREAK
+      from behind, low-angle view, ground view,  view between legs, (ass focus), 
+      walking, sandy feet, holding beach ball one hand, 
+
+    - |
       oversized tank top, no bra, sideboob, sneakers, side-tie bikini bottom, hands on white footwear, leaning forward, embarrassed, blush,  
       sunset, beach, sand, squatting, from behind, looking back, legs together, 
 
   # メイド
   maid:
-  - |
-    __cosplay/maid/*__
-    __happy-or-sexual__
-    __sit-pose__
-    {|ass focus,|ass support,}
-    maid cafe, dutch angle 
-  
-  - |
-    maid headdress, black bra, black panties, garter straps, white frills, white lace trim, see-through lingerie, 
-    __sexual-or-embarrassed__, 
-    dutch angle, 
-  
-  - |
-    hair scrunchie, blue scrunchie, maid, maid headdress, maid apron, long sleeves, hair ribbon, indoors, couch, skirt lift, 
-    blue eyes, pink eyeshadow, asymmetrical bangs, stud earrings, puffy sleeves, living room, bookshelf, lifted by self, from below, 
-    bloom, backlighting, white thighhighs, looking back, from behind, panties, looking at viewer, back bow, blush, excited, naughty face, open mouth,
+    skirt-lift:
+      - |
+        maid headdress,  maid, maid apron, skirt lift by self, panties, garter strap, garter belt, thighhighs,  black corset, frilled sleeves, 
+        embarrassed,  closed eyes, wavy mouth, blush, gothic lolita, 
+        {|ass, bent over}
+      
+    rnd:
+      - |
+        __cosplay/maid/*__
+        __happy-or-sexual__
+        __sit-pose__
+        {|ass focus,|ass support,}
+        maid cafe, dutch angle 
+      
+      - |
+        maid headdress, black bra, black panties, garter straps, white frills, white lace trim, see-through lingerie, 
+        __sexual-or-embarrassed__, 
+        dutch angle, 
+      
+      - |
+        hair scrunchie, blue scrunchie, maid, maid headdress, maid apron, long sleeves, hair ribbon, indoors, couch, skirt lift, 
+        blue eyes, pink eyeshadow, asymmetrical bangs, stud earrings, puffy sleeves, living room, bookshelf, lifted by self, from below, 
+        bloom, backlighting, white thighhighs, looking back, from behind, panties, looking at viewer, back bow, blush, excited, naughty face, open mouth,
 
-  - |
-    __cosplay/maid/*__, 
-    __sexual-or-embarrassed__, 
-    indoors, couch, breast lift, 
-    {kneeling|spread legs},
-    cleavage, living room, window, curtains, cushion, night, starry sky, parted lips,
+      - |
+        __cosplay/maid/*__, 
+        __sexual-or-embarrassed__, 
+        indoors, couch, breast lift, 
+        {kneeling|spread legs},
+        cleavage, living room, window, curtains, cushion, night, starry sky, parted lips,
 
-  - |
-    __facial/sexual__,
-    maid bikini, black bikini, maid headdress, detached collar,
-    thighhighs, frills, ribbon, arm garter, leg garter, wrist cuffs,
-    looking at viewer, standing, put one hand on hips, nightclub,
-    bar counter, silver tray, red wines, narrowed eyes, pink purple theme,
+      - |
+        __facial/sexual__,
+        maid bikini, black bikini, maid headdress, detached collar,
+        thighhighs, frills, ribbon, arm garter, leg garter, wrist cuffs,
+        looking at viewer, standing, put one hand on hips, nightclub,
+        bar counter, silver tray, red wines, narrowed eyes, pink purple theme,
 
-  - | 
-    jewelry, maid bikini, black bikini, maid headdress, detached collar, thighhighs, frills, ribbon, 
-    arm garter, leg garter, wrist cuffs, bedroom, bright_background, dynamic pose, dutch angle, 
-  
-  - |
-    upper body, looking at viewer, smile, bare shoulders, head tilt, choker, criss-cross halter, heart shaped tattoo, 
-    armband, heart ring, heart theme, tattoo on breast, pink tattoo, heart earrings, frills, pink trim, black dress, 
-    peace sign, headdress, detailed eyes, eye glitter, sparkling eyes,  
+      - | 
+        jewelry, maid bikini, black bikini, maid headdress, detached collar, thighhighs, frills, ribbon, 
+        arm garter, leg garter, wrist cuffs, bedroom, bright_background, dynamic pose, dutch angle, 
+      
+      - |
+        upper body, looking at viewer, smile, bare shoulders, head tilt, choker, criss-cross halter, heart shaped tattoo, 
+        armband, heart ring, heart theme, tattoo on breast, pink tattoo, heart earrings, frills, pink trim, black dress, 
+        peace sign, headdress, detailed eyes, eye glitter, sparkling eyes,  
 
-  - |
-    maid headdress, see-through, laced bra, panties, midriff, standing,  
-    __facial/embarrassed__ 
-    looking down, dark room, curtains, window, indoors, bedroom, 
+      - |
+        maid headdress, see-through, laced bra, panties, midriff, standing,  
+        __facial/embarrassed__ 
+        looking down, dark room, curtains, window, indoors, bedroom, 
+
+      - |
+        classroom decorated with checkered tablecloths, balloons, string lights,
+        handmade menu on a blackboard, colorful handwritten signs,
+        curled fingers, breasts squeezed together, 
+        close-up, upper body,
+        maid, maid headdress, black bikini,  underboob,
+        embarrassed, smile, 
 
   # スカートめくり
   skirt-lift:
+  - |
+    sleeveless,  toga, thighs, close-up, wind lift, thong, laced,  hands on crotch, leaning forward, cleavage, 
+    embarrassed,  fantasy theme, scenery, from side, moaning,  open mouth, ass, looking back, standing, falling petals, wind, side cross laced,
+  
   - |
     backless dress, white dress, lace trim, lifting own skirt, looking back, miniskirt, sideboob, ass,
      panties under skirt, leaning forward, 
@@ -2673,6 +2742,7 @@ ero:
     denim skirt, micro skirt, knees up, panties, from below,
     white panties, thong, thighs, bow panties, ((button gap:1.3)),
     cleavage,
+    {|:o, hands on own face,}
 
   - |
     __cosplay/school-uniform/*__, 
@@ -2700,9 +2770,19 @@ ero:
   - |
     tilted kilt waistress uniform, midriff, skirt, cleavage,
     front-tie top, plaid, bar, __facial/sexual__, beer, holding beer,
+    underboob,
 
   #制服セット
   school-uniform:
+  - |
+    in train, white collared shirt, neck ribbon,  button gap, huge breasts,  popping button, short sleeves, partially unbuttoned, 
+    hands on own breast, :o, looking down,
+  
+  - |
+    blue blazer, white collared shirt, neck ribbon, pleated skirt, kneehighs, 
+    smile, panties, from below, zettai ryouiki, thigh gap, school yard, 
+    {skirt lift|ass focus}
+
   - |
     __cosplay/school-uniform/bitch-style__ 
     dutch angle, dynamic pose, sexy pose, outdoors, 
@@ -2927,10 +3007,10 @@ ero:
     burger:
     - |
       __cosplay/tiltedkilt__
-      __happy-or-sexual__
       restaurant, smile,
       one hand holding tray with {burger|cup}, another hand on own hip,
       head tilt, arched back, thighs,
+      {|ass focus,}
 
     tucking-hair:
     - |
@@ -2940,6 +3020,12 @@ ero:
 
   #ギャル
   gal-set:
+    leopard-print:
+      - |
+        sleeveless, armpits, seductive smile, dynamic pose, dutch angle, black choker, 
+        leopard print tank top, midriff,  damaged denim shorts, dancing, panty peek, skindentation,  wide hips, plump, 
+        spotlight, neon beam,nightclub,  dance hall, thong,  open shorts,
+        
     jaguar-bikini:
       - |
         __jaguar-bikini-gal__, 
@@ -3040,7 +3126,6 @@ ero:
     hands on lap, looking at viewer,
     __sexual-or-embarrassed__
     indoors, bedroom, carpet, carpet, bed, on floor, 
-    {|areola slip}
 
   - |-
     __cosplay/sweater-dress__, bare legs, barefoot,
@@ -3326,13 +3411,6 @@ ero:
       __cosplay/volleyball-uniform__
       sitting, m legs, reclining, arm support, tired, :o, sweat, wooden floor, volleyball, 
 
-    basketball:
-    - |
-      __cosplay/basketball-uniform__, 
-      __sexual-or-embarrassed__, 
-      {|ass, adjusting clothes|breast lift|holding basketball}, 
-      indoors,
-
     #野球
     baseball:
       - |-
@@ -3406,6 +3484,10 @@ ero:
         __sexual-or-embarrassed__
         open uniform, cleavage, bra peek, panties, unbuttoned, 
         sitting, yokozuwari, 
+
+      - | 
+        hospital bed, nurse, nurse uniform, miniskirt,  all fours, arched back,  from behind, from side, 
+        panties, looking back, wide hips, embarrassed, smile, blush,
 
       skirt-lift:
       - |
@@ -3670,12 +3752,6 @@ ero:
     contrapposto, hand on own hip, dutch angle, 
 
   - |
-    embarrassed, <lora:shiwaterassV1ill-000008:1> shiswimbutt,
-    looking at viewer, ass, outdoors, looking back, from behind,
-    water, wet, night, back, bent over, partially submerged,
-    ass focus, onsen, bathing,
-
-  - |
     (one bare shoulder:1.2), white t-shirt, cleavage, arched back,
     __facial/sexual__, 
     side-tie panties, bedroom, wet, sweat, steam, no bra, covered nipples, narrow waist, wide hips, head tilt,
@@ -3767,6 +3843,12 @@ ero:
     naughty face, earrings, black micro bikini, stage, stage lights, crowd, pole dancing, dynamic pose, 
     underboob, wide hips, spread legs, 
 
+  - |
+    micro bikini, blush, embarrassed, smile, 
+    pole dancing, pole, grabbing pole,
+    kneeling, wide hips, ass, miniskirt, thigh strap, skindentation, 
+    on stage, pink theme, erotic mood,
+
   # 体操着
   gym-uniform:
   - |
@@ -3794,6 +3876,15 @@ ero:
   - |
     __color__ jersey, sleeves rolled up, buruma, ass focus, looking back, hands on own ass, panty peek, 
     __facial/embarrassed__
+
+  - |
+    wide hips, kneeling, gym uniform, buruma, looking back, 
+    adjusting buruma, outdoor, school, smile, blush,embarrassed, red hachimaki,
+
+  - |
+    red jersey,  naked jersey, white stripe, buruma, cleavage, collarbone, 
+    smile,  embarrassed, blush, unzipping, holding zipper pull tab,  head tilt, sweat, 
+    outdoors, school,  standing on playground, opening,
 
   leotard:
   - |
@@ -4785,51 +4876,59 @@ ero:
 
   norimaki:
     - |
-      __place/bedroom__
       __sexual-or-embarrassed__ 
       <lora:Norimaki_Doaxvv_v2:0.8> bandeau,tube top,strapless red bikini,micro bikini bottom,white pattern detail, 
       {|butt crack,}
-      from front view,looking at viewer,sitting,knees up,
+      from front view,looking at viewer,
+      {sitting,knees up|kneeling, {arms up|v arms}},
       depth of fields,dutch angle,outdoors,resort island,sand beach,twilight
 
     - |  
       __sexual-or-embarrassed__ 
       <lora:Norimaki_Doaxvv_v2:0.8> bandeau,tube top,strapless red bikini,micro bikini bottom,white pattern detail, {|butt crack,}
       steaming body,sensual,alluring,sweatdrop,heavy breathing,(spoken heart),sound effects,
-      (covered nipples, areola slip), 
       facing viewer,dutch angle,ocean,light particles,light rays,sunlight,lens flare,horizon,cloud,
       arms behind head,armpits, wet,wet hair, thick thighs,
 
   bitch:
-      - |
-        __facial/sexual__
-        <lora:training_2189494-20260404214022184:0.8> Bodycon, shiny clothes, o-ring, black choker, bare shoulders, 
-        covered nipples, short dress, panties, bridal gauntlets, fishnet thighhighs, Jewelry, hoop earrings, necklace, Navel cutout,
-        Night time, outdoors, sidelighting, graffiti, 
-        bridal gauntlets, clothing cutout, dress, elbow gloves, gloves, latex, latex dress, microdress, nail polish, o-ring dress, 
-        on one knee, outdoors, panties, purple gloves, revealing clothes, shiny clothes, shoes, short dress, side cutout, 
-        thighhighs, underwear, eyelashes, 
-        {hand to wall|hand on own knee|one hand on chest|leaning against the wall},
-        {standing|looking back over shoulder|}
+    - |
+      dynamic pose, standing,  Mature body, tight waist, smile, poolside, pasties, thong,  exposed thigh, wet body, water drop, 
+      depth of field, bokeh, blurry background,  hand on stomach, 
 
-      - |
-        __facial/sexual__
-        <lora:training_2189494-20260404214022184:0.8> Bodycon, shiny clothes, o-ring, black choker, bare shoulders, covered nipples, 
-        short dress, panties, bridal gauntlets, fishnet thighhighs, Jewelry, hoop earrings, necklace, Navel cutout,
-        Indoors, night time, sidelighting, 
-        phone, cellphone, looking back, ass, underwear, boots, panties, looking at viewer, detached sleeves, smartphone, blush, 
-        jewelry, holding, from behind, nail polish, earrings, dress, high heels, bangs, black footwear, kneeling, panties, holding phone, 
-        blue nails, high heel boots
+    - |
+      dark-skinned female, pink cardigan, white shirt,  leopard print bra peek, pleated skirt, thigh strap, choker, 
+      seductive smile, contrapposto, school yard, leaning forward, 
+      {hands on own crotch|licking lollipop|},
 
-      - |
-        leopard print miniskirt, black tank top, knit tank top, o-ring, navel, leather belt, brown belt, necklace,   
-        pendant choker, armband, bracelet, heart-shaped earrings, chain,loose socks, 
-        wariza, hand up, waving, light smile, :d, simple background, white background, 
+    - |
+      __facial/sexual__
+      <lora:training_2189494-20260404214022184:0.8> Bodycon, shiny clothes, o-ring, black choker, bare shoulders, 
+      covered nipples, short dress, panties, bridal gauntlets, fishnet thighhighs, Jewelry, hoop earrings, necklace, Navel cutout,
+      Night time, outdoors, sidelighting, graffiti, 
+      bridal gauntlets, clothing cutout, dress, elbow gloves, gloves, latex, latex dress, microdress, nail polish, o-ring dress, 
+      on one knee, outdoors, panties, purple gloves, revealing clothes, shiny clothes, shoes, short dress, side cutout, 
+      thighhighs, underwear, eyelashes, 
+      {hand to wall|hand on own knee|one hand on chest|leaning against the wall},
+      {standing|looking back over shoulder|}
 
-      - |
-        __facial/embarrassed__
-        front-tie top, white shirt, cleavage, from above,  spread legs,  hands to crotch, sitting, pleated skirt, 
-        naked shirt, sweat, {|erect nipples,}
+    - |
+      __facial/sexual__
+      <lora:training_2189494-20260404214022184:0.8> Bodycon, shiny clothes, o-ring, black choker, bare shoulders, covered nipples, 
+      short dress, panties, bridal gauntlets, fishnet thighhighs, Jewelry, hoop earrings, necklace, Navel cutout,
+      Indoors, night time, sidelighting, 
+      phone, cellphone, looking back, ass, underwear, boots, panties, looking at viewer, detached sleeves, smartphone, blush, 
+      jewelry, holding, from behind, nail polish, earrings, dress, high heels, bangs, black footwear, kneeling, panties, holding phone, 
+      blue nails, high heel boots
+
+    - |
+      leopard print miniskirt, black tank top, knit tank top, o-ring, navel, leather belt, brown belt, necklace,   
+      pendant choker, armband, bracelet, heart-shaped earrings, chain,loose socks, 
+      wariza, hand up, waving, light smile, :d, simple background, white background, 
+
+    - |
+      __facial/embarrassed__
+      front-tie top, white shirt, cleavage, from above,  spread legs,  hands to crotch, sitting, pleated skirt, 
+      naked shirt, sweat,
 
   dancing:
     - |
@@ -5020,7 +5119,7 @@ ero:
       {fellatio gesture,:o|:D, double v|two-finger salute|hands up}, spoken heart,  
       BREAK (vivid pink clothes, hot pink clothes:1.3),(shiny clothes,glossy clothes:1.3), 
       (hot pink nurse:1.3),hot pink nurse cap with heart symbol,
-      hot pink shirt, short sleeves, crop top, (underboob:1.2), (areola slip:1.2),
+      hot pink shirt, short sleeves, crop top, (underboob:1.2), 
       stand-collar,heart-shaped cleavage cutout, navel,
       hot pink pencil skirt, (microskirt:1.3), low-rised skirt,bare midriff,
       white pantyhose, (hot pink high-heels:1.2), white latex gloves,
@@ -5079,3 +5178,172 @@ ero:
     - |
       vivid pink happi, naked, fundoshi, cotton candy, eating,happy, blush, looking at viewer, 
       summer festival, lantern, nejiri hachimaki, 
+
+  soapland:
+    - |
+      ((soapland, vivid pink air mattress,  lotion play, ))
+      smile,  head tilt,  on stomach, lotion bottle, topless,  bathroom, dutch angle, 
+
+    - |
+      ((soapland, vivid pink air mattress,  lotion play, ))
+      smile,  head tilt,  shiny skin, wet, heavy breathing, 
+      {reclining|yokozuwari|on side},
+      nude, convenient censoring, 
+
+  teacher:
+    - |
+      open jacket, cleavage, pencil skirt, black bra peek, collarbone,  mature female, 
+      teacher, glasses, semi-rimless eyewear, holding pointer, 
+      chalkboard, desk, smile, head tilt,  standing against chalkboard, 
+
+  supermarket:
+    - |
+      white polo shirt, green apron, miniskirt, panties,  pantyshot, holding many vegetable, hands up, 
+      embarrassed, open mouth, wavy mouth, moaning, blush, looking down, 
+      legs apart, thighs, sitting, 
+      supermarket, shopping cart with many foods and vegetable, 
+
+  magician:
+    - |
+      purple top hat, magician, purple bikini top, off-shoulder, detached sleeves, purple frilled 
+      miniskirt, white frilled apron, white thigh-highs, purple ribbon garter, purple high heels, 
+      (mischievous grin:1.1), smug, teasing smile, (looking back at viewer:1.3), looking back, from below,
+      (from behind:1.3), (back to viewer:1.3), (bent over:1.3), arched back, (ass up:1.2), hips raised, 
+      bending forward deeply, (ass:1.2), ass focus, (butt toward viewer:1.2), descending toward viewer, 
+      falling, mid-air, hip attack, (foreshortening:1.3), dynamic angle, dynamic pose, motion lines, 
+      speed lines, impact, purple panties, skirt, (full sky background:1.2), in mid-air,
+      floating in the sky, flying, sky all around, blue sky, white clouds below, aerial, high in the sky, 
+      (lens flare:1.1), sun flare, yellow lens flare, sunlight, light rays, backlight, sun glare, bloom, 
+      sparkle, anime style, soft even lighting, soft shading, detailed skin, depth of field, 
+      (purple and white color scheme:1.1)
+
+  anna-millers:
+    - |
+      american diner, classic diner aesthetic, leaning on diner counter, vintage diner interior, retro americana atmosphere,
+      anna millers, round breasts, (anna millers style waitress uniform), puffy short sleeves, name tag, 
+      wide hips, maid apron, frills, gingham, checkered floor,
+      {popped button, collarbone|button gap|panties, ass focus, skirt},
+      head tilt, smile, parted lips, blush, breasts on tray,  holding tray, embarrassed
+
+    - |
+      american diner, classic diner aesthetic, leaning on diner counter, vintage diner interior, retro americana atmosphere,
+      anna millers, round breasts, (anna millers style waitress uniform), puffy short sleeves, 
+      wide hips, maid apron, frills, gingham, checkered floor, panties,  ass focus, skirt,
+      head tilt, smile, parted lips, blush, embarrassed, bent over, {|pov hands, grabbing,}
+
+  sun-flower:
+    - |
+      looking back, tanned skin , tanlines, No-makeup look, No-makeup look,
+      (embarrassed),calm observant look, neutral lips and steady gaze, sitting still with composed posture, wrist scrunchie,
+      Polka Dot Camisole, Brazilian Panties,
+      cinematic lighting, volumetric light, soft glow, depth of field, bokeh , bright summer portrait photography of a joyful woman with windswept honey hair , wearing breezy linen sundress with woven sun hat, carefree spin on sunflower farm with arms wide open , vast sunflower field under blue sky with fluffy clouds , brilliant summer midday sun , 
+
+  penthouse-hotel:
+    - |
+      smile, strap slip, head tilt, earrings, (red Racerback Camisole,, G-String) , marble pattern,
+      (sexy look:1.2), sexy pose, blush, cool beauty expression,
+      Dynamic Pose, luxury casino penthouse suite with panoramic neon cityscape view, 
+      {|ass focus},
+
+
+  doctor:
+    - |
+      doctor, stethoscope, lab coat, pencil skirt,  strapless, 
+      smile, blush, parted lips, head tilt, leaning to desk, hospital, 
+
+  wedding:
+    pink:
+      - |
+        bridal veil, pink lingerie, white bridal garter, white thighhighs, frills, center cross lace, holding bouquet, strapless, 
+        yokozuwari, 
+        emba rrassed, smile, looking to the side, blush,
+        stained glass, church, soft focus, depth of field, bokeh, blurry background, lens flare, 
+    bikini:
+      - |
+        white bikini, tiara, wedding vail, wedding bouquet, church, garden,
+        midriff, frills, thong, arched back, embarrassed, shy, blush, simple background, white background
+    
+  wading-pool:
+    - |
+      ((wading pool:1.3)), partially submerged, clear water, pink tubes, reflective water, 
+      {w arms| peace sign| two-finger salute },
+      {|tanlines,  dark-skinned female}, 
+      indian style, spread legs, sweat, wet, sunlight, lens flare,  outdoor, dynamic angle, 
+      smile, parted lips, head tilt, wide hips,    
+      
+    - |
+      ((wading pool:1.3)), partially submerged, clear water, pink tubes, reflective water, 
+      {|tanlines,  dark-skinned female}, 
+      all fours, {|ass|ass focus|ass up},
+      sweat, wet, sunlight, lens flare,  outdoor, dynamic angle, 
+      smile, parted lips, head tilt, wide hips,  
+
+  buttoujutsu:
+    - |
+      bare shoulders, cleavage, closed mouth, clothing cutout, hakama, hakama skirt, hip vent, 
+      holding sword, holding weapon, japanese clothes, jewelry, katana, kimono,  looking at viewer, 
+      necklace, red hakama, skirt, white kimono,  ((battoujutsu stance, )) sheathed,  dynamic pose,  
+      speed lines, motion lines, simple background, dark background, shadow atomosphere,  serious, 
+
+  golf:
+    - |
+      (playing golf), dynamic pose,
+      holding golf club, swinging golf club, two-handed, twisted torso, arms on shoulder, motion lines, 
+      floating hair,:d,sweat, shiny sweat, head up, facing ahead,looking up,(arched back), visor cap,
+      short sleeves, fingerless glove, white gloves, polo shirt,   miniskirt,  pantyshot, thighhighs, 
+      skindentation,shiny skin,glitter skin,gross skin, depth of field,bokeh, blurry background,  golf course, 
+
+    - |
+      (playing golf), 
+      visor cap, short sleeves, fingerless glove, polo shirt,   miniskirt,  pantyshot, thighhighs, 
+      skindentation, cleavage, holding golf club, golf course, golf putter on grass,  
+      squatting, on one knee, looking at hole,  one golf ball,  before putting,
+
+  pink-idol:
+    - |
+      vivid pink, magical_girl_slingshot,  underboob, wing hair ornament,  detached sleeves, pink footwear, pink choker, frills, pink bow, bow, choker,  high heels, jewelry, frilled skirt, layered skirt, 
+      kneeling, black background, smile, ((double peace,))  hands up,
+
+  lounge:
+    - |
+      o-ring dress, o-ring, ,slingshot, underboob, criss-cross halter, choker, tattoo, thong, pelvic curtain, 
+      night, lounge, bar counter, sitting on lounge chair, leaning to bar counter, cocktail glass, 
+      smile, head tilt, blush,cityscape,  hand on own chest, thigh strap,  purple lighting, neon lights, moon, 
+      arm rest,  depth of field, bokeh, blurry background, cinematic lighting,
+
+  sexy-sainan:
+    - |
+      SexySainanUniform, (double black thigh hoops:1.2), double hoops on thighhighs, black V-waist hoop, green plaid pleated skirt, yellow cropped vest, bare midriff, navel, Heart Ribbon, Heart-shaped brooch, blue ribbon, white fingerless elbow gloves, black arm hoops, black thighhighs, :d,
+      (micro skirt:1.6), white lace panties, wind lift, wink, peace sign pose, 
+      park, tree,  bokeh, depth of field, blurry background, 
+
+  pasties:
+    - |
+      leaf pasties, green pasties, thong, embarrassed, shy, lifting own breasts,
+      
+  bathrobe-on-bed:
+    - |
+      white bathrobe,  wide collar,  side slit, satin fabric, ,  pearl necklace,  pearl bracelet,  diamond ring,
+       lying on bed,  white bed,  white sheet,  white pillow,  indoors,  soft lighting, depth of field, blurry background,
+      open bathrobe, looking at viewer, half-closed eyes, parted lips, smile, blush,  holding pillow,  
+  
+  fire-dance:
+    - |
+      dynamic pose,  holding fan, japanese fan, pelvic curtain, 
+      fire effect, dynamic pose, outstretched arm, twisted torso, ass, knee up, bouncing breasts, motion lines, 
+      depth of field, bokeh, blurry background, red theme, fighting,
+
+  hydrangeas:
+    - |
+      smile, firm attitude, black Gothic dress, shell necklace, (white frill), cleavage, long skirt,  frilled skirt, (cowboy shot),
+      frill umbrella, opened umbrella, looking side, urban park, Hydrangeas, indoor, walking, rain, outdoor, 
+      dutch angle, sharp focus, depth of field, bokeh, blurry background, 
+      
+  basketball:
+    dribbling: __cosplay/basketball-uniform__ dribbling \(basketball\),  outstretched arm, dynamic pose, dutch angle, cleavage, 
+    shooting: __cosplay/basketball-uniform__ arms up,  catching basketball, looking up,basketball court, jumping, underboob, 
+    rnd:
+      - |       
+        __sexual-or-embarrassed__, 
+        {|ass, adjusting clothes|breast lift|holding basketball}, 
+        indoors,

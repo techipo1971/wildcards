@@ -8,13 +8,19 @@ import traceback
 from datetime import datetime, timedelta
 from playwright.sync_api import sync_playwright
 from pathlib import Path
+
+from dotenv import load_dotenv
+BASE_DIR = Path(__file__).resolve().parent
+load_dotenv(BASE_DIR / ".env")  # ここで1回だけ読み込む（CWD依存を排除）
+
 import nas_env as nas
 
 ##################################################################
 # ── 定数 ──
 ##################################################################
-NOTION_DB_ID = nas.notion_params["notion_database_id"]
-NOTION_TOKEN = nas.notion_params["notion_token"]
+
+NOTION_DB_ID = nas.get_notion_params()["notion_database_id"]  # .env から OS 別に解決済み
+NOTION_TOKEN = nas.get_notion_params()["notion_token"]  # .env から OS 別に解決済み
 HEADERS = {
     "Authorization": f"Bearer {NOTION_TOKEN}",
     "Content-Type": "application/json",
@@ -26,7 +32,7 @@ LOG_DIR = ROOT / "logs"
 SCREENSHOT_DIR = ROOT / "screenshots"
 
 # 画像フォルダのベースパス（nas_env が .env から OS 別に解決済み）
-WORKSPACE_DIR = nas.img_dirs['workspace']
+WORKSPACE_DIR = nas.get_img_dirs()['workspace']
 
 def convert_folder_path(folder_url: str) -> str:
     """Notion DB のフォルダパスを実行環境のパスに変換する
@@ -160,7 +166,7 @@ def _get_next_safe():
 
 
 def _get_next_nsfw():
-    # published 済みの NSFW 行 → 毎日2件（09:00 + 15:00）、同日件数で次枠を自動判定
+    # published 済みの NSFW 行 → 直近のNSFWを基準に「翌日07:00」を予約する（1日1投稿）
     resp = requests.post(
         f"https://api.notion.com/v1/databases/{NOTION_DB_ID}/query",
         headers=HEADERS,
@@ -177,7 +183,7 @@ def _get_next_nsfw():
                 ]
             },
             "sorts": [{"property": "published", "direction": "descending"}],
-            "page_size": 10,  # 同日2件チェック用
+            "page_size": 1,  # 直近NSFWだけ見ればよい
         },
     )
     resp.raise_for_status()
@@ -187,34 +193,21 @@ def _get_next_nsfw():
         last_date_str = results[0]["properties"]["published"]["date"]["start"]
         last_date = datetime.strptime(last_date_str[:10], "%Y-%m-%d").date()
 
-        # 同日の NSFW 投稿数をカウント
-        same_day_count = sum(
-            1 for r in results
-            if r["properties"]["published"]["date"]["start"][:10] == last_date_str[:10]
-        )
+        # 次回は必ず翌日 + 07:00 固定
+        next_date = last_date + timedelta(days=1)
+        next_time = "07:00"
 
-        if same_day_count < 2:
-            # まだ同日に1件 → 同じ日の2枠目（15:00）
-            next_date = last_date
-            next_time = "15:00"
-        else:
-            # 同日に2件済み → 翌日の1枠目（09:00）
-            next_date = last_date + timedelta(days=1)
-            next_time = "09:00"
-
-        # 交互決定
+        # rating は必ず交互
         last_ratings = [
             opt["name"]
             for opt in results[0]["properties"]["rating"]["multi_select"]
         ]
-        if "r18+" in last_ratings:
-            next_rating = "r18"
-        else:
-            next_rating = "r18+"
+        next_rating = "r18" if "r18+" in last_ratings else "r18+"
     else:
+        # 初回（NSFWの published がまだ無い場合）
         next_date = datetime.now().date() + timedelta(days=1)
         next_time = "09:00"
-        next_rating = "r18"  # 初回は r18 から
+        next_rating = "r18"  # 初回は r18 から（必要なら変更）
 
     # 決定した rating の未投稿行を取得
     row = _get_unpublished_row(next_rating)
@@ -225,7 +218,6 @@ def _get_next_nsfw():
     row["publish_time"] = next_time
     row["rating"] = next_rating
     return row
-
 
 def _get_unpublished_row(rating: str):
     """指定 rating の未投稿行を1件取得して dict で返す"""
@@ -520,8 +512,8 @@ def enable_schedule_toggle(page):
 
 def set_schedule_datetime(page, publish_date, publish_time):
     date_input = page.locator('input#date[type="date"]').first
-    time_input = page.locator('input[type="time"][aria-label="Schedule Time"]').first
     date_input.wait_for(state="attached", timeout=30_000)
+    time_input = page.locator('input[type="time"]').first   # time input は id がないため type 属性で探す
     time_input.wait_for(state="attached", timeout=30_000)
 
     for el, val in [(date_input, publish_date), (time_input, publish_time)]:
@@ -536,8 +528,8 @@ def set_schedule_datetime(page, publish_date, publish_time):
             }""",
             val,
         )
-    log.info(f"date={date_input.input_value()}, time={time_input.input_value()}")
 
+    log.info(f"date={date_input.input_value()}, time={time_input.input_value()}")
 
 def fill_title(page, title_text):
     title = page.locator("textarea").first
@@ -647,6 +639,9 @@ def main():
     # フォルダパスを実行環境に合わせて変換
     FOLDER_URL = convert_folder_path(FOLDER_URL)
     log.info(f"folder={FOLDER_URL}")
+    if not os.path.exists(FOLDER_URL):
+        log.error(f"フォルダパスが存在しません: {FOLDER_URL}")
+        sys.exit(1)
 
     page = None  # エラーハンドリング用
     try:
@@ -724,7 +719,7 @@ def main():
     except Exception as e:
         log.error(f"投稿処理でエラー発生: {e}")
         log.debug(traceback.format_exc())
-
+    
         # スクリーンショット＋HTML保存
         if page is not None:
             try:

@@ -8,19 +8,22 @@ from datetime import datetime
 from notion_client import Client
 import immich
 import traceback
-import nas_env as nas   #環境情報
+import nas_env    #環境情報
 
 #import psycopg2
 from PIL import Image
 
 # NOTION_TOKEN >>> 環境変数に登録
 # 環境変数からNOTION_TOKEN呼び出し
-ROOT_PATH = nas.img_dirs['root']
-notion_token = nas.notion_params["notion_token"]
-PAGE_ID = nas.notion_params["notion_page_id"]
-NOTION_DATABASE_ID = nas.notion_params["notion_database_id"]
-GEN_DB_ID = nas.notion_params["notion_gen_db_id"]
-CHAR_DB_ID = nas.notion_params["notion_char_db_id"]
+img_dirs = nas_env.get_img_dirs()
+ROOT_PATH = img_dirs['root']
+
+notion_params = nas_env.get_notion_params()
+notion_token = notion_params["notion_token"]
+PAGE_ID = notion_params["notion_page_id"]
+NOTION_DATABASE_ID = notion_params["notion_database_id"]
+GEN_DB_ID = notion_params["notion_gen_db_id"]
+CHAR_DB_ID = notion_params["notion_char_db_id"]
 
 RATING = [{'name':'safe'}, {'name':'r18'}, {'name':'r18+'}, {'name':'yuri'},{'name':'R18++'}]
 MODE = [{'name':'random'}, {'name':'scenario'}, {'name':'pickup'}, {'name':'keyword search'}]
@@ -311,7 +314,7 @@ def read_notion_database(database_id):
 
 #############################################################################################################
 # データベースにレコード追加
-def add_record(character, date, title, url, batch_cnt, mode_list=MODE, rating_list=RATING):
+def add_record(char_name, date, title, url, batch_cnt, mode_list=MODE, rating_list=RATING):
     # multi_selectはリスト形式で渡す
     mode_list = mode_list or []
     rating_list = rating_list or []
@@ -322,7 +325,7 @@ def add_record(character, date, title, url, batch_cnt, mode_list=MODE, rating_li
             parent={"database_id": NOTION_DATABASE_ID},
             properties={
                 "character": {
-                    "title": [{"text": {"content": character}}]
+                    "title": [{"text": {"content": char_name}}]
                 },
                 "日付": {
                     "date": {"start": date}
@@ -340,7 +343,7 @@ def add_record(character, date, title, url, batch_cnt, mode_list=MODE, rating_li
                     "number": batch_cnt
                 },
                 "work": {
-                    "rich_text": [{"text": {"content": title}}]
+                    "select": {"name": title}
                 }
             }
         )
@@ -359,12 +362,12 @@ def check_keyword_in_character(keyword: str):
 
         #完全一致で比較
         if keyword.lower() == character_name.lower():
-            print(f"❌ キーワード '{keyword}' と一致するデータが見つかりました: {character_name}")
+            print(f"❌ キーワード '{keyword}' 使用済み: {character_name}")
             found = True
             break
 
     if not found:
-        print(f"✅ キーワード '{keyword}' と一致するデータは見つかりませんでした")
+        print(f"✅ キーワード '{keyword}' 未使用")
 
     return found
 
@@ -420,3 +423,5 @@ if __name__ == '__main__':
 
     # update_char_db()
     print(check_keyword_in_character('toudou erika'))
+
+    # add_record('toudou erika', '2022-01-01', 'toudou erika', 'https://example.com', 1, ['nsfw'], ['r18'])

@@ -131,7 +131,7 @@ cosplay:
   #ボンデージ衣装
   bondage:
     harness: 
-    - harness, bdsm, o-ring, nipples, crotchless, black choker, collarbone, sideboob, black gloves,
+    - harness, bdsm, o-ring, nipples, black choker, collarbone, sideboob, black gloves,
     - lewd pubic tattoo, revealing clothes, o-ring, chest harness, 
 
     crotch-zipper:
@@ -304,8 +304,8 @@ cosplay:
       - |
         <lora:Belua_Maid_IL:0.5> 			
         sk_belua_maid, choker, 
-        {bra|cupless bra|see-through crop top, covered nipples},
-        {panties|crotchless panties|pussy},
+        {bra|see-through crop top, covered nipples},
+        panties,
         {garter belt, garter straps, thighhighs|suspenders, garter belt, garter straps}      
 
   #学生服
@@ -454,6 +454,8 @@ cosplay:
       collared shirt, green bowtie, short sleeves, miniskirt,
       green skirt, plaid skirt, pleated skirt, zettai ryouiki,
       black thighhighs, demon tail,
+    
+    yuki-style: school uniform, ((red and white uniform)), orange ascot, white miniskirt
 
   #カクテルドレス
   cocktail-dress:
@@ -575,7 +577,6 @@ cosplay:
     jacket: black jacket, short jacket, blue lingerie, bra, panties, hand up, thighs, navel, {|sleeves rolled up}
     thong: thong bra, thong, panties
     laced: laced __rnd-bra__, laced __rnd-panty__, laced kneehighs
-    cupless: cupless bra, crotchless panties, black choker
     nightgown: nightgown, spaghetti strap {pull|slip}, {|see-through,}
     babydoll: babydoll, {|see-through,}
     negligee: negligee, side-tie panties, see-through silhouette

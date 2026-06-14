@@ -34,7 +34,7 @@ nude:
 
     bathtub:
       - |
-        pink bathtub, dark purple tile wall,  lying on bathtub, spread legs, on back, nude, seductive theme, pink theme,
+        pink bathtub, dark purple tile wall, lying on bathtub, spread legs, on back, nude, seductive theme, pink theme,
         naughty face, perky breasts, 
         thick thighs, seductive extravagant position, fishnet legwear, soap censored, glossy, censored nipples, 
         soap bubbles, breasts squeezed together,
@@ -45,60 +45,83 @@ nude:
         {|lying,} 
         {|leg up,}
         light smile, humming, spoken musical note, 
-        ((washing own breast,  holding sponge, bubble on body)),  
-        nude, nipples, looking down,  grabbing own breast, shiny skin, 
+        ((washing own breast, holding sponge, bubble on body)), 
+        nude, nipples, looking down, grabbing own breast, shiny skin, 
 
   dramatic-lighting:
   - |
     {__nude/topless/*__,|__nude/indoors/*__|__nude/lipstick/*__}
     <lora:Illustrious_V2:0.5> s1_dram
 
-  #トップレス
+  # トップレス
   topless:
-    selfie:
-    - |
-      selfie, holding smartphone and another hand grabbing own breast, nude, nipples, panties, 
-      standing in front of basin, mirror over basin, against mirror, wash basin, bathroom,
-      __facial/embarrassed__, 
+    simple:
+      - |
+        upper body, nude, head tilt, smile, exposed nipples, detailed eyes,
+        arms crossed gently in front of body, one hand lightly holding opposite arm,
+        simple background, white background, soft focus, 
+      - |
+        a beautiful young woman, natural smile, looking at viewer,
+        soft gentle expression, clear skin, smooth complexion,
+        upper body portrait, slightly angled pose,
+        arms crossed gently in front of body, one hand lightly holding opposite arm,
+        realistic nipples,
+        bright soft lighting, natural daylight, high-key lighting,
+        soft shadows, clean white background, minimalistic indoor setting,
+        sharp focus, high detail skin texture, glossy eyes, natural makeup,
+        healthy glow, soft lips,
+        realistic proportions, natural pose, candid feeling,
+        professional photography, studio portrait    selfie:
 
-    - |
-      <lora:One_Finger_Selfie_Challenge_attempt2:1> reflection,
-      selfie, mirror, phone, OneFingerSelfieER, topless, covering,
-      __rnd-panty__,
+      - |
+        selfie, holding smartphone and another hand grabbing own breast, nude, nipples, panties, 
+        standing in front of basin, mirror over basin, against mirror, wash basin, bathroom,
+        __facial/embarrassed__, 
 
-    - |
-      __facial/embarrassed__,
-      wearing black sweatpants with red stripes, her hands in pockets, 
-      casually posing with minimal clothing exposure under soft ambient light. the grey sports bra is lifted, 
-      her breasts are exposed, nipples, depth of field, dynamic pose, depth of field, 
-      dynamic angle, dutch angle, sexy mood, :o
+      - |
+        <lora:One_Finger_Selfie_Challenge_attempt2:1> reflection,
+        selfie, mirror, phone, OneFingerSelfieER, topless, covering,
+        __rnd-panty__,
 
-    - |
-      blush, glossy lips, hair flowing in wind, detailed,
-      exposed midriff, navel, small waist, topless, nipples, wide hips, 
-      blue ripped jeans, distressed denim, ripped knees, frayed threads, 
-      silver choker, long silver necklace, silver earrings, 
-      standing , leaning slightly against wall, looking at side, soft expression, 
-      sharp shadow, bright daylight, white wall background, simple background, 
-      shiny skin, glossy highlights, cinematic lighting
+      - |
+        __facial/embarrassed__,
+        wearing black sweatpants with red stripes, her hands in pockets, 
+        casually posing with minimal clothing exposure under soft ambient light. the grey sports bra is lifted, 
+        her breasts are exposed, nipples, depth of field, dynamic pose, depth of field, 
+        dynamic angle, dutch angle, sexy mood, :o
+
+      - |
+        blush, glossy lips, hair flowing in wind, detailed,
+        exposed midriff, navel, small waist, topless, nipples, wide hips, 
+        blue ripped jeans, distressed denim, ripped knees, frayed threads, 
+        silver choker, long silver necklace, silver earrings, 
+        standing , leaning slightly against wall, looking at side, soft expression, 
+        sharp shadow, bright daylight, white wall background, simple background, 
+        shiny skin, glossy highlights, cinematic lighting
+
+      - |
+        upper body, topless, nipples, arms up, hands in hair,
+        embarrassed, shy, looking at another, heavy breathing, 
+        pov hands, grabbing another's breast, round breasts,
+        simple background, white background, 
 
     armpits:
-    - |
-      soft tan skin, boob close-up, breast focus, short focal length,
-      (arms lift:0.7),(steam:0.6), detailed armpit, armpit smell,(sweat:0.6),
-      (full face blush:1.2),pink lips,(painful:0.9), ikigao,
-      nude, (puffy nipples:0.8), head out of frame,
+      - |
+        soft tan skin, boob close-up, breast focus, short focal length,
+        (arms lift:0.7),(steam:0.6), detailed armpit, armpit smell,(sweat:0.6),
+        (full face blush:1.2),pink lips,(painful:0.9), ikigao,
+        nude, (puffy nipples:0.8), head out of frame,
 
-    - |
-      {breast lift|arms up},
-      __sexual-or-embarrassed__,
-      nude, tanlines, topless, upper body, front view, simple background, pink background, curvy, head tilt, pink lips,  
+      - |
+        {breast lift|arms up},
+        __sexual-or-embarrassed__,
+        nude, tanlines, topless, upper body, front view, simple background, pink background, curvy, head tilt, pink lips, 
 
-    - |
-      one arm up, armpit,wet skin,shy,sideways glance, outdoors, self exposure, one nipple,crowd,
-      upper body, covered nipple, pulling own swimsuit, full-face blush, 
-      pool,outdoors, summer,
-      BREAK competition swimsuit,
+      - |
+        one arm up, armpit,wet skin,shy,sideways glance, outdoors, self exposure, one nipple,crowd,
+        upper body, covered nipple, pulling own swimsuit, full-face blush, 
+        pool,outdoors, summer,
+        BREAK competition swimsuit,
 
     t-shirt:
       - |
@@ -112,73 +135,73 @@ nude:
         tattoo on stomach, glowing tattoo, ghost, {|against glass,}
         
     on-bed:
-    - |
-      curvy, indoors, kneeling-squat pose,  dynamic composition,
-      (saimin:1.2), spiral eyes, heart pupils, intoxicated expression,
-      glossy lips, tongue out slightly, subtle drool, strap slip, dutch angle, areola slip, 
-      bra + open shirt, collarbone highlight, wet skin sheen (water droplets),
-      cinematic color grading, 85mm portrait, shallow depth of field
+      - |
+        curvy, indoors, kneeling-squat pose, dynamic composition,
+        (saimin:1.2), spiral eyes, heart pupils, intoxicated expression,
+        glossy lips, tongue out slightly, subtle drool, strap slip, dutch angle, areola slip, 
+        bra + open shirt, collarbone highlight, wet skin sheen (water droplets),
+        cinematic color grading, 85mm portrait, shallow depth of field
 
-    - |
-      curvy, indoors, cowboy shot, squatting pose, legs apart ,
-      heart-shaped pupils, spiral eyes, (saimin:1.2), dazed expression,
-      tongue out slightly, saliva string , flushed cheeks,
-      open jacket over bikini, cleavage emphasis , lingerie-like swimwear ,
-      soft bedroom light, cinematic low-key lighting, shallow depth of field, ((breast out, nipples,))
+      - |
+        curvy, indoors, cowboy shot, squatting pose, legs apart ,
+        heart-shaped pupils, spiral eyes, (saimin:1.2), dazed expression,
+        tongue out slightly, saliva string , flushed cheeks,
+        open jacket over bikini, cleavage emphasis , lingerie-like swimwear ,
+        soft bedroom light, cinematic low-key lighting, shallow depth of field, ((breast out, nipples,))
 
-    - |
-      __place/bedroom__
-      __sexual-or-embarrassed__ 
-      on bed, on side, topless, nipples, under covers, head {rest|on pillow}, sheet grab, 
+      - |
+        __place/bedroom__
+        __sexual-or-embarrassed__ 
+        on bed, on side, topless, nipples, under covers, head {rest|on pillow}, sheet grab, 
 
-    - |
-      __place/bedroom__
-      __sexual-or-embarrassed__ 
-      thong, string panties, black panties, tank top, 
-      {hands on own hips|one hand on hip, other hand in hair|arms crossed|finger on lips|looking back over shoulder|stretching arms overhead|hands on table, forward lean|sitting on the edge of the bed}, 
-      {confident stance|hips tilted|contrapposto|subtle twist pose}, 
-      {mid-step|turning pose|walking pose|leaning in|playful spin}, 
-      [wind-blown hair], (motion blur:0.6), warm bedside lamp + soft ambient light, cinematic low-key lighting, 
-      shallow depth of field, bokeh, film grain, high detail
+      - |
+        __place/bedroom__
+        __sexual-or-embarrassed__ 
+        thong, string panties, black panties, tank top, 
+        {hands on own hips|one hand on hip, other hand in hair|arms crossed|finger on lips|looking back over shoulder|stretching arms overhead|hands on table, forward lean|sitting on the edge of the bed}, 
+        {confident stance|hips tilted|contrapposto|subtle twist pose}, 
+        {mid-step|turning pose|walking pose|leaning in|playful spin}, 
+        [wind-blown hair], (motion blur:0.6), warm bedside lamp + soft ambient light, cinematic low-key lighting, 
+        shallow depth of field, bokeh, film grain, high detail
 
-    - |
-      topless, nipples, 
-      {|__rnd-panty__},
-      on bed, arms up, on back, :o, thighs, one knee up, breast focus, from side, 
+      - |
+        topless, nipples, 
+        {|__rnd-panty__},
+        on bed, arms up, on back, :o, thighs, one knee up, breast focus, from side, 
 
-    - |
-      {embarrassed, blush, looking down,|sleeping, closed eyes|naughty face|happy},
-      on stomach, pillow hug, nude, covered body with futon, dark room, on bed, 
-      from side, bokeh, blurry background, face to pillow, blue theme, soft lighting,
-    
-    - |
-      __sexual-or-embarrassed__,
-      {v arms,nipples,|covering breasts {|,crossed arms}|arms up, nipples,|breast lift, nipples,},
-      wariza, completely nude,  on bed, 
+      - |
+        {embarrassed, blush, looking down,|sleeping, closed eyes|naughty face|happy},
+        on stomach, pillow hug, nude, covered body with futon, dark room, on bed, 
+        from side, bokeh, blurry background, face to pillow, blue theme, soft lighting,
+      
+      - |
+        __sexual-or-embarrassed__,
+        {v arms,nipples,|covering breasts {|,crossed arms}|arms up, nipples,|breast lift, nipples,},
+        wariza, completely nude, on bed, 
 
-    - |
-      __sexual-or-embarrassed__,
-      {all fours|wariza|yokozuwari|kneeling},
-      completely nude, nipples, tucking hair, hand in hair, from below, from side, 
-      looking down, 
+      - |
+        __sexual-or-embarrassed__,
+        {all fours|wariza|yokozuwari|kneeling},
+        completely nude, nipples, tucking hair, hand in hair, from below, from side, 
+        looking down, 
 
-    - |
-      __sexual-or-embarrassed__,
-      {hands up|arms up|v arms|covering eyes},
-      on bed, lying on side, nude, thighs, nipples, looking down, 
+      - |
+        __sexual-or-embarrassed__,
+        {hands up|arms up|v arms|covering eyes},
+        on bed, lying on side, nude, thighs, nipples, looking down, 
 
-    - sleeping, on bed, nude, closed eyes, nipples, navel, thighs, panties, 
-    - knees to chest, sitting on bed, striped panties, topless, embarrassed, blush, holding own legs, egg vibrator, 
-    - topless, blowing kiss, wink, puckered lips, pink lips, yokozuwari, smile, imminent kiss, nipples, on bed, reaching towards viewer, 
-    - nude, yokozuwari, ass, thighs, embarrassed, blush, 
-    - |
-      topless, on back, spread legs, hands up, armpits, 
-      __rnd-panty__,
-      embarrassed, moaning, open mouth, full-face blush, dutch angle, 
-      breasts apart, perky breasts, looking at viewer, dynamic pose,  
-    - |
-      spread legs, leg up, from side, pussy, seductive smile, holding own thigh, on side, pink knit cardigan, 
-      white shirt, breast out, nipples, clitoris, pussy juice, white socks, panties around one leg, 
+      - sleeping, on bed, nude, closed eyes, nipples, navel, thighs, panties, 
+      - knees to chest, sitting on bed, striped panties, topless, embarrassed, blush, holding own legs, egg vibrator, 
+      - topless, blowing kiss, wink, puckered lips, pink lips, yokozuwari, smile, imminent kiss, nipples, on bed, reaching towards viewer, 
+      - nude, yokozuwari, ass, thighs, embarrassed, blush, 
+      - |
+        topless, on back, spread legs, hands up, armpits, 
+        __rnd-panty__,
+        embarrassed, moaning, open mouth, full-face blush, dutch angle, 
+        breasts apart, perky breasts, looking at viewer, dynamic pose, 
+      - |
+        spread legs, leg up, from side, pussy, seductive smile, holding own thigh, on side, pink knit cardigan, 
+        white shirt, breast out, nipples, clitoris, pussy juice, white socks, panties around one leg, 
 
     elbow-cover:
     - |
@@ -400,16 +423,21 @@ nude:
         __place/bedroom__
 
       - |
-        visible nipples, striped panties,  low light, dutch angle, closeup, soft lighting,  posing, undressing, night, 
+        visible nipples, striped panties, low light, dutch angle, closeup, soft lighting, posing, undressing, night, 
         dark room, crossed arms, arms up, embarrassed, blush, 
 
       - off shoulder, white sweater down, nipples, panties, m legs, head tilt, light smile, open mouth, w arms, on back, 
 
       - |
         undressing, crossed arms, crop top lift, sports bra lift,nipples, 
-        looking down, upper body, sweat, steaming body,  spoken exclamation mark, 
+        looking down, upper body, sweat, steaming body, spoken exclamation mark, 
         surprised, :o, embarrassed, 
         locker room, 
+
+      - |
+        undressing, arms up, crossed arms, breasts, nipples, 
+        embarrassed, surprised, moaning, blush, wide-eyed, from below,
+        pov hands, grabbing another's breast, 
 
     guided-grab:
     - |
@@ -546,7 +574,7 @@ nude:
       bondage outfit, revealing clothes, dark background, block wall, concrete floor,
 
     - |
-      floral print panties, topless, floral pasties, peeling pasties by another, nipple,  
+      floral print panties, topless, floral pasties, peeling pasties by another, nipple, 
       __facial/embarrassed__,
 
   #修道女
@@ -627,36 +655,50 @@ nude:
         micro panties, white t-shirt, short t-shirt, see-through shirt, midriff, open mouth,
         {|covered nipples,} 
         simple background, white background, from below, 
-        __sexual-or-embarrassed__,  
+        __sexual-or-embarrassed__, 
 
   #温泉
   onsen:
-    naked-towel:
-    - |
-      __ero/onsen-set/def__, 
-      __cosplay/naked-towel/pull__,
+    naked-towel: __ero/onsen-set/def__ __cosplay/naked-towel/pull__
+    naked-towel-ass: __ero/onsen-set/ass__ __cosplay/naked-towel/pull__
+    naked-towel-face:
+      - |
+        __cosplay/naked-towel/pull__
+        __sexual-or-embarrassed__
+        lying on back on stone floor, onsen, steaming body, steam,
+        from above, wet,
+        {outstretched arms|hands up|w arms|hands on own stomach|hands on own crotch},
+        {legs apart|spread legs|sprawled legs|legs together|knees together} 
 
-    - |
-      __ero/onsen-set/ass__, 
-      __cosplay/naked-towel/pull__,
-
-    - |
-      __cosplay/naked-towel/pull__
-      __sexual-or-embarrassed__
-      lying on back on stone floor, onsen, steaming body, steam,
-      from above, wet,
-      {outstretched arms|hands up|w arms|hands on own stomach|hands on own crotch},
-      {legs apart|spread legs|sprawled legs|legs together|knees together} 
+      - |
+        steam, plump, open towel, nipples, naked,
+        on back on stone floor, wet floor,
+        embarrassed, shy, bare shoulders, cinematic lighting,
+        looking to the side, wet, arms up, legs together, feet apart,
+        covering crotch with towel, 
     
     bathing: 
-    - |
-      __ero/onsen-set/bathing__, 
-      nipples
+      - |
+        onsen, wet, sweat, steam, nipples, 
+        dynamic pose, dramatic angle, seductive pose, nude, (wet hair:1.5), shiny skin,
+        glossy skin, water drops, relaxing, partially submerged,
+        cinematic lighting, dutch angle,
+      
+      - |
+        onsen, {wooden bathtub,|rock}, partially submerged, completely nude, v arms, 
+        __facial/embarrassed__ 
+        steaming body, covering crotch, wet,
 
-    - |
-      onsen, {wooden bathtub,|rock}, partially submerged, completely nude, v arms, 
-      __facial/embarrassed__ 
-      steaming body, covering crotch, wet,
+      - |
+        onsen, on stomach, partially submerged, looking back, moon, night, wet,
+        embarrassed, blush, steam, 
+
+      - |
+        embarrassed, <lora:shiwaterassV1ill-000008:1> shiswimbutt,
+        looking at viewer, ass, outdoors, looking back, from behind,
+        water, wet, night, back, bent over, partially submerged,
+        ass focus, onsen, bathing,
+    
 
     sitting:
     - |
@@ -694,20 +736,20 @@ nude:
       glossy lips, Latina face, light tanned skin, large hoop earrings, naked, nipples,) 
       (wet hair:1.55), completely nude, seductive eyes, in heat, half closed eyes,
       (partially submerged), leaning back, legs spread, relaxing, upper body, inside, godrays, dark, night, 
-      stardust, steam, hot tub, glow, fog, backlighting, partially illuminated, Intricately designed, Mysterious Shadows,  
+      stardust, steam, hot tub, glow, fog, backlighting, partially illuminated, Intricately designed, Mysterious Shadows, 
       BREAK, beautiful detailed eyes, detailed skin, detailed hair, volumetric lighting, 
       dappled light, light particles, dramatic shadows, harvest moon, cinematic lighting, depth of field,
     
     tying:
     - |
       onsen, reflective water, pavement floor, hand up, wet, barefoot, sitting, squatting, one knee up, 
-      on one knee, spread water, steaming body, naked, tying hair, steam, fog, convenient censoring,  
+      on one knee, spread water, steaming body, naked, tying hair, steam, fog, convenient censoring, 
 
     yukata:
     - |
       yukata, unfastened, breast out, nipples, opening clothes,
       embarrassed, blush, looking to the side, standing in front of wall,
-      wooden wall, outdoors, panties, steaming body,  front view,
+      wooden wall, outdoors, panties, steaming body, front view,
 
   #ブラホック外し
   unfasten-bra:
@@ -798,7 +840,7 @@ nude:
 
   - |
     <lora:tenga_dress_IL_01:0.6>,bodycon dress, tenga dress, strapless bare shoulders, sideboob, side-tie, 
-    adult store, round shelf, multiple sex toy, id card, store clerk, many dildo on shelf,  
+    adult store, round shelf, multiple sex toy, id card, store clerk, many dildo on shelf, 
     __facial/embarrassed__,
 
   sleeping-in-car:
@@ -855,7 +897,7 @@ nude:
   - |
     ${cloth:tank top} lift, 
     underboob, nipples, midriff, heavy breathing, wet, 
-    {${panty:panties} pull|dolphin shorts},    
+    {${panty:panties} pull|dolphin shorts},  
     ${face:__sexual-or-embarrassed__,}
     ${bgd:indoors,}
     ${breast-action:{touching own nipples|grabbing own breast},}
@@ -903,8 +945,8 @@ nude:
     pantyhose: 
     - topless, pantyhose {|pull}, on stomach, arms up, :o, from behind, no panties,
     - topless, pantyhose, on back, grabbing thighs, :o, legs up, legs apart,
-    - topless, pantyhose pull, on back, grabbing thighs, :o, legs up, legs apart, no panties, pussy,  
-    - topless, pantyhose pull, undressing, standing, bent over, ass, no panties, bottomless, looking back, :o, anus, pussy,  
+    - topless, pantyhose pull, on back, grabbing thighs, :o, legs up, legs apart, no panties, pussy, 
+    - topless, pantyhose pull, undressing, standing, bent over, ass, no panties, bottomless, looking back, :o, anus, pussy, 
     - |
       ${face:__sexual-or-embarrassed__,}
       ${bgd:hotel room,}
@@ -996,7 +1038,7 @@ nude:
     sleeves rolled up, arms up, on back, nipples,
 
   - |
-    hoodie, hood down, dolphin shorts, hoodie lift,  open mouth, wavy mouth, 
+    hoodie, hood down, dolphin shorts, hoodie lift, open mouth, wavy mouth, 
     nipples,
     {arms behind back, leaning forward,|arms up,}
     __sexual-or-embarrassed__,
@@ -1045,7 +1087,7 @@ nude:
         looking at viewer, sexually suggestive, {|nipple slip, }
         {armpit|grabbing own breast}, 
         __cosplay/lingerie/*__
-        saliva trail,  torogao, 
+        saliva trail, torogao, 
 
       - |
         black babydoll, black thighhighs, see-through clothes, black choker, black gloves, armband, 
@@ -1282,10 +1324,10 @@ nude:
     <lora:Brush blame_illustrious_V1.0:1> brush blame, paintbrush, brush pecking nipples, breast bondage, 
     moaning, open mouth, embarrassed, feeling ticklish, indoors, underground, dark room, dungeon, stone walls, 
     hot temperature, sultry room, depth of field, tickling nipples, arms up, bound wrists, hanging on wall, 
-    armpits, brush armpits, trembling,  
+    armpits, brush armpits, trembling, 
 
   - |-
-    shadows, perfect lighting, defeated, defenseless, reveals breasts, torn clothes, cute, moist body,  
+    shadows, perfect lighting, defeated, defenseless, reveals breasts, torn clothes, cute, moist body, 
     BREAK <lora:Brush blame_illustrious_V1.0:1> brush blame, paintbrush, multiple boys,bdsm,bound,nipples,
     pussy,clitoris,anus,nipples tweak,pussy,tweak,anus tweak, (sparse pubic hair:0.4) female orgasm, tears, 
     BREAK low angle, side view, closeup, (dynamic angle), fast action, motion blur, cloudless, 
@@ -1385,9 +1427,15 @@ nude:
     {|breasts out, nipples, }
 
   panty-pull:
-  - |
-    all fours, ass, skirt lift, white panties, panty pull, looking back, embarrassed, 
-    green jersey, grey miniskirt, pussy, on couch, black couch, hands on arm rest, side view
+    - |
+      all fours, ass, skirt lift, white panties, panty pull, looking back, embarrassed, 
+      green jersey, grey miniskirt, pussy, on couch, black couch, hands on arm rest, side view
+
+    - |
+      against wall, looking back, hands on wall, concrete wall,
+      embarrassed, shy, blush, wavy mouth, open mouth, 
+      yellow sweater vest, white shirt, pleated skirt lift, panty pull, butt crack, wide hips, 
+      pov hand, pulling another's panty, 
 
   # ベッドの上で寝た画像になる
   dakimakura-of: 
@@ -1505,7 +1553,7 @@ nude:
   #ボトムレス
   bottomless:
   - |
-    squatting, from below, covering crotch, hand on crotch, white thighhighs, no panties, bottomless,  white detached sleeves, 
+    squatting, from below, covering crotch, hand on crotch, white thighhighs, no panties, bottomless, white detached sleeves, 
     laced gloves, embarrassed, blush,
 
   - on stomach, bottomless, ass, on bed, sleeping, open bra, unfastened, zettai ryouiki, prone bone, 
@@ -1520,7 +1568,7 @@ nude:
     - |
       chain, o-ring, chain leash, linked piercing, black collar,stomach,
       black heart pasties,tassel,black panties, 
-      full body, stiletto heels,   
+      full body, stiletto heels, 
       squatting, holding leash, looking at viewer, spread legs, front view, 
       street, night, naughty face, 
     
@@ -1541,6 +1589,13 @@ nude:
       chain, o-ring, chain leash, linked piercing, black collar, stomach, black heart pasties, tassel, 
       black panties, dutch angle, chastity belt, 
       forest, night, moon, moonlight, stars, galaxy, soft light,
+
+    - |
+      knees together feet apart, leaning against wall, open white coat, naked white coat, pulling own clothes,
+      smile, (half-closed eyes:1.2), heavy breathing, embarrassed, furrowed brow, looking at viewer, off shoulder, 
+      street, snow, day, snowing, 
+      white coat, garter straps, lace-trimmed legwear, short coat,
+      black lingerie, garter belt, lace-trimmed panties, lace-trimmed bra, see-through lingerie, covered nipples, erect nipples,
 
   bathrobe:
   - |
@@ -1704,7 +1759,7 @@ nude:
   indian-palace:
     - |
       ultra-detailed, rim light, backlit, dramatic shadow, subject focus, 
-      Bangles, Gold Bracelets, Gold necklace, Gold earrings, gold anklet,  gold thigh strap,  athlete legs, 
+      Bangles, Gold Bracelets, Gold necklace, Gold earrings, gold anklet, gold thigh strap, athlete legs, 
       bubble butt, kneeling,looking over her shoulder, eye contract with viewer,
       dramatic shadow, depth of field, vignetting, volumetric lighting, gold pasties, bottomless, indian palace, 
   
@@ -1739,22 +1794,28 @@ nude:
 
     wedgie:
       - |
-        classic school gym uniform, buruma, wedgie,  
+        classic school gym uniform, buruma, wedgie, 
         squatting, ass, ass focus, close-up, from behind, from above, looking back, naughty face, blush, 
         sports articles, hands on ass
     
+    classroom:
+      - |
+        soft breasts saggy, exposed nipples, soft body, sexy body, Breasts Focus, Show Off Breasts, 
+        Bare Breasts, Promised Out, Dynamic Poses,
+        school, Gym Clothes, lifting own shirt, buruma pull, smile, shy, embarrassed, head tilt, 
+
     # 体育倉庫
     gym-storeroom:
       - |
         gym uniform lift, topless, buruma pull, bottomless,
-        yokozuwari,  hands up, glasses ,
+        yokozuwari, hands up, glasses ,
         embarrassed, smile, blush,
-        gym storeroom,     
+        gym storeroom,   
 
     topless-babydoll:
       - |
-        kneeling, arms behind head, naughty face,  looking down,
-        babydoll,  see-through clothes,  bottomless, legs apart, breast out, nipples,  topless,
+        kneeling, arms behind head, naughty face, looking down,
+        babydoll, see-through clothes, bottomless, legs apart, breast out, nipples, topless,
         bed, ceiling light, window, curtains, stand light,
 
   rei-no-pool:
@@ -1772,7 +1833,7 @@ nude:
     - | 
       standing, leaning forward, undressing pants,denim pants pull,
       hoop earrings, cross necklace,denim pants,topless,black lace panties,
-      drunk, full-face blush,  blush,naughty face, torogao, :D, drunk, 
+      drunk, full-face blush, blush,naughty face, torogao, :D, drunk, 
       beer bottle, messy room, night,hotel room, on couch,
 
   # 彼女の乳首いじり
@@ -1783,13 +1844,13 @@ nude:
       surprised,from above, hands up, curled fingers, spoken exclamation mark, 
       living room, on couch, 
       white ribbed sweater, turtleneck,denim pants,
-      BREAK 1boy, faceless male,  nipple {stimulation|tweak|grab|pinch|squeeze},
+      BREAK 1boy, faceless male, nipple {stimulation|tweak|grab|pinch|squeeze},
 
   # メスガキ
   mesugaki:
     - |
       standing, cowboy shot, classroom,
-      dark-skinned female, mesugaki,  nipples, light smile,  blush,  spoken heart, 
+      dark-skinned female, mesugaki, nipples, light smile, blush, spoken heart, 
       BREAK light beige cardigan, buttoned cardigan,
       black pantyhose, nude, pulling  pantyhose, bottomless, 
 
@@ -1803,9 +1864,9 @@ nude:
   #スクール水着
   school-swimsuit:
     - | 
-      standing,  clothes between breasts, ((breast out, nipples, ))
-      head tilt, seductive smile,  blush, parted lips, 
-      classic school swimsuit,  highleg, 
+      standing, clothes between breasts, ((breast out, nipples, ))
+      head tilt, seductive smile, blush, parted lips, 
+      classic school swimsuit, highleg, 
       wet skin, wet clothes, wet hair,
       __av-pool__
       partially submerged, 
@@ -1815,8 +1876,8 @@ nude:
     - |
       standing against wall, embarrassed, shy, arms behind back, grabbing own arm,
       blush, full-face blush, sweat,from below, 
-      BREAK (white fishnet bandeau bikini:1.2) ,white  side-tie bikini bottom, fishnet covering nipples,  
-      visible nipples, visible areola,  
+      BREAK (white fishnet bandeau bikini:1.2) ,white  side-tie bikini bottom, fishnet covering nipples, 
+      visible nipples, visible areola, 
       BREAK beach, outdoors, summer,
 
   #ピンクセーラー
@@ -1844,7 +1905,114 @@ nude:
   # バスローブ（ホテル）
   bathrobe-hotel:
     - |
-      white  bathrobe, open bathrobe, untied bathrobe, nipples, lying on bed,  on back, from above, hands up,  
+      white  bathrobe, open bathrobe, untied bathrobe, nipples, lying on bed, on back, from above, hands up, 
       thighs, midriff, crotch,
       embarrassed, looking at another, blush,
       night, hotel room, 
+
+  # コンビニエンスストア
+  convenience-store:
+    - |
+      solo, standing,
+      smile, heart, looking at viewer, open mouth, (half-closed eyes:1.2), blush,
+      convenience store clerk, lawson, cashier and counter in the foreground,
+      holding condom package, another hand holding barcode scanner, hands up, 
+      nude, blue bunny ears hairband, detached collar, blue bowtie, puffy armband,
+      white wrist cuffs, wide fishnet thighhighs,
+
+  # ソープランド
+  soapland:
+    - |
+      soapland, soap bubble, soap foam, bathhouse, indoor pool, wet skin, wet hair,
+      {sitting on edge of pool, legs in water|standing in pool, water dripping|lying in pool, partially submerged},
+      __facial/sexual__, 
+      nipples, areola,
+
+    - |
+      vivid pink latex leotard, highleg, strapless, nipples, breast out,
+      naughty face, soapland, bathtub, soap bubbles on palms, washing own breast,
+
+    - |
+      topless, thong, soapland, yokozuwari on air mattress, pink mattress, 
+      lotion play, wet body, pouring onto self, holding lotion bottle, lifting own breast, lotion trail,
+      plump, wide hips, narrow waist, skindentation, 
+      smile, bokeh, depth of field, blurry background, :d,
+
+    - |
+      lying, ((pouring onto self, holding lotion bottle)), air mattress, spread legs,
+      exposed nipples, caressing own breast, thong, cameltoe, 
+      smile, blush, heavy breathing, 
+
+  # ボス
+  boss:
+    - |
+      boss, office, suit jacket, open jacket, shirt lift, nipples, tie, glasses,
+      sitting on desk, legs apart, looking at viewer, confident smile, blush,
+      indoor, window with city view, office chair, paperwork on desk,
+      skirt lift, lifting own clothes, panties, bra lift, 
+
+    - |
+      seductive smile, semi-rimless eyewear, head rest, black chair, leather back rest,
+      sitting in office, office lady, window, 
+      wide hips, narrow waist, plump, covered nipples, 
+      white collar, shirt, corset, black  miniskirt, thigh strap, pencil skirt, button gap, sleeves rolled up, no bra,
+
+  cheerleader:
+    - |
+      cheerleader, sleeveless, crop top lift, breast out, nipples, 
+      midriff, miniskirt, skirt lift, panties, arms up,dynamic pose, dutch angle, 
+      stadium, parted arms,wide-eyed, surprised, looking down, wavy mouth, bouncing breasts, open mouth, 
+
+  golf:
+    - |
+      visor cap, short sleeves, fingerless glove, polo shirt, miniskirt, pantyshot, thighhighs, skindentation, cleavage, 
+      shirt_lift, bra lift, nipples, golf course, hands on own chest,
+      embarrassed, looking to the side, blush, 
+
+    - |
+      visor cap, short sleeves, fingerless glove, polo shirt, miniskirt, thighhighs, skindentation, 
+      golf course, 
+      ass focus, skirt lift, panty pull, butt crack, undressing, leaning forward, 
+      embarrassed, blush, 
+
+  bodystocking:
+    - |
+      bodystocking only, squatting, arms up, see-through clothes, covered nipples, covered pussy, 
+      concrete floor, in prison, prison cell, prisoner,
+      
+  bandaid:
+    - |
+      covered pussy with bandaid, panty pull, skirt lift by self, close-up, 
+      embarrassed, blush,
+
+    - |
+      bandaid on pussy, panty pull, pleated skirt lift, school uniform,
+      embarrassed, blush, all fours, looking back, dutch angle,
+
+  # 着替え
+  changing-room:
+    base: topless, nipples, embarrassed, blush, changing room, glass door,
+    front-undressing: __nude/changing-room/base__ undressing panties, pussy, leaning forward,
+    back-undressing: __nude/changing-room/base__ undressing panties, ass focus, leaning forward, 
+    bra-off: __nude/changing-room/base__ taking bra off, nipples, 
+    shirt-off: __nude/changing-room/base__ arms up, undressing clothes, crossed arms,
+
+  # スターバックス
+  starbucks:
+    base: ribbed sweater, sleeveless, bare arms, midriff, thong, white short denim, blush, sitting, starbucks, cafe, coffee mug
+    breast-out: __nude/starbucks/base__ exposed breasts, nipples, embarrassed, lifting sweater by self, hands on own chest, bra lift, looking at another, 
+
+  breast-curtains:
+    base:
+      - |
+        breast curtains, pelvic curtain, breastless clothes, midriff, sagging breasts, 
+        lying on bed, spread legs, dutch angle, hands on own chest,
+        embarrassed, heavy breathing, torogao, wavy mouth, looking at another, 
+    exposed: __nude/breast-curtains/base__  exposed nipples, 
+
+  succubus:
+    - |
+      garter straps, garter belt,  fishnet thighhighs,  high heels, demon horns, demon wings, tongue out, arms up, midriff, underboob, cupless bra, 
+      squatting,  stripper,  stage, neon beam, spotlight, purple light, dutch angle, m legs, fishnet elbow gloves,  demon girl, 
+      seductive smile, blush, ((heart-shaped tattoo, pink tattoo, ))
+      depth of field, bokeh, blurry background, 

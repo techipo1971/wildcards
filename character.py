@@ -9,9 +9,6 @@ import nas_env as nas   #環境情報
 # chara.yaml のパス（スクリプトと同じディレクトリから取得）
 YAML_PATH = os.path.join(os.path.dirname(__file__), "chara.yaml")
 
-### ピックアップ
-PICKUP = ['toudou erika']
-
 #############################################################################################################
 def load_yaml(path: str):
     with open(path, "r", encoding="utf-8") as f:
@@ -117,27 +114,23 @@ def select_random_character(all_characters, check_notion:bool=True):
         # notionデータベースをチェック
         is_found = notion.check_keyword_in_character(selected_character['name'])
         if not is_found:
-            print("no history data")
             break
         else:
-            print('Used Character selected!! -> ' + selected_character['name'])
-            print("Re-choice !!")
             continue
 
     return selected_character
 
 #############################################################################################################
-def generate_list(mode, c_num):
+def generate_list(mode, c_num, pickup=None):
     selected_list = []
-    if mode == 'pick up':
-        if(isinstance(PICKUP, list)):
+    if mode == 'pickup' or mode == 'scenario':
+        if(isinstance(pickup, list)):
             # ピックアップ指定キャラ数分　生成
-            mode = 'pick up'
-            for sel, prompt in itertools.product(PICKUP, ALL_CHARACTERS):
+            for sel, prompt in itertools.product(pickup, ALL_CHARACTERS):
                 if sel == prompt['name']:
                     selected_list.append(prompt)
         else:
-            print('PICKUP list definition error!!')
+            print('pickup list definition error!!')
     elif mode == 'yuri':
         selected_list = []
         for i in range(int(c_num)):

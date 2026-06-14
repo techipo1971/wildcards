@@ -6,7 +6,7 @@ import random
 import shutil
 from PIL import Image
 import datetime
-import nas_env as nas   #環境情報
+import nas_env   #環境情報
 
 # ========= 設定 =========
 DEFAULT_HASHTAGS = ["#AIart", "#AIイラスト", "#StableDiffusion"]  # 追加したいハッシュタグ
@@ -23,15 +23,17 @@ messages = {
 TWEET_TEXT = next((msg for r, msg in messages.items() if hour in r), "おやすみなさい～💤")
 
 # ========= 環境変数から読み出し =========
-API_KEY = nas.x_params["api_key"]
-API_SECRET = nas.x_params["api_secret"]
-ACCESS_TOKEN = nas.x_params["access_token"]
-ACCESS_TOKEN_SECRET = nas.x_params["access_token_secret"]
+x_params = nas_env.get_x_params()
+API_KEY = x_params["api_key"]
+API_SECRET = x_params["api_secret"]
+ACCESS_TOKEN = x_params["access_token"]
+ACCESS_TOKEN_SECRET = x_params["access_token_secret"]
 
-ROOT_DIR = nas.img_dirs['root']
-IMAGE_DIR = nas.img_dirs['release']
-WORKSPACE_DIR = nas.img_dirs['workspace']   
-POSTED_DIR = nas.img_dirs['posted']
+img_dirs = nas_env.get_img_dirs()
+ROOT_DIR = img_dirs['root']
+IMAGE_DIR = img_dirs['release']
+WORKSPACE_DIR = img_dirs['workspace']   
+POSTED_DIR = img_dirs['posted']
 
 # =======================
 

@@ -3,6 +3,9 @@ api:
   url: "http://127.0.0.1:7860/sdapi/v1/txt2img"
   retries: 3
   backoff_factor: 0.5
+  # タイムアウトの設定（秒）
+  connect_timeout: 10
+  read_timeout: 3600
 
 prompt:
   positive: "__il/quality/positive__,"
@@ -10,7 +13,6 @@ prompt:
   style: "<lora:RealisticAnimeIXL:0.5>"
 
 generation:
-  scenario_name: 'gym-uniform'
   keyword: 'lactation'
   # GEN_LISTに相当するリスト
   lists:
@@ -18,3 +20,11 @@ generation:
     - ",1girl,__nude/*__, r18, nsfw,"
     - ",1girl,__nsfw/*__, r18+, nsfw,"
   yuri: ",2girls, __yuri__, yuri, nsfw,"
+  # ピックアップはnameで指定すること
+  scenario_name: 'school-swimsuit'
+  pickup:
+    - "houjouin seika"
+
+censor:
+  mosaic_strength: 40
+  

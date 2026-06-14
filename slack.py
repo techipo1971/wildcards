@@ -5,20 +5,22 @@ from pathlib import Path
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
-# .envファイルを読み込む
-# スクリプトと同じフォルダの.envを読む
-dotenv_path = Path(__file__).parent / ".env"
-print(f"Loading .env from: {dotenv_path}")
+# # .envファイルを読み込む
+# # スクリプトと同じフォルダの.envを読む
+# dotenv_path = Path(__file__).parent / ".env"
+# print(f"Loading .env from: {dotenv_path}")
 
-load_dotenv(dotenv_path, override=True)
+# load_dotenv(dotenv_path, override=True)
 
 slack_token = os.getenv("SLACK_BOT_TOKEN")  # 環境変数から取得
 slack_channel_id = os.getenv("SLACK_CHANNEL_ID")  # 投稿先のチャンネルID
 
-print(f"Token: {slack_token}")  # 確認用
-print(f"Channel: {slack_channel_id}")  # 確認用
+# print(f"Token: {slack_token}")  # 確認用
+# print(f"Channel: {slack_channel_id}")  # 確認用
 
-client = WebClient(token=slack_token)
+#タイムアウトを設定（60秒）
+timeout_seconds=60
+client = WebClient(token=slack_token,timeout=timeout_seconds)
 
 #############################################################################################################
 def send_slack_img(img_path, message=''):
